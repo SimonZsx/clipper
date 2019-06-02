@@ -71,6 +71,32 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
 
         return model_pb2.output(outputType = "string", outputStream = output)
 
+    def BatchPredict(self, request, context):
+        print("received request:{request}, size = {size}\n".format(request=request, size=len(request.inputs)))
+
+        if (self.proxy_name == None or self.proxy_port == None):
+            return model_pb2.response(status = "ProxyNotSet")
+        input_list = []
+        for req_input in request.inputs :
+            input_list.append(req_input.inputStream)
+        
+
+        output_list = predict_fn.batch_predict(input_list)
+
+        bo = model_pb2.BatchOuput()
+
+        for o in output_list:
+            output = bo.outputs.add()
+            output.outputStream = o
+            output.outputType = "string"
+        
+        return bo
+
+
+    
+    
+    
+    
     def Ping(self, request, context):
 
         print("received request:{request}\n".format(request=request))

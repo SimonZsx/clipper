@@ -6,6 +6,10 @@ package modeltest;
 service PredictService {
     // request a service of encode
     rpc Predict(input) returns (output) {}
+    // Reminder: 
+    // The order of output[] need to be the same as input[]
+    rpc BatchPredict (BatchInput) returns (BatchOuput) {}
+
     rpc SetProxy(proxyinfo) returns (response) {}
     rpc Ping(hi) returns (response) {}
 }
@@ -32,3 +36,16 @@ message proxyinfo {
 message response {
     string status = 1;
 }
+
+message BatchInput{
+    repeated input inputs = 1; 
+    uint32 count = 2; 
+}
+
+message BatchOuput{
+    repeated output outputs = 1; 
+    uint32 count = 2; 
+}
+
+
+

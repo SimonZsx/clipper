@@ -19,6 +19,11 @@ class PredictServiceStub(object):
         request_serializer=model__pb2.input.SerializeToString,
         response_deserializer=model__pb2.output.FromString,
         )
+    self.BatchPredict = channel.unary_unary(
+        '/modeltest.PredictService/BatchPredict',
+        request_serializer=model__pb2.BatchInput.SerializeToString,
+        response_deserializer=model__pb2.BatchOuput.FromString,
+        )
     self.SetProxy = channel.unary_unary(
         '/modeltest.PredictService/SetProxy',
         request_serializer=model__pb2.proxyinfo.SerializeToString,
@@ -37,6 +42,14 @@ class PredictServiceServicer(object):
 
   def Predict(self, request, context):
     """request a service of encode
+    """
+    context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+    context.set_details('Method not implemented!')
+    raise NotImplementedError('Method not implemented!')
+
+  def BatchPredict(self, request, context):
+    """Reminder: 
+    The order of output[] need to be the same as input[]
     """
     context.set_code(grpc.StatusCode.UNIMPLEMENTED)
     context.set_details('Method not implemented!')
@@ -63,6 +76,11 @@ def add_PredictServiceServicer_to_server(servicer, server):
           servicer.Predict,
           request_deserializer=model__pb2.input.FromString,
           response_serializer=model__pb2.output.SerializeToString,
+      ),
+      'BatchPredict': grpc.unary_unary_rpc_method_handler(
+          servicer.BatchPredict,
+          request_deserializer=model__pb2.BatchInput.FromString,
+          response_serializer=model__pb2.BatchOuput.SerializeToString,
       ),
       'SetProxy': grpc.unary_unary_rpc_method_handler(
           servicer.SetProxy,
