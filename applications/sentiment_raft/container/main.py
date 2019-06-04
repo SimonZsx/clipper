@@ -45,7 +45,7 @@ def run():
     pipe1_result = []
     pipe2_result = []
     start=time.time()
-    for i in range(50):
+    for i in range(1):
         result1=run_c1(i)
         result2=run_c2(result1)
         result3=run_c3(result2)
