@@ -84,7 +84,6 @@ def run():
     filelist=[f for f in os.listdir("/container/part1") if f.endswith(".jpg")]
     while count<30:
         index=random.randint(0,10000)
-        random_image=cv2.imread("/container/part1/"+str(filelist[index]))
         if count==1:
             start=time.time()
         count+=1
