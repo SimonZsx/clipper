@@ -8,7 +8,7 @@ Created on Mon Apr  8 11:44:55 2019
 
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-from pyramid.arima import auto_arima
+from statsmodels.tsa.arima_model import ARIMA
 import time
 
 scaler = MinMaxScaler(feature_range=(0, 1))
@@ -23,10 +23,11 @@ def predict(comstr):
     data = df.sort_index(ascending=True, axis=0)
     train=data[:]
     training=train['Close']
-    model = auto_arima(training, start_p=1, start_q=1,max_p=1, max_q=1, m=12,start_P=1,d=1, D=1, trace=True,error_action='ignore',suppress_warnings=True)
-    model.fit(training)
-    forecast = model.predict(n_periods=10)
+    model = ARIMA(training, order=(1,1,0))
+    model_fit = model.fit(disp=0)
+    result = model_fit.forecast(steps=1)
+    print(result)
     end = time.time()
     print("c7 ELASPSED TIME", end - start)
-    return str(forecast.tolist())
+    return str(result)
 #    forecast = pd.DataFrame(forecast,index = valid.index,columns=['Prediction'])
