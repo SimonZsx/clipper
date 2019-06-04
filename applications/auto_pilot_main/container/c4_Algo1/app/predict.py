@@ -25,13 +25,7 @@ def read_image(i):
 	print("original shape", image.shape)
 	return image
 
-global graph, model
-
-graph = tf.get_default_graph()
-
-model = load_model('/container/c4_Algo1/app/Autopilot.h5')
-
-def predict(info):
+def predict(info, graph, model):
 	try:
 		start = time.time()
 		image_index_str = info.split("***")[2]
