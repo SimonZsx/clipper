@@ -68,7 +68,7 @@ ADD c3_nlpMappingGenerator/app /container/c3_nlpMappingGenerator
 ADD c4_questionAnswering/app /container/c4_questionAnswering
 
 
-
+RUN pip3 install pyyaml
 # for RAFT !!!!! IMPORTANT!!!!!!
 
 
