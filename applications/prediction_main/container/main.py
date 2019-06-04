@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import time
-
+import io
 
 import sys
 sys.path.append("/container")
@@ -119,8 +119,7 @@ def run():
         # CONTAINER 11: Weighting Algorithm
         final_prediction = c11.predict(str(returned_result_list))
         print("\n\nEntire Process FINISHED")
-
-    print("Total Time:", time.time()-start)
+        print("Total Time:", time.time()-start)
 
 
 if __name__ == "__main__":
