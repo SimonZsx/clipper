@@ -25,42 +25,42 @@ print("Modules successfully loaded!")
 
 def run_lstm(stock_data):
     result_lstm = c5.predict(stock_data.to_json())
-    print("Prediction using LSTM FINISHED")
-    print("Here is the result:")
-    print(result_lstm)
-    print("")
+    #print("Prediction using LSTM FINISHED")
+    #print("Here is the result:")
+    #print(result_lstm)
+    #print("")
     return str(result_lstm)
 
 def run_knn(stock_data):
     result_knn = c8.predict(stock_data.to_json())
-    print("Prediction using KNN FINISHED")
-    print("Here is the result:")
-    print(result_knn)
-    print("")
+    #print("Prediction using KNN FINISHED")
+    #print("Here is the result:")
+    #print(result_knn)
+    #print("")
     return result_knn
 
 def run_random_forest(stock_data):
     result_rf = c9.predict(stock_data.to_json())
-    print("Prediction using Random Forest FINISHED")
-    print("Here is the result:")
-    print(result_rf)
-    print("")
+    #print("Prediction using Random Forest FINISHED")
+    #print("Here is the result:")
+    #print(result_rf)
+    #print("")
     return result_rf
 
 def run_arima(stock_data):
     result_rf = c7.predict(stock_data.to_json())
-    print("Prediction using ARIMA FINISHED")
-    print("Here is the result:")
-    print(result_rf)
-    print("")
+    #print("Prediction using ARIMA FINISHED")
+    #print("Here is the result:")
+    #print(result_rf)
+    #print("")
     return result_rf
 
 def run_regression(stock_data):
     result_rg = c10.predict(stock_data.to_json())
     print("Prediction using Regrerssion FINISHED")
-    print("Here is the result:")
-    print(result_rg)
-    print("")
+    #print("Here is the result:")
+    #print(result_rg)
+    #print("")
     return result_rg
 
 def run():
@@ -77,8 +77,8 @@ def run():
         stock_data = pd.read_json(c1.predict(s + ":2018:1:1"))
         print("\nStock price data Retrieval FINISHED")
         print("The retrieved data is in shape of ", stock_data.shape)
-        print("Here are the first 5 lines of retrieved data:")
-        print(stock_data.head())
+        #print("Here are the first 5 lines of retrieved data:")
+        #print(stock_data.head())
         print("")
 
         returned_result_list = []
@@ -96,22 +96,22 @@ def run():
         twitter_data = c2.predict(s)
         print("Twitter data Retrieval FINISHED")
         print("Successfully retrieved", tweet_number, "number of tweets.")
-        print("Here are the first 200 characters:")
-        print(twitter_data[:200])
+        #print("Here are the first 200 characters:")
+        #print(twitter_data[:200])
         print("")
 
         # CONTAINER 3: Tokenizer
         tokenized_twitter_data = c3.predict(twitter_data)
         print("Tokenization FINISHED")
         print("Generated a list containing ", len(tokenized_twitter_data), " sentences")
-        print("The first 200 characters are :\n", tokenized_twitter_data[:200])
+        #print("The first 200 characters are :\n", tokenized_twitter_data[:200])
         print("")
 
         # CONTAINER 4: sentimental Analysis
         polarity_list = c4.predict(tokenized_twitter_data)
         print("Twitter data Sentiment Analysis FINISHED")
         print("Generated a list containing ", len(polarity_list), " results")
-        print("The first 200 characters are :\n", polarity_list[:200])
+        #print("The first 200 characters are :\n", polarity_list[:200])
         print("")
 
         # CONTAINER 11: Weighting Algorithm
