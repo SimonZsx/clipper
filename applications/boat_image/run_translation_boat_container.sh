@@ -1,4 +1,4 @@
-docker run --name boat_container --network=host -it -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp boat_image:test
+docker run --name boat_container --network=host -it -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp boat_image:translation
 
 # docker exec -it boat_container curl -X GET 127.0.0.1:8080
 # docker exec -it boat_container curl -X GET 127.0.0.1:8081
