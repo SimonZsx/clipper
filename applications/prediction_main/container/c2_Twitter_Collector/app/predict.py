@@ -14,8 +14,8 @@ def getData(keyword, limit):
 	auth.set_access_token(access_token, access_token_secret)
 	api = tweepy.API(auth)
 
-	sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
-	#改变标准输出的默认编码, 否则print无法输出，因为有multiple byte character， 但是不影响代码运行
+	# sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+	# #改变标准输出的默认编码, 否则print无法输出，因为有multiple byte character， 但是不影响代码运行
 
 	tweets_string = ""
 	for tweet in tweepy.Cursor(api.search, q = keyword, lang = "en" ).items(limit):
@@ -31,7 +31,6 @@ def predict(request): # serve as api function
 	limit = 100
 	to_return = getData(stockcode, limit)
 	end = time.time()
-	print("c2 ELASPSED TIME", end - start)
 	return to_return
 
 

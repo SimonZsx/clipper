@@ -81,7 +81,7 @@ def run():
     pipe2_result=[]
     count=0;
     for filename in os.listdir("/container/part1"):
-        if count>20:
+        if count>100:
             break
         if count==1:
             start=time.time()
