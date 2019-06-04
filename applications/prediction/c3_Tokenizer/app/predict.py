@@ -14,9 +14,9 @@ def predict(text_data):
 	print(doc.sents)
 
 	for sent in doc.sents:
-		result += "|||" + str(sent)
+		result += "***" + str(sent)
 
-	print(len(result.split("|||")))
+	print(len(result.split("***")))
 
 	end = time.time()
 	
