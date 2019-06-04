@@ -44,8 +44,8 @@ vocab = vocabulary.Vocabulary(vocabulary_path)
 # Reference1: https://blog.csdn.net/wangkun1340378/article/details/72782593
 config = tf.ConfigProto(allow_soft_placement=True)
 
-# 最多占gpu资源的70%
-gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
+# 最多占gpu资源的30%
+gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.3)
 
 #开始不会给tensorflow全部gpu资源 而是按需增加
 config.gpu_options.allow_growth = True
