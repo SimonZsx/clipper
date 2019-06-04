@@ -25,7 +25,7 @@ def read_image(i):
 	print("original shape", image.shape)
 	return image
 
-def predict(info, graph, model):
+def predict(info):
 	try:
 		start = time.time()
 		image_index_str = info.split("***")[2]
