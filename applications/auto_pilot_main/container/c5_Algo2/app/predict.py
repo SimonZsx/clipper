@@ -32,6 +32,8 @@ def predict(info, graph, model):
 		image = read_image(image_index_str)
 		gray = cv2.resize((cv2.cvtColor(image, cv2.COLOR_RGB2HSV))[:, :, 1], (100, 100))
 		print("resized shape", image.shape)
+		graph = tf.get_default_graph()
+		model = load_model('/container/c5_Algo2/app/Autopilot_V2.h5')
 		with graph.as_default():
 			steering_angle = keras_predict(model, gray)
 		end = time.time()

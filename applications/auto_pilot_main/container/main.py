@@ -1,6 +1,7 @@
 import sys
 import time
 import tensorflow as tf
+from keras.models import load_model
 sys.path.append("/container")
 
 from multiprocessing import Pool
@@ -15,15 +16,6 @@ try:
     import c6_Conclusion.app.predict as conclusion
 except Exception as exc:
     print('Generated an exception: %s' % (exc))
-
-global graph1, model1, model2
-
-graph = tf.get_default_graph()
-
-model1 = load_model('/container/c4_Algo1/app/Autopilot.h5')
-    
-model2 = load_model('/container/c5_Algo2/app/Autopilot_V2.h5')
-
 
 print("Modules successfully imported!")
 		
