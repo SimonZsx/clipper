@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import time
 from keras.models import load_model
+from keras import backend as K
 
 def predict(comstring):
 
