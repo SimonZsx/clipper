@@ -80,15 +80,14 @@ def run():
     pipe1_result = []
     pipe2_result=[]
     count=0;
-    for filename in os.listdir("/container/part1"):
-        if count>100:
-            break
+    filelist=[f for f in os.listdir("/container/part1") if f.endswith(".jpg")]
+    while count<100:
+        index=random.randint(0,10000)
+        random_image=cv2.imread("/container/part1/"+str(filelist[index]))
         if count==1:
             start=time.time()
         count+=1
-        imag=cv2.imread("/container/part1/"+filename)
-        if imag is None:
-            continue
+        imag=cv2.imread("/container/part1/"+filelist[index])
         imgstr=image_string(imag)
         p = Pool(1)
         pipe1_result.append(p.apply_async(pipe1, args=(imgstr,)).get())
