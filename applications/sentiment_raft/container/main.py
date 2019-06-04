@@ -44,17 +44,20 @@ def run():
     
     pipe1_result = []
     pipe2_result = []
-    for i in range(20):
+    start=time.time()
+    for i in range(100):
         result1=run_c1(i)
         result2=run_c2(result1)
         result3=run_c3(result2)
         result4=run_c4(result2)
         pipe1_result.append(result3)
         pipe2_result.append(result4)
+    end=time.time()
     print("\nResult of PIPE1:")
     print(pipe1_result)
     print("\nResult of PIPE2:")
     print(pipe2_result)
+    print("\nTotal time: "+str(end-start))
 
 if __name__ == "__main__":
     run()
