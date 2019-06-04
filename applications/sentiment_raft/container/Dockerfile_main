@@ -37,7 +37,6 @@ ADD container4 /container/container4
 
 ADD main.py /container/
 
-# CMD ["python3", "/container/main.py"]
-CMD ["/container/container_entry.sh", "c1", "/container/server.py"]
+CMD ["python3", "/container/main.py"]
 
 EXPOSE 22222
