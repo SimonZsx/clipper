@@ -19,7 +19,7 @@ RUN unzip /container/container1/data/dataset3/speech-accent-archive.zip -d /cont
 RUN unzip -qq /container/container1/data/dataset3/recordings.zip -d /container/container1/data/dataset3/
 RUN chmod 777 /container/container1/data/dataset3/rename.sh
 RUN ls /container/container1/data/dataset3/
-RUN ./container/container1/data/dataset3/rename.sh
+RUN /container/container1/data/dataset3/rename.sh
 RUN python3 /container/container1/data/dataset3/truncate.py
 
 #c2
