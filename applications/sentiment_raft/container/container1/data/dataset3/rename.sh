@@ -1,5 +1,5 @@
-#!/bin/bash
-cd cd /container/container1/data/dataset3/recordings
+#!/bin/sh
+cd /container/container1/data/dataset3/recordings
 
 index=0;
 for name in *.mp3

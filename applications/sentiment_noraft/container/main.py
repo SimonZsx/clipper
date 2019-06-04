@@ -1,5 +1,4 @@
 import numpy as np
-import cv2
 import json
 import sys
 import os
@@ -20,7 +19,7 @@ print("Modules successfully loaded!")
 def run_c1(index):
     result_trans = c1.predict(index)
     print("\nTranscribing Finished!")
-    if result_fa==None:
+    if result_trans==None:
         print("\n[INFO] Nothing Generated!")
     return result_trans
 
@@ -41,7 +40,7 @@ def run_c4(words):
 
 
 def run():
-    print("\nStart Detection: ")
+    print("\nStart Analysis: ")
     
     pipe1_result = []
     pipe2_result = []

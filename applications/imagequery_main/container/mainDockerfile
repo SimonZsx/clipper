@@ -67,9 +67,28 @@ ADD c3_nlpMappingGenerator/app /container/c3_nlpMappingGenerator
 ### for c4
 ADD c4_questionAnswering/app /container/c4_questionAnswering
 
-# for main.py
+
+
+# for RAFT !!!!! IMPORTANT!!!!!!
+
+
+RUN apt-get install git -y
+
+RUN pip3 install git+https://github.com/ucbrise/clipper.git@develop#subdirectory=clipper_admin
+
+
+RUN apt-get update -qq \
+      && apt-get install -y -qq libzmq5 libzmq5-dev redis-server libsodium18 build-essential
+
+ENV PIP_DEFAULT_TIMEOUT=100
+RUN pip install --upgrade pip
+
+RUN pip install -q cloudpickle==0.5.* pyzmq==17.0.* prometheus_client==0.1.* \
+    pyyaml>=4.2b1 jsonschema==2.6.* redis==2.10.* psutil==5.4.* flask==0.12.2 
+
 ADD closure.py /container
 ADD rpc.py /container
+ADD metrics_config.yaml /container
 # ADD main.py /container
 
 # /container nows contains: 
@@ -78,7 +97,9 @@ ADD rpc.py /container
 # Crucial
 WORKDIR /container
 
-CMD ["python", "/container/closure.py"]
+
+
+CMD ["python3", "/container/closure.py"]
 # CMD ["python3", "/container/main.py"]
 
 EXPOSE 10000
