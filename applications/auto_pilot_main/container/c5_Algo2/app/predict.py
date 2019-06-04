@@ -29,7 +29,7 @@ global graph, model
 
 graph = tf.get_default_graph()
 	
-model = load_model('/container/5_Algo2/app/Autopilot_V2.h5')
+model = load_model('/container/c5_Algo2/app/Autopilot_V2.h5')
 
 def predict(info):
 	start = time.time()
