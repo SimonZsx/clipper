@@ -14,7 +14,7 @@ import container3.app.predict as c3
 import container4.app.predict as c4
 print("Modules successfully loaded!")
 
-#helping function
+# helping function
 
 def run_c1(index):
     result_trans = c1.predict(index)

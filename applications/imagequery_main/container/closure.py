@@ -88,7 +88,7 @@ def run(input_index):
     print("Question Answering:\t\t" , elapsed_time_list[3])
 
 
-    return "output"
+    return ["output", "output"]
 
 
 
