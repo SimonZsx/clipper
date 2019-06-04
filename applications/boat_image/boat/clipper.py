@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     try:
         clipper_conn.start_clipper()
-        clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=11000000)
+        clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=20000000)
 
         clipper_conn.deploy_model(name="image-model", version="1", input_type="string", image="imagequery_main:raft")
       
