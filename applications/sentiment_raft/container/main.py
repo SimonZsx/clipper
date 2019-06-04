@@ -40,7 +40,7 @@ def run_c4(words):
 
 
 def run():
-    print("\nStart Detection: ")
+    print("\nStart Analysis: ")
     
     pipe1_result = []
     pipe2_result = []
