@@ -1,1 +1,1 @@
-docker build -f ./boat/Dockerfile -t boat_image:test .
+docker build -f ./Dockerfile -t boat_image:test .
