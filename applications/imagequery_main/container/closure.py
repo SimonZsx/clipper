@@ -87,7 +87,7 @@ def run(input_index):
     print("NLP:\t\t\t\t" , elapsed_time_list[2])
     print("Question Answering:\t\t" , elapsed_time_list[3])
 
-
+    print("Return a list now!")
     return ["output", "output"]
 
 
