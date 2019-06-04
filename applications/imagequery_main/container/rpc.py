@@ -682,7 +682,7 @@ class RPCService:
         else:
             print("Using default input type: doubles")
 
-        self.model_path = os.environ["CLIPPER_MODEL_PATH"]
+        self.model_path = "NA"
 
     def get_model_path(self):
         return self.model_path

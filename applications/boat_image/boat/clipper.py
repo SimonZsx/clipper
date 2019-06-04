@@ -23,16 +23,17 @@ if __name__ == "__main__":
         # WARING: DO NOT CHANGE THE RULE OF NETWORK NAMES 
         docker_network='clipper_network_{}'.format(node_id),
         # SINCE THIS IS USED BY reset.sh TO IDENTIFY CLIPPER CONTAINERS
-        extra_container_kwargs={})) # for node_id in range(args.num_nodes)]
+        extra_container_kwargs={"runtime":"nvidia"})) # for node_id in range(args.num_nodes)]
 
     try:
         clipper_conn.start_clipper()
-        clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=100000)
+        clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=11000000)
 
-        clipper_conn.register_model(name="image-model", version="1", input_type="string", image="main:test")
+        clipper_conn.deploy_model(name="image-model", version="1", input_type="string", image="imagequery_main:raft")
       
         clipper_conn.link_model_to_app(app_name="default", model_name="image-model")
-    except:
+    except Exception as e:
+        print(e)
         exit(1)
 
     exit(0)

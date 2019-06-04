@@ -176,7 +176,7 @@ def predict(info):
 
 		image_index_str = info.split("***")[0]
 
-		if int(image_index_str)%10 == 0 or len(previous) == 0:
+		if int(image_index_str)%2 == 0 or len(previous) == 0:
 
 			image = read_image(image_index_str)
 			detect_from_cvmat(yolo, image)
