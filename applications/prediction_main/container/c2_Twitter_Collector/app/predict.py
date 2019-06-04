@@ -31,7 +31,6 @@ def predict(request): # serve as api function
 	limit = 100
 	to_return = getData(stockcode, limit)
 	end = time.time()
-	print("c2 ELASPSED TIME", end - start)
 	return to_return
 
 
