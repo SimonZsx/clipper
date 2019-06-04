@@ -87,6 +87,8 @@ def run():
             start=time.time()
         count+=1
         imag=cv2.imread("/container/part1/"+filename)
+        if imag is None:
+            continue
         imgstr=image_string(imag)
         p = Pool(1)
         pipe1_result.append(p.apply_async(pipe1, args=(imgstr,)).get())
