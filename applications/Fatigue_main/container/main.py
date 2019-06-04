@@ -7,6 +7,7 @@ sys.path.append("/container")
 from multiprocessing import Pool
 import multiprocessing
 import time
+import random
 # c7 is discarded in this file, import error
 
 import container1.app.predict as c1
