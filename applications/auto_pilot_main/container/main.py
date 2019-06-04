@@ -40,8 +40,8 @@ def run():
     print("Route Planning Finished")
 
     returned_result_list = []
-    returned_result_list.append(algo1.predict(c3_output, graph, model1))
-    returned_result_list.append(algo2.predict(c3_output, graph, model2))
+    returned_result_list.append(algo1.predict(c3_output))
+    returned_result_list.append(algo2.predict(c3_output))
 
     print("Angle Prediction Finished")
     print(returned_result_list)
