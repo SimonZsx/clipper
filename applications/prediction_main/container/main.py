@@ -60,7 +60,7 @@ def run_regression(stock_data):
     print("Prediction using Regrerssion FINISHED")
     #print("Here is the result:")
     #print(result_rg)
-    #print("")
+    print("")
     return result_rg
 
 def run():
