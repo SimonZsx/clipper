@@ -10,6 +10,9 @@ from multiprocessing import Pool
 
 # c7 is discarded in this file, import error
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
+#改变标准输出的默认编码, 否则print无法输出，因为有multiple byte character， 但是不影响代码运行
+
 import c1_Stock_Price_Retriever.app.predict as c1
 import c2_Twitter_Collector.app.predict as c2 
 import c3_Tokenizer.app.predict as c3
