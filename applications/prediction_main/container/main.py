@@ -25,35 +25,35 @@ print("Modules successfully loaded!")
 
 def run_lstm(stock_data):
     result_lstm = c5.predict(stock_data.to_json())
-    #print("Prediction using LSTM FINISHED")
+    print("Prediction using LSTM FINISHED")
     #print("Here is the result:")
     #print(result_lstm)
-    #print("")
-    return str(result_lstm)
+    print("")
+    return result_lstm
 
 def run_knn(stock_data):
     result_knn = c8.predict(stock_data.to_json())
-    #print("Prediction using KNN FINISHED")
+    print("Prediction using KNN FINISHED")
     #print("Here is the result:")
     #print(result_knn)
-    #print("")
+    print("")
     return result_knn
 
 def run_random_forest(stock_data):
     result_rf = c9.predict(stock_data.to_json())
-    #print("Prediction using Random Forest FINISHED")
+    print("Prediction using Random Forest FINISHED")
     #print("Here is the result:")
     #print(result_rf)
-    #print("")
+    print("")
     return result_rf
 
 def run_arima(stock_data):
-    result_rf = c7.predict(stock_data.to_json())
-    #print("Prediction using ARIMA FINISHED")
+    result_arima = c7.predict(stock_data.to_json())
+    print("Prediction using ARIMA FINISHED")
     #print("Here is the result:")
     #print(result_rf)
-    #print("")
-    return result_rf
+    print("")
+    return result_arima
 
 def run_regression(stock_data):
     result_rg = c10.predict(stock_data.to_json())
@@ -67,14 +67,13 @@ def run():
 
     start = time.time()
 
-    print("\nStart Prediciting: ")
-
     l100 = ['HAS', 'IRM', 'TEL', 'EL', 'ESS', 'COP', 'KEY', 'FE', 'CBS', 'IFF', 'NOV', 'IRM', 'FL', 'BBY', 'MS', 'FAST', 'CRM', 'NUE', 'MSCI', 'MMC', 'AIG', 'WELL', 'STT', 'CMA', 'RMD', 'FB', 'FB', 'IFF', 'WU', 'USB', 'NI', 'EA', 'TRIP', 'HAL', 'EBAY', 'AON', 'MS', 'TXN', 'USB', 'IRM', 'CE', 'BK', 'ROL', 'ANTM', 'NVDA', 'SEE', 'CNC', 'DXC', 'APA', 'APA', 'UPS', 'DOW', 'CAT', 'MET', 'HIG', 'LOW', 'CAT', 'VZ', 'MSCI', 'MA', 'BEN', 'RMD', 'BEN', 'HPE', 'PGR', 'CNC', 'PH', 'PGR', 'MAC', 'NOV', 'BEN', 'ICE', 'TAP', 'ABC', 'MMC', 'ESS', 'COST', 'HD', 'CVS', 'KIM', 'CAG', 'CNC', 'UPS', 'MO', 'BEN', 'FL', 'GS', 'EL', 'CMA', 'FE', 'IP', 'KIM', 'LOW', 'CF', 'NUE', 'FL', 'USB', 'CBS', 'RF', 'CMA']
 
     for s in l100:
         
         # CONTAINER 1: stock price retriever
         stock_data = pd.read_json(c1.predict(s + ":2018:1:1"))
+        print("\nStart Predicting: ", s)
         print("\nStock price data Retrieval FINISHED")
         print("The retrieved data is in shape of ", stock_data.shape)
         #print("Here are the first 5 lines of retrieved data:")
