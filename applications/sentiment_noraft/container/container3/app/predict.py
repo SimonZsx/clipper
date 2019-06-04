@@ -26,4 +26,4 @@ def predict(sent_list):
     
     print("ELASPSED TIME", end - start)
 
-    return result_lis
+    return result_list
