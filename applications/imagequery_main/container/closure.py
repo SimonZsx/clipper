@@ -32,7 +32,7 @@ def generate_image_caption(input_index):
 		
 def run(input_index):
 
-    input_index = int(input_index)
+    input_index = int(input_index[0])
     elapsed_time_list = []
 
     # CONTAINER 0
