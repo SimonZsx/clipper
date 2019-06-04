@@ -4,8 +4,12 @@ import numpy as np
 import time
 from keras.models import load_model
 import tensorflow as tf
+from keras import backend as K
+
+K.clear_session()
 
 global new_model
+new_model = load_model("/container/c5_LSTM_Predictor/app/model.h5")
 
 
 def predict(comstring):
