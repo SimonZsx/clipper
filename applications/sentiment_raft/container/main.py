@@ -19,7 +19,7 @@ print("Modules successfully loaded!")
 def run_c1(index):
     result_trans = c1.predict(index)
     print("\nTranscribing Finished!")
-    if result_fa==None:
+    if result_trans==None:
         print("\n[INFO] Nothing Generated!")
     return result_trans
 
