@@ -51,9 +51,10 @@ def run():
     returned_result_list.append(algo1.predict(c3_output, graph, model1))
     returned_result_list.append(algo2.predict(c3_output, graph, model2))
 
-    print("Angle Prediction")
+    print("Angle Prediction Finished")
     print(returned_result_list)
 
     print("Total Time:", time.time()-start)
 
-run()
+if __name__ == "__main__":
+    run()
