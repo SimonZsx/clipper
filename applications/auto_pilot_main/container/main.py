@@ -4,13 +4,16 @@ sys.path.append("/container")
 
 from multiprocessing import Pool
 
-import c0_Entry_Point.app.predict as entry
-import c1_Image_Preprocessing.app.predict as preprocessing
-import c2_Obstacle_Detection.app.predict as obstacle_detection
-import c3_Route_Planning.app.predict as route_planning
-import c4_Algo1.app.predict as algo1
-import c5_Algo2.app.predict as algo2
-import c6_Conclusion.app.predict as conclusion
+try:
+    import c0_Entry_Point.app.predict as entry
+    import c1_Image_Preprocessing.app.predict as preprocessing
+    import c2_Obstacle_Detection.app.predict as obstacle_detection
+    import c3_Route_Planning.app.predict as route_planning
+    import c4_Algo1.app.predict as algo1
+    import c5_Algo2.app.predict as algo2
+    import c6_Conclusion.app.predict as conclusion
+except Exception as exc:
+    print('Generated an exception: %s' % (exc))
 
 print("Modules successfully imported!")
 		
@@ -45,4 +48,4 @@ def run():
 
 
 if __name__ == "__main__":
-  run()
+    run()
