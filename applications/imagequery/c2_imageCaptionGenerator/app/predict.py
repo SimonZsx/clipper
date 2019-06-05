@@ -39,14 +39,14 @@ vocab = vocabulary.Vocabulary(vocabulary_path)
 
 ###### Specify GPU allocation to avoid CUDA_ERROR_OUT_OF_MEMORY #####
 # Reference1: https://blog.csdn.net/wangkun1340378/article/details/72782593
-config = tf.ConfigProto(allow_soft_placement=True)
+# config = tf.ConfigProto(allow_soft_placement=True)
 
 # 最多占gpu资源的30%
-gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.3)
+# gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.3)
 
 #开始不会给tensorflow全部gpu资源 而是按需增加
-config.gpu_options.allow_growth = True
-sess = tf.Session(config=config, graph=g)
+# config.gpu_options.allow_growth = True
+# sess = tf.Session(config=config, graph=g)
 
 # Reference2: https://github.com/tensorflow/tensorflow/issues/14475
 # gpu_fraction = 0.1
@@ -55,8 +55,8 @@ sess = tf.Session(config=config, graph=g)
 
 #######################################################################
 
-# # create session (Original)
-# sess = tf.Session(graph=g) 
+# create session (Original)
+sess = tf.Session(graph=g) 
 
 # Load the model from checkpoint.
 restore_fn(sess)
