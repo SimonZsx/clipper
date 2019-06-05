@@ -20,7 +20,7 @@ then
 sudo chmod 777 ./container3/app/dlModel.sh
 sudo ./container3/app/dlModel.sh
 sudo mv models.zip ./container3/app/
-sudo unzip ./container3/app/models.zip -d ./container3/app/models
+sudo unzip ./container3/app/models.zip -d ./container3/app/
 fi
 
 docker build -f ./Dockerfile_main -t sentiment_main:raft .
