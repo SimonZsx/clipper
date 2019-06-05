@@ -59,7 +59,7 @@ if __name__ == "__main__":
     t1 = datetime.utcnow()
     print("\n[INFO]\t", "[main]\t", str(t1))
 
-    for i in range(10):
+    for i in range(500):
         run(i)
 
     t2 = datetime.utcnow()
