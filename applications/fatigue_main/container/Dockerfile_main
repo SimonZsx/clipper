@@ -61,7 +61,7 @@ WORKDIR /container
 
 CMD ["python3","/container/closure.py"]
 
-Expose 10000
+EXPOSE 10000
 
 # docker build -f ./FatigueDetections/Dockerfile_main -t detection:main .
 # docker run --runtime=nvidia -p 10000:10000 -it detection:main
