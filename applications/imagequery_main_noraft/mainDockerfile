@@ -7,9 +7,7 @@ RUN apt-get update
 # /container would contains:
 # c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py
  
-### for c0
-COPY c0_entryContainer/app /container/c0_entryContainer
-
+###### Install dependencies ######
 ### for c1 
 RUN apt-get install wget zip unzip python3 python3-pip -y
 RUN pip3 install SpeechRecognition
@@ -21,6 +19,25 @@ RUN pip3 install pydub
 RUN apt-get install ffmpeg libavcodec-extra -y
 RUN pip3 install glob3
 
+### for c2 
+RUN pip3 install numpy nltk
+RUN python3 -m nltk.downloader all
+RUN apt install wget
+
+### for c3 
+RUN pip3 install nltk numpy textacy
+RUN python3 -m nltk.downloader all
+RUN pip3 install spacy
+RUN python3 -m spacy download en_core_web_sm
+
+######################################
+
+###### Copy files and run scripts ######
+
+### for c0
+COPY c0_entryContainer/app /container/c0_entryContainer
+
+### for c1 
 ADD c1_speechRecognition/app /container/c1_speechRecognition
 ADD c1_speechRecognition/data /container/c1_speechRecognition/data
 
@@ -34,10 +51,6 @@ RUN /container/c1_speechRecognition/data/dataset3/rename.sh
 RUN python3 /container/c1_speechRecognition/data/dataset3/truncate.py
 
 ### for c2 
-RUN pip3 install numpy nltk
-RUN python3 -m nltk.downloader all
-RUN apt install wget
-
 # copy files into image
 ADD c2_imageCaptionGenerator/app /container/c2_imageCaptionGenerator/
 ADD c2_imageCaptionGenerator/captionData /container/c2_imageCaptionGenerator/captionData
@@ -59,11 +72,6 @@ RUN chmod 777 /container/c2_imageCaptionGenerator/im2txt/data/imageDataset/renam
 RUN /container/c2_imageCaptionGenerator/im2txt/data/imageDataset/rename.sh
 
 ### for c3 
-RUN pip3 install nltk numpy textacy
-RUN python3 -m nltk.downloader all
-RUN pip3 install spacy
-RUN python3 -m spacy download en_core_web_sm
-
 ADD c3_nlpMappingGenerator/app /container/c3_nlpMappingGenerator
 
 ### for c4
@@ -71,6 +79,8 @@ ADD c4_questionAnswering/app /container/c4_questionAnswering
 
 # for main.py
 ADD main.py /container
+
+#########################################################
 
 # /container nows contains: 
 # c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py
