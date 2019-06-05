@@ -5,7 +5,7 @@ RUN pip3 install numpy
 RUN pip3 install grpcio
 RUN pip3 install protobuf
 
-ADD sensiment/container3/app /container/
+ADD sentiment/container3/app /container/
 ADD grpc/app/model_pb2_grpc.py /container/
 ADD grpc/app/model_pb2.py /container/
 ADD grpc/app/proxy_pb2_grpc.py /container/
