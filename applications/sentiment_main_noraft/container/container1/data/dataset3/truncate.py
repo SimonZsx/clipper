@@ -1,9 +1,7 @@
-
-    
 # Reference: https://github.com/jiaaro/pydub
 
 import os
-os.chdir("/container/container1/data/dataset3/recordings")
+os.chdir("/container/c1_speechRecognition/data/dataset3/recordings")
 
 import glob
 
