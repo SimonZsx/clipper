@@ -57,7 +57,9 @@ def run(index):
     print("\nResult of PIPE2:")
     print(pipe2_result)
     print("\nTotal time: "+str(end-start))
+    
+    return ["output","output"]
 
 if __name__ == "__main__":
     for i in range(1):
-        run(i)
+        print(run(i))
