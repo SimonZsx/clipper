@@ -82,6 +82,7 @@ def run(input_index):
 if __name__ == "__main__":
     # Fully initialization
     run(1000)
+    print("---Fully Initialized---")
 
     time_elapsed = 0
     for i in range(10):

@@ -1,1 +1,0 @@
-docker build -f ./mainDockerfile -t imagequery_main:noraft .
