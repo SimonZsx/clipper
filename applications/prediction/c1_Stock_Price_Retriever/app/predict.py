@@ -18,8 +18,11 @@ def retrieveStockPrice(requestInfo):
 	return stock_price_dataframe.to_json()
 
 def predict(requestInfo): # serves as an api function
-	start = time.time()
-	to_return = retrieveStockPrice(requestInfo)
-	end = time.time()
-	print("ELASPSED TIME", end - start)
-	return to_return
+	try:
+		start = time.time()
+		to_return = retrieveStockPrice(requestInfo)
+		end = time.time()
+		print("ELASPSED TIME", end - start)
+		return to_return
+	except Exception as exc:
+		print('Generated an exception: %s' % (exc))
