@@ -1,4 +1,5 @@
 from timeit import default_timer as timer
+from datetime import datetime
 
 """
 This is the preliminary version of Questiona Answering System. 
@@ -9,7 +10,8 @@ logic already provides good enough result.
 """
 
 def predict(mapping):
-    start = timer()
+    t1 = datetime.utcnow()
+    print("\n[INFO]\t", "[c4]\t", str(t1))
 
     split = mapping.split('-')
     noun_str = split[0]
@@ -24,9 +26,9 @@ def predict(mapping):
     else:
       answer = "Unable to analyze..."
 
-    end = timer()
-    time_elapsed = end - start
-    print("The question answering takes " + str(time_elapsed) + "seconds")
+    t2 = datetime.utcnow()
+    print("[INFO]\t", "[c4]\t", str(t2))
+    print("[INFO]\t", "[c4]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds." )
     return answer
 
 if __name__ == "__main__":

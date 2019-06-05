@@ -15,6 +15,8 @@ import inference_wrapper
 import caption_generator
 import vocabulary
 
+from datetime import datetime
+
 
 def find(name, path):
     for root, dirs, files in os.walk(path):
@@ -75,7 +77,8 @@ print("Fully initialized model (with 1 extra prediction) in " + str(load_end - l
 
 
 def predict(image_file_index):
-    start = timer()
+    t1 = datetime.utcnow()
+    print("\n[INFO]\t", "[c2]\t", str(t1))
 
     image_file_index = int(image_file_index)
     if image_file_index > 1000:
@@ -99,10 +102,11 @@ def predict(image_file_index):
     # return only the one with the highest probability
     generated_caption = captionList[0]
 
-    end = timer()
-    time_elapsed = end - start
-    print("  The image file takes " + str(time_elapsed) + " seconds")
 
+    t2 = datetime.utcnow()
+    print("[INFO]\t", "[c2]\t", str(t2))
+    print("[INFO]\t", "[c2]\tTime elapsed: ", (t2-t1).total_seconds(), " seconds." )
+        
     return generated_caption
 
 

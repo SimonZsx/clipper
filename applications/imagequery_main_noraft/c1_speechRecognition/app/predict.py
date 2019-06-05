@@ -3,6 +3,8 @@ from timeit import default_timer as timer
 from pocketsphinx import pocketsphinx, Jsgf, FsgModel
 import os
 
+from datetime import datetime
+
 t1 = timer()
 
 language_directory = "/container/c1_speechRecognition/models/wsj1"
@@ -72,11 +74,16 @@ def recognize(audio_file_index):
 
 
 def predict(audio_file_path):
-    # start = timer()
+    t1 = datetime.utcnow()
+    print("\n[INFO]\t", "[c1]\t", str(t1))
+
     recognized_string = recognize(audio_file_path)
     print(recognized_string)
-    # end = timer()
-    # time_elapsed = end - start
+
+    t2 = datetime.utcnow()
+    print("[INFO]\t", "[c1]\t", str(t2))
+    print("[INFO]\t", "[c1]\tTime elapsed: ", (t2-t1).total_seconds(), " seconds." )
+        
     return recognized_string
 
 
