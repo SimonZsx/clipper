@@ -84,7 +84,7 @@ if __name__ == "__main__":
     run(1000)
 
     time_elapsed = 0
-    for i in range(200):
+    for i in range(10):
         time_elapsed += run(i)
 
     print("Sum of running time for each request: " + str(time_elapsed) + " seconds.")
