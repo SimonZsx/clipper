@@ -4,25 +4,42 @@ FROM tensorflow/tensorflow:1.12.0-gpu-py3
 
 #c1
 RUN apt-get update
-RUN apt-get install wget zip unzip python3 python3-pip -y
+RUN apt-get install wget zip unzip python3-pip -y
+
 RUN pip3 install SpeechRecognition
-RUN apt-get update && apt-get install -y apt-transport-https
+RUN apt-get install -y swig libpulse-dev libasound2-dev
+RUN pip3 install pocketsphinx
+
+RUN pip3 install grpcio
+RUN pip3 install protobuf
+
+# for downloading and renameing dataset3
+RUN apt-get install curl -y
 RUN apt-get install ffmpeg -y
+
+# for pydub in truncate.py
 RUN pip3 install pydub
 RUN apt-get install ffmpeg libavcodec-extra -y
+
+# for listing files in truncate.py
 RUN pip3 install glob3
 
+# container/container1 will have app, data
 ADD container1 /container/container1
 
+# dataset3
+# download reference: https://www.kaggle.com/general/6604
+# dataset refernce: https://www.kaggle.com/rtatman/speech-accent-archive/
 RUN chmod 777 /container/container1/data/dataset3/downloadDataset.sh
 RUN /container/container1/data/dataset3/downloadDataset.sh
 RUN mv $(find / -name speech-accent-archive.zip) /container/container1/data/dataset3
 RUN unzip /container/container1/data/dataset3/speech-accent-archive.zip -d /container/container1/data/dataset3
+# /container/data/dataset3 now contains:reading-passage.txt, recordings.zip, speakers_all.csv
 RUN unzip -qq /container/container1/data/dataset3/recordings.zip -d /container/container1/data/dataset3/
 RUN chmod 777 /container/container1/data/dataset3/rename.sh
-RUN ls /container/container1/data/dataset3/
 RUN /container/container1/data/dataset3/rename.sh
 RUN python3 /container/container1/data/dataset3/truncate.py
+
 
 #c2
 RUN pip3 install spacy 
