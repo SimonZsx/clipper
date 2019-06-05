@@ -42,7 +42,7 @@ RUN pip3 install git+https://github.com/ucbrise/clipper.git@develop#subdirectory
 
 RUN apt-get update -qq \
       && apt-get install -y -qq libzmq5 libzmq5-dev redis-server build-essential
-RUN apt-get install libsodium18
+RUN apt-get install libsodium-dev
 
 ENV PIP_DEFAULT_TIMEOUT=100
 RUN pip install --upgrade pip
