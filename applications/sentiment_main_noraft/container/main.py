@@ -2,7 +2,7 @@ import container4.app.predict as c4
 import container3.app.predict as c3
 import container2.app.predict as c2
 import container1.app.predict as c1
-import time
+from timeit import default_timer as timer
 import multiprocessing
 from multiprocessing import Pool
 import numpy as np
@@ -45,6 +45,7 @@ def run_c4(words):
 
 def run():
     print("\nStart Analysis: ")
+    start = timer()
 
     pipe1_result = []
     pipe2_result = []
@@ -59,6 +60,9 @@ def run():
     print(pipe1_result)
     print("\nResult of PIPE2:")
     print(pipe2_result)
+
+    end = timer()
+    print("Finished in " + str(end - start) + " seconds")
 
 
 if __name__ == "__main__":
