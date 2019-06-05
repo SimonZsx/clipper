@@ -31,7 +31,7 @@ ADD container4 /container/container4
 ADD main.py /container/
 ADD part1 /container/part1
 
-CMD ["python3","/container/main.py"]
+CMD ["python3","/container/closure.py"]
 
 # docker build -f ./FatigueDetections/Dockerfile_main -t detection:main .
 # docker run --runtime=nvidia -p 10000:10000 -it detection:main
