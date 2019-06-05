@@ -60,7 +60,7 @@ def predict(comstring):
         
         print("ELASPSED TIME", end - start)
 
-        return str(predicted_stock_price.tolist()[-10:])
+        return "C5"+str(predicted_stock_price.tolist()[-10:])
     except Exception as exc:
         print('Generated an exception: %s' % (exc))
 

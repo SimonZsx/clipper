@@ -62,7 +62,7 @@ def predict(comstring):
         end = time.time()
         print("ELASPSED TIME", end - start)
         
-        return str(preds)
+        return "C8"+str(preds)
     except Exception as exc:
         print('Generated an exception: %s' % (exc))
 

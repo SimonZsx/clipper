@@ -29,7 +29,7 @@ def predict(comstr):
         result = model_fit.forecast(steps=1)
         end = time.time()
         print("ELASPSED TIME", end - start)
-        return str(result)
+        return "C7"+str(result)
     #    forecast = pd.DataFrame(forecast,index = valid.index,columns=['Prediction'])
     except Exception as exc:
         print('Generated an exception: %s' % (exc))
