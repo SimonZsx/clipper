@@ -28,10 +28,40 @@ ADD container1 /container/container1
 ADD container2 /container/container2
 ADD container3 /container/container3
 ADD container4 /container/container4
-ADD main.py /container/
 ADD part1 /container/part1
 
+# for RAFT !!!!! IMPORTANT!!!!!!
+RUN pip3 install pyyaml
+
+RUN apt-get install git -y
+
+RUN pip3 install git+https://github.com/ucbrise/clipper.git@develop#subdirectory=clipper_admin
+
+
+RUN apt-get update -qq \
+      && apt-get install -y -qq libzmq5 libzmq5-dev redis-server libsodium18 build-essential
+
+ENV PIP_DEFAULT_TIMEOUT=100
+RUN pip install --upgrade pip
+
+RUN pip install -q cloudpickle==0.5.* pyzmq==17.0.* prometheus_client==0.1.* \
+    pyyaml>=4.2b1 jsonschema==2.6.* redis==2.10.* psutil==5.4.* flask==0.12.2 
+
+ADD closure.py /container
+ADD rpc.py /container
+ADD metrics_config.yaml /container
+ADD main.py /container
+
+# /container nows contains: 
+# c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py
+
+# Crucial
+WORKDIR /container
+
+
 CMD ["python3","/container/closure.py"]
+
+Expose 10000
 
 # docker build -f ./FatigueDetections/Dockerfile_main -t detection:main .
 # docker run --runtime=nvidia -p 10000:10000 -it detection:main
