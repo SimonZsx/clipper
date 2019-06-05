@@ -31,11 +31,11 @@ def generate_image_caption(input_index):
     print("2:\tGenerated captions: " + captions)
     return captions, elapsed_time
 		
-def run(input_index):
+def run(input_index_list_format):
 
-    print("input format:"+str(input_index))
+    print("input format:" + str(input_index_list_format))
 
-    input_index = int(input_index[0])
+    input_index = int(input_index_list_format[0])
     elapsed_time_list = []
 
     # CONTAINER 0

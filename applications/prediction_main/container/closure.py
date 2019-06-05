@@ -76,60 +76,62 @@ def run_regression(stock_data):
     print("")
     return result_rg
 
-def run():
+def run(input_index_list_format):
+    print("input format:" + str(input_index_list_format))
+    input_index = int(input_index_list_format[0])
 
-    start = time.time()
+    # start = time.time()
 
-    l100 = ['HAS', 'IRM', 'TEL', 'EL', 'ESS', 'COP', 'KEY', 'FE', 'CBS', 'IFF', 'NOV', 'IRM', 'FL', 'BBY', 'MS', 'FAST', 'CRM', 'NUE', 'MSCI', 'MMC', 'AIG', 'WELL', 'STT', 'CMA', 'RMD', 'FB', 'FB', 'IFF', 'WU', 'USB', 'NI', 'EA', 'TRIP', 'HAL', 'EBAY', 'AON', 'MS', 'TXN', 'USB', 'IRM', 'CE', 'BK', 'ROL', 'ANTM', 'NVDA', 'SEE', 'CNC', 'DXC', 'APA', 'APA', 'UPS', 'DOW', 'CAT', 'MET', 'HIG', 'LOW', 'CAT', 'VZ', 'MSCI', 'MA', 'BEN', 'RMD', 'BEN', 'HPE', 'PGR', 'CNC', 'PH', 'PGR', 'MAC', 'NOV', 'BEN', 'ICE', 'TAP', 'ABC', 'MMC', 'ESS', 'COST', 'HD', 'CVS', 'KIM', 'CAG', 'CNC', 'UPS', 'MO', 'BEN', 'FL', 'GS', 'EL', 'CMA', 'FE', 'IP', 'KIM', 'LOW', 'CF', 'NUE', 'FL', 'USB', 'CBS', 'RF', 'CMA']
+    # l100 = ['HAS', 'IRM', 'TEL', 'EL', 'ESS', 'COP', 'KEY', 'FE', 'CBS', 'IFF', 'NOV', 'IRM', 'FL', 'BBY', 'MS', 'FAST', 'CRM', 'NUE', 'MSCI', 'MMC', 'AIG', 'WELL', 'STT', 'CMA', 'RMD', 'FB', 'FB', 'IFF', 'WU', 'USB', 'NI', 'EA', 'TRIP', 'HAL', 'EBAY', 'AON', 'MS', 'TXN', 'USB', 'IRM', 'CE', 'BK', 'ROL', 'ANTM', 'NVDA', 'SEE', 'CNC', 'DXC', 'APA', 'APA', 'UPS', 'DOW', 'CAT', 'MET', 'HIG', 'LOW', 'CAT', 'VZ', 'MSCI', 'MA', 'BEN', 'RMD', 'BEN', 'HPE', 'PGR', 'CNC', 'PH', 'PGR', 'MAC', 'NOV', 'BEN', 'ICE', 'TAP', 'ABC', 'MMC', 'ESS', 'COST', 'HD', 'CVS', 'KIM', 'CAG', 'CNC', 'UPS', 'MO', 'BEN', 'FL', 'GS', 'EL', 'CMA', 'FE', 'IP', 'KIM', 'LOW', 'CF', 'NUE', 'FL', 'USB', 'CBS', 'RF', 'CMA']
 
-    for s in l100:
+    # for s in l100:
         
-        # CONTAINER 1: stock price retriever
-        stock_data = pd.read_json(c1.predict(s + ":2018:1:1"))
-        print("\nStart Predicting: ", s)
-        print("\nStock price data Retrieval FINISHED")
-        print("The retrieved data is in shape of ", stock_data.shape)
-        #print("Here are the first 5 lines of retrieved data:")
-        #print(stock_data.head())
-        print("")
+    #     # CONTAINER 1: stock price retriever
+    #     stock_data = pd.read_json(c1.predict(s + ":2018:1:1"))
+    #     print("\nStart Predicting: ", s)
+    #     print("\nStock price data Retrieval FINISHED")
+    #     print("The retrieved data is in shape of ", stock_data.shape)
+    #     #print("Here are the first 5 lines of retrieved data:")
+    #     #print(stock_data.head())
+    #     print("")
 
-        returned_result_list = []
-        p = Pool(5)
-        returned_result_list.append(p.apply_async(run_lstm, args=(stock_data,))) 
-        returned_result_list.append(p.apply_async(run_knn, args=(stock_data,)))
-        returned_result_list.append(p.apply_async(run_random_forest, args=(stock_data,)))
-        returned_result_list.append(p.apply_async(run_regression, args=(stock_data,)))
-        returned_result_list.append(p.apply_async(run_arima, args=(stock_data,)))
-        p.close()
-        p.join() # p.join()方法会等待所有子进程执行完毕
+    #     returned_result_list = []
+    #     p = Pool(5)
+    #     returned_result_list.append(p.apply_async(run_lstm, args=(stock_data,))) 
+    #     returned_result_list.append(p.apply_async(run_knn, args=(stock_data,)))
+    #     returned_result_list.append(p.apply_async(run_random_forest, args=(stock_data,)))
+    #     returned_result_list.append(p.apply_async(run_regression, args=(stock_data,)))
+    #     returned_result_list.append(p.apply_async(run_arima, args=(stock_data,)))
+    #     p.close()
+    #     p.join() # p.join()方法会等待所有子进程执行完毕
 
-        # CONTAINER 2: Twitter Collector
-        tweet_number = 1000
-        twitter_data = c2.predict(s)
-        print("Twitter data Retrieval FINISHED")
-        print("Successfully retrieved", tweet_number, "number of tweets.")
-        #print("Here are the first 200 characters:")
-        #print(twitter_data[:200])
-        print("")
+    #     # CONTAINER 2: Twitter Collector
+    #     tweet_number = 1000
+    #     twitter_data = c2.predict(s)
+    #     print("Twitter data Retrieval FINISHED")
+    #     print("Successfully retrieved", tweet_number, "number of tweets.")
+    #     #print("Here are the first 200 characters:")
+    #     #print(twitter_data[:200])
+    #     print("")
 
-        # CONTAINER 3: Tokenizer
-        tokenized_twitter_data = c3.predict(twitter_data)
-        print("Tokenization FINISHED")
-        print("Generated a list containing ", len(tokenized_twitter_data), " sentences")
-        #print("The first 200 characters are :\n", tokenized_twitter_data[:200])
-        print("")
+    #     # CONTAINER 3: Tokenizer
+    #     tokenized_twitter_data = c3.predict(twitter_data)
+    #     print("Tokenization FINISHED")
+    #     print("Generated a list containing ", len(tokenized_twitter_data), " sentences")
+    #     #print("The first 200 characters are :\n", tokenized_twitter_data[:200])
+    #     print("")
 
-        # CONTAINER 4: sentimental Analysis
-        polarity_list = c4.predict(tokenized_twitter_data)
-        print("Twitter data Sentiment Analysis FINISHED")
-        print("Generated a list containing ", len(polarity_list), " results")
-        #print("The first 200 characters are :\n", polarity_list[:200])
-        print("")
+    #     # CONTAINER 4: sentimental Analysis
+    #     polarity_list = c4.predict(tokenized_twitter_data)
+    #     print("Twitter data Sentiment Analysis FINISHED")
+    #     print("Generated a list containing ", len(polarity_list), " results")
+    #     #print("The first 200 characters are :\n", polarity_list[:200])
+    #     print("")
 
-        # CONTAINER 11: Weighting Algorithm
-        final_prediction = c11.predict(str(returned_result_list))
-        print("\n\nEntire Process FINISHED")
-        print("Total Time:", time.time()-start)
+    #     # CONTAINER 11: Weighting Algorithm
+    #     final_prediction = c11.predict(str(returned_result_list))
+    #     print("\n\nEntire Process FINISHED")
+    #     print("Total Time:", time.time()-start)
     return ["output", "output"]
 ############################################################################
 

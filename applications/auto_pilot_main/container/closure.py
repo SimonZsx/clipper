@@ -28,10 +28,13 @@ except Exception as exc:
 
 print("Modules successfully imported!")
 		
-def run(index):
+def run(input_index_list_format):
+    print("input format:" + str(input_index_list_format))
+    input_index = int(input_index_list_format[0])
+
     try:
         start = time.time()
-        c0_output = entry.predict(str(index) + "***7***7")
+        c0_output = entry.predict(str(input_index) + "***7***7")
         print(c0_output)
         c1_output = preprocessing.predict(c0_output)
         print("Image Preprocessing Finished")

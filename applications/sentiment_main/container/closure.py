@@ -49,14 +49,17 @@ def run_c4(words):
     return result_sub
 
 
-def run(index):
+def run(input_index_list_format):
+    print("input format:" + str(input_index_list_format))
+    input_index = int(input_index_list_format[0])
+    
     print("\nStart Analysis: ")
     
     pipe1_result = []
     pipe2_result = []
     start=time.time()
 
-    result1=run_c1(index)
+    result1=run_c1(input_index)
     result2=run_c2(result1)
     result3=run_c3(result2)
     result4=run_c4(result2)
