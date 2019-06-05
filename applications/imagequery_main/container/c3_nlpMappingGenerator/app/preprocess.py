@@ -119,7 +119,7 @@ def preprocess(text):
     preprocessed_text = construct_text_from_corpus(normalized_corpus)
 
     end = timer()
-    print("Preprocessing takes " + str(end - start) + " seconds")
+    # print("Preprocessing takes " + str(end - start) + " seconds")
 
     # Return the text
     return preprocessed_text
