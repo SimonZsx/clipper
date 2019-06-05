@@ -8,7 +8,7 @@ def predict(request): # serve as api function
 	info = request.split(":")
 	stockcode = info[0]
 	data_path = "/container/c2_Twitter_Collector/dataset/" + stockcode + ".txt"
-	with open(data_path, 'r') as file:
+	with open(data_path, 'r', encoding='utf-8') as file:
 		result = file.read().replace('\n', '')
 	end = time.time()
 	print("ELASPSED TIME", end - start)
