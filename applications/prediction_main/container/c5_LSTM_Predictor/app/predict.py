@@ -9,6 +9,10 @@ global graph, new_model
 
 graph = tf.get_default_graph()
 
+new_model = load_model("/container/c5_LSTM_Predictor/app/model.h5")
+
+results = []
+
 def predict(comstring):
 
     try:
@@ -33,7 +37,6 @@ def predict(comstring):
 
         X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
         # print(X_test.shape) # 500 x 60 x 1
-        new_model = load_model("/container/c5_LSTM_Predictor/app/model.h5")
 
         with graph.as_default():
             predicted_stock_price = new_model.predict(X_test)
@@ -68,7 +71,17 @@ def predict(comstring):
         
         print("c5 ELASPSED TIME", end - start)
 
-        return str(predicted_stock_price.tolist()[-10:])
+        to_return = str(predicted_stock_price.tolist()[-10:])
+
+        results.append(to_return)
+
+        return to_return
 
     except Exception as exc:
+        
         print('Generated an exception: %s' % (exc))
+
+        return results[-1] if len(results) > 0 else 0
+
+
+
