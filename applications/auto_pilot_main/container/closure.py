@@ -47,6 +47,8 @@ def run(index):
         print("Total Time:", time.time()-start)
     except Exception as exc:
         print('Generated an exception: %s' % (exc))
+    
+    return ["output", "output"]
 ###########################################
 
 
