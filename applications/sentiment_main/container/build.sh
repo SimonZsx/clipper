@@ -12,7 +12,7 @@ if [ ! -e ./container3/app/wordVectors.npy ];
 then
 sudo chmod 777 ./container3/app/dlVectors.sh
 sudo ./container3/app/dlVectors.sh
-sudo mv wordVectors.npy ./container2/app/
+sudo mv wordVectors.npy ./container3/app/
 fi
 
 if [ ! -e ./container3/app/models ];
