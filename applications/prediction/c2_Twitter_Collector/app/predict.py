@@ -9,7 +9,7 @@ def predict(request): # serve as api function
 	stockcode = info[0]
 	data_path = "/container/dataset/" + stockcode + ".txt"
 	with open(data_path, 'r') as file:
-    	result = file.read().replace('\n', '')
+		result = file.read().replace('\n', '')
 	end = time.time()
 	print("ELASPSED TIME", end - start)
 	return result
