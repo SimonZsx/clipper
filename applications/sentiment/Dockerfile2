@@ -6,7 +6,7 @@ RUN pip3 install grpcio
 RUN pip3 install protobuf
 RUN python3 -m spacy download en_core_web_sm
 
-ADD translation/container2/app /container/
+ADD sensiment/container2/app /container/
 ADD grpc/app/model_pb2_grpc.py /container/
 ADD grpc/app/model_pb2.py /container/
 ADD grpc/app/proxy_pb2_grpc.py /container/
