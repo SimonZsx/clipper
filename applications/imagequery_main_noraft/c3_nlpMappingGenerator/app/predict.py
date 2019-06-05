@@ -9,9 +9,9 @@ def predict(input_str):
 
     c1_output, c2_output = str(input_str).split("|")
     reconstructed = str(c1_output) + str(c2_output)
-    print(reconstructed)
+    # print(reconstructed)
     preprocessed = preprocess(reconstructed)
-    print(preprocessed)
+    # print(preprocessed)
 
     doc = nlp(preprocessed)
     noun_list = [chunk.text for chunk in doc.noun_chunks]
@@ -20,7 +20,7 @@ def predict(input_str):
     noun_str = ", ".join(noun_list)
     verb_str = ", ".join(verb_list)
 
-    print(noun_str + "-" + verb_str)
+    # print(noun_str + "-" + verb_str)
 
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c3]\t", str(t2))

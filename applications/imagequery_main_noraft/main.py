@@ -1,5 +1,7 @@
 from multiprocessing import Pool
 
+from datetime import datetime
+
 import c0_entryContainer.predict as entry_container
 import c1_speechRecognition.predict as speech_recognizer
 import c2_imageCaptionGenerator.predict as caption_generator
@@ -10,13 +12,11 @@ print("---Modules successfully imported---")
 
 def run_speech_recognition(input_index):
     speech_text = speech_recognizer.predict(input_index)
-    print("1:\tText: " + speech_text)
     return speech_text
 
 
 def generate_image_caption(input_index):
     captions = caption_generator.predict(input_index)
-    print("2:\tGenerated captions: " + captions)
     return captions
 
 
@@ -37,23 +37,31 @@ def run(input_index):
 
     # CONTAINER 3
     text = result1 + "|" + result2
-    mapping = mapping_generator.predict(text)
+    result3 = mapping_generator.predict(text)
+
+    # Container 4
+    question = "Verb"
+    result4 = question_answerer.predict(result3)
+
+    print("\n1:\tText: " + result1)
+    print("2:\tGenerated captions: " + result2)
     print("3:\tGenerated mapping: ")
-    items = mapping.split('-')
+    items = result3.split('-')
     nouns = items[0]
     verbs = items[1]
     print("\t- Nouns: " + nouns)
     print("\t- Verb: " + verbs)
-
-    # Container 4
-    question = "Verb"
-    answer = question_answerer.predict(mapping)
     print("4:\tThe asked question is: " + question)
-    print("\tGenerated answer: " + answer)
+    print("\tGenerated answer: " + result4)
 
 
 if __name__ == "__main__":
+    t1 = datetime.utcnow()
+    print("\n[INFO]\t", "[main]\t", str(t1))
+
     for i in range(10):
         run(i)
 
-    print("Sum of running time for each request: " + str(time_elapsed) + " seconds.")
+    t2 = datetime.utcnow()
+    print("[INFO]\t", "[main]\t", str(t2))
+    print("[INFO]\t", "[main]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds.")

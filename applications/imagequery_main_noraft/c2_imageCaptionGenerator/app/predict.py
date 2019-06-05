@@ -84,8 +84,7 @@ def predict(image_file_index):
             sentence = [vocab.id_to_word(w) for w in caption.sentence[1:-1]]
             sentence = " ".join(sentence)
             captionList[i] = sentence
-            print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
-            # the end of caption generation
+            # print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
 
     # generated_caption = ' '.join(captionList)
     # return only the one with the highest probability

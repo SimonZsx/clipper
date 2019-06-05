@@ -44,8 +44,6 @@ def recognize(audio_file_index):
     else:
         return "Invalid dataset index!"
 
-    print(audio_file_path)
-
     recognizer = sr.Recognizer()
     audio_file = sr.AudioFile(audio_file_path)
 
@@ -65,7 +63,6 @@ def predict(audio_file_path):
     print("\n[INFO]\t", "[c1]\t", str(t1))
 
     recognized_string = recognize(audio_file_path)
-    print(recognized_string)
 
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c1]\t", str(t2))
