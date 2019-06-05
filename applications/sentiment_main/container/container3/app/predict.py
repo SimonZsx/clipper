@@ -40,7 +40,7 @@ correctPred = tf.equal(tf.argmax(prediction,1), tf.argmax(labels,1))
 
 sess=tf.Session()
 saver=tf.train.Saver()
-saver.restore(sess,tf.train.latest_checkpoint('/container/container3/app/models/'))
+saver.restore(sess,tf.train.latest_checkpoint('/container/container3/app/models'))
 
 #paragraph is a string
 def predict(paragraph):
