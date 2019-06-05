@@ -51,7 +51,6 @@ ADD imagequery/c1_speechRecognition/data /container/data
 # RUN chmod 777 /container/data/dataset3/rename.sh
 # RUN /container/data/dataset3/rename.sh
 # RUN python3 /container/data/dataset3/truncate.py
-COPY ../imagequery_dataset/recordings /container/c1_speechRecognition/data/dataset3/recordings
 
 ADD grpc/app/container_entry.sh /container/
 ADD grpc/app/server.py /container/

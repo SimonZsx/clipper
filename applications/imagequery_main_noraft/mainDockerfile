@@ -49,7 +49,6 @@ ADD c1_speechRecognition/data /container/c1_speechRecognition/data
 # RUN chmod 777 /container/c1_speechRecognition/data/dataset3/rename.sh
 # RUN /container/c1_speechRecognition/data/dataset3/rename.sh
 # RUN python3 /container/c1_speechRecognition/data/dataset3/truncate.py
-COPY ../imagequery_dataset/recordings /container/c1_speechRecognition/data/dataset3/recordings
 
 ### for c2 
 # copy files into image
