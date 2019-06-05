@@ -25,16 +25,13 @@ def getData(keyword, limit):
 	return tweets_string
 
 def predict(request): # serve as api function
-	try:
-		start = time.time()
-		info = request.split(":")
-		stockcode = info[0]
-		limit = 100
-		to_return = getData(stockcode, limit)
-		end = time.time()
-		return to_return
-	except Exception as exc:
-		print('Generated an exception: %s' % (exc))
+	start = time.time()
+	info = request.split(":")
+	stockcode = info[0]
+	limit = 100
+	to_return = getData(stockcode, limit)
+	end = time.time()
+	return to_return
 
 
 
