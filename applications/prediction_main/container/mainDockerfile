@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM debian:stretch-slim
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
 
@@ -41,7 +41,7 @@ RUN pip3 install git+https://github.com/ucbrise/clipper.git@develop#subdirectory
 
 
 RUN apt-get update -qq \
-      && apt-get install -y -qq libzmq5 libzmq5-dev redis-server build-essential libsodium-dev
+      && apt-get install -y -qq libzmq5 libzmq5-dev redis-server libsodium18 build-essential 
 # RUN apt-get install libsodium-dev
 
 ENV PIP_DEFAULT_TIMEOUT=100
