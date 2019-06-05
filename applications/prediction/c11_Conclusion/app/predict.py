@@ -1,11 +1,14 @@
 import time
 
 def predict(received):
-	start = time.time()
-	end = time.time()
-	print("ELASPSED TIME", end - start)
-	print("Received Output:%s"%(received))
-	return received
+	try:
+		start = time.time()
+		end = time.time()
+		print("ELASPSED TIME", end - start)
+		print("Received Output:%s"%(received))
+		return received
+	except Exception as exc:
+		print('Generated an exception: %s' % (exc))
 	
 # def predict(price_pred_list, trend_pred, polarity_list):
 
