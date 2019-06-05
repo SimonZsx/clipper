@@ -2,15 +2,13 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from timeit import default_timer as timer
-load_start = timer()
 
 import math
 import os
 import json
 import tensorflow as tf
 
-print("pwd for c2/predict.py: " + os.getcwd())
+from datetime import datetime
 
 import c2_imageCaptionGenerator.configuration as configuration
 import c2_imageCaptionGenerator.inference_wrapper as inference_wrapper
@@ -66,8 +64,10 @@ restore_fn(sess)
 # Prepare the caption generator.
 generator = caption_generator.CaptionGenerator(model, vocab)
 
+
 def predict(image_file_index):
-    start = timer()
+    t1 = datetime.utcnow()
+    print("\n[INFO]\t", "[c2]\t", str(t1))
 
     image_file_index = int(image_file_index)
     if image_file_index > 1000:
@@ -84,27 +84,19 @@ def predict(image_file_index):
             sentence = [vocab.id_to_word(w) for w in caption.sentence[1:-1]]
             sentence = " ".join(sentence)
             captionList[i] = sentence
-            print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
-            # the end of caption generation
+            # print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
 
     # generated_caption = ' '.join(captionList)
     # return only the one with the highest probability
     generated_caption = captionList[0]
 
-    end = timer()
-    time_elapsed = end - start
-    print("  The image file takes " + str(time_elapsed) + " seconds")
+    t2 = datetime.utcnow()
+    print("[INFO]\t", "[c2]\t", str(t2))
+    print("[INFO]\t", "[c2]\tTime elapsed: ", (t2-t1).total_seconds(), " seconds." )
 
-    return generated_caption, time_elapsed
+    return generated_caption
 
 
 predict(1000)
-load_end = timer()
 print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
-
-if __name__ == "__main__":
-    print(predict(1))
-    print(predict(2))
-    print(predict(3))
-    print(predict(4))
 

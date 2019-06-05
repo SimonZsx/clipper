@@ -1,11 +1,8 @@
 import speech_recognition as sr
-from timeit import default_timer as timer
 from pocketsphinx import pocketsphinx, Jsgf, FsgModel
 import os
 
 from datetime import datetime
-
-t1 = timer()
 
 language_directory = "/container/models/wsj1"
 acoustic_parameters_directory = os.path.join(language_directory, "acoustic-model")
@@ -27,10 +24,6 @@ config.set_int("-maxwpf", 5)
 
 decoder = pocketsphinx.Decoder(config)
 
-t2 = timer()
-
-print("Preloading finished in " + str(t2-t1) + " seconds.")
-
 
 def recognize(audio_file_index):
     audio_file_index = int(audio_file_index)
@@ -51,25 +44,17 @@ def recognize(audio_file_index):
     else:
         return "Invalid dataset index!"
 
-    print(audio_file_path)
-
     recognizer = sr.Recognizer()
     audio_file = sr.AudioFile(audio_file_path)
 
     with audio_file as source:
         audio = recognizer.record(source)
 
-    tx = timer()
-
     raw_data = audio.get_raw_data(convert_rate=16000, convert_width=2)
     decoder.start_utt()  # begin utterance processing
     decoder.process_raw(raw_data, False, True)
     decoder.end_utt()  # stop utterance processing
     hypothesis = decoder.hyp()
-
-    ty = timer()
-    print("predict time", ty-tx, "\n\n")
-
     return hypothesis.hypstr
 
 
@@ -78,7 +63,6 @@ def predict(audio_file_path):
     print("\n[INFO]\t", "[c1]\t", str(t1))
 
     recognized_string = recognize(audio_file_path)
-    print(recognized_string)
 
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c1]\t", str(t2))

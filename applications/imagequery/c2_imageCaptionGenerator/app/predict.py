@@ -2,20 +2,18 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from timeit import default_timer as timer
-load_start = timer()
 
 import math
 import os
 import json
 import tensorflow as tf
 
+from datetime import datetime
+
 import configuration
 import inference_wrapper
 import caption_generator
 import vocabulary
-
-from datetime import datetime
 
 
 def find(name, path):
@@ -23,9 +21,6 @@ def find(name, path):
         if name in files or name in dirs:
             return os.path.join(root, name)
 
-# model_dir_path = find("model", "/container/im2txt")
-# checkpoint_path = model_dir_path + "/newmodel.ckpt-2000000"
-# vocabulary_path = find("word_counts.txt", "/")
 checkpoint_path = "/container/im2txt/model/newmodel.ckpt-2000000"
 vocabulary_path = "/container/im2txt/data/word_counts.txt"
 
@@ -89,13 +84,11 @@ def predict(image_file_index):
             sentence = [vocab.id_to_word(w) for w in caption.sentence[1:-1]]
             sentence = " ".join(sentence)
             captionList[i] = sentence
-            print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
-            # the end of caption generation
+            # print("  %d) %s (p=%f)" % (i, sentence, math.exp(caption.logprob)))
 
     # generated_caption = ' '.join(captionList)
     # return only the one with the highest probability
     generated_caption = captionList[0]
-
 
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c2]\t", str(t2))
@@ -105,13 +98,6 @@ def predict(image_file_index):
 
 
 predict(1000)
-load_end = timer()
-print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
+print("Fully initialized model (with 1 extra prediction).")
 
-
-if __name__ == "__main__":
-    print(predict(1))
-    print(predict(2))
-    print(predict(3))
-    print(predict(4))
 

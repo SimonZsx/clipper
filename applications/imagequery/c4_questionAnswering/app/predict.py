@@ -1,6 +1,4 @@
-from timeit import default_timer as timer
 from datetime import datetime
-
 """
 This is the preliminary version of Questiona Answering System. 
 We are not using AI here but just use simple logic. 
@@ -30,6 +28,3 @@ def predict(mapping):
     print("[INFO]\t", "[c4]\t", str(t2))
     print("[INFO]\t", "[c4]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds." )
     return answer
-
-if __name__ == "__main__":
-    predict("Stella, her, A petting jet, top, an airport runway-call, ask, bring, pet, sit")
