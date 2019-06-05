@@ -89,37 +89,30 @@ def pipe2(imstr):
     else:
         return "No Sleeping"
 
+filelist = [f for f in os.listdir( "/container/part1") if f.endswith(".jpg")]
+
 def run(input_index_list_format):
     print("input format:" + str(input_index_list_format))
-    input_index = int(input_index_list_format[0])
+    index = int(input_index_list_format[0])
+    pipe1_result = []
+    pipe2_result = []
+    print("\nStart Detection: ")
+    start = time.time()
+    imag = cv2.imread("/container/part1/"+filelist[index])
+    imgstr = image_string(imag)
+    p = Pool(1)
+    pipe1_result.append(p.apply_async(pipe1, args=(imgstr,)).get())
+    pipe2_result.append(pipe2(imgstr))
+    p.close()
+    p.join()  # p.join()方法会等待所有子进程执行完毕
+    end = time.time()
+    print("\nResult of PIPE1:")
+    print(pipe1_result)
+    print("\nResult of PIPE2:")
+    print(pipe2_result)
+    print("\n Total time: "+str(end-start))
 
-    # print("\nStart Detection: ")
-
-    # pipe1_result = []
-    # pipe2_result = []
-    # count = 0
-    # filelist = [f for f in os.listdir(
-    #     "/container/part1") if f.endswith(".jpg")]
-    # while count < 30:
-    #     index = random.randint(0, 10000)
-    #     if count == 1:
-    #         start = time.time()
-    #     count += 1
-    #     imag = cv2.imread("/container/part1/"+filelist[index])
-    #     imgstr = image_string(imag)
-    #     p = Pool(1)
-    #     pipe1_result.append(p.apply_async(pipe1, args=(imgstr,)).get())
-    #     pipe2_result.append(pipe2(imgstr))
-    #     p.close()
-    #     p.join()  # p.join()方法会等待所有子进程执行完毕
-    # end = time.time()
-    # print("\nResult of PIPE1:")
-    # print(pipe1_result)
-    # print("\nResult of PIPE2:")
-    # print(pipe2_result)
-    # print("\n Total time: "+str(end-start))
-
-    return ["output", "output"]
+    return [str(pipe1_result),str(pipe2_result)]
 
 ###########################################
 
