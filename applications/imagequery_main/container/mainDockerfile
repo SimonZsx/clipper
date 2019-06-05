@@ -70,9 +70,9 @@ ADD c3_nlpMappingGenerator/app /container/c3_nlpMappingGenerator
 ADD c4_questionAnswering/app /container/c4_questionAnswering
 
 
-RUN pip3 install pyyaml
-# for RAFT !!!!! IMPORTANT!!!!!!
 
+# for RAFT !!!!! IMPORTANT!!!!!!
+RUN pip3 install pyyaml
 
 RUN apt-get install git -y
 
@@ -91,7 +91,7 @@ RUN pip install -q cloudpickle==0.5.* pyzmq==17.0.* prometheus_client==0.1.* \
 ADD closure.py /container
 ADD rpc.py /container
 ADD metrics_config.yaml /container
-# ADD main.py /container
+ADD main.py /container
 
 # /container nows contains: 
 # c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py
