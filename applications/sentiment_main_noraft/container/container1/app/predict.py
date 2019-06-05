@@ -68,7 +68,7 @@ def recognize(audio_file_index):
     ty = timer()
     print("predict time", ty-tx, "\n\n")
 
-    return hypothesis.hypstr, ty-tx
+    return hypothesis.hypstr
 
 
 def predict(audio_file_path):
