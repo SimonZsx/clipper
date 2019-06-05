@@ -1,14 +1,12 @@
 FROM ubuntu:bionic
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
-# RUN pip3 install genism
-RUN pip3 install nltk
 RUN pip3 install spacy 
 RUN pip3 install grpcio
 RUN pip3 install protobuf
-RUN python3 -m spacy download en
+RUN python3 -m spacy download en_core_web_sm
 
-ADD translation/container4/app /container/
+ADD sentiment/container2/app /container/
 ADD grpc/app/model_pb2_grpc.py /container/
 ADD grpc/app/model_pb2.py /container/
 ADD grpc/app/proxy_pb2_grpc.py /container/
