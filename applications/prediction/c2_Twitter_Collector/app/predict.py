@@ -13,6 +13,7 @@ def predict(request): # serve as api function
 			result = file.read().replace('\n', '')
 		end = time.time()
 		print("ELASPSED TIME", end - start)
+		print(result)
 		return result
 	except Exception as exc:
 		print('Generated an exception: %s' % (exc))

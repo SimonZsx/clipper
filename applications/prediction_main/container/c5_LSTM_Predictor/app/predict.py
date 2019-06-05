@@ -5,6 +5,10 @@ import time
 from keras.models import load_model
 import tensorflow as tf
 
+global graph, new_model
+
+graph = tf.get_default_graph()
+
 def predict(comstring):
 
     try:
@@ -30,7 +34,9 @@ def predict(comstring):
         X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
         # print(X_test.shape) # 500 x 60 x 1
         new_model = load_model("/container/c5_LSTM_Predictor/app/model.h5")
-        predicted_stock_price = new_model.predict(X_test)
+
+        with graph.as_default():
+            predicted_stock_price = new_model.predict(X_test)
         # print(predicted_stock_price.shape) # 500 x 1
         predicted_stock_price = predicted_stock_price.ravel()
 
