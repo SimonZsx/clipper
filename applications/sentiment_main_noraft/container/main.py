@@ -48,7 +48,7 @@ def run():
 
     pipe1_result = []
     pipe2_result = []
-    for i in range(20):
+    for i in range(200):
         result1 = run_c1(i)
         result2 = run_c2(result1)
         result3 = run_c3(result2)
