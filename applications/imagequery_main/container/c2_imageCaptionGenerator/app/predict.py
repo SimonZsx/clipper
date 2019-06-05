@@ -66,13 +66,6 @@ restore_fn(sess)
 # Prepare the caption generator.
 generator = caption_generator.CaptionGenerator(model, vocab)
 
-predict(1000)
-
-load_end = timer()
-print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
-   
-
-
 def predict(image_file_index):
     start = timer()
 
@@ -104,6 +97,10 @@ def predict(image_file_index):
 
     return generated_caption, time_elapsed
 
+
+predict(1000)
+load_end = timer()
+print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
 
 if __name__ == "__main__":
     print(predict(1))

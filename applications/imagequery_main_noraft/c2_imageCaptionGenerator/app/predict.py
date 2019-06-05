@@ -2,8 +2,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from timeit import default_timer as timer
-load_start = timer()
 
 import math
 import os
@@ -101,14 +99,7 @@ def predict(image_file_index):
 
 
 predict(1000)
-load_end = timer()
-print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
+print("Fully initialized model (with 1 extra prediction).")
 
 
-
-if __name__ == "__main__":
-    print(predict(1))
-    print(predict(2))
-    print(predict(3))
-    print(predict(4))
 

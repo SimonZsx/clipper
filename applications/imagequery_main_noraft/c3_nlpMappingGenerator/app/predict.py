@@ -1,12 +1,6 @@
-from timeit import default_timer as timer
-load_start = timer()
 import spacy
 from c3_nlpMappingGenerator.preprocess import preprocess
-load_end = timer()
-print("Finished loading modules in " + str(load_end - load_start) + " seconds" )
-
 from datetime import datetime
-
 nlp = spacy.load("en_core_web_sm")
 
 def predict(input_str):
