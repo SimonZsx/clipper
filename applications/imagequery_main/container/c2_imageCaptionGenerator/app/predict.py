@@ -57,8 +57,8 @@ sess = tf.Session(config=config, graph=g)
 
 #######################################################################
 
-# create session (Original)
-sess = tf.Session(graph=g) 
+# # create session (Original)
+# sess = tf.Session(graph=g) 
 
 # Load the model from checkpoint.
 restore_fn(sess)
