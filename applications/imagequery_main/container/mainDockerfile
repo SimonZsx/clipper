@@ -13,6 +13,8 @@ ADD c0_entryContainer/app /container/c0_entryContainer
 ### for c1 
 RUN apt-get install wget zip unzip python3 python3-pip -y
 RUN pip3 install SpeechRecognition
+RUN apt-get install -y swig libpulse-dev libasound2-dev
+RUN pip3 install pocketsphinx
 RUN apt-get install curl -y
 RUN apt-get install ffmpeg -y
 RUN pip3 install pydub
@@ -32,8 +34,8 @@ RUN /container/c1_speechRecognition/data/dataset3/rename.sh
 RUN python3 /container/c1_speechRecognition/data/dataset3/truncate.py
 
 ### for c2 
-RUN pip install numpy nltk
-RUN python -m nltk.downloader all
+RUN pip3 install numpy nltk
+RUN python3 -m nltk.downloader all
 RUN apt install wget
 
 # copy files into image
@@ -68,9 +70,9 @@ ADD c3_nlpMappingGenerator/app /container/c3_nlpMappingGenerator
 ADD c4_questionAnswering/app /container/c4_questionAnswering
 
 
-RUN pip3 install pyyaml
-# for RAFT !!!!! IMPORTANT!!!!!!
 
+# for RAFT !!!!! IMPORTANT!!!!!!
+RUN pip3 install pyyaml
 
 RUN apt-get install git -y
 
@@ -89,7 +91,7 @@ RUN pip install -q cloudpickle==0.5.* pyzmq==17.0.* prometheus_client==0.1.* \
 ADD closure.py /container
 ADD rpc.py /container
 ADD metrics_config.yaml /container
-# ADD main.py /container
+ADD main.py /container
 
 # /container nows contains: 
 # c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py

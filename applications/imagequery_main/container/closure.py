@@ -6,6 +6,7 @@ import numpy as np
 
 IMPORT_ERROR_RETURN_CODE = 3
 
+################### From main.py ####################################### 
 
 from multiprocessing import Pool
 from timeit import default_timer as timer
@@ -30,11 +31,11 @@ def generate_image_caption(input_index):
     print("2:\tGenerated captions: " + captions)
     return captions, elapsed_time
 		
-def run(input_index):
+def run(input_index_list_format):
 
-    print("input format:"+str(input_index))
+    print("input format:" + str(input_index_list_format))
 
-    input_index = int(input_index[0])
+    input_index = int(input_index_list_format[0])
     elapsed_time_list = []
 
     # CONTAINER 0
@@ -87,10 +88,10 @@ def run(input_index):
     print("NLP:\t\t\t\t" , elapsed_time_list[2])
     print("Question Answering:\t\t" , elapsed_time_list[3])
 
+    print("Return a list now!")
+    return ["output", "output"]
 
-    return "output"
-
-
+############################################################################
 
 
 class PythonContainer(rpc.ModelContainerBase):
