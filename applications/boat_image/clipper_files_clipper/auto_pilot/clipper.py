@@ -3,15 +3,13 @@ from clipper_admin import ClipperConnection, DockerContainerManager
 import argparse
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
     # parser.add_argument('-n', '--num_nodes', type=int, default=3)
-    # parser.add_argument('node_id', type=int)
-    # args = parser.parse_args()
+    parser.add_argument('node_id', type=int)
+    args = parser.parse_args()
 
     # num_nodes = args.num_nodes
-
-    # node_id = args.node_id
-    node_id = 0
+    node_id = args.node_id
 
     clipper_conn = ClipperConnection(DockerContainerManager(
         cluster_name='clipper_cluster_{}'.format(node_id),
@@ -22,19 +20,18 @@ if __name__ == "__main__":
         redis_ip=None,
         redis_port=6379+node_id,
         prometheus_port=9090+node_id,
-        # WARING: DO NOT CHANGE THE RULE OF NETWORK NAMES
+        # WARING: DO NOT CHANGE THE RULE OF NETWORK NAMES 
         docker_network='clipper_network_{}'.format(node_id),
         # SINCE THIS IS USED BY reset.sh TO IDENTIFY CLIPPER CONTAINERS
-        extra_container_kwargs={"runtime": "nvidia"}))  # for node_id in range(args.num_nodes)]
+        extra_container_kwargs={"runtime":"nvidia"})) # for node_id in range(args.num_nodes)]
 
     try:
         clipper_conn.start_clipper()
-        clipper_conn.register_application( name="default", input_type="string", default_output="", slo_micros=100000000)
+        clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=100000000)
 
-        clipper_conn.deploy_model( name="image-model", version="1", input_type="string", image="imagequery_main:raft")
-
-        clipper_conn.link_model_to_app(
-            app_name="default", model_name="image-model")
+        clipper_conn.deploy_model(name="image-model", version="1", input_type="string", image="auto_pilot_main:raft")
+      
+        clipper_conn.link_model_to_app(app_name="default", model_name="image-model")
     except Exception as e:
         print(e)
         exit(1)
