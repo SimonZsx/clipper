@@ -89,13 +89,14 @@ def run(index):
     pipe2_result.append(pipe2(imgstr))
     p.close()
     p.join() # p.join()方法会等待所有子进程执行完毕
-    end=time.time()
     print("\nResult of PIPE1:")
     print(pipe1_result)
     print("\nResult of PIPE2:")
     print(pipe2_result)
-    print("\n Total time: "+str(end-start))
 
 if __name__ == "__main__":
-    for i in range(400,500):
+    start=time.time()
+    for i in range(300,400):
         run(i)
+    end=time.time()
+    print("\nTotal time: "+str(end-start))
