@@ -98,5 +98,5 @@ if __name__ == "__main__":
     start=time.time()
     for i in range(300,400):
         run(i)
-    end=time.time()
-    print("\nTotal time: "+str(end-start))
+        end=time.time()
+        print("\nUp to now: "+str(end-start))
