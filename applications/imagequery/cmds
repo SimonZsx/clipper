@@ -1,0 +1,30 @@
+docker run -it --network=host -v ~/code_yy/clipper-develop:/clipper -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp zsxhku/clipperpy35dev
+
+docker pull zsxhku/clipperpy35dev && docker pull mxschen/ai-proxy
+
+docker stop $(docker ps -a -q) && docker system prune -f
+
+docker logs 8e78f4a1312a | grep "Cache hit" | wc -l
+
+docker pull zsxhku/admindocker &&
+docker pull zsxhku/clipperpy35dev && 
+docker pull zsxhku/frontend &&
+docker pull zsxhku/grpcclient &&
+docker pull mxschen/ai-proxy
+
+change cache size: clipper-develop
+clipper_admin: docker_container_manager.py
+"CACHING" : "false"  
+
+from datetime import datetime
+t1 = datetime.utcnow()
+print("\n[INFO]\t", "[c1]\t", str(t1))
+t2 = datetime.utcnow()
+print("[INFO]\t", "[c1]\t", str(t2))
+print("[INFO]\t", "[c1]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds." )
+
+
+http://clipper.ai/
+https://github.com/SimonZsx/clipper-develop/blob/master/clipper_admin/frontend_local_test.py
+https://github.com/ucbrise/clipper/blob/develop/clipper_admin/clipper_admin/deployers/python.py
+https://github.com/yinfredyue/boat/tree/bigball_test
