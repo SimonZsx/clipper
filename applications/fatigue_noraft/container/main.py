@@ -97,5 +97,5 @@ def run(index):
     print("\n Total time: "+str(end-start))
 
 if __name__ == "__main__":
-    for i in range(400,500)
+    for i in range(400,500):
         run(i)
