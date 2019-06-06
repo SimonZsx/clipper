@@ -98,5 +98,5 @@ def predict(image_file_index):
 
 
 predict(1000)
-print("Fully initialized model (with 1 extra prediction) in " + str(load_end - load_start) + " seconds!")
+print("Fully initialized model (with 1 extra prediction).")
 
