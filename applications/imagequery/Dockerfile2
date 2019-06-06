@@ -18,12 +18,12 @@ RUN mv /notebooks/newmodel.ckpt-2000000.meta /container/im2txt/model
 RUN mv /notebooks/newmodel.ckpt-2000000.data-00000-of-00001 /container/im2txt/model
 
 # download datasets, untar and reindex images: 101_ObjectCategories
-RUN wget --progress=bar:force http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz
-RUN mv /notebooks/101_ObjectCategories.tar.gz /container/im2txt/data/imageDataset
-RUN chmod 777 /container/im2txt/data/imageDataset/untar.sh 
-RUN /container/im2txt/data/imageDataset/untar.sh 
-RUN chmod 777 /container/im2txt/data/imageDataset/rename.sh 
-RUN /container/im2txt/data/imageDataset/rename.sh
+# RUN wget --progress=bar:force http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz
+# RUN mv /notebooks/101_ObjectCategories.tar.gz /container/im2txt/data/imageDataset
+# RUN chmod 777 /container/im2txt/data/imageDataset/untar.sh 
+# RUN /container/im2txt/data/imageDataset/untar.sh 
+# RUN chmod 777 /container/im2txt/data/imageDataset/rename.sh 
+# RUN /container/im2txt/data/imageDataset/rename.sh
 
 ADD grpc/app/container_entry.sh /container/
 ADD grpc/app/server.py /container/
