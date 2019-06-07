@@ -48,22 +48,18 @@ def recognize(audio_file_index):
     else:
         return "Invalid dataset index!"
 
-    #############################################
-    # recognizer = sr.Recognizer()
-    # audio_file = sr.AudioFile(audio_file_path)
+    recognizer = sr.Recognizer()
+    audio_file = sr.AudioFile(audio_file_path)
 
-    # with audio_file as source:
-    #     audio = recognizer.record(source)
+    with audio_file as source:
+        audio = recognizer.record(source)
 
-    # raw_data = audio.get_raw_data(convert_rate=16000, convert_width=2)
-    # decoder.start_utt()  # begin utterance processing
-    # decoder.process_raw(raw_data, False, True)
-    # decoder.end_utt()  # stop utterance processing
-    # hypothesis = decoder.hyp()
-    # return hypothesis.hypstr
-    ##############################################
-    time.sleep(0.5)
-    return "people that are all her to ring the who" + str(random.randint(1,100))
+    raw_data = audio.get_raw_data(convert_rate=16000, convert_width=2)
+    decoder.start_utt()  # begin utterance processing
+    decoder.process_raw(raw_data, False, True)
+    decoder.end_utt()  # stop utterance processing
+    hypothesis = decoder.hyp()
+    return hypothesis.hypstr
 
 
 def predict(audio_file_path):
