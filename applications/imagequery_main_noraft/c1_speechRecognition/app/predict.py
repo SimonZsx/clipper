@@ -16,11 +16,12 @@ config.set_string("-lm", language_model_file)
 config.set_string("-dict", phoneme_dictionary_file)
 # disable logging (logging causes unwanted output in terminal)
 config.set_string("-logfn", os.devnull)
-config.set_int("-topn", 1)
-config.set_int("-ds", 4)
-config.set_int("-pl_window", 10)
-config.set_int("-maxhmmpf", 1000)
-config.set_int("-maxwpf", 5)
+
+# config.set_int("-topn", 1)
+# config.set_int("-ds", 4)
+# config.set_int("-pl_window", 10)
+# config.set_int("-maxhmmpf", 1000)
+# config.set_int("-maxwpf", 5)
 
 decoder = pocketsphinx.Decoder(config)
 
