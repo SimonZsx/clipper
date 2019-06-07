@@ -85,7 +85,7 @@ def run(index):
     imag=cv2.imread("/container/part1/"+filelist[index])
     imgstr=image_string(imag)
     
-    p=Process(target=pipe1,args(imgstr,))
+    p=Process(target=pipe1,args=(imgstr,))
     p.start()
     pipe1_result.append(p.get())
     pipe2_result.append(pipe2(imgstr))
