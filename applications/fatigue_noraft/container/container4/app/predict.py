@@ -36,6 +36,7 @@ inWidth = 368
 inHeight = 368
 
 def predict(imagestring):
+    start=time.time()
     frame=string_image(imagestring)
     frameCopy = np.copy(frame)
     frameWidth = frame.shape[1]
@@ -82,34 +83,13 @@ def predict(imagestring):
     
     add=add/count
     variance=(square-add*add)/(count-1)
-    
-    # Draw Skeleton
-    for pair in POSE_PAIRS:
-        partA = pair[0]
-        partB = pair[1]
-    
-        if points[partA] and points[partB]:
-            cv2.line(frame, points[partA], points[partB], (0, 255, 255), 2)
-            cv2.circle(frame, points[partA], 8, (0, 0, 255), thickness=-1, lineType=cv2.FILLED)
-
-    #memchached
-    #if not os.path.exists('poses'):
-     #       print("[INFO] New directory created")
-      #      os.makedirs('poses')
-    #cv2.imwrite('poses/Output-Keypoints.jpg', frameCopy)
-    #cv2.imwrite('poses/Output-Skeleton.jpg', frame)
-    #cv2.imshow('Output-Keypoints', frameCopy)
-    #cv2.imshow('Output-Skeleton', frame)
-    #cv2.waitKey(0)
+            
+    end=time.time()
+    print("\nc4 time: "+str(end-start))
     if variance>20000:
         return True
     else:
         return False
-
-
-#frame = cv2.imread("awake.jpg")
-#mystr=image_string(frame)
-#x=predict(mystr)
 
         
         
