@@ -3,7 +3,7 @@ import os
 import cv2
 import numpy as np
 import json
-
+import time
 # Read the model
 model = cv2.dnn.readNetFromCaffe('/container/container1/app/deploy.prototxt','/container/container1/app/weights.caffemodel')
 
@@ -26,6 +26,7 @@ def string_image(imagestring):
 
 
 def predict(imagestring):
+    start=time.time()
     image=string_image(imagestring)
 #    image=cv2.imread('simple.jpg')  
     count = 0
@@ -52,6 +53,8 @@ def predict(imagestring):
         print("[INFO] No face in this image!")
         return None
     image_str=image_string(frame)
+    end=time.time()
+    print("\nc1 time: "+str(end-start))
     return image_str
 
 #image=cv2.imread('sleep.jpg')

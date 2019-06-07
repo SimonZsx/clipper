@@ -11,7 +11,7 @@ import dlib
 import cv2
 import os
 import json
-
+import time
 def image_string(image):
     image_encode=cv2.imencode('.jpg',image)[1]
     imagelist=image_encode.tolist()
@@ -54,6 +54,7 @@ predictor = dlib.shape_predictor('/container/container2/app/shape_predictor_68_f
 
 # imagestring is a serialized .jpg encoded image string
 def predict(imagestring):
+    start=time.time()
     frame=string_image(imagestring)
 #    frame = cv2.imread("5.jpeg")
     frame = imutils.resize(frame, width=450)
@@ -81,22 +82,14 @@ def predict(imagestring):
             drowsiness=True
         else:
             drowsiness=False
-        #simple memcached
-        #if not os.path.exists('faces'):
-         #   print("[INFO] New directory created")
-          #  os.makedirs('faces')
-        #cv2.imwrite('container/faces/eyearea.jpg', frame)
-#        cv2.imshow("Frame", frame)
-#        cv2.waitKey(0)
-        # do a bit of cleanup
         cv2.destroyAllWindows()
+        end=time.time()
+        print("\nc2 time: "+str(end-start))
+        return drowsiness
+        
+    end=time.time()
+    print("\nc2 time: "+str(end-start))
     return drowsiness
 
-#image=cv2.imread("sleep.jpg")
-#image_encode=cv2.imencode('.jpg',image)[1]
-#image_array=np.array(image_encode)
-#image_string=image_array.tostring()
-#x=predict(image_string)
-#print(x)
 
 
