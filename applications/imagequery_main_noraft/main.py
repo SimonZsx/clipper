@@ -61,11 +61,11 @@ if __name__ == "__main__":
 
     for i in range(10):
         tx = datetime.utcnow()
-        print("\n[INFO]\t", ("[req_" + "i", "]\t") , str(t1))
+        print("\n[INFO]\t", "[req_" + str(i) + "]\t" , str(t1))
         run(i)
         ty = datetime.utcnow()
-        print("\n[INFO]\t", ("[req_" + "i", "]\t") , str(t1))
-        print("\n[INFO]\t", ("[req_" + str(i), "]\t") , "Time elapsed: ", (ty-tx).total_seconds(), " seconds.")
+        print("\n[INFO]\t", "[req_" + str(i) + "]\t" , str(t1))
+        print("\n[INFO]\t", "[req_" + str(i) + "]\t" , "Time elapsed: ", (ty-tx).total_seconds(), " seconds.")
 
     t2 = datetime.utcnow()
     print("[INFO]\t", "[main]\t", str(t2))
