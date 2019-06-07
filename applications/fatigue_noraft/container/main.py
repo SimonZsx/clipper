@@ -69,7 +69,7 @@ def pipe1(imstr):
 
 def pipe2(imstr):
     time.sleep(0.01)
-    print("return from pipe1!\n")
+    print("return from pipe2!\n")
     return 1
 #     result=run_c3(imstr)
 #     if result==None:
