@@ -5,7 +5,7 @@ import sys
 import os
 sys.path.append("/container")
 from multiprocessing import Pool
-import multiprocessing
+from multiprocessing import Process
 import time
 # c7 is discarded in this file, import error
 
@@ -84,10 +84,11 @@ def run(index):
     pipe2_result=[]
     imag=cv2.imread("/container/part1/"+filelist[index])
     imgstr=image_string(imag)
-    p = Pool(1)
-    pipe1_result.append(p.apply_async(pipe1, args=(imgstr,)).get())
+    
+    p=Process(target=pipe1,args=(imgstr,))
+    p.start()
+    pipe1_result.append("result of pipe1")
     pipe2_result.append(pipe2(imgstr))
-    p.close()
     p.join() # p.join()方法会等待所有子进程执行完毕
     print("\nResult of PIPE1:")
     print(pipe1_result)
