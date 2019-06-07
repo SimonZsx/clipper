@@ -24,6 +24,9 @@ def run(input_index):
     # CONTAINER 0
     input_index = entry_container.predict(input_index)
 
+    tp1  = datetime.utcnow()
+    print("\n[INFO]\t", "[pool]\t", str(tp1))
+
     # CONTAINER 1, 2: Multi Threading
     p = Pool(1)  # use only one subprocess, run TF session in main process
     returned_result1 = p.apply_async(run_speech_recognition, args=(input_index,))
@@ -34,6 +37,11 @@ def run(input_index):
 
     result1 = returned_result1.get()[0]
     # result2 = returned_result2.get()[0]
+
+    tp2 = datetime.utcnow()
+    print("[INFO]\t", "[pool]\t", str(tp2))
+    print("[INFO]\t", "[pool]\tTime elapsed: ", (tp2-tp1).total_seconds(), " seconds." )
+
 
     # CONTAINER 3
     text = result1 + "|" + result2
