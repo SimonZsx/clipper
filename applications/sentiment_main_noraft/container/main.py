@@ -53,8 +53,8 @@ def run(index):
     result2 = run_c2(result1)
     p=Process(target=run_c4,args=(result2,))
     p.start()
-    p.join() # p.join()方法会等待所有子进程执行完毕
     result3 = run_c3(result2)
+    p.join() # p.join()方法会等待所有子进程执行完毕
     pipe1_result.append(result3)
     pipe2_result.append("result from r4")
     print("\nResult of PIPE1:")
