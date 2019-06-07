@@ -54,31 +54,25 @@ def run_c4(imstr):
     return result_sleep
 
 def pipe1(imstr):
-    time.sleep(5)
-    print("return from subprocess!\n")
-    return 1
-#     result=run_c1(imstr)
-#     if result==None:
-#         return "No Person!"
-#     drowsiness=run_c2(result)
-#     if drowsiness:
-#         return "Drowsiness!"
-#     else:
-#         return "No Drowsiness!"
+    result=run_c1(imstr)
+    if result==None:
+        return "No Person!"
+    drowsiness=run_c2(result)
+    if drowsiness:
+        return "Drowsiness!"
+    else:
+        return "No Drowsiness!"
 
 
 def pipe2(imstr):
-    time.sleep(1)
-    print("return from process!\n")
-    return 2
-#     result=run_c3(imstr)
-#     if result==None:
-#         return "No Person!"
-#     sleep=run_c4(result)
-#     if sleep:
-#         return "Sleeping!"
-#     else:
-#         return "No Sleeping"
+    result=run_c3(imstr)
+    if result==None:
+        return "No Person!"
+    sleep=run_c4(result)
+    if sleep:
+        return "Sleeping!"
+    else:
+        return "No Sleeping"
 
 
 filelist=[f for f in os.listdir("/container/part1")]
