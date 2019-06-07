@@ -43,23 +43,23 @@ def run(input_index):
     question = "Verb"
     result4 = question_answerer.predict(result3)
 
-    print("\n1:\tText: " + result1)
-    print("2:\tGenerated captions: " + result2)
-    print("3:\tGenerated mapping: ")
-    items = result3.split('-')
-    nouns = items[0]
-    verbs = items[1]
-    print("\t- Nouns: " + nouns)
-    print("\t- Verb: " + verbs)
-    print("4:\tThe asked question is: " + question)
-    print("\tGenerated answer: " + result4)
+    # print("\n1:\tText: " + result1)
+    # print("2:\tGenerated captions: " + result2)
+    # print("3:\tGenerated mapping: ")
+    # items = result3.split('-')
+    # nouns = items[0]
+    # verbs = items[1]
+    # print("\t- Nouns: " + nouns)
+    # print("\t- Verb: " + verbs)
+    # print("4:\tThe asked question is: " + question)
+    # print("\tGenerated answer: " + result4)
 
 
 if __name__ == "__main__":
     t1 = datetime.utcnow()
     print("\n[INFO]\t", "[main]\t", str(t1))
 
-    for i in range(500):
+    for i in range(100):
         run(i)
 
     t2 = datetime.utcnow()
