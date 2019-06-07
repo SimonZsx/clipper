@@ -112,7 +112,7 @@ def run(input_index_list_format):
     print(pipe2_result)
     print("\n Total time: "+str(end-start))
 
-    return [str(pipe1_result),str(pipe2_result)]
+    return [str(pipe1_result) + str(pipe2_result), str(pipe1_result) + str(pipe2_result) ]
 
 ###########################################
 

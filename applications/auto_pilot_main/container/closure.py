@@ -51,7 +51,7 @@ def run(input_index_list_format):
     except Exception as exc:
         print('Generated an exception: %s' % (exc))
     
-    return ["output", str(returned_result_list)]
+    return [str(returned_result_list), str(returned_result_list)]
 ###########################################
 
 

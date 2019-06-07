@@ -56,7 +56,6 @@ def run(input_index_list_format):
     result4 = question_answerer.predict(result3)
 
     return [ str(result1) + str(result2) + str(result3) + str(result4) , str(result1) + str(result2) + str(result3) + str(result4)]
-    # return str(result1) + str(result2) + str(result3) + str(result4)
 
 ############################################################################
 
