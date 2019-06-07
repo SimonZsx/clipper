@@ -53,7 +53,7 @@ def run(input_index_list_format):
 
     # Container 4
     question = "Verb"
-    result4 = question_answerer.predict(mapping)
+    result4 = question_answerer.predict(result3)
 
     return ["output: ", str(result1) + str(result2) + str(result3) + str(result4)]
 
