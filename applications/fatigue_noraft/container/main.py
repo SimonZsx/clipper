@@ -95,8 +95,12 @@ def run(index):
     print(pipe2_result)
 
 if __name__ == "__main__":
+    run(1)
     start=time.time()
+    count=0
     for i in range(300,400):
+        count=count+1
         run(i)
         end=time.time()
+        print("\nNo of request: "+str(count))
         print("\nUp to now: "+str(end-start))
