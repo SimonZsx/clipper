@@ -54,7 +54,7 @@ def run_c4(imstr):
     return result_sleep
 
 def pipe1(imstr):
-    sleep(5)
+    time.sleep(5)
     print("return from subprocess!\n")
     return 1
 #     result=run_c1(imstr)
@@ -68,7 +68,7 @@ def pipe1(imstr):
 
 
 def pipe2(imstr):
-    sleep(1)
+    time.sleep(1)
     print("return from process!\n")
     return 2
 #     result=run_c3(imstr)
@@ -110,3 +110,4 @@ if __name__ == "__main__":
         end=time.time()
         print("\nNo of request: "+str(count))
         print("\nUp to now: "+str(end-start))
+        break
