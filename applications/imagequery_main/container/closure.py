@@ -55,6 +55,7 @@ def run(input_index_list_format):
     question = "Verb"
     result4 = question_answerer.predict(result3)
 
+    print("new")
     return ["output: ", str(result1) + str(result2) + str(result3) + str(result4)]
 
 ############################################################################
