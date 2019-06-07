@@ -4,6 +4,8 @@ docker run -it --network=host -v ~/code_yy/clipper-develop:/clipper \
 
 docker pull zsxhku/clipperpy35dev && docker pull mxschen/ai-proxy
 
+python imagequery_concurrent_client.py --port 22223 --system oursystem --worker 1 --ip 172.24.0.14
+
 docker stop $(docker ps -a -q) && docker system prune -f
 
 docker logs 8e78f4a1312a | grep "Cache hit" | wc -l
