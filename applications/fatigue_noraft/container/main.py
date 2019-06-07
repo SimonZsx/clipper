@@ -98,7 +98,7 @@ if __name__ == "__main__":
     run(1)
     start=time.time()
     count=0
-    for i in range(300,400):
+    for i in range(400,500):
         count=count+1
         run(i)
         end=time.time()
