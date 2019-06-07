@@ -5,7 +5,7 @@ Created on Mon Apr 22 15:03:22 2019
 
 @author: davidzhou
 """
-
+import time
 import cv2
 import numpy as np
 import os
