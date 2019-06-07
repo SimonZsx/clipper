@@ -100,7 +100,7 @@ RUN pip install -q cloudpickle==0.5.* pyzmq==17.0.* prometheus_client==0.1.* \
 ADD closure.py /container
 ADD rpc.py /container
 ADD metrics_config.yaml /container
-ADD main.py /container
+# ADD main.py /container
 
 # /container nows contains: 
 # c0_entryContainer c1_speechRecognition/ c2_imageCaptionGenerator/ c3_nlpMappingGenerator/ c4_questionAnswering/ main.py

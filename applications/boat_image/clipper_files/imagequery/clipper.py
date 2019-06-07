@@ -3,14 +3,13 @@ from clipper_admin import ClipperConnection, DockerContainerManager
 import argparse
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
     # parser.add_argument('-n', '--num_nodes', type=int, default=3)
-    # parser.add_argument('node_id', type=int)
-    # args = parser.parse_args()
+    parser.add_argument('node_id', type=int)
+    args = parser.parse_args()
 
     # num_nodes = args.num_nodes
-    # node_id = args.node_id
-    node_id = 0
+    node_id = args.node_id
 
     clipper_conn = ClipperConnection(DockerContainerManager(
         cluster_name='clipper_cluster_{}'.format(node_id),
