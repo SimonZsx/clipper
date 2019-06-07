@@ -16,8 +16,8 @@ def cleanSentences(string):
     string = string.lower().replace("<br />", " ")
     return re.sub(strip_special_chars, "", string.lower())
 
-wordVectors = np.load('/container/wordVectors.npy')
-wordsList = np.load('/container/wordsList.npy')
+wordVectors = np.load('/container/container3/app/wordVectors.npy')
+wordsList = np.load('/container/container3/app/wordsList.npy')
 print('\n[INFO]Loaded the word list!')
 wordsList = wordsList.tolist() #Originally loaded as numpy array
 wordsList = [word.decode('UTF-8') for word in wordsList] #Encode words as UTF-8
@@ -43,7 +43,7 @@ correctPred = tf.equal(tf.argmax(prediction,1), tf.argmax(labels,1))
 
 sess=tf.Session()
 saver=tf.train.Saver()
-saver.restore(sess,tf.train.latest_checkpoint('/container/models/'))
+saver.restore(sess,tf.train.latest_checkpoint('/container/container3/app/models/'))
 
 
 #paragraph is a string
