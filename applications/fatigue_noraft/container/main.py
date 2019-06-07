@@ -87,7 +87,7 @@ def run(index):
     
     p=Process(target=pipe1,args=(imgstr,))
     p.start()
-    pipe1_result.append(p.get())
+    pipe1_result.append("result of pipe1")
     pipe2_result.append(pipe2(imgstr))
     p.join() # p.join()方法会等待所有子进程执行完毕
     p.close()
