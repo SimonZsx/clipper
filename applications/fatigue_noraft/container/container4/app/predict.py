@@ -80,6 +80,8 @@ def predict(imagestring):
             count+=1
         else :
             points.append(None)
+    if count == 0:
+        return None
     
     add=add/count
     variance=(square-add*add)/(count-1)
