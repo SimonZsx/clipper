@@ -1,5 +1,6 @@
 from timeit import default_timer as timer
 import spacy
+from datetime import datetime
 from c3_nlpMappingGenerator.preprocess import preprocess
 nlp = spacy.load("en_core_web_sm")
 
