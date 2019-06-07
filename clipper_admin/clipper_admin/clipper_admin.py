@@ -832,7 +832,7 @@ class ClipperConnection(object):
             #self.cm.check_container_status(host, container_id, 0.3, 20)
             #self.cm.check_container_status(host, proxy_id, 0.3, 20)
 
-            time.sleep(5)
+            #time.sleep(5)
 
             self.logger.info("proxy_ip:%s"%(proxy_ip))
 
@@ -841,8 +841,8 @@ class ClipperConnection(object):
             count += 1
             self.logger.info('[Proxy]Set Model: ')
 
-            self.cm.grpc_client("zsxhku/grpcclient", "--setproxy %s %s %s %s"%(container_ip, "22222", proxy_name, "22223"))
-            self.logger.info('[Model]Set Proxy: ')
+            #self.cm.grpc_client("zsxhku/grpcclient", "--setproxy %s %s %s %s"%(container_ip, "22222", proxy_name, "22223"))
+            #self.logger.info('[Model]Set Proxy: ')
 
             proxy_info.append([proxy_name,proxy_id,proxy_ip])
             container_info.append([container_name, container_id, container_ip])

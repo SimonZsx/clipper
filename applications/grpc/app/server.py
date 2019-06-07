@@ -42,8 +42,8 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
         input_stream = request.inputStream
 
 
-        if (self.proxy_name == None or self.proxy_port == None):
-            return model_pb2.response(status = "ProxyNotSet")
+        #if (self.proxy_name == None or self.proxy_port == None):
+        #    return model_pb2.response(status = "ProxyNotSet")
 
         output = predict_fn.predict(input_stream)
 
