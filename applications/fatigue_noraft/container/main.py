@@ -99,12 +99,10 @@ if __name__ == "__main__":
     run(1)
     start=time.time()
     count=0
-    for i in range(400,500):
+    for i in range(400,450):
         count=count+1
         run(i)
         end=time.time()
         print("\nNo of request: "+str(count))
         print("\nUp to now: "+str(end-start))
-        if i == 403:
-            break
         
