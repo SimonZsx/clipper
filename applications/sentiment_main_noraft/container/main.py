@@ -51,12 +51,10 @@ def run(index):
     pipe2_result = []
     result1 = run_c1(index)
     result2 = run_c2(result1)
-    p=Process(target=run_c4,args=(result2,))
-    p.start()
+    result4 = run_c4(result2)
     result3 = run_c3(result2)
-    p.join() # p.join()方法会等待所有子进程执行完毕
     pipe1_result.append(result3)
-    pipe2_result.append("result from r4")
+    pipe2_result.append(result4)
     print("\nResult of PIPE1:")
     print(pipe1_result)
     print("\nResult of PIPE2:")
@@ -64,7 +62,7 @@ def run(index):
 
 if __name__ == "__main__":
     start=time.time()
-    for i in range(100):
+    for i in range(50):
         run(i)
     end=time.time()
     print("\nTotal time: "+str(end-start))
