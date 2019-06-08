@@ -26,7 +26,7 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
         self.proxy_port = proxy_port 
         
     def SetProxy(self, request, context):
-        print("Received SetProxy:{request}\n".format(request=request))
+        print("[SetProxy]{request}\n".format(request=request))
 
         self.proxy_name = request.proxyName
         self.proxy_port = request.proxyPort
@@ -37,7 +37,7 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
 
 
     def Predict(self, request, context):
-        print("received request:{request}\n".format(request=request))
+        print("[Input]{request}\n".format(request=request))
         input_type = request.inputType
         input_stream = request.inputStream
 
@@ -49,7 +49,7 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
 
 #        print("goes here")
 
-        print("||||----||||Predict Output:" + output)
+        print("[Output]" + output)
 
         '''
         Connect to proxy, return the prediction result
@@ -73,7 +73,7 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
 
     def Ping(self, request, context):
 
-        print("received request:{request}\n".format(request=request))
+        #print("received request:{request}\n".format(request=request))
         hi_msg = request.msg
 
 
@@ -87,33 +87,15 @@ class PredictService(model_pb2_grpc.PredictServiceServicer):
 
         return model_pb2.response(status = r)
 
-    def BatchPredict(self, request, context):
-        print("server received request, size = {size}\n".format(size=len(request.inputs)))
 
-        if (self.proxy_name == None or self.proxy_port == None):
-            return model_pb2.response(status = "ProxyNotSet")
-        input_list = []
-        for req_input in request.inputs :
-            input_list.append(req_input.inputStream)
         
-
-        output_list = predict_fn.batch_predict(input_list)
-
-        bo = model_pb2.BatchOuput()
-
-        for o in output_list:
-            output = bo.outputs.add()
-            output.outputStream = o
-        
-        return bo
-            
 
 def serve():
 
     model_name = os.environ["MODEL_NAME"]
     model_port = os.environ["MODEL_PORT"]
-    proxy_name = None# os.environ["PROXY_NAME"]
-    proxy_port = None# os.environ["PROXY_PORT"]
+    proxy_name = os.environ["PROXY_NAME"]
+    proxy_port = os.environ["PROXY_PORT"]
 
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=2))
     service = PredictService(model_name, model_port, proxy_name, proxy_port)
