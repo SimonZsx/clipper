@@ -62,7 +62,7 @@ def run(index):
 
 if __name__ == "__main__":
     start=time.time()
-    for i in range(50):
+    for i in range(1):
         run(i)
     end=time.time()
     print("\nTotal time: "+str(end-start))
