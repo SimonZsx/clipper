@@ -12,4 +12,5 @@ def predict(text_data):
         result = result + str(sent) + ","
 
     end=time.time()
+    print("\nc2 time elapsed:"+str(end-start))
     return result
