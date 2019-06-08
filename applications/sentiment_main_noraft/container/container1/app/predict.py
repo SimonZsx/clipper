@@ -2,7 +2,7 @@ import speech_recognition as sr
 from timeit import default_timer as timer
 from pocketsphinx import pocketsphinx, Jsgf, FsgModel
 import os
-
+import time
 t1 = timer()
 
 language_directory = "/container/container1/app/models/wsj1"
@@ -73,10 +73,13 @@ def recognize(audio_file_index):
 
 def predict(audio_file_path):
     # start = timer()
+    start=time.time()
     recognized_string = recognize(audio_file_path)
     print(recognized_string)
     # end = timer()
     # time_elapsed = end - start
+    end=time.time()
+    print("\nc1 time elapsed:"+ str(end-start))
     return recognized_string
 
 
