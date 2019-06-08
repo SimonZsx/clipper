@@ -4,7 +4,7 @@
 # spacy for lemmatization
 import spacy
 import re
-
+import time 
 # Enable logging for gensim - optional
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
@@ -49,7 +49,7 @@ def text_clean(text):
 
 
 def predict(text_data):
-    
+    start=time.time()
 
     wordsList = text_clean(text_data)
 
@@ -71,6 +71,7 @@ def predict(text_data):
     subject_analysis_result += "Top three frequent words: (count, word)\n"
     for value, freq in word_freq[:3]:
         subject_analysis_result += "The word " + str(freq) + " has appeared for " + str(value) + " times in this text\n"
-
+    end=time.time()
+    print("\nc4 time elapsed: "+str(end-start))
     return str(subject_analysis_result)
 
