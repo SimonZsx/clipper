@@ -2,6 +2,7 @@ import numpy as np
 import tensorflow as tf
 import re
 from datetime import datetime
+import time
 batchSize = 24
 lstmUnits = 64
 numClasses = 2
@@ -79,6 +80,7 @@ def predict(paragraph):
     
     
 def batch_predict(input_list):
+    start=time.time()
     t1 = datetime.utcnow()
     print("\n[INFO]\t", "[c3]\t", str(t1))
     
@@ -107,6 +109,7 @@ def batch_predict(input_list):
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c3]\t", str(t2))
     print("[INFO]\t", "[c3]\tTime elapsed: ", (t2-t1).total_seconds(), " seconds." )
-    
+    end=time.time()
+    print("\nc3 time elapsed: "+str(end-start))
     return output_list
 
