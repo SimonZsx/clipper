@@ -2,7 +2,10 @@
 
 ## Step 1: Run Development Docker 
 ```sh
-docker run -it --network=host -v [YOUR_CODE_PATH_TO_CLIPPER]:/clipper -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp zsxhku/clipper_test:version1
+docker run -it --network=host \
+  -v [your/path/to/clipper-develop]:/clipper \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /tmp:/tmp zsxhku/clipperpy35dev
 ```
 
 ## Step 2: Go to clipper_admin dir
@@ -40,7 +43,56 @@ But remember you should run the grpcclient docker under clipper_network
 python stop_all.py
 ```
 
-# Build your own application DAG and deployment 
+## Imagequery App   
+Code organization: 
+  * bigball: directory `imagequery_bigball`  
+  * clipper on raft: directory `imagequery_clipper`  
+  * our system(with proxy): directory `imagequery_w_proxy` 
+  * pure dag(without proxy): directory `imagequery_wo_proxy`
+
+### bigball    
+0. Go to directory: `cd imagequery_bigball`
+1. Build image: `./build.sh`  
+2. Run container: `./run.sh`   
+
+### clipper  
+##### 1. imagequery image 
+  0. Go to directory: `cd imaquery_clipper/container`  
+  1. Build image: `./build.sh`   
+##### 2. boat image  
+  0. Go to directory: `cd boat_image`
+  1. Build image: `./run_imagequery_boat_container.sh`  
+  2. Inside the container:  `python deploy.py` to start boat.
+##### 3. Run client  
+  * Method 1  
+  Open another terminal, connect to the same server, and make queries.  
+  Reference: https://github.com/jitaogithub/boat  
+  Useful commands are also included in comments in `run_imagequery_boat_container.sh`.  
+   
+  * Method 2 (Not yet working, something wrong with `imagequery_concurrent_client.py`)   
+    1. Open another terminal, start container  
+      ```sh
+      docker run -it --network=host \
+      -v [your/path/to/clipper-develop]:/clipper \
+      -v /var/run/docker.sock:/var/run/docker.sock \
+      -v /tmp:/tmp zsxhku/clipperpy35dev 
+      ```
+    2. Go to directory: `cd clipper/clipper_admin`  
+    3. Run client   
+      ```sh
+      python imagequery_concurrent_client.py \ 
+      --worker 1 --ip 127.0.0.1 --port 808x --system clipper   
+      ```   
+  
+
+### Without Proxy   
+  1. `cd clipper/applications`  
+  2. `./build_imagequery_wo_proxy`  
+  3. `./run_imageuquery_wo_proxy`    
+  Note: if you get an error saying there is no `clipper_network`, run `docker network create clipper_network`, then use `docker network ls` to see if it is created.   
+
+### With Proxy  
+
 
 
 
