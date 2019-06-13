@@ -1,1 +1,1 @@
-docker build -f ./mainDockerfile -t imagequery_main:raft .
+docker build -f ./mainDockerfile -t imagequery_clipper:main .

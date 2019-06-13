@@ -29,7 +29,7 @@ if __name__ == "__main__":
         clipper_conn.start_clipper()
         clipper_conn.register_application(name="default", input_type="string", default_output="", slo_micros=100000000)
 
-        clipper_conn.deploy_model(name="image-model", version="1", input_type="string", image="imagequery_main:raft")
+        clipper_conn.deploy_model(name="image-model", version="1", input_type="string", image="imagequery_clipper:main")
       
         clipper_conn.link_model_to_app(app_name="default", model_name="image-model")
     except Exception as e:
