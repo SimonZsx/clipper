@@ -4,7 +4,9 @@ docker run -it --network=host -v ~/code_yy/clipper-develop:/clipper \
 
 docker pull zsxhku/clipperpy35dev && docker pull mxschen/ai-proxy
 
-python imagequery_concurrent_client.py --port 22223 --system oursystem --ip 172.28.0.14 --worker 1
+python3 imagequery_concurrent_client.py --port 22223 --system oursystem --ip 172.28.0.14 --worker 1
+python3 imagequery_concurrent_client.py --port 22222 --system withoutproxy --ip 172.19.0.2 --worker 1
+
 
 docker stop $(docker ps -a -q) && docker system prune -f
 

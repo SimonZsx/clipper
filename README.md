@@ -65,8 +65,9 @@ You only need to worry about: `boat_image`, `imagequery_clipper`, `clipper-devel
   1. Build image: `./build.sh`   
 ##### 2.2 boat image  
   0. Go to directory: `cd boat_image`
-  1. Build image: `./run_imagequery_boat_container.sh`  
-  2. Inside the container:  `python deploy.py` to start boat.
+  1. Build image: `./build_imagequery_boat_image.sh`  
+  2. Run container: `./run_imagequery_boat_container.sh`  
+  3. Inside the container:  `python3 deploy.py` to start boat.
 ##### 2.3 Run client  
   * Method 1  
   Open another terminal, connect to the same server, and make queries.  
@@ -94,7 +95,17 @@ You only need to worry about: `imagequery_wo_proxy`, `clipper-develop/clipper_ad
   1. `cd clipper/applications`  
   2. `./build_imagequery_wo_proxy`  
   3. `./run_imageuquery_wo_proxy`    
-  Note: if you get an error saying there is no `clipper_network`, run `docker network create clipper_network`, then use `docker network ls` to see if it is created.   
+    Note: if you get an error saying there is no `clipper_network`, run `docker network create clipper_network`, then use `docker network ls` to see if it is created.    
+  4. Get port  
+    `docker inspect c0 | grep "IPAddress"`   
+  5. Run client  
+      ```sh  
+      cd clipper-develop/clipper_admin  
+      python3 imagequery_concurrent_client.py \  
+      --worker 1 --port 22222 --ip [ip] --system withoutproxy   
+      ```   
+  
+  Note: There still seems to be something wrong with reducing and forwarding. Some of the output does not make sense. Use `docker logs` to debug.  
 
 ### 4. Our system / With Proxy  
 You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_admin/imagequery_concurrent_client.py`, `clipper-develop/clipper_admin/imagequery.py`.   
