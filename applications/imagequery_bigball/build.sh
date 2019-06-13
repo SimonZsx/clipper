@@ -1,1 +1,1 @@
-docker build -f ./mainDockerfile -t imagequery_main:noraft .
+docker build -f ./mainDockerfile -t imagequery_bigball:main .
