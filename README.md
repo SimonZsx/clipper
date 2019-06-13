@@ -91,7 +91,7 @@ Code organization:
   3. `./run_imageuquery_wo_proxy`    
   Note: if you get an error saying there is no `clipper_network`, run `docker network create clipper_network`, then use `docker network ls` to see if it is created.   
 
-### With Proxy  
+### Our system / With Proxy  
 
 
 

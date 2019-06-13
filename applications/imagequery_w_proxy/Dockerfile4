@@ -6,7 +6,7 @@ RUN pip3 install grpcio
 RUN pip3 install protobuf
 
 # container will have: predict.py, server.py
-ADD imagequery/c4_questionAnswering/app /container/
+ADD imagequery_w_proxy/c4_questionAnswering/app /container/
 
 ADD grpc/app/container_entry.sh /container/
 ADD grpc/app/server.py /container/

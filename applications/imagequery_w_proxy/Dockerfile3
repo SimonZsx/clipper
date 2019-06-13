@@ -10,7 +10,7 @@ RUN python3 -m spacy download en_core_web_sm
 RUN pip3 install grpcio
 RUN pip3 install protobuf
 
-ADD imagequery/c3_nlpMappingGenerator/app /container/
+ADD imagequery_w_proxy/c3_nlpMappingGenerator/app /container/
 
 ADD grpc/app/container_entry.sh /container/
 ADD grpc/app/server.py /container/
