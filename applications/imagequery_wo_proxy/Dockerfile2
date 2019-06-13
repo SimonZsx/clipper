@@ -6,10 +6,10 @@ RUN apt install wget
 RUN pip3 install grpcio
 RUN pip3 install protobuf
 
-ADD imagequery/c2_imageCaptionGenerator/app /container/
-ADD imagequery/c2_imageCaptionGenerator/captionData /container/captionData
-ADD imagequery/c2_imageCaptionGenerator/im2txt/ /container/im2txt/
-ADD imagequery/c2_imageCaptionGenerator/im2txt/ops/ /container/ops/
+ADD imagequery_wo_proxy/c2_imageCaptionGenerator/app /container/
+ADD imagequery_wo_proxy/c2_imageCaptionGenerator/captionData /container/captionData
+ADD imagequery_wo_proxy/c2_imageCaptionGenerator/im2txt/ /container/im2txt/
+ADD imagequery_wo_proxy/c2_imageCaptionGenerator/im2txt/ops/ /container/ops/
 
 # download pre-trained models 
 RUN chmod 777 /container/im2txt/model/downloadModels.sh

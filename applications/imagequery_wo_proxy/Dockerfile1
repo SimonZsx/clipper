@@ -22,8 +22,8 @@ RUN pip3 install glob3
 
 
 # container/ will have predict.py, data/
-ADD imagequery/c1_speechRecognition/app /container/
-ADD imagequery/c1_speechRecognition/data /container/data
+ADD imagequery_wo_proxy/c1_speechRecognition/app /container/
+ADD imagequery_wo_proxy/c1_speechRecognition/data /container/data
 
 # dataset1 
 # dataset source: http://festvox.org/cmu_arctic/
