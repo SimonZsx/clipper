@@ -105,7 +105,7 @@ You only need to worry about: `imagequery_wo_proxy`, `clipper-develop/clipper_ad
       --worker 1 --port 22222 --ip [ip] --system withoutproxy   
       ```   
   
-  Note: There still seems to be something wrong with reducing and forwarding. Some of the output does not make sense. Use `docker logs` to debug.  
+  Note: There still seems to be something wrong with reducing and forwarding. Some of the output does not make sense. Use `docker logs` to debug. However, the problem should not be with the system, not our app :).
 
 ### 4. Our system / With Proxy  
 You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_admin/imagequery_concurrent_client.py`, `clipper-develop/clipper_admin/imagequery.py`.   
