@@ -1,3 +1,4 @@
+from __future__ import print_function
 import c4_questionAnswering.predict as question_answerer
 import c3_nlpMappingGenerator.predict as mapping_generator
 import c2_imageCaptionGenerator.predict as caption_generator
@@ -5,7 +6,6 @@ import c1_speechRecognition.predict as speech_recognizer
 import c0_entryContainer.predict as entry_container
 from timeit import default_timer as timer
 from multiprocessing import Pool
-from __future__ import print_function
 import rpc
 import os
 import sys
