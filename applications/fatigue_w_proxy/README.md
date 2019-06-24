@@ -1,4 +1,4 @@
-# FatigueDetection
+### FatigueDetection
 
 Structure see DAG description.png.
 
@@ -12,29 +12,30 @@ open-cv: container 1-4
 
 tensorflow: container 3
 
+<br/>
 
+## Container Information
+This application consists for six containers.
 
-### Prerequisites
+#### Container1: string transformer. 
+Input: audio file `(.jpg)`; Output: `String`
 
-Before building the image, need to download the models from the google drive and put the model file into container#/app
+#### Container2: face extractor
+Input: image file  `string`; Output: `String` 
 
-container2 model: shape_predictor_68_face_landmarks.dat
+#### Container3: drowiness detector
+Input: String; Output: String
 
-link: https://drive.google.com/open?id=1srlfuqyX9zfZCxgnzSjWibZKv-U56WuC
+#### Container4: human segmentation
+Input: `String`; Output: `String`
 
-container3 model: mask_rcnn_coco.h5
+### Container5: pose analyzer
+Input: `String`; Output: `String`
 
-link: https://drive.google.com/open?id=1bNaOBthTNME64qkeKqNRYdMMogmZZJpc
+### Container6: conclusion
+Input: `String`; Output: `String`
 
-container4 model: pose_iter_440000.caffemodel
-
-link: https://drive.google.com/open?id=1uT6uv3a_J04O7UQfeGXKshJu5INRxigk
-
-Run dl.sh under every container/app to install the models before building.
-
-
-
-Dataset:
+### Dataset:
 
 https://susanqq.github.io/UTKFace/
 
