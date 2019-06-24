@@ -1,4 +1,4 @@
-# Image Query App
+# Sentiment Analyzer App
 
 <br/>
 
