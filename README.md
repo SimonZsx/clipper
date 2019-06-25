@@ -146,6 +146,8 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  
  Please note that current grpcclient may not support batch prediction and without_proxy at the same time. Need to be fixed later. And note that if you want to run container3: sentiment analysis on a single machine with GPU, it will occupy all GPU configuration and report CUDA error. Therefore, please avoid setting c3 as stateful in dag_formatted in clipper-develop, sentiment directory.
  
+  To build the whole app, run:
+ `python sentiment.py` under clipper-develop/clipper_admin/ 
  
  ## Fatigue Detection App
  
@@ -156,6 +158,10 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  And note that all build file can be found in fatigue_w_proxy directory. To build them please first run:
  mv build_docker_FatigueDetection.sh ..
  mv build_docker_fatiguewo.sh ..
+ 
+ To build the whole app, run:
+ `python fatigue.py` under clipper-develop/clipper_admin/ 
+ 
 
 
 
