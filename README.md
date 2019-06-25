@@ -128,6 +128,17 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
       python imagequery_concurrent_client.py \
       --worker 1 --ip 172.19.0.15 --port 22223 --system oursystem  
       ```
+ ## Auto Pilot App
+ 
+ File structure, code organisation and naming convention is exactly the same with the above mentioned image query app.
+ 
+ Carefully replace image query with auto pilot at every step should give you desired result.
+ 
+  ## Stock Prediction App
+ 
+ Carefully Replace image query with stock prediction at every step should give you desired result.
+ 
+ Just be patient if you are dealing with 12 containers.
 
 
 
