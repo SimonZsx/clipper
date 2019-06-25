@@ -155,7 +155,7 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  
  And note that all build file can be found in fatigue_w_proxy directory. To build them please first run:
  mv build_docker_FatigueDetection.sh ..
- mv build_fatiguewo.sh ..
+ mv build_docker_fatiguewo.sh ..
 
 
 
