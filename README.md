@@ -152,6 +152,10 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  Carefully Replace image query with sentiment analysis at every step should give you desired result.
  
  Please note that if you want to run container3 with GPU on a single machine, it will be very slow because of GPU competition. And if you set c3 as stateful, it may run out of resources on a single machine with GPU. In this case, please try machine with more GPU or avoid setting it as stateful.
+ 
+ And note that all build file can be found in fatigue_w_proxy directory. To build them please first run:
+ mv build_docker_FatigueDetection.sh ..
+ mv build_fatiguewo.sh ..
 
 
 
