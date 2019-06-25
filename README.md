@@ -151,7 +151,7 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  
  ## Fatigue Detection App
  
- Carefully Replace image query with sentiment analysis at every step should give you desired result.
+ Carefully Replace image query with fatigue_detection at every step should give you desired result.
  
  Please note that if you want to run container3 with GPU on a single machine, it will be very slow because of GPU competition. And if you set c3 as stateful, it may run out of resources on a single machine with GPU. In this case, please try machine with more GPU or avoid setting it as stateful.
  
