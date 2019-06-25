@@ -139,6 +139,19 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
  Carefully Replace image query with stock prediction at every step should give you desired result.
  
  Just be patient if you are dealing with 12 containers.
+ 
+   ## Sentiment Analysis App
+ 
+ Carefully Replace image query with sentiment analysis at every step should give you desired result.
+ 
+ Please note that current grpcclient may not support batch prediction and without_proxy at the same time. Need to be fixed later. And note that if you want to run container3: sentiment analysis on a single machine with GPU, it will occupy all GPU configuration and report CUDA error. Therefore, please avoid setting c3 as stateful in dag_formatted in clipper-develop, sentiment directory.
+ 
+ 
+ ## Fatigue Detection App
+ 
+ Carefully Replace image query with sentiment analysis at every step should give you desired result.
+ 
+ Please note that if you want to run container3 with GPU on a single machine, it will be very slow because of GPU competition. And if you set c3 as stateful, it may run out of resources on a single machine with GPU. In this case, please try machine with more GPU or avoid setting it as stateful.
 
 
 
