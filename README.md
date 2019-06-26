@@ -111,7 +111,7 @@ You only need to worry about: `imagequery_wo_proxy`, `clipper-develop/clipper_ad
 You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_admin/imagequery_concurrent_client.py`, `clipper-develop/clipper_admin/imagequery.py`.   
 
   0. `cd clipper/applications`    
-  1. `./build_imageuquery_w_proxy.sh`. You can use `run_imagequery_w_proxy.sh` for testing whether each container can be successfully launched.  
+  1. `./build_imageuquery_w_proxy.sh`.  
   2. Start container  
   ```sh
   docker run -it --network=host \

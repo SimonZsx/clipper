@@ -1,7 +1,7 @@
-docker run -it --network=host \ 
-  -v ~/code_yy/clipper-develop:/clipper \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v /tmp:/tmp zsxhku/clipperpy35dev
+docker run -it --network=host \
+-v ~/code_yy/clipper-develop:/clipper \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v /tmp:/tmp zsxhku/clipperpy35dev
 
 docker pull zsxhku/clipperpy35dev && docker pull mxschen/ai-proxy
 
