@@ -1,73 +1,88 @@
-# Mulitiple host networking 
+# Mulitiple host networking with *Swarm*
 
+### Basic requirements: 
+ 1. At least **2** hosts shoule be available;
+ 1. all the host are located in the same network, and each host can access the others by specifying their IP address;
+ 1. port 2377 of each host should be exposed; and,
+ 1. all the host support the docker service. 
 
-## Step 1 Start a KV store:
-Configure Key/Value Store 
+## Step 1 Initialize a swarm cluster and construct an overlay network on one host
 
 ```sh
-docker run -d --name consul \
--p 8300:8300 -p 8400:8400 -p 8500:8500 -p 53:8600/udp \
-gliderlabs/consul-server:latest -bootstrap
+docker swarm leave -f 
+docker swarm init --listen-addr 0.0.0.0:2377 --advertise-addr [[HOST_IP]]:2377
+docker create -d overlay --attachable clipper_network
+```
+One may check whether the above commands is conducted successfully by
+
+```sh
+docker swarm ca
+docker network ls
+```
+Normally there should exist a bridge network named `docker_gwbridge`, an overlay network named `ingress` and an overlay network named `cluster_network`, all of which belong to the swarm scope. 
+
+## Step 2 Add the other host(s) to the swarm cluster:
+ 
+
+```sh
+# On the host where the swarm cluster is initialized
+docker swarm join-token manager
+# Copy the command together with the token returned by the above command
 ```
 
-## Step 2 Reconfigure docke daemons on each host:
-
-Configure Docker Daemon on each host
-
-### Option 1: Configure existing daemon
-
 ```sh
-sudo systemctl stop docker
+# On the other host(s)
+docker swarm join --token [[TOKEN]]
+# Exactly the command and the token which are copied just now
 ```
 
+One may confirm that the host is added to the swarm cluster and gains the access to the overlay network successfully by
 ```sh
-sudo dockerd --cluster-store=consul://[[CONSUL_IP]]:8500 --cluster-advertise=[[HOST_IP1]]:0
+docker network ls
 ```
 
-Below are examples:
+## Step 3 Set up the IP and port info
+
+On every host: 
+
 ```sh
-sudo dockerd --cluster-store=consul://202.45.128.162:8500 --cluster-advertise=202.45.128.161:0 &
-
-sudo dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock --cluster-store=consul://202.45.128.162:8500 --cluster-advertise=202.45.128.173:0 &
-
-sudo dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock --cluster-store=consul://202.45.128.162:8500 --cluster-advertise=202.45.128.174:0 &
-
-sudo dockerd -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock --cluster-store=consul://202.45.128.162:8500 --cluster-advertise=202.45.128.175:0 &
-
+cd clipper-develop/clipper_admin
 ```
 
-### Option 2: start a new daemon
+**Modify the file named host_list. **
 
-```sh
-docker run --privileged --name d1 -d \
---net=host katacoda/dind:1.10 -H 0.0.0.0:3375 \
---cluster-store=consul://[[CONSUL_IP]]:8500 \
---cluster-advertise=[[HOST_IP]]:0
+The first line contains the number of hosts in the network.
+The rest are the IP and port of **all** the hosts, including the current working one, in form of: 
+
+```
+[[IP]]:[[PORT]]
 ```
 
-Export new host daemon
+By defauly, [[PORT]] is 2377 here. 
+
+**Then, run the auto_set_ip.py. **
+
+This will modified each file whose name starts with "cluster" so that when running the file, 
+connections will be created between the existing hosts declared in the host_list. 
+
+## Step 4 Deploy the applications
+
+The following should be executed with all necessary docker images built and updated. 
+
+On any host:
+
 ```sh
-export DOCKER_HOST="[[HOST_IP1]]:3375"
+# For deploying:
+python3 cluster_[[APP_NAME]].py
+# For stopping: 
+python3 cluster_stop_all.py
 ```
 
-## Step 3  Create an overlay network:
-One one of the Docker hosts, create the network
+e.g.
 
 ```sh
-docker network create -d overlay multihost-net
-```
-
-When new containers launch on any host they register themselves to the network
-
-## Step 4:
-
-Host 1
-
-```sh
-docker run -d --name ws1 --net=multihos-net katacoda/docker-http-server
-```
-
-Host 2
-```sh
-docker run --net=multihost-net benhall/curl curl -Ss ws1
+# For deploying:
+python3 cluster_simple_dag.py
+# For stopping: 
+python3 cluster_stop_all.py
 ```
