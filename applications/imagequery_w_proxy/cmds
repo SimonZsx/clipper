@@ -1,4 +1,5 @@
-docker run -it --network=host -v ~/code_yy/clipper-develop:/clipper \
+docker run -it --network=host \ 
+  -v ~/code_yy/clipper-develop:/clipper \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v /tmp:/tmp zsxhku/clipperpy35dev
 
