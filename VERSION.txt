@@ -1,1 +1,0 @@
-clipper_admin/clipper_admin/VERSION.txt

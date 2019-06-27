@@ -111,7 +111,7 @@ You only need to worry about: `imagequery_wo_proxy`, `clipper-develop/clipper_ad
 You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_admin/imagequery_concurrent_client.py`, `clipper-develop/clipper_admin/imagequery.py`.   
 
   0. `cd clipper/applications`    
-  1. `./build_imageuquery_w_proxy.sh`. You can use `run_imagequery_w_proxy.sh` for testing.  
+  1. `./build_imageuquery_w_proxy.sh`.  
   2. Start container  
   ```sh
   docker run -it --network=host \
@@ -126,7 +126,7 @@ You only need to worry about: `imagequery_w_proxy`, `clipper-develop/clipper_adm
     The ip is specified as in the picture.  
       ```
       python imagequery_concurrent_client.py \
-      --worker 1 --ip 172.19.0.15 --port 22223 --system oursystem  
+      --worker 1 --ip 172.18.0.14 --port 22223 --system oursystem  
       ```
  ## Auto Pilot App
  

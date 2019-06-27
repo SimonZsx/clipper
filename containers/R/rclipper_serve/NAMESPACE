@@ -1,3 +1,0 @@
-useDynLib(Rclipper.serve, .registration=TRUE)
-exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)
