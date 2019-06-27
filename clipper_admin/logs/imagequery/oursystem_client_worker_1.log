@@ -1,0 +1,206 @@
+inputt_total:  ['4', '51', '59', '5', '81', '39', '7', '45', '12', '40', '46', '23', '50', '33', '16', '44', '88', '15', '17', '31', '83', '43', '37', '72', '24', '11', '56', '20', '53', '79', '92', '35', '65', '29', '58', '96', '32', '78', '6', '2', '97', '54', '99', '41', '87', '34', '13', '0', '1', '48', '18', '66', '9', '28', '19', '76', '93', '98', '80', '27', '75', '84', '22', '70', '95', '71', '57', '52', '82', '25', '63', '55', '3', '77', '64', '69', '68', '91', '61', '42', '38', '14', '10', '49', '90', '47', '86', '60', '94', '8', '30', '36', '26', '62', '89', '74', '73', '67', '85', '21']
+Starting worker => 149
+Input 4 returns Output: req sequence: 1; time: 736ms; OUPUT (starting from next line):
+sit
+Input 51 returns Output: req sequence: 2; time: 788ms; OUPUT (starting from next line):
+
+Input 59 returns Output: req sequence: 3; time: 537ms; OUPUT (starting from next line):
+calm
+Input 5 returns Output: req sequence: 4; time: 417ms; OUPUT (starting from next line):
+go, sit
+Input 81 returns Output: req sequence: 5; time: 372ms; OUPUT (starting from next line):
+havea
+Input 39 returns Output: req sequence: 6; time: 533ms; OUPUT (starting from next line):
+call, go, ask
+Input 7 returns Output: req sequence: 7; time: 464ms; OUPUT (starting from next line):
+call, ask, sit
+Input 45 returns Output: req sequence: 8; time: 666ms; OUPUT (starting from next line):
+
+Input 12 returns Output: req sequence: 9; time: 564ms; OUPUT (starting from next line):
+call, ask, sit
+Input 40 returns Output: req sequence: 10; time: 435ms; OUPUT (starting from next line):
+call
+Input 46 returns Output: req sequence: 11; time: 388ms; OUPUT (starting from next line):
+glove
+Input 23 returns Output: req sequence: 12; time: 665ms; OUPUT (starting from next line):
+may, huha
+Input 50 returns Output: req sequence: 13; time: 516ms; OUPUT (starting from next line):
+aunt
+Input 33 returns Output: req sequence: 14; time: 561ms; OUPUT (starting from next line):
+stand
+Input 16 returns Output: req sequence: 15; time: 693ms; OUPUT (starting from next line):
+sit
+Input 44 returns Output: req sequence: 16; time: 454ms; OUPUT (starting from next line):
+get, clock
+Input 88 returns Output: req sequence: 17; time: 979ms; OUPUT (starting from next line):
+call, hold
+Input 15 returns Output: req sequence: 18; time: 657ms; OUPUT (starting from next line):
+
+Input 17 returns Output: req sequence: 19; time: 566ms; OUPUT (starting from next line):
+
+Input 31 returns Output: req sequence: 20; time: 729ms; OUPUT (starting from next line):
+say, bring, sit
+Input 83 returns Output: req sequence: 21; time: 1269ms; OUPUT (starting from next line):
+reada
+Input 43 returns Output: req sequence: 22; time: 713ms; OUPUT (starting from next line):
+ask
+Input 37 returns Output: req sequence: 23; time: 914ms; OUPUT (starting from next line):
+know, ofa, sit
+Input 72 returns Output: req sequence: 24; time: 542ms; OUPUT (starting from next line):
+call, thata
+Input 24 returns Output: req sequence: 25; time: 590ms; OUPUT (starting from next line):
+call, sit
+Input 11 returns Output: req sequence: 26; time: 666ms; OUPUT (starting from next line):
+call, bring, sit
+Input 56 returns Output: req sequence: 27; time: 632ms; OUPUT (starting from next line):
+call, hold
+Input 20 returns Output: req sequence: 28; time: 707ms; OUPUT (starting from next line):
+call, ask, sit
+Input 53 returns Output: req sequence: 29; time: 552ms; OUPUT (starting from next line):
+stand
+Input 79 returns Output: req sequence: 30; time: 870ms; OUPUT (starting from next line):
+call
+Input 92 returns Output: req sequence: 31; time: 720ms; OUPUT (starting from next line):
+get, hold
+Input 35 returns Output: req sequence: 32; time: 323ms; OUPUT (starting from next line):
+call, stand
+Input 65 returns Output: req sequence: 33; time: 745ms; OUPUT (starting from next line):
+handle, thata
+Input 29 returns Output: req sequence: 34; time: 891ms; OUPUT (starting from next line):
+sit
+Input 58 returns Output: req sequence: 35; time: 838ms; OUPUT (starting from next line):
+call
+Input 96 returns Output: req sequence: 36; time: 606ms; OUPUT (starting from next line):
+reigneda
+Input 32 returns Output: req sequence: 37; time: 1039ms; OUPUT (starting from next line):
+sit
+Input 78 returns Output: req sequence: 38; time: 804ms; OUPUT (starting from next line):
+get, tie
+Input 6 returns Output: req sequence: 39; time: 873ms; OUPUT (starting from next line):
+think, sit
+Input 2 returns Output: req sequence: 40; time: 419ms; OUPUT (starting from next line):
+
+Input 97 returns Output: req sequence: 41; time: 483ms; OUPUT (starting from next line):
+
+Input 54 returns Output: req sequence: 42; time: 836ms; OUPUT (starting from next line):
+
+Input 99 returns Output: req sequence: 43; time: 655ms; OUPUT (starting from next line):
+casketa
+Input 41 returns Output: req sequence: 44; time: 420ms; OUPUT (starting from next line):
+use
+Input 87 returns Output: req sequence: 45; time: 722ms; OUPUT (starting from next line):
+call, thata
+Input 34 returns Output: req sequence: 46; time: 730ms; OUPUT (starting from next line):
+
+Input 13 returns Output: req sequence: 47; time: 768ms; OUPUT (starting from next line):
+call, could, wina, sit
+Input 0 returns Output: req sequence: 48; time: 608ms; OUPUT (starting from next line):
+prove, sit
+Input 1 returns Output: req sequence: 49; time: 646ms; OUPUT (starting from next line):
+sit
+Input 48 returns Output: req sequence: 50; time: 627ms; OUPUT (starting from next line):
+turn
+Input 18 returns Output: req sequence: 51; time: 532ms; OUPUT (starting from next line):
+
+Input 66 returns Output: req sequence: 52; time: 766ms; OUPUT (starting from next line):
+call, ask
+Input 9 returns Output: req sequence: 53; time: 970ms; OUPUT (starting from next line):
+call, bear, race
+Input 28 returns Output: req sequence: 54; time: 530ms; OUPUT (starting from next line):
+get, ask
+Input 19 returns Output: req sequence: 55; time: 640ms; OUPUT (starting from next line):
+sit
+Input 76 returns Output: req sequence: 56; time: 709ms; OUPUT (starting from next line):
+vote
+Input 93 returns Output: req sequence: 57; time: 894ms; OUPUT (starting from next line):
+laugh
+Input 98 returns Output: req sequence: 58; time: 670ms; OUPUT (starting from next line):
+suppose, sit
+Input 80 returns Output: req sequence: 59; time: 587ms; OUPUT (starting from next line):
+
+Input 27 returns Output: req sequence: 60; time: 547ms; OUPUT (starting from next line):
+hungrya, sit
+Input 75 returns Output: req sequence: 61; time: 1043ms; OUPUT (starting from next line):
+call
+Input 84 returns Output: req sequence: 62; time: 954ms; OUPUT (starting from next line):
+call
+Input 22 returns Output: req sequence: 63; time: 629ms; OUPUT (starting from next line):
+cost, sit
+Input 70 returns Output: req sequence: 64; time: 955ms; OUPUT (starting from next line):
+hold
+Input 95 returns Output: req sequence: 65; time: 722ms; OUPUT (starting from next line):
+tear
+Input 71 returns Output: req sequence: 66; time: 658ms; OUPUT (starting from next line):
+call
+Input 57 returns Output: req sequence: 67; time: 655ms; OUPUT (starting from next line):
+go, asa
+Input 52 returns Output: req sequence: 68; time: 352ms; OUPUT (starting from next line):
+call, aska
+Input 82 returns Output: req sequence: 69; time: 625ms; OUPUT (starting from next line):
+
+Input 25 returns Output: req sequence: 70; time: 464ms; OUPUT (starting from next line):
+tell
+Input 63 returns Output: req sequence: 71; time: 442ms; OUPUT (starting from next line):
+lota
+Input 55 returns Output: req sequence: 72; time: 532ms; OUPUT (starting from next line):
+goda
+Input 3 returns Output: req sequence: 73; time: 668ms; OUPUT (starting from next line):
+give
+Input 77 returns Output: req sequence: 74; time: 396ms; OUPUT (starting from next line):
+go
+Input 64 returns Output: req sequence: 75; time: 642ms; OUPUT (starting from next line):
+want, add, woulda, hold
+Input 69 returns Output: req sequence: 76; time: 908ms; OUPUT (starting from next line):
+leave
+Input 68 returns Output: req sequence: 77; time: 673ms; OUPUT (starting from next line):
+ask
+Input 91 returns Output: req sequence: 78; time: 604ms; OUPUT (starting from next line):
+
+Input 61 returns Output: req sequence: 79; time: 461ms; OUPUT (starting from next line):
+oha
+Input 42 returns Output: req sequence: 80; time: 1075ms; OUPUT (starting from next line):
+hall
+Input 38 returns Output: req sequence: 81; time: 673ms; OUPUT (starting from next line):
+call
+Input 14 returns Output: req sequence: 82; time: 441ms; OUPUT (starting from next line):
+sit
+Input 10 returns Output: req sequence: 83; time: 860ms; OUPUT (starting from next line):
+call, sit
+Input 49 returns Output: req sequence: 84; time: 665ms; OUPUT (starting from next line):
+get, thingsa
+Input 90 returns Output: req sequence: 85; time: 650ms; OUPUT (starting from next line):
+ask, bring, hold
+Input 47 returns Output: req sequence: 86; time: 1189ms; OUPUT (starting from next line):
+ask
+Input 86 returns Output: req sequence: 87; time: 642ms; OUPUT (starting from next line):
+score
+Input 60 returns Output: req sequence: 88; time: 551ms; OUPUT (starting from next line):
+go
+Input 94 returns Output: req sequence: 89; time: 668ms; OUPUT (starting from next line):
+allow
+Input 8 returns Output: req sequence: 90; time: 661ms; OUPUT (starting from next line):
+
+Input 30 returns Output: req sequence: 91; time: 720ms; OUPUT (starting from next line):
+stadiuma, sit
+Input 36 returns Output: req sequence: 92; time: 580ms; OUPUT (starting from next line):
+wea
+Input 26 returns Output: req sequence: 93; time: 482ms; OUPUT (starting from next line):
+call, bear, race
+Input 62 returns Output: req sequence: 94; time: 821ms; OUPUT (starting from next line):
+call, out
+Input 89 returns Output: req sequence: 95; time: 654ms; OUPUT (starting from next line):
+call
+Input 74 returns Output: req sequence: 96; time: 529ms; OUPUT (starting from next line):
+
+Input 73 returns Output: req sequence: 97; time: 626ms; OUPUT (starting from next line):
+call
+Input 67 returns Output: req sequence: 98; time: 763ms; OUPUT (starting from next line):
+
+Input 85 returns Output: req sequence: 99; time: 687ms; OUPUT (starting from next line):
+go, ask, hold
+Input 21 returns Output: req sequence: 100; time: 809ms; OUPUT (starting from next line):
+
+Worker 149 exiting...
+Finished 100 requests with time:
+66.97421431541443
+Parent process exiting...

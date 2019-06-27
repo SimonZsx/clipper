@@ -1,0 +1,903 @@
+Model Server Started -- c4_questionAnswerer
+received request:
+
+received request:inputType: "string"
+inputStream: "leaflet assa clock wall building-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:22:59.270136
+[INFO]	 [c4]	 2019-06-07 11:22:59.270175
+[INFO]	 [c4]	 Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "beena teddy, top wooden table-call, hit, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:00.077577
+[INFO]	 [c4]	 2019-06-07 11:23:00.077608
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+||||----||||Predict Output:call, hit, sit
+received request:inputType: "string"
+inputStream: "scanlon, black white photo motorcyclist bear-get, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:00.574812
+[INFO]	 [c4]	 2019-06-07 11:23:00.574844
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+||||----||||Predict Output:get, ask
+received request:inputType: "string"
+inputStream: "soon asa sign side building-go, asa"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:01.193672
+[INFO]	 [c4]	 2019-06-07 11:23:01.193697
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:go, asa
+received request:inputType: "string"
+inputStream: "causea clock side building-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:01.800891
+[INFO]	 [c4]	 2019-06-07 11:23:01.800923
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "oscar thing, werea, top table-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:02.424762
+[INFO]	 [c4]	 2019-06-07 11:23:02.424789
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "court, motorcyclist bear, top pile rock-cost, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:02.995070
+[INFO]	 [c4]	 2019-06-07 11:23:02.995107
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+||||----||||Predict Output:cost, sit
+received request:inputType: "string"
+inputStream: "girl, theea motorcyclist bear, top rock-say, bring, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:03.690161
+[INFO]	 [c4]	 2019-06-07 11:23:03.690187
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:say, bring, sit
+received request:inputType: "string"
+inputStream: "school soft bundya motorcyclist bear, top rock-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:04.302113
+[INFO]	 [c4]	 2019-06-07 11:23:04.302153
+[INFO]	 [c4]	 Time elapsed:  4e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "also hydrogen bea picture clock wall-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:04.907741
+[INFO]	 [c4]	 2019-06-07 11:23:04.907767
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "call oscar, motorcyclist bear, top rock-call, bring, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:05.508331
+[INFO]	 [c4]	 2019-06-07 11:23:05.508366
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+||||----||||Predict Output:call, bring, sit
+received request:inputType: "string"
+inputStream: "glove therea close book table-glove"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:05.871292
+[INFO]	 [c4]	 2019-06-07 11:23:05.871323
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+||||----||||Predict Output:glove
+received request:inputType: "string"
+inputStream: "lot ita close book table-quote, ita"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:06.363313
+[INFO]	 [c4]	 2019-06-07 11:23:06.363339
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:quote, ita
+received request:inputType: "string"
+inputStream: "nice clothe stevea close stuff animal table-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:06.864728
+[INFO]	 [c4]	 2019-06-07 11:23:06.864753
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "not n n ota motorcyclist bear, grassy field-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:07.757635
+[INFO]	 [c4]	 2019-06-07 11:23:07.757668
+[INFO]	 [c4]	 Time elapsed:  3.3e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "please cold bella africaa motorcyclist bear sit tree branch-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:08.253922
+[INFO]	 [c4]	 2019-06-07 11:23:08.253961
+[INFO]	 [c4]	 Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "today \'s court thea-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:08.835480
+[INFO]	 [c4]	 2019-06-07 11:23:08.835506
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "news catch, hera motorcyclist bear, grassy area-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:09.511777
+[INFO]	 [c4]	 2019-06-07 11:23:09.511803
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "black lake suitcase sit table-suppose, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:10.196797
+[INFO]	 [c4]	 2019-06-07 11:23:10.196833
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:suppose, sit
+received request:inputType: "string"
+inputStream: "close clock wall-call, out"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:10.972221
+[INFO]	 [c4]	 2019-06-07 11:23:10.972247
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call, out
+received request:inputType: "string"
+inputStream: "score arrest, hera picture person, book-score"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:11.593059
+[INFO]	 [c4]	 2019-06-07 11:23:11.593086
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:score
+received request:inputType: "string"
+inputStream: "teddy, sit tree branch-go, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:12.000094
+[INFO]	 [c4]	 2019-06-07 11:23:12.000119
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:go, sit
+received request:inputType: "string"
+inputStream: "call bella, bringa close book table-ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:12.618317
+[INFO]	 [c4]	 2019-06-07 11:23:12.618359
+[INFO]	 [c4]	 Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:ask
+received request:inputType: "string"
+inputStream: "close clock wall-handle, thata"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:13.409197
+[INFO]	 [c4]	 2019-06-07 11:23:13.409220
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+||||----||||Predict Output:handle, thata
+received request:inputType: "string"
+inputStream: "lot moona close book table-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:14.390994
+[INFO]	 [c4]	 2019-06-07 11:23:14.391021
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "picture clock wall-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:14.986875
+[INFO]	 [c4]	 2019-06-07 11:23:14.986900
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "huh aa black white photo baseball bat-get"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:15.563366
+[INFO]	 [c4]	 2019-06-07 11:23:15.563393
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:get
+received request:inputType: "string"
+inputStream: "law, toa, motorcyclist bear, top rock-call, ask, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:16.011679
+[INFO]	 [c4]	 2019-06-07 11:23:16.011704
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call, ask, sit
+received request:inputType: "string"
+inputStream: "ita clock top wall-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:16.865322
+[INFO]	 [c4]	 2019-06-07 11:23:16.865348
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "e, black white photo clock wall-cong"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:17.708559
+[INFO]	 [c4]	 2019-06-07 11:23:17.708586
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:cong
+received request:inputType: "string"
+inputStream: "costa large clock mount side building-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:18.117353
+[INFO]	 [c4]	 2019-06-07 11:23:18.117376
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "call brass ringa teddy, racing head-call, bear, race"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:19.063348
+[INFO]	 [c4]	 2019-06-07 11:23:19.063386
+[INFO]	 [c4]	 Time elapsed:  3.8e-05  seconds.
+||||----||||Predict Output:call, bear, race
+received request:inputType: "string"
+inputStream: "close faira black white photo motorcyclist bear-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:19.726428
+[INFO]	 [c4]	 2019-06-07 11:23:19.726460
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "hit thea motorcyclist bear, grassy area-think, hit, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:20.556685
+[INFO]	 [c4]	 2019-06-07 11:23:20.556714
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+||||----||||Predict Output:think, hit, sit
+received request:inputType: "string"
+inputStream: "school stella, peacea close person, cell phone-ask, bring, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:21.143139
+[INFO]	 [c4]	 2019-06-07 11:23:21.143164
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:ask, bring, hold
+received request:inputType: "string"
+inputStream: "google emma childrena man, front train-stand"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:21.636118
+[INFO]	 [c4]	 2019-06-07 11:23:21.636144
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:stand
+received request:inputType: "string"
+inputStream: "drya, black white photo person, book-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:22.135551
+[INFO]	 [c4]	 2019-06-07 11:23:22.135577
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top lush green field-stand"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:22.610405
+[INFO]	 [c4]	 2019-06-07 11:23:22.610432
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:stand
+received request:inputType: "string"
+inputStream: "brain, motorcyclist bear sit tree branch-call, ask, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:23.159200
+[INFO]	 [c4]	 2019-06-07 11:23:23.159227
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:call, ask, sit
+received request:inputType: "string"
+inputStream: "wall building-use"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:23.551810
+[INFO]	 [c4]	 2019-06-07 11:23:23.551836
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:use
+received request:inputType: "string"
+inputStream: "close phone table-casketa"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:24.181186
+[INFO]	 [c4]	 2019-06-07 11:23:24.181214
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:casketa
+received request:inputType: "string"
+inputStream: "nice clothe house wea black white photo motorcyclist bear-wea"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:24.757450
+[INFO]	 [c4]	 2019-06-07 11:23:24.757477
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:wea
+received request:inputType: "string"
+inputStream: "green teaa black white photo man, teddy bear-call, write, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:25.760416
+[INFO]	 [c4]	 2019-06-07 11:23:25.760452
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:call, write, hold
+received request:inputType: "string"
+inputStream: "close phone table-allow, bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:26.398689
+[INFO]	 [c4]	 2019-06-07 11:23:26.398716
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:allow, bring
+received request:inputType: "string"
+inputStream: "cold youa close person, book-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:27.325510
+[INFO]	 [c4]	 2019-06-07 11:23:27.325537
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "school, offa, top wall-get, clock"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:27.704363
+[INFO]	 [c4]	 2019-06-07 11:23:27.704389
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:get, clock
+received request:inputType: "string"
+inputStream: "call pattern, undreameda black white photo teddy bear-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:28.400619
+[INFO]	 [c4]	 2019-06-07 11:23:28.400645
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "peace goldstein osgood, skina motorcyclist bear sit tree branch-prove, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:28.970800
+[INFO]	 [c4]	 2019-06-07 11:23:28.970825
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:prove, sit
+received request:inputType: "string"
+inputStream: "upa black white photo motorcyclist bear-call, stand"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:29.267605
+[INFO]	 [c4]	 2019-06-07 11:23:29.267631
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call, stand
+received request:inputType: "string"
+inputStream: "quite good house cat, thesea close person, nintendo wii controller-get, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:29.959432
+[INFO]	 [c4]	 2019-06-07 11:23:29.959458
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:get, hold
+received request:inputType: "string"
+inputStream: "taylor, anda picture clock wall-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:30.595919
+[INFO]	 [c4]	 2019-06-07 11:23:30.595961
+[INFO]	 [c4]	 Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "casketa picture clock wall-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:31.184540
+[INFO]	 [c4]	 2019-06-07 11:23:31.184566
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "huha stuff animal sit table-result"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:31.825363
+[INFO]	 [c4]	 2019-06-07 11:23:31.825399
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:result
+received request:inputType: "string"
+inputStream: "actora picture person-call, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:32.399733
+[INFO]	 [c4]	 2019-06-07 11:23:32.399758
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call, hold
+received request:inputType: "string"
+inputStream: "today coliseum outskirt braina black white photo pair scissor-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:32.899641
+[INFO]	 [c4]	 2019-06-07 11:23:32.899677
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "claudia havea close cake table-havea"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:33.257145
+[INFO]	 [c4]	 2019-06-07 11:23:33.257170
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:havea
+received request:inputType: "string"
+inputStream: "goal valor couragea-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:33.893050
+[INFO]	 [c4]	 2019-06-07 11:23:33.893073
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "clothe still lota birthday cake train-lota"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:34.317770
+[INFO]	 [c4]	 2019-06-07 11:23:34.317796
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:lota
+received request:inputType: "string"
+inputStream: "nice clothe child care, black white photo motorcyclist bear-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:35.104584
+[INFO]	 [c4]	 2019-06-07 11:23:35.104612
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "law, black white photo person, book-call, thata"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:35.804927
+[INFO]	 [c4]	 2019-06-07 11:23:35.804953
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:call, thata
+received request:inputType: "string"
+inputStream: "school oscara-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:36.205588
+[INFO]	 [c4]	 2019-06-07 11:23:36.205615
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "pena man, hold sign-get, tie"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:36.789347
+[INFO]	 [c4]	 2019-06-07 11:23:36.789373
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:get, tie
+received request:inputType: "string"
+inputStream: "court basket, motorcyclist bear sit tree branch-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:37.644954
+[INFO]	 [c4]	 2019-06-07 11:23:37.644977
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "us, thinga picture clock building-hall, ring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:38.655051
+[INFO]	 [c4]	 2019-06-07 11:23:38.655077
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:hall, ring
+received request:inputType: "string"
+inputStream: "jeez still year, mea close cell phone table-mea"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:39.341679
+[INFO]	 [c4]	 2019-06-07 11:23:39.341707
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:mea
+received request:inputType: "string"
+inputStream: "us, task, daysa teddy bear, sit top chair-call, bring, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:40.033963
+[INFO]	 [c4]	 2019-06-07 11:23:40.033997
+[INFO]	 [c4]	 Time elapsed:  3.4e-05  seconds.
+||||----||||Predict Output:call, bring, sit
+received request:inputType: "string"
+inputStream: "close cake train-call, thata"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:40.546703
+[INFO]	 [c4]	 2019-06-07 11:23:40.546726
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+||||----||||Predict Output:call, thata
+received request:inputType: "string"
+inputStream: "call emma, close horse beach-call, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:41.289493
+[INFO]	 [c4]	 2019-06-07 11:23:41.289520
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:call, ask
+received request:inputType: "string"
+inputStream: "clothe stadiuma teddy, top wooden table-stadiuma, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:41.957060
+[INFO]	 [c4]	 2019-06-07 11:23:41.957090
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+||||----||||Predict Output:stadiuma, sit
+received request:inputType: "string"
+inputStream: "school ina close gather table-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:42.421676
+[INFO]	 [c4]	 2019-06-07 11:23:42.421701
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "key cost, black white photo clock wall-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:43.714410
+[INFO]	 [c4]	 2019-06-07 11:23:43.714446
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "hima clock side building-go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:44.334296
+[INFO]	 [c4]	 2019-06-07 11:23:44.334331
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+||||----||||Predict Output:go
+received request:inputType: "string"
+inputStream: "braina picture person, sign-go, ask, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:45.001750
+[INFO]	 [c4]	 2019-06-07 11:23:45.001777
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:go, ask, hold
+received request:inputType: "string"
+inputStream: "close person, book-go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:45.369402
+[INFO]	 [c4]	 2019-06-07 11:23:45.369432
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+||||----||||Predict Output:go
+received request:inputType: "string"
+inputStream: "school effort, thea black white photo teddy bear-bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:45.969948
+[INFO]	 [c4]	 2019-06-07 11:23:45.969974
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:bring
+received request:inputType: "string"
+inputStream: "attitude thing, woulda close person, cell phone-want, woulda, hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:46.572541
+[INFO]	 [c4]	 2019-06-07 11:23:46.572566
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:want, woulda, hold
+received request:inputType: "string"
+inputStream: "close clothe, white teddy, sit top bed-know, ofa, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:47.445132
+[INFO]	 [c4]	 2019-06-07 11:23:47.445159
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:know, ofa, sit
+received request:inputType: "string"
+inputStream: "picture clock wall-call, aska"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:47.765324
+[INFO]	 [c4]	 2019-06-07 11:23:47.765349
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call, aska
+received request:inputType: "string"
+inputStream: "dale basketa, teddy, sit bed-tell"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:48.204092
+[INFO]	 [c4]	 2019-06-07 11:23:48.204118
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:tell
+received request:inputType: "string"
+inputStream: "raincoat, aunt, oha close person, book-oha"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:48.664512
+[INFO]	 [c4]	 2019-06-07 11:23:48.664536
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+||||----||||Predict Output:oha
+received request:inputType: "string"
+inputStream: "ghost, britaina close black white background-laugh"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:49.529839
+[INFO]	 [c4]	 2019-06-07 11:23:49.529865
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:laugh
+received request:inputType: "string"
+inputStream: "oscara, teddy, racing head-call, bear, race"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:49.960899
+[INFO]	 [c4]	 2019-06-07 11:23:49.960931
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+||||----||||Predict Output:call, bear, race
+received request:inputType: "string"
+inputStream: "close amount, gaza motorcyclist bear, top tree-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:50.592189
+[INFO]	 [c4]	 2019-06-07 11:23:50.592220
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "call offer, ring, whoa motorcyclist bear sit ground-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:51.189657
+[INFO]	 [c4]	 2019-06-07 11:23:51.189683
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "black white photo clock wall-go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:51.718056
+[INFO]	 [c4]	 2019-06-07 11:23:51.718083
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:go
+received request:inputType: "string"
+inputStream: "close eyesa close clock wall-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:52.227796
+[INFO]	 [c4]	 2019-06-07 11:23:52.227822
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "asian cause, close traffic light sky background-reigneda"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:52.823931
+[INFO]	 [c4]	 2019-06-07 11:23:52.823964
+[INFO]	 [c4]	 Time elapsed:  3.3e-05  seconds.
+||||----||||Predict Output:reigneda
+received request:inputType: "string"
+inputStream: "us, pasta teddy, sit chair-call, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:53.382996
+[INFO]	 [c4]	 2019-06-07 11:23:53.383021
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call, sit
+received request:inputType: "string"
+inputStream: "close gaz trucka close book table-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:54.053512
+[INFO]	 [c4]	 2019-06-07 11:23:54.053551
+[INFO]	 [c4]	 Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "gold kemptona close person, book-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:54.783882
+[INFO]	 [c4]	 2019-06-07 11:23:54.783907
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "law, close clock wall-countrya"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:55.963216
+[INFO]	 [c4]	 2019-06-07 11:23:55.963252
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:countrya
+received request:inputType: "string"
+inputStream: "call, bella-hungrya, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:56.480218
+[INFO]	 [c4]	 2019-06-07 11:23:56.480247
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+||||----||||Predict Output:hungrya, sit
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock-call, could, ringa, sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:57.237602
+[INFO]	 [c4]	 2019-06-07 11:23:57.237637
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+||||----||||Predict Output:call, could, ringa, sit
+received request:inputType: "string"
+inputStream: "goal, o, thingsa close stuff animal book-get, thingsa"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:57.891983
+[INFO]	 [c4]	 2019-06-07 11:23:57.892010
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:get, thingsa
+received request:inputType: "string"
+inputStream: "close president ofa picture person, sign-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:58.800694
+[INFO]	 [c4]	 2019-06-07 11:23:58.800731
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:23:59.571963
+[INFO]	 [c4]	 2019-06-07 11:23:59.571988
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "glove use, braina close book table-leave"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:24:00.437596
+[INFO]	 [c4]	 2019-06-07 11:24:00.437632
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:leave
+received request:inputType: "string"
+inputStream: "bringa picture person, book-call, go, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:24:00.955498
+[INFO]	 [c4]	 2019-06-07 11:24:00.955523
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:call, go, ask
+received request:inputType: "string"
+inputStream: "huha close cake table-vote"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:24:01.651014
+[INFO]	 [c4]	 2019-06-07 11:24:01.651049
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+||||----||||Predict Output:vote
+received request:inputType: "string"
+inputStream: "court basketa close cake table-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:24:02.443268
+[INFO]	 [c4]	 2019-06-07 11:24:02.443294
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:

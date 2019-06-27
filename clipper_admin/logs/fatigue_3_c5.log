@@ -1,0 +1,31 @@
+Model Server Started -- c5
+Received SetProxy:proxyName: "c5_test-46301-proxy"
+proxyPort: "22223"
+
+
+received request:
+
+received request:inputType: "String"
+inputStream: "|"
+
+
+
+[INFO]	 [c5]	 2019-06-07 11:26:05.137016
+
+[INFO] Received Output:|
+[INFO]	 [c5]	 2019-06-07 11:26:05.137061
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:
+[INFO] Fatigue Detection finished
+received request:inputType: "String"
+inputStream: "|drowiness detection finished"
+
+
+
+[INFO]	 [c5]	 2019-06-07 11:26:09.789451
+
+[INFO] Received Output:|drowiness detection finished
+[INFO]	 [c5]	 2019-06-07 11:26:09.789489
+[INFO]	 [c5]	Time elapsed:  3.8e-05  seconds.
+||||----||||Predict Output:
+[INFO] Fatigue Detection finished

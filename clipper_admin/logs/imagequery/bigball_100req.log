@@ -1,0 +1,3003 @@
+[INFO]	 [main]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_0]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:18.494056
+[INFO]	 [c0]	 2019-06-07 11:47:18.494076
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:18.494126
+
+[INFO]	 [c2]	 2019-06-07 11:47:18.532692
+
+[INFO]	 [c1]	 2019-06-07 11:47:18.539912
+[INFO]	 [c2]	 2019-06-07 11:47:18.635484
+[INFO]	 [c2]	Time elapsed:  0.102792  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:19.110445
+[INFO]	 [c1]	Time elapsed:  0.570533  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:19.171288
+[INFO]	 [pool]	Time elapsed:  0.677162  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:19.171396
+[INFO]	 [c3]	 2019-06-07 11:47:19.199703
+[INFO]	 [c3]	 Time elapsed:  0.028307  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:19.199783
+[INFO]	 [c4]	 2019-06-07 11:47:19.199816
+[INFO]	 [c4]	 Time elapsed:  3.3e-05  seconds.
+
+[INFO]	 [req_0]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_0]	 Time elapsed:  0.706106  seconds.
+
+[INFO]	 [req_1]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:19.200234
+[INFO]	 [c0]	 2019-06-07 11:47:19.200253
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:19.200286
+
+[INFO]	 [c2]	 2019-06-07 11:47:19.239430
+
+[INFO]	 [c1]	 2019-06-07 11:47:19.246021
+[INFO]	 [c2]	 2019-06-07 11:47:19.338838
+[INFO]	 [c2]	Time elapsed:  0.099408  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:19.854735
+[INFO]	 [c1]	Time elapsed:  0.608714  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:19.979393
+[INFO]	 [pool]	Time elapsed:  0.779107  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:19.979493
+[INFO]	 [c3]	 2019-06-07 11:47:20.000437
+[INFO]	 [c3]	 Time elapsed:  0.020944  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:20.000507
+[INFO]	 [c4]	 2019-06-07 11:47:20.000542
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+
+[INFO]	 [req_1]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_1]	 Time elapsed:  0.800653  seconds.
+
+[INFO]	 [req_2]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:20.000971
+[INFO]	 [c0]	 2019-06-07 11:47:20.001001
+[INFO]	 [c0]	Time elapsed:  3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:20.001055
+
+[INFO]	 [c2]	 2019-06-07 11:47:20.041357
+
+[INFO]	 [c1]	 2019-06-07 11:47:20.047749
+[INFO]	 [c2]	 2019-06-07 11:47:20.141373
+[INFO]	 [c2]	Time elapsed:  0.100016  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:20.511642
+[INFO]	 [c1]	Time elapsed:  0.463893  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:20.579432
+[INFO]	 [pool]	Time elapsed:  0.578377  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:20.579522
+[INFO]	 [c3]	 2019-06-07 11:47:20.599685
+[INFO]	 [c3]	 Time elapsed:  0.020163  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:20.599747
+[INFO]	 [c4]	 2019-06-07 11:47:20.599781
+[INFO]	 [c4]	 Time elapsed:  3.4e-05  seconds.
+
+[INFO]	 [req_2]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_2]	 Time elapsed:  0.599173  seconds.
+
+[INFO]	 [req_3]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:20.600213
+[INFO]	 [c0]	 2019-06-07 11:47:20.600252
+[INFO]	 [c0]	Time elapsed:  3.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:20.600292
+
+[INFO]	 [c2]	 2019-06-07 11:47:20.638337
+
+[INFO]	 [c1]	 2019-06-07 11:47:20.645983
+[INFO]	 [c2]	 2019-06-07 11:47:20.739481
+[INFO]	 [c2]	Time elapsed:  0.101144  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:21.205437
+[INFO]	 [c1]	Time elapsed:  0.559454  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:21.276807
+[INFO]	 [pool]	Time elapsed:  0.676515  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:21.276892
+[INFO]	 [c3]	 2019-06-07 11:47:21.296100
+[INFO]	 [c3]	 Time elapsed:  0.019208  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:21.296156
+[INFO]	 [c4]	 2019-06-07 11:47:21.296200
+[INFO]	 [c4]	 Time elapsed:  4.4e-05  seconds.
+
+[INFO]	 [req_3]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_3]	 Time elapsed:  0.696375  seconds.
+
+[INFO]	 [req_4]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:21.296646
+[INFO]	 [c0]	 2019-06-07 11:47:21.296674
+[INFO]	 [c0]	Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:21.296717
+
+[INFO]	 [c2]	 2019-06-07 11:47:21.334309
+
+[INFO]	 [c1]	 2019-06-07 11:47:21.342315
+[INFO]	 [c2]	 2019-06-07 11:47:21.435892
+[INFO]	 [c2]	Time elapsed:  0.101583  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:22.064324
+[INFO]	 [c1]	Time elapsed:  0.722009  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:22.174117
+[INFO]	 [pool]	Time elapsed:  0.8774  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:22.174208
+[INFO]	 [c3]	 2019-06-07 11:47:22.194005
+[INFO]	 [c3]	 Time elapsed:  0.019797  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:22.194064
+[INFO]	 [c4]	 2019-06-07 11:47:22.194087
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+
+[INFO]	 [req_4]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_4]	 Time elapsed:  0.89782  seconds.
+
+[INFO]	 [req_5]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:22.194504
+[INFO]	 [c0]	 2019-06-07 11:47:22.194518
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:22.194540
+
+[INFO]	 [c2]	 2019-06-07 11:47:22.232861
+
+[INFO]	 [c1]	 2019-06-07 11:47:22.240521
+[INFO]	 [c2]	 2019-06-07 11:47:22.334096
+[INFO]	 [c2]	Time elapsed:  0.101235  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:22.805976
+[INFO]	 [c1]	Time elapsed:  0.565455  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:22.871813
+[INFO]	 [pool]	Time elapsed:  0.677273  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:22.871901
+[INFO]	 [c3]	 2019-06-07 11:47:22.891151
+[INFO]	 [c3]	 Time elapsed:  0.01925  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:22.891218
+[INFO]	 [c4]	 2019-06-07 11:47:22.891252
+[INFO]	 [c4]	 Time elapsed:  3.4e-05  seconds.
+
+[INFO]	 [req_5]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_5]	 Time elapsed:  0.697117  seconds.
+
+[INFO]	 [req_6]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:22.891694
+[INFO]	 [c0]	 2019-06-07 11:47:22.891722
+[INFO]	 [c0]	Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:22.891766
+
+[INFO]	 [c2]	 2019-06-07 11:47:22.929888
+
+[INFO]	 [c1]	 2019-06-07 11:47:22.937397
+[INFO]	 [c2]	 2019-06-07 11:47:23.032089
+[INFO]	 [c2]	Time elapsed:  0.102201  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:23.795369
+[INFO]	 [c1]	Time elapsed:  0.857972  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:23.869047
+[INFO]	 [pool]	Time elapsed:  0.977281  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:23.869137
+[INFO]	 [c3]	 2019-06-07 11:47:23.889189
+[INFO]	 [c3]	 Time elapsed:  0.020052  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:23.889247
+[INFO]	 [c4]	 2019-06-07 11:47:23.889272
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_6]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_6]	 Time elapsed:  0.997907  seconds.
+
+[INFO]	 [req_7]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:23.889651
+[INFO]	 [c0]	 2019-06-07 11:47:23.889665
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:23.889690
+
+[INFO]	 [c2]	 2019-06-07 11:47:23.927461
+
+[INFO]	 [c1]	 2019-06-07 11:47:23.936242
+[INFO]	 [c2]	 2019-06-07 11:47:24.029729
+[INFO]	 [c2]	Time elapsed:  0.102268  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:24.411816
+[INFO]	 [c1]	Time elapsed:  0.475574  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:24.466540
+[INFO]	 [pool]	Time elapsed:  0.57685  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:24.466629
+[INFO]	 [c3]	 2019-06-07 11:47:24.486120
+[INFO]	 [c3]	 Time elapsed:  0.019491  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:24.486178
+[INFO]	 [c4]	 2019-06-07 11:47:24.486205
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_7]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_7]	 Time elapsed:  0.596928  seconds.
+
+[INFO]	 [req_8]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:24.486636
+[INFO]	 [c0]	 2019-06-07 11:47:24.486650
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:24.486674
+
+[INFO]	 [c2]	 2019-06-07 11:47:24.524266
+
+[INFO]	 [c1]	 2019-06-07 11:47:24.532969
+[INFO]	 [c2]	 2019-06-07 11:47:24.626254
+[INFO]	 [c2]	Time elapsed:  0.101988  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:25.076511
+[INFO]	 [c1]	Time elapsed:  0.543542  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:25.163438
+[INFO]	 [pool]	Time elapsed:  0.676764  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:25.163527
+[INFO]	 [c3]	 2019-06-07 11:47:25.184006
+[INFO]	 [c3]	 Time elapsed:  0.020479  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:25.184073
+[INFO]	 [c4]	 2019-06-07 11:47:25.184097
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+
+[INFO]	 [req_8]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_8]	 Time elapsed:  0.697796  seconds.
+
+[INFO]	 [req_9]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:25.184484
+[INFO]	 [c0]	 2019-06-07 11:47:25.184497
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:25.184517
+
+[INFO]	 [c2]	 2019-06-07 11:47:25.223433
+
+[INFO]	 [c1]	 2019-06-07 11:47:25.230837
+[INFO]	 [c2]	 2019-06-07 11:47:25.324982
+[INFO]	 [c2]	Time elapsed:  0.101549  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:26.399537
+[INFO]	 [c1]	Time elapsed:  1.1687  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:26.463290
+[INFO]	 [pool]	Time elapsed:  1.278773  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:26.463377
+[INFO]	 [c3]	 2019-06-07 11:47:26.484023
+[INFO]	 [c3]	 Time elapsed:  0.020646  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:26.484091
+[INFO]	 [c4]	 2019-06-07 11:47:26.484117
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_9]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_9]	 Time elapsed:  1.299951  seconds.
+
+[INFO]	 [req_10]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:26.484501
+[INFO]	 [c0]	 2019-06-07 11:47:26.484515
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:26.484543
+
+[INFO]	 [c2]	 2019-06-07 11:47:26.523022
+
+[INFO]	 [c1]	 2019-06-07 11:47:26.531427
+[INFO]	 [c2]	 2019-06-07 11:47:26.622671
+[INFO]	 [c2]	Time elapsed:  0.099649  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:27.377425
+[INFO]	 [c1]	Time elapsed:  0.845998  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:27.462439
+[INFO]	 [pool]	Time elapsed:  0.977896  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:27.462525
+[INFO]	 [c3]	 2019-06-07 11:47:27.482949
+[INFO]	 [c3]	 Time elapsed:  0.020424  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:27.483006
+[INFO]	 [c4]	 2019-06-07 11:47:27.483032
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_10]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_10]	 Time elapsed:  0.998847  seconds.
+
+[INFO]	 [req_11]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:27.483408
+[INFO]	 [c0]	 2019-06-07 11:47:27.483428
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:27.483463
+
+[INFO]	 [c2]	 2019-06-07 11:47:27.521951
+
+[INFO]	 [c1]	 2019-06-07 11:47:27.529748
+[INFO]	 [c2]	 2019-06-07 11:47:27.623368
+[INFO]	 [c2]	Time elapsed:  0.101417  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:28.083257
+[INFO]	 [c1]	Time elapsed:  0.553509  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:28.161266
+[INFO]	 [pool]	Time elapsed:  0.677803  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:28.161354
+[INFO]	 [c3]	 2019-06-07 11:47:28.180884
+[INFO]	 [c3]	 Time elapsed:  0.01953  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:28.180942
+[INFO]	 [c4]	 2019-06-07 11:47:28.180968
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_11]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_11]	 Time elapsed:  0.697882  seconds.
+
+[INFO]	 [req_12]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:28.181358
+[INFO]	 [c0]	 2019-06-07 11:47:28.181376
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:28.181397
+
+[INFO]	 [c2]	 2019-06-07 11:47:28.219780
+
+[INFO]	 [c1]	 2019-06-07 11:47:28.227283
+[INFO]	 [c2]	 2019-06-07 11:47:28.320464
+[INFO]	 [c2]	Time elapsed:  0.100684  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:28.755784
+[INFO]	 [c1]	Time elapsed:  0.528501  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:28.859067
+[INFO]	 [pool]	Time elapsed:  0.67767  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:28.859157
+[INFO]	 [c3]	 2019-06-07 11:47:28.878432
+[INFO]	 [c3]	 Time elapsed:  0.019275  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:28.878487
+[INFO]	 [c4]	 2019-06-07 11:47:28.878514
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_12]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_12]	 Time elapsed:  0.697483  seconds.
+
+[INFO]	 [req_13]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:28.878901
+[INFO]	 [c0]	 2019-06-07 11:47:28.878914
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:28.878941
+
+[INFO]	 [c2]	 2019-06-07 11:47:28.918711
+
+[INFO]	 [c1]	 2019-06-07 11:47:28.924862
+[INFO]	 [c2]	 2019-06-07 11:47:29.018980
+[INFO]	 [c2]	Time elapsed:  0.100269  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:29.689863
+[INFO]	 [c1]	Time elapsed:  0.765001  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:29.757889
+[INFO]	 [pool]	Time elapsed:  0.878948  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:29.757979
+[INFO]	 [c3]	 2019-06-07 11:47:29.777225
+[INFO]	 [c3]	 Time elapsed:  0.019246  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:29.777283
+[INFO]	 [c4]	 2019-06-07 11:47:29.777311
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_13]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_13]	 Time elapsed:  0.89872  seconds.
+
+[INFO]	 [req_14]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:29.777673
+[INFO]	 [c0]	 2019-06-07 11:47:29.777687
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:29.777713
+
+[INFO]	 [c2]	 2019-06-07 11:47:29.815916
+
+[INFO]	 [c1]	 2019-06-07 11:47:29.823369
+[INFO]	 [c2]	 2019-06-07 11:47:29.916675
+[INFO]	 [c2]	Time elapsed:  0.100759  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:30.326619
+[INFO]	 [c1]	Time elapsed:  0.50325  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:30.454708
+[INFO]	 [pool]	Time elapsed:  0.676995  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:30.454792
+[INFO]	 [c3]	 2019-06-07 11:47:30.474044
+[INFO]	 [c3]	 Time elapsed:  0.019252  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:30.474101
+[INFO]	 [c4]	 2019-06-07 11:47:30.474127
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_14]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_14]	 Time elapsed:  0.696777  seconds.
+
+[INFO]	 [req_15]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:30.474510
+[INFO]	 [c0]	 2019-06-07 11:47:30.474523
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:30.474551
+
+[INFO]	 [c2]	 2019-06-07 11:47:30.513898
+
+[INFO]	 [c1]	 2019-06-07 11:47:30.521359
+[INFO]	 [c2]	 2019-06-07 11:47:30.613929
+[INFO]	 [c2]	Time elapsed:  0.100031  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:31.131611
+[INFO]	 [c1]	Time elapsed:  0.610252  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:31.252345
+[INFO]	 [pool]	Time elapsed:  0.777794  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:31.252436
+[INFO]	 [c3]	 2019-06-07 11:47:31.271801
+[INFO]	 [c3]	 Time elapsed:  0.019365  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:31.271859
+[INFO]	 [c4]	 2019-06-07 11:47:31.271886
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_15]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_15]	 Time elapsed:  0.797684  seconds.
+
+[INFO]	 [req_16]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:31.272246
+[INFO]	 [c0]	 2019-06-07 11:47:31.272266
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:31.272293
+
+[INFO]	 [c2]	 2019-06-07 11:47:31.310489
+
+[INFO]	 [c1]	 2019-06-07 11:47:31.318159
+[INFO]	 [c2]	 2019-06-07 11:47:31.411107
+[INFO]	 [c2]	Time elapsed:  0.100618  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:32.007734
+[INFO]	 [c1]	Time elapsed:  0.689575  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:32.049716
+[INFO]	 [pool]	Time elapsed:  0.777423  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:32.049811
+[INFO]	 [c3]	 2019-06-07 11:47:32.069095
+[INFO]	 [c3]	 Time elapsed:  0.019284  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:32.069156
+[INFO]	 [c4]	 2019-06-07 11:47:32.069182
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_16]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_16]	 Time elapsed:  0.797244  seconds.
+
+[INFO]	 [req_17]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:32.069558
+[INFO]	 [c0]	 2019-06-07 11:47:32.069572
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:32.069607
+
+[INFO]	 [c2]	 2019-06-07 11:47:32.107762
+
+[INFO]	 [c1]	 2019-06-07 11:47:32.116174
+[INFO]	 [c2]	 2019-06-07 11:47:32.211727
+[INFO]	 [c2]	Time elapsed:  0.103965  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:32.663654
+[INFO]	 [c1]	Time elapsed:  0.54748  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:32.746677
+[INFO]	 [pool]	Time elapsed:  0.67707  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:32.746762
+[INFO]	 [c3]	 2019-06-07 11:47:32.766992
+[INFO]	 [c3]	 Time elapsed:  0.02023  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:32.767050
+[INFO]	 [c4]	 2019-06-07 11:47:32.767073
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+
+[INFO]	 [req_17]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_17]	 Time elapsed:  0.697833  seconds.
+
+[INFO]	 [req_18]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:32.767442
+[INFO]	 [c0]	 2019-06-07 11:47:32.767455
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:32.767474
+
+[INFO]	 [c2]	 2019-06-07 11:47:32.805667
+
+[INFO]	 [c1]	 2019-06-07 11:47:32.813141
+[INFO]	 [c2]	 2019-06-07 11:47:32.907375
+[INFO]	 [c2]	Time elapsed:  0.101708  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:33.425526
+[INFO]	 [c1]	Time elapsed:  0.612385  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:33.543991
+[INFO]	 [pool]	Time elapsed:  0.776517  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:33.544077
+[INFO]	 [c3]	 2019-06-07 11:47:33.563942
+[INFO]	 [c3]	 Time elapsed:  0.019865  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:33.564006
+[INFO]	 [c4]	 2019-06-07 11:47:33.564032
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_18]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_18]	 Time elapsed:  0.796919  seconds.
+
+[INFO]	 [req_19]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:33.564421
+[INFO]	 [c0]	 2019-06-07 11:47:33.564440
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:33.564467
+
+[INFO]	 [c2]	 2019-06-07 11:47:33.602820
+
+[INFO]	 [c1]	 2019-06-07 11:47:33.611241
+[INFO]	 [c2]	 2019-06-07 11:47:33.706722
+[INFO]	 [c2]	Time elapsed:  0.103902  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:34.268409
+[INFO]	 [c1]	Time elapsed:  0.657168  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:34.342592
+[INFO]	 [pool]	Time elapsed:  0.778125  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:34.342681
+[INFO]	 [c3]	 2019-06-07 11:47:34.361859
+[INFO]	 [c3]	 Time elapsed:  0.019178  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:34.361918
+[INFO]	 [c4]	 2019-06-07 11:47:34.361947
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_19]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_19]	 Time elapsed:  0.79787  seconds.
+
+[INFO]	 [req_20]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:34.362342
+[INFO]	 [c0]	 2019-06-07 11:47:34.362360
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:34.362389
+
+[INFO]	 [c2]	 2019-06-07 11:47:34.403326
+
+[INFO]	 [c1]	 2019-06-07 11:47:34.408697
+[INFO]	 [c2]	 2019-06-07 11:47:34.505294
+[INFO]	 [c2]	Time elapsed:  0.101968  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:35.067828
+[INFO]	 [c1]	Time elapsed:  0.659131  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:35.142153
+[INFO]	 [pool]	Time elapsed:  0.779764  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:35.142237
+[INFO]	 [c3]	 2019-06-07 11:47:35.161744
+[INFO]	 [c3]	 Time elapsed:  0.019507  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:35.161802
+[INFO]	 [c4]	 2019-06-07 11:47:35.161828
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_20]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_20]	 Time elapsed:  0.799793  seconds.
+
+[INFO]	 [req_21]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:35.162198
+[INFO]	 [c0]	 2019-06-07 11:47:35.162211
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:35.162257
+
+[INFO]	 [c2]	 2019-06-07 11:47:35.200489
+
+[INFO]	 [c1]	 2019-06-07 11:47:35.208178
+[INFO]	 [c2]	 2019-06-07 11:47:35.302280
+[INFO]	 [c2]	Time elapsed:  0.101791  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:36.007015
+[INFO]	 [c1]	Time elapsed:  0.798837  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:36.141108
+[INFO]	 [pool]	Time elapsed:  0.978851  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:36.141201
+[INFO]	 [c3]	 2019-06-07 11:47:36.160560
+[INFO]	 [c3]	 Time elapsed:  0.019359  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:36.160620
+[INFO]	 [c4]	 2019-06-07 11:47:36.160646
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_21]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_21]	 Time elapsed:  0.99876  seconds.
+
+[INFO]	 [req_22]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:36.161023
+[INFO]	 [c0]	 2019-06-07 11:47:36.161037
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:36.161065
+
+[INFO]	 [c2]	 2019-06-07 11:47:36.199350
+
+[INFO]	 [c1]	 2019-06-07 11:47:36.207084
+[INFO]	 [c2]	 2019-06-07 11:47:36.300534
+[INFO]	 [c2]	Time elapsed:  0.101184  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:36.826189
+[INFO]	 [c1]	Time elapsed:  0.619105  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:36.940024
+[INFO]	 [pool]	Time elapsed:  0.778959  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:36.940115
+[INFO]	 [c3]	 2019-06-07 11:47:36.960388
+[INFO]	 [c3]	 Time elapsed:  0.020273  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:36.960445
+[INFO]	 [c4]	 2019-06-07 11:47:36.960472
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_22]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_22]	 Time elapsed:  0.799756  seconds.
+
+[INFO]	 [req_23]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:36.960841
+[INFO]	 [c0]	 2019-06-07 11:47:36.960854
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:36.960874
+
+[INFO]	 [c2]	 2019-06-07 11:47:36.999147
+
+[INFO]	 [c1]	 2019-06-07 11:47:37.006585
+[INFO]	 [c2]	 2019-06-07 11:47:37.100533
+[INFO]	 [c2]	Time elapsed:  0.101386  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:37.630365
+[INFO]	 [c1]	Time elapsed:  0.62378  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:37.738945
+[INFO]	 [pool]	Time elapsed:  0.778071  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:37.739040
+[INFO]	 [c3]	 2019-06-07 11:47:37.759514
+[INFO]	 [c3]	 Time elapsed:  0.020474  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:37.759578
+[INFO]	 [c4]	 2019-06-07 11:47:37.759607
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_23]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_23]	 Time elapsed:  0.799098  seconds.
+
+[INFO]	 [req_24]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:37.760001
+[INFO]	 [c0]	 2019-06-07 11:47:37.760022
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:37.760054
+
+[INFO]	 [c2]	 2019-06-07 11:47:37.798417
+
+[INFO]	 [c1]	 2019-06-07 11:47:37.806462
+[INFO]	 [c2]	 2019-06-07 11:47:37.899730
+[INFO]	 [c2]	Time elapsed:  0.101313  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:38.300398
+[INFO]	 [c1]	Time elapsed:  0.493936  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:38.439094
+[INFO]	 [pool]	Time elapsed:  0.67904  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:38.439185
+[INFO]	 [c3]	 2019-06-07 11:47:38.458709
+[INFO]	 [c3]	 Time elapsed:  0.019524  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:38.458769
+[INFO]	 [c4]	 2019-06-07 11:47:38.458796
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_24]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_24]	 Time elapsed:  0.699114  seconds.
+
+[INFO]	 [req_25]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:38.459175
+[INFO]	 [c0]	 2019-06-07 11:47:38.459189
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:38.459216
+
+[INFO]	 [c2]	 2019-06-07 11:47:38.498073
+
+[INFO]	 [c1]	 2019-06-07 11:47:38.504982
+[INFO]	 [c2]	 2019-06-07 11:47:38.597944
+[INFO]	 [c2]	Time elapsed:  0.099871  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:39.238715
+[INFO]	 [c1]	Time elapsed:  0.733733  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:39.337621
+[INFO]	 [pool]	Time elapsed:  0.878405  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:39.337708
+[INFO]	 [c3]	 2019-06-07 11:47:39.357139
+[INFO]	 [c3]	 Time elapsed:  0.019431  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:39.357201
+[INFO]	 [c4]	 2019-06-07 11:47:39.357230
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_25]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_25]	 Time elapsed:  0.898377  seconds.
+
+[INFO]	 [req_26]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:39.357617
+[INFO]	 [c0]	 2019-06-07 11:47:39.357642
+[INFO]	 [c0]	Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:39.357671
+
+[INFO]	 [c2]	 2019-06-07 11:47:39.395401
+
+[INFO]	 [c1]	 2019-06-07 11:47:39.404377
+[INFO]	 [c2]	 2019-06-07 11:47:39.497012
+[INFO]	 [c2]	Time elapsed:  0.101611  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:39.978213
+[INFO]	 [c1]	Time elapsed:  0.573836  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:40.034327
+[INFO]	 [pool]	Time elapsed:  0.676656  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:40.034418
+[INFO]	 [c3]	 2019-06-07 11:47:40.053525
+[INFO]	 [c3]	 Time elapsed:  0.019107  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:40.053587
+[INFO]	 [c4]	 2019-06-07 11:47:40.053612
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_26]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_26]	 Time elapsed:  0.696333  seconds.
+
+[INFO]	 [req_27]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:40.054010
+[INFO]	 [c0]	 2019-06-07 11:47:40.054031
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:40.054053
+
+[INFO]	 [c2]	 2019-06-07 11:47:40.091848
+
+[INFO]	 [c1]	 2019-06-07 11:47:40.099810
+[INFO]	 [c2]	 2019-06-07 11:47:40.193232
+[INFO]	 [c2]	Time elapsed:  0.101384  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:40.680796
+[INFO]	 [c1]	Time elapsed:  0.580986  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:40.730613
+[INFO]	 [pool]	Time elapsed:  0.67656  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:40.730704
+[INFO]	 [c3]	 2019-06-07 11:47:40.749962
+[INFO]	 [c3]	 Time elapsed:  0.019258  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:40.750025
+[INFO]	 [c4]	 2019-06-07 11:47:40.750057
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+
+[INFO]	 [req_27]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_27]	 Time elapsed:  0.6964  seconds.
+
+[INFO]	 [req_28]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:40.750466
+[INFO]	 [c0]	 2019-06-07 11:47:40.750480
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:40.750507
+
+[INFO]	 [c2]	 2019-06-07 11:47:40.789341
+
+[INFO]	 [c1]	 2019-06-07 11:47:40.796810
+[INFO]	 [c2]	 2019-06-07 11:47:40.890337
+[INFO]	 [c2]	Time elapsed:  0.100996  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:41.294724
+[INFO]	 [c1]	Time elapsed:  0.497914  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:41.428239
+[INFO]	 [pool]	Time elapsed:  0.677732  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:41.428334
+[INFO]	 [c3]	 2019-06-07 11:47:41.448473
+[INFO]	 [c3]	 Time elapsed:  0.020139  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:41.448539
+[INFO]	 [c4]	 2019-06-07 11:47:41.448568
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_28]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_28]	 Time elapsed:  0.698429  seconds.
+
+[INFO]	 [req_29]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:41.448959
+[INFO]	 [c0]	 2019-06-07 11:47:41.448982
+[INFO]	 [c0]	Time elapsed:  2.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:41.449007
+
+[INFO]	 [c2]	 2019-06-07 11:47:41.487927
+
+[INFO]	 [c1]	 2019-06-07 11:47:41.495596
+[INFO]	 [c2]	 2019-06-07 11:47:41.589334
+[INFO]	 [c2]	Time elapsed:  0.101407  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:42.380494
+[INFO]	 [c1]	Time elapsed:  0.884898  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:42.428216
+[INFO]	 [pool]	Time elapsed:  0.979209  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:42.428306
+[INFO]	 [c3]	 2019-06-07 11:47:42.448381
+[INFO]	 [c3]	 Time elapsed:  0.020075  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:42.448441
+[INFO]	 [c4]	 2019-06-07 11:47:42.448471
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_29]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_29]	 Time elapsed:  0.999834  seconds.
+
+[INFO]	 [req_30]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:42.448850
+[INFO]	 [c0]	 2019-06-07 11:47:42.448863
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:42.448889
+
+[INFO]	 [c2]	 2019-06-07 11:47:42.487945
+
+[INFO]	 [c1]	 2019-06-07 11:47:42.495640
+[INFO]	 [c2]	 2019-06-07 11:47:42.589192
+[INFO]	 [c2]	Time elapsed:  0.101247  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:43.399734
+[INFO]	 [c1]	Time elapsed:  0.904094  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:43.530074
+[INFO]	 [pool]	Time elapsed:  1.081185  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:43.530170
+[INFO]	 [c3]	 2019-06-07 11:47:43.551010
+[INFO]	 [c3]	 Time elapsed:  0.02084  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:43.551076
+[INFO]	 [c4]	 2019-06-07 11:47:43.551105
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_30]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_30]	 Time elapsed:  1.102576  seconds.
+
+[INFO]	 [req_31]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:43.551499
+[INFO]	 [c0]	 2019-06-07 11:47:43.551520
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:43.551541
+
+[INFO]	 [c2]	 2019-06-07 11:47:43.591381
+
+[INFO]	 [c1]	 2019-06-07 11:47:43.598615
+[INFO]	 [c2]	 2019-06-07 11:47:43.693140
+[INFO]	 [c2]	Time elapsed:  0.101759  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:44.313023
+[INFO]	 [c1]	Time elapsed:  0.714408  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:44.432939
+[INFO]	 [pool]	Time elapsed:  0.881398  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:44.433030
+[INFO]	 [c3]	 2019-06-07 11:47:44.453224
+[INFO]	 [c3]	 Time elapsed:  0.020194  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:44.453285
+[INFO]	 [c4]	 2019-06-07 11:47:44.453313
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_31]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_31]	 Time elapsed:  0.902142  seconds.
+
+[INFO]	 [req_32]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:44.453708
+[INFO]	 [c0]	 2019-06-07 11:47:44.453723
+[INFO]	 [c0]	Time elapsed:  1.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:44.453750
+
+[INFO]	 [c2]	 2019-06-07 11:47:44.495359
+
+[INFO]	 [c1]	 2019-06-07 11:47:44.500415
+[INFO]	 [c2]	 2019-06-07 11:47:44.596446
+[INFO]	 [c2]	Time elapsed:  0.101087  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:45.558075
+[INFO]	 [c1]	Time elapsed:  1.05766  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:45.636536
+[INFO]	 [pool]	Time elapsed:  1.182786  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:45.636624
+[INFO]	 [c3]	 2019-06-07 11:47:45.657169
+[INFO]	 [c3]	 Time elapsed:  0.020545  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:45.657229
+[INFO]	 [c4]	 2019-06-07 11:47:45.657257
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_32]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_32]	 Time elapsed:  1.203882  seconds.
+
+[INFO]	 [req_33]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:45.657649
+[INFO]	 [c0]	 2019-06-07 11:47:45.657669
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:45.657697
+
+[INFO]	 [c2]	 2019-06-07 11:47:45.697393
+
+[INFO]	 [c1]	 2019-06-07 11:47:45.705144
+[INFO]	 [c2]	 2019-06-07 11:47:45.797607
+[INFO]	 [c2]	Time elapsed:  0.100214  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:46.224201
+[INFO]	 [c1]	Time elapsed:  0.519057  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:46.338296
+[INFO]	 [pool]	Time elapsed:  0.680599  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:46.338387
+[INFO]	 [c3]	 2019-06-07 11:47:46.359379
+[INFO]	 [c3]	 Time elapsed:  0.020992  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:46.359440
+[INFO]	 [c4]	 2019-06-07 11:47:46.359466
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_33]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_33]	 Time elapsed:  0.702141  seconds.
+
+[INFO]	 [req_34]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:46.359850
+[INFO]	 [c0]	 2019-06-07 11:47:46.359864
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:46.359884
+
+[INFO]	 [c2]	 2019-06-07 11:47:46.397770
+
+[INFO]	 [c1]	 2019-06-07 11:47:46.405758
+[INFO]	 [c2]	 2019-06-07 11:47:46.499530
+[INFO]	 [c2]	Time elapsed:  0.10176  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:47.143139
+[INFO]	 [c1]	Time elapsed:  0.737381  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:47.238111
+[INFO]	 [pool]	Time elapsed:  0.878227  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:47.238200
+[INFO]	 [c3]	 2019-06-07 11:47:47.257619
+[INFO]	 [c3]	 Time elapsed:  0.019419  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:47.257686
+[INFO]	 [c4]	 2019-06-07 11:47:47.257715
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_34]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_34]	 Time elapsed:  0.898187  seconds.
+
+[INFO]	 [req_35]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:47.258091
+[INFO]	 [c0]	 2019-06-07 11:47:47.258113
+[INFO]	 [c0]	Time elapsed:  2.2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:47.258133
+
+[INFO]	 [c2]	 2019-06-07 11:47:47.296569
+
+[INFO]	 [c1]	 2019-06-07 11:47:47.304003
+[INFO]	 [c2]	 2019-06-07 11:47:47.397014
+[INFO]	 [c2]	Time elapsed:  0.100445  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:47.704699
+[INFO]	 [c1]	Time elapsed:  0.400696  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:47.835136
+[INFO]	 [pool]	Time elapsed:  0.577003  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:47.835226
+[INFO]	 [c3]	 2019-06-07 11:47:47.854506
+[INFO]	 [c3]	 Time elapsed:  0.01928  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:47.854565
+[INFO]	 [c4]	 2019-06-07 11:47:47.854592
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_35]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_35]	 Time elapsed:  0.596818  seconds.
+
+[INFO]	 [req_36]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:47.854974
+[INFO]	 [c0]	 2019-06-07 11:47:47.854987
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:47.855013
+
+[INFO]	 [c2]	 2019-06-07 11:47:47.892773
+
+[INFO]	 [c1]	 2019-06-07 11:47:47.900765
+[INFO]	 [c2]	 2019-06-07 11:47:47.994839
+[INFO]	 [c2]	Time elapsed:  0.102066  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:48.448583
+[INFO]	 [c1]	Time elapsed:  0.547818  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:48.532022
+[INFO]	 [pool]	Time elapsed:  0.677009  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:48.532106
+[INFO]	 [c3]	 2019-06-07 11:47:48.551400
+[INFO]	 [c3]	 Time elapsed:  0.019294  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:48.551465
+[INFO]	 [c4]	 2019-06-07 11:47:48.551494
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_36]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_36]	 Time elapsed:  0.696826  seconds.
+
+[INFO]	 [req_37]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:48.551853
+[INFO]	 [c0]	 2019-06-07 11:47:48.551873
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:48.551902
+
+[INFO]	 [c2]	 2019-06-07 11:47:48.589750
+
+[INFO]	 [c1]	 2019-06-07 11:47:48.597766
+[INFO]	 [c2]	 2019-06-07 11:47:48.692539
+[INFO]	 [c2]	Time elapsed:  0.102789  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:49.423727
+[INFO]	 [c1]	Time elapsed:  0.825961  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:49.530579
+[INFO]	 [pool]	Time elapsed:  0.978677  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:49.530673
+[INFO]	 [c3]	 2019-06-07 11:47:49.550569
+[INFO]	 [c3]	 Time elapsed:  0.019896  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:49.550631
+[INFO]	 [c4]	 2019-06-07 11:47:49.550661
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_37]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_37]	 Time elapsed:  0.999116  seconds.
+
+[INFO]	 [req_38]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:49.551033
+[INFO]	 [c0]	 2019-06-07 11:47:49.551052
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:49.551080
+
+[INFO]	 [c2]	 2019-06-07 11:47:49.589603
+
+[INFO]	 [c1]	 2019-06-07 11:47:49.597088
+[INFO]	 [c2]	 2019-06-07 11:47:49.690980
+[INFO]	 [c2]	Time elapsed:  0.101377  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:50.311969
+[INFO]	 [c1]	Time elapsed:  0.714881  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:50.429284
+[INFO]	 [pool]	Time elapsed:  0.878204  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:50.429371
+[INFO]	 [c3]	 2019-06-07 11:47:50.449266
+[INFO]	 [c3]	 Time elapsed:  0.019895  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:50.449324
+[INFO]	 [c4]	 2019-06-07 11:47:50.449349
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_38]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_38]	 Time elapsed:  0.898632  seconds.
+
+[INFO]	 [req_39]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:50.449721
+[INFO]	 [c0]	 2019-06-07 11:47:50.449735
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:50.449755
+
+[INFO]	 [c2]	 2019-06-07 11:47:50.488209
+
+[INFO]	 [c1]	 2019-06-07 11:47:50.495693
+[INFO]	 [c2]	 2019-06-07 11:47:50.589449
+[INFO]	 [c2]	Time elapsed:  0.10124  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:50.979402
+[INFO]	 [c1]	Time elapsed:  0.483709  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:51.026792
+[INFO]	 [pool]	Time elapsed:  0.577037  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:51.026875
+[INFO]	 [c3]	 2019-06-07 11:47:51.046974
+[INFO]	 [c3]	 Time elapsed:  0.020099  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:51.047032
+[INFO]	 [c4]	 2019-06-07 11:47:51.047057
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_39]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_39]	 Time elapsed:  0.597637  seconds.
+
+[INFO]	 [req_40]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:51.047411
+[INFO]	 [c0]	 2019-06-07 11:47:51.047424
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:51.047450
+
+[INFO]	 [c2]	 2019-06-07 11:47:51.085381
+
+[INFO]	 [c1]	 2019-06-07 11:47:51.093405
+[INFO]	 [c2]	 2019-06-07 11:47:51.187972
+[INFO]	 [c2]	Time elapsed:  0.102591  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:51.630691
+[INFO]	 [c1]	Time elapsed:  0.537286  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:51.725161
+[INFO]	 [pool]	Time elapsed:  0.677711  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:51.725252
+[INFO]	 [c3]	 2019-06-07 11:47:51.745487
+[INFO]	 [c3]	 Time elapsed:  0.020235  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:51.745549
+[INFO]	 [c4]	 2019-06-07 11:47:51.745575
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_40]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_40]	 Time elapsed:  0.69847  seconds.
+
+[INFO]	 [req_41]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:51.745942
+[INFO]	 [c0]	 2019-06-07 11:47:51.745962
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:51.745995
+
+[INFO]	 [c2]	 2019-06-07 11:47:51.783836
+
+[INFO]	 [c1]	 2019-06-07 11:47:51.792084
+[INFO]	 [c2]	 2019-06-07 11:47:51.885959
+[INFO]	 [c2]	Time elapsed:  0.102123  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:52.216152
+[INFO]	 [c1]	Time elapsed:  0.424068  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:52.324446
+[INFO]	 [pool]	Time elapsed:  0.578451  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:52.324536
+[INFO]	 [c3]	 2019-06-07 11:47:52.344004
+[INFO]	 [c3]	 Time elapsed:  0.019468  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:52.344063
+[INFO]	 [c4]	 2019-06-07 11:47:52.344090
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_41]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_41]	 Time elapsed:  0.598458  seconds.
+
+[INFO]	 [req_42]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:52.344461
+[INFO]	 [c0]	 2019-06-07 11:47:52.344474
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:52.344504
+
+[INFO]	 [c2]	 2019-06-07 11:47:52.383166
+
+[INFO]	 [c1]	 2019-06-07 11:47:52.391681
+[INFO]	 [c2]	 2019-06-07 11:47:52.485366
+[INFO]	 [c2]	Time elapsed:  0.1022  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:53.537731
+[INFO]	 [c1]	Time elapsed:  1.14605  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:53.623960
+[INFO]	 [pool]	Time elapsed:  1.279456  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:53.624041
+[INFO]	 [c3]	 2019-06-07 11:47:53.642847
+[INFO]	 [c3]	 Time elapsed:  0.018806  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:53.642908
+[INFO]	 [c4]	 2019-06-07 11:47:53.642936
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_42]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_42]	 Time elapsed:  1.298793  seconds.
+
+[INFO]	 [req_43]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:53.643319
+[INFO]	 [c0]	 2019-06-07 11:47:53.643347
+[INFO]	 [c0]	Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:53.643377
+
+[INFO]	 [c2]	 2019-06-07 11:47:53.681198
+
+[INFO]	 [c1]	 2019-06-07 11:47:53.689718
+[INFO]	 [c2]	 2019-06-07 11:47:53.783423
+[INFO]	 [c2]	Time elapsed:  0.102225  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:54.251806
+[INFO]	 [c1]	Time elapsed:  0.562088  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:54.320128
+[INFO]	 [pool]	Time elapsed:  0.676751  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:54.320213
+[INFO]	 [c3]	 2019-06-07 11:47:54.339818
+[INFO]	 [c3]	 Time elapsed:  0.019605  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:54.339886
+[INFO]	 [c4]	 2019-06-07 11:47:54.339915
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_43]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_43]	 Time elapsed:  0.696916  seconds.
+
+[INFO]	 [req_44]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:54.340293
+[INFO]	 [c0]	 2019-06-07 11:47:54.340309
+[INFO]	 [c0]	Time elapsed:  1.6e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:54.340350
+
+[INFO]	 [c2]	 2019-06-07 11:47:54.378846
+
+[INFO]	 [c1]	 2019-06-07 11:47:54.387578
+[INFO]	 [c2]	 2019-06-07 11:47:54.479859
+[INFO]	 [c2]	Time elapsed:  0.101013  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:54.818604
+[INFO]	 [c1]	Time elapsed:  0.431026  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:54.919013
+[INFO]	 [pool]	Time elapsed:  0.578663  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:54.919104
+[INFO]	 [c3]	 2019-06-07 11:47:54.937717
+[INFO]	 [c3]	 Time elapsed:  0.018613  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:54.937774
+[INFO]	 [c4]	 2019-06-07 11:47:54.937803
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_44]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_44]	 Time elapsed:  0.597843  seconds.
+
+[INFO]	 [req_45]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:54.938193
+[INFO]	 [c0]	 2019-06-07 11:47:54.938212
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:54.938275
+
+[INFO]	 [c2]	 2019-06-07 11:47:54.976108
+
+[INFO]	 [c1]	 2019-06-07 11:47:54.985005
+[INFO]	 [c2]	 2019-06-07 11:47:55.079084
+[INFO]	 [c2]	Time elapsed:  0.102976  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:55.655392
+[INFO]	 [c1]	Time elapsed:  0.670387  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:55.716240
+[INFO]	 [pool]	Time elapsed:  0.777965  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:55.716334
+[INFO]	 [c3]	 2019-06-07 11:47:55.735427
+[INFO]	 [c3]	 Time elapsed:  0.019093  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:55.735489
+[INFO]	 [c4]	 2019-06-07 11:47:55.735515
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_45]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_45]	 Time elapsed:  0.797629  seconds.
+
+[INFO]	 [req_46]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:55.735884
+[INFO]	 [c0]	 2019-06-07 11:47:55.735897
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:55.735917
+
+[INFO]	 [c2]	 2019-06-07 11:47:55.774426
+
+[INFO]	 [c1]	 2019-06-07 11:47:55.782991
+[INFO]	 [c2]	 2019-06-07 11:47:55.875662
+[INFO]	 [c2]	Time elapsed:  0.101236  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:56.192423
+[INFO]	 [c1]	Time elapsed:  0.409432  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:56.314038
+[INFO]	 [pool]	Time elapsed:  0.578121  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:56.314127
+[INFO]	 [c3]	 2019-06-07 11:47:56.333693
+[INFO]	 [c3]	 Time elapsed:  0.019566  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:56.333753
+[INFO]	 [c4]	 2019-06-07 11:47:56.333780
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_46]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_46]	 Time elapsed:  0.59822  seconds.
+
+[INFO]	 [req_47]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:56.334157
+[INFO]	 [c0]	 2019-06-07 11:47:56.334178
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:56.334207
+
+[INFO]	 [c2]	 2019-06-07 11:47:56.372608
+
+[INFO]	 [c1]	 2019-06-07 11:47:56.381403
+[INFO]	 [c2]	 2019-06-07 11:47:56.473297
+[INFO]	 [c2]	Time elapsed:  0.100689  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:57.437295
+[INFO]	 [c1]	Time elapsed:  1.055892  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:57.513294
+[INFO]	 [pool]	Time elapsed:  1.179087  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:57.513384
+[INFO]	 [c3]	 2019-06-07 11:47:57.532957
+[INFO]	 [c3]	 Time elapsed:  0.019573  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:57.533012
+[INFO]	 [c4]	 2019-06-07 11:47:57.533036
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+
+[INFO]	 [req_47]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_47]	 Time elapsed:  1.199196  seconds.
+
+[INFO]	 [req_48]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:57.533414
+[INFO]	 [c0]	 2019-06-07 11:47:57.533433
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:57.533460
+
+[INFO]	 [c2]	 2019-06-07 11:47:57.575346
+
+[INFO]	 [c1]	 2019-06-07 11:47:57.579956
+[INFO]	 [c2]	 2019-06-07 11:47:57.676300
+[INFO]	 [c2]	Time elapsed:  0.100954  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:58.173687
+[INFO]	 [c1]	Time elapsed:  0.593731  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:58.214901
+[INFO]	 [pool]	Time elapsed:  0.681441  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:58.214995
+[INFO]	 [c3]	 2019-06-07 11:47:58.233620
+[INFO]	 [c3]	 Time elapsed:  0.018625  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:58.233677
+[INFO]	 [c4]	 2019-06-07 11:47:58.233704
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_48]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_48]	 Time elapsed:  0.700608  seconds.
+
+[INFO]	 [req_49]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:58.234079
+[INFO]	 [c0]	 2019-06-07 11:47:58.234093
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:58.234121
+
+[INFO]	 [c2]	 2019-06-07 11:47:58.271881
+
+[INFO]	 [c1]	 2019-06-07 11:47:58.280355
+[INFO]	 [c2]	 2019-06-07 11:47:58.373651
+[INFO]	 [c2]	Time elapsed:  0.10177  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:58.907787
+[INFO]	 [c1]	Time elapsed:  0.627432  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:59.011169
+[INFO]	 [pool]	Time elapsed:  0.777048  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:59.011258
+[INFO]	 [c3]	 2019-06-07 11:47:59.031227
+[INFO]	 [c3]	 Time elapsed:  0.019969  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:59.031288
+[INFO]	 [c4]	 2019-06-07 11:47:59.031315
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_49]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_49]	 Time elapsed:  0.797566  seconds.
+
+[INFO]	 [req_50]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:59.031697
+[INFO]	 [c0]	 2019-06-07 11:47:59.031717
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:59.031747
+
+[INFO]	 [c2]	 2019-06-07 11:47:59.070197
+
+[INFO]	 [c1]	 2019-06-07 11:47:59.078714
+[INFO]	 [c2]	 2019-06-07 11:47:59.171167
+[INFO]	 [c2]	Time elapsed:  0.10097  seconds.
+[INFO]	 [c1]	 2019-06-07 11:47:59.575819
+[INFO]	 [c1]	Time elapsed:  0.497105  seconds.
+[INFO]	 [pool]	 2019-06-07 11:47:59.709666
+[INFO]	 [pool]	Time elapsed:  0.677919  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:47:59.709754
+[INFO]	 [c3]	 2019-06-07 11:47:59.728463
+[INFO]	 [c3]	 Time elapsed:  0.018709  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:47:59.728526
+[INFO]	 [c4]	 2019-06-07 11:47:59.728554
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_50]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_50]	 Time elapsed:  0.697177  seconds.
+
+[INFO]	 [req_51]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:47:59.728940
+[INFO]	 [c0]	 2019-06-07 11:47:59.728960
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:47:59.728989
+
+[INFO]	 [c2]	 2019-06-07 11:47:59.766802
+
+[INFO]	 [c1]	 2019-06-07 11:47:59.775254
+[INFO]	 [c2]	 2019-06-07 11:47:59.868787
+[INFO]	 [c2]	Time elapsed:  0.101985  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:00.582578
+[INFO]	 [c1]	Time elapsed:  0.807324  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:00.706252
+[INFO]	 [pool]	Time elapsed:  0.977263  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:00.706339
+[INFO]	 [c3]	 2019-06-07 11:48:00.725360
+[INFO]	 [c3]	 Time elapsed:  0.019021  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:00.725424
+[INFO]	 [c4]	 2019-06-07 11:48:00.725452
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_51]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_51]	 Time elapsed:  0.996833  seconds.
+
+[INFO]	 [req_52]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:00.725832
+[INFO]	 [c0]	 2019-06-07 11:48:00.725850
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:00.725873
+
+[INFO]	 [c2]	 2019-06-07 11:48:00.763879
+
+[INFO]	 [c1]	 2019-06-07 11:48:00.772346
+[INFO]	 [c2]	 2019-06-07 11:48:00.865235
+[INFO]	 [c2]	Time elapsed:  0.101356  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:01.272808
+[INFO]	 [c1]	Time elapsed:  0.500462  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:01.403719
+[INFO]	 [pool]	Time elapsed:  0.677846  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:01.403809
+[INFO]	 [c3]	 2019-06-07 11:48:01.422821
+[INFO]	 [c3]	 Time elapsed:  0.019012  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:01.422886
+[INFO]	 [c4]	 2019-06-07 11:48:01.422915
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_52]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_52]	 Time elapsed:  0.697414  seconds.
+
+[INFO]	 [req_53]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:01.423310
+[INFO]	 [c0]	 2019-06-07 11:48:01.423336
+[INFO]	 [c0]	Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:01.423365
+
+[INFO]	 [c2]	 2019-06-07 11:48:01.463372
+
+[INFO]	 [c1]	 2019-06-07 11:48:01.470413
+[INFO]	 [c2]	 2019-06-07 11:48:01.565824
+[INFO]	 [c2]	Time elapsed:  0.102452  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:02.079471
+[INFO]	 [c1]	Time elapsed:  0.609058  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:02.204179
+[INFO]	 [pool]	Time elapsed:  0.780814  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:02.204265
+[INFO]	 [c3]	 2019-06-07 11:48:02.224081
+[INFO]	 [c3]	 Time elapsed:  0.019816  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:02.224143
+[INFO]	 [c4]	 2019-06-07 11:48:02.224168
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_53]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_53]	 Time elapsed:  0.801184  seconds.
+
+[INFO]	 [req_54]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:02.224552
+[INFO]	 [c0]	 2019-06-07 11:48:02.224572
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:02.224609
+
+[INFO]	 [c2]	 2019-06-07 11:48:02.262388
+
+[INFO]	 [c1]	 2019-06-07 11:48:02.271103
+[INFO]	 [c2]	 2019-06-07 11:48:02.365196
+[INFO]	 [c2]	Time elapsed:  0.102808  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:03.146877
+[INFO]	 [c1]	Time elapsed:  0.875774  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:03.202446
+[INFO]	 [pool]	Time elapsed:  0.977837  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:03.202533
+[INFO]	 [c3]	 2019-06-07 11:48:03.222100
+[INFO]	 [c3]	 Time elapsed:  0.019567  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:03.222160
+[INFO]	 [c4]	 2019-06-07 11:48:03.222192
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+
+[INFO]	 [req_54]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_54]	 Time elapsed:  0.998002  seconds.
+
+[INFO]	 [req_55]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:03.222612
+[INFO]	 [c0]	 2019-06-07 11:48:03.222631
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:03.222661
+
+[INFO]	 [c2]	 2019-06-07 11:48:03.263329
+
+[INFO]	 [c1]	 2019-06-07 11:48:03.268963
+[INFO]	 [c2]	 2019-06-07 11:48:03.365438
+[INFO]	 [c2]	Time elapsed:  0.102109  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:03.863251
+[INFO]	 [c1]	Time elapsed:  0.594288  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:03.902008
+[INFO]	 [pool]	Time elapsed:  0.679347  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:03.902093
+[INFO]	 [c3]	 2019-06-07 11:48:03.921898
+[INFO]	 [c3]	 Time elapsed:  0.019805  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:03.921958
+[INFO]	 [c4]	 2019-06-07 11:48:03.921984
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_55]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_55]	 Time elapsed:  0.699719  seconds.
+
+[INFO]	 [req_56]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:03.922381
+[INFO]	 [c0]	 2019-06-07 11:48:03.922395
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:03.922421
+
+[INFO]	 [c2]	 2019-06-07 11:48:03.960193
+
+[INFO]	 [c1]	 2019-06-07 11:48:03.968647
+[INFO]	 [c2]	 2019-06-07 11:48:04.061460
+[INFO]	 [c2]	Time elapsed:  0.101267  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:04.629717
+[INFO]	 [c1]	Time elapsed:  0.66107  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:04.699684
+[INFO]	 [pool]	Time elapsed:  0.777263  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:04.699776
+[INFO]	 [c3]	 2019-06-07 11:48:04.719224
+[INFO]	 [c3]	 Time elapsed:  0.019448  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:04.719282
+[INFO]	 [c4]	 2019-06-07 11:48:04.719311
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_56]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_56]	 Time elapsed:  0.797249  seconds.
+
+[INFO]	 [req_57]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:04.719692
+[INFO]	 [c0]	 2019-06-07 11:48:04.719713
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:04.719741
+
+[INFO]	 [c2]	 2019-06-07 11:48:04.757522
+
+[INFO]	 [c1]	 2019-06-07 11:48:04.766004
+[INFO]	 [c2]	 2019-06-07 11:48:04.858201
+[INFO]	 [c2]	Time elapsed:  0.100679  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:05.391239
+[INFO]	 [c1]	Time elapsed:  0.625235  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:05.497006
+[INFO]	 [pool]	Time elapsed:  0.777265  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:05.497090
+[INFO]	 [c3]	 2019-06-07 11:48:05.517361
+[INFO]	 [c3]	 Time elapsed:  0.020271  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:05.517426
+[INFO]	 [c4]	 2019-06-07 11:48:05.517455
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_57]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_57]	 Time elapsed:  0.798094  seconds.
+
+[INFO]	 [req_58]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:05.517847
+[INFO]	 [c0]	 2019-06-07 11:48:05.517869
+[INFO]	 [c0]	Time elapsed:  2.2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:05.517891
+
+[INFO]	 [c2]	 2019-06-07 11:48:05.559408
+
+[INFO]	 [c1]	 2019-06-07 11:48:05.565084
+[INFO]	 [c2]	 2019-06-07 11:48:05.661544
+[INFO]	 [c2]	Time elapsed:  0.102136  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:06.386927
+[INFO]	 [c1]	Time elapsed:  0.821843  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:06.500238
+[INFO]	 [pool]	Time elapsed:  0.982347  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:06.500329
+[INFO]	 [c3]	 2019-06-07 11:48:06.520114
+[INFO]	 [c3]	 Time elapsed:  0.019785  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:06.520177
+[INFO]	 [c4]	 2019-06-07 11:48:06.520206
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_58]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_58]	 Time elapsed:  1.002684  seconds.
+
+[INFO]	 [req_59]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:06.520586
+[INFO]	 [c0]	 2019-06-07 11:48:06.520605
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:06.520639
+
+[INFO]	 [c2]	 2019-06-07 11:48:06.559396
+
+[INFO]	 [c1]	 2019-06-07 11:48:06.567007
+[INFO]	 [c2]	 2019-06-07 11:48:06.660266
+[INFO]	 [c2]	Time elapsed:  0.10087  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:07.102639
+[INFO]	 [c1]	Time elapsed:  0.535632  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:07.198600
+[INFO]	 [pool]	Time elapsed:  0.677961  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:07.198694
+[INFO]	 [c3]	 2019-06-07 11:48:07.218433
+[INFO]	 [c3]	 Time elapsed:  0.019739  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:07.218488
+[INFO]	 [c4]	 2019-06-07 11:48:07.218516
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_59]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_59]	 Time elapsed:  0.698256  seconds.
+
+[INFO]	 [req_60]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:07.218902
+[INFO]	 [c0]	 2019-06-07 11:48:07.218915
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:07.218942
+
+[INFO]	 [c2]	 2019-06-07 11:48:07.256789
+
+[INFO]	 [c1]	 2019-06-07 11:48:07.264806
+[INFO]	 [c2]	 2019-06-07 11:48:07.358540
+[INFO]	 [c2]	Time elapsed:  0.101751  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:07.819800
+[INFO]	 [c1]	Time elapsed:  0.554994  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:07.895887
+[INFO]	 [pool]	Time elapsed:  0.676945  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:07.895975
+[INFO]	 [c3]	 2019-06-07 11:48:07.915699
+[INFO]	 [c3]	 Time elapsed:  0.019724  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:07.915763
+[INFO]	 [c4]	 2019-06-07 11:48:07.915792
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_60]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_60]	 Time elapsed:  0.6972  seconds.
+
+[INFO]	 [req_61]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:07.916163
+[INFO]	 [c0]	 2019-06-07 11:48:07.916177
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:07.916205
+
+[INFO]	 [c2]	 2019-06-07 11:48:07.954094
+
+[INFO]	 [c1]	 2019-06-07 11:48:07.962640
+[INFO]	 [c2]	 2019-06-07 11:48:08.055260
+[INFO]	 [c2]	Time elapsed:  0.101166  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:08.417531
+[INFO]	 [c1]	Time elapsed:  0.454891  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:08.493265
+[INFO]	 [pool]	Time elapsed:  0.57706  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:08.493357
+[INFO]	 [c3]	 2019-06-07 11:48:08.512791
+[INFO]	 [c3]	 Time elapsed:  0.019434  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:08.512850
+[INFO]	 [c4]	 2019-06-07 11:48:08.512875
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_61]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_61]	 Time elapsed:  0.597023  seconds.
+
+[INFO]	 [req_62]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:08.513242
+[INFO]	 [c0]	 2019-06-07 11:48:08.513255
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:08.513275
+
+[INFO]	 [c2]	 2019-06-07 11:48:08.551318
+
+[INFO]	 [c1]	 2019-06-07 11:48:08.559273
+[INFO]	 [c2]	 2019-06-07 11:48:08.652274
+[INFO]	 [c2]	Time elapsed:  0.100956  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:09.400773
+[INFO]	 [c1]	Time elapsed:  0.8415  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:09.490728
+[INFO]	 [pool]	Time elapsed:  0.977453  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:09.490820
+[INFO]	 [c3]	 2019-06-07 11:48:09.509533
+[INFO]	 [c3]	 Time elapsed:  0.018713  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:09.509596
+[INFO]	 [c4]	 2019-06-07 11:48:09.509623
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_62]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_62]	 Time elapsed:  0.996714  seconds.
+
+[INFO]	 [req_63]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:09.510015
+[INFO]	 [c0]	 2019-06-07 11:48:09.510035
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:09.510066
+
+[INFO]	 [c2]	 2019-06-07 11:48:09.548347
+
+[INFO]	 [c1]	 2019-06-07 11:48:09.556873
+[INFO]	 [c2]	 2019-06-07 11:48:09.649744
+[INFO]	 [c2]	Time elapsed:  0.101397  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:10.102113
+[INFO]	 [c1]	Time elapsed:  0.54524  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:10.187387
+[INFO]	 [pool]	Time elapsed:  0.677321  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:10.187476
+[INFO]	 [c3]	 2019-06-07 11:48:10.206509
+[INFO]	 [c3]	 Time elapsed:  0.019033  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:10.206575
+[INFO]	 [c4]	 2019-06-07 11:48:10.206603
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_63]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_63]	 Time elapsed:  0.6969  seconds.
+
+[INFO]	 [req_64]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:10.206967
+[INFO]	 [c0]	 2019-06-07 11:48:10.206981
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:10.207014
+
+[INFO]	 [c2]	 2019-06-07 11:48:10.244931
+
+[INFO]	 [c1]	 2019-06-07 11:48:10.253402
+[INFO]	 [c2]	 2019-06-07 11:48:10.346685
+[INFO]	 [c2]	Time elapsed:  0.101754  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:10.873803
+[INFO]	 [c1]	Time elapsed:  0.620401  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:10.984061
+[INFO]	 [pool]	Time elapsed:  0.777047  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:10.984149
+[INFO]	 [c3]	 2019-06-07 11:48:11.004132
+[INFO]	 [c3]	 Time elapsed:  0.019983  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:11.004193
+[INFO]	 [c4]	 2019-06-07 11:48:11.004217
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+
+[INFO]	 [req_64]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_64]	 Time elapsed:  0.797552  seconds.
+
+[INFO]	 [req_65]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:11.004575
+[INFO]	 [c0]	 2019-06-07 11:48:11.004589
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:11.004617
+
+[INFO]	 [c2]	 2019-06-07 11:48:11.043991
+
+[INFO]	 [c1]	 2019-06-07 11:48:11.052453
+[INFO]	 [c2]	 2019-06-07 11:48:11.145132
+[INFO]	 [c2]	Time elapsed:  0.101141  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:11.699092
+[INFO]	 [c1]	Time elapsed:  0.646639  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:11.783295
+[INFO]	 [pool]	Time elapsed:  0.778678  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:11.783379
+[INFO]	 [c3]	 2019-06-07 11:48:11.802510
+[INFO]	 [c3]	 Time elapsed:  0.019131  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:11.802576
+[INFO]	 [c4]	 2019-06-07 11:48:11.802602
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [req_65]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_65]	 Time elapsed:  0.79835  seconds.
+
+[INFO]	 [req_66]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:11.802985
+[INFO]	 [c0]	 2019-06-07 11:48:11.803000
+[INFO]	 [c0]	Time elapsed:  1.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:11.803027
+
+[INFO]	 [c2]	 2019-06-07 11:48:11.841090
+
+[INFO]	 [c1]	 2019-06-07 11:48:11.849585
+[INFO]	 [c2]	 2019-06-07 11:48:11.943098
+[INFO]	 [c2]	Time elapsed:  0.102008  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:12.630971
+[INFO]	 [c1]	Time elapsed:  0.781386  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:12.680202
+[INFO]	 [pool]	Time elapsed:  0.877175  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:12.680284
+[INFO]	 [c3]	 2019-06-07 11:48:12.699489
+[INFO]	 [c3]	 Time elapsed:  0.019205  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:12.699546
+[INFO]	 [c4]	 2019-06-07 11:48:12.699573
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_66]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_66]	 Time elapsed:  0.896919  seconds.
+
+[INFO]	 [req_67]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:12.699966
+[INFO]	 [c0]	 2019-06-07 11:48:12.699980
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:12.700015
+
+[INFO]	 [c2]	 2019-06-07 11:48:12.737981
+
+[INFO]	 [c1]	 2019-06-07 11:48:12.747163
+[INFO]	 [c2]	 2019-06-07 11:48:12.840571
+[INFO]	 [c2]	Time elapsed:  0.10259  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:13.635207
+[INFO]	 [c1]	Time elapsed:  0.888044  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:13.678768
+[INFO]	 [pool]	Time elapsed:  0.978753  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:13.678852
+[INFO]	 [c3]	 2019-06-07 11:48:13.698686
+[INFO]	 [c3]	 Time elapsed:  0.019834  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:13.698752
+[INFO]	 [c4]	 2019-06-07 11:48:13.698781
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_67]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_67]	 Time elapsed:  0.999159  seconds.
+
+[INFO]	 [req_68]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:13.699196
+[INFO]	 [c0]	 2019-06-07 11:48:13.699221
+[INFO]	 [c0]	Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:13.699252
+
+[INFO]	 [c2]	 2019-06-07 11:48:13.737733
+
+[INFO]	 [c1]	 2019-06-07 11:48:13.746213
+[INFO]	 [c2]	 2019-06-07 11:48:13.839622
+[INFO]	 [c2]	Time elapsed:  0.101889  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:14.382138
+[INFO]	 [c1]	Time elapsed:  0.635925  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:14.477374
+[INFO]	 [pool]	Time elapsed:  0.778122  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:14.477463
+[INFO]	 [c3]	 2019-06-07 11:48:14.497094
+[INFO]	 [c3]	 Time elapsed:  0.019631  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:14.497158
+[INFO]	 [c4]	 2019-06-07 11:48:14.497188
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_68]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_68]	 Time elapsed:  0.798329  seconds.
+
+[INFO]	 [req_69]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:14.497583
+[INFO]	 [c0]	 2019-06-07 11:48:14.497603
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:14.497631
+
+[INFO]	 [c2]	 2019-06-07 11:48:14.536991
+
+[INFO]	 [c1]	 2019-06-07 11:48:14.544709
+[INFO]	 [c2]	 2019-06-07 11:48:14.639021
+[INFO]	 [c2]	Time elapsed:  0.10203  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:15.367844
+[INFO]	 [c1]	Time elapsed:  0.823135  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:15.477688
+[INFO]	 [pool]	Time elapsed:  0.980057  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:15.477788
+[INFO]	 [c3]	 2019-06-07 11:48:15.497400
+[INFO]	 [c3]	 Time elapsed:  0.019612  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:15.497460
+[INFO]	 [c4]	 2019-06-07 11:48:15.497488
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_69]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_69]	 Time elapsed:  1.000217  seconds.
+
+[INFO]	 [req_70]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:15.497867
+[INFO]	 [c0]	 2019-06-07 11:48:15.497888
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:15.497916
+
+[INFO]	 [c2]	 2019-06-07 11:48:15.536415
+
+[INFO]	 [c1]	 2019-06-07 11:48:15.544896
+[INFO]	 [c2]	 2019-06-07 11:48:15.638285
+[INFO]	 [c2]	Time elapsed:  0.10187  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:16.446057
+[INFO]	 [c1]	Time elapsed:  0.901161  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:16.577433
+[INFO]	 [pool]	Time elapsed:  1.079517  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:16.577526
+[INFO]	 [c3]	 2019-06-07 11:48:16.596847
+[INFO]	 [c3]	 Time elapsed:  0.019321  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:16.596913
+[INFO]	 [c4]	 2019-06-07 11:48:16.596937
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+
+[INFO]	 [req_70]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_70]	 Time elapsed:  1.099417  seconds.
+
+[INFO]	 [req_71]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:16.597338
+[INFO]	 [c0]	 2019-06-07 11:48:16.597352
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:16.597384
+
+[INFO]	 [c2]	 2019-06-07 11:48:16.635491
+
+[INFO]	 [c1]	 2019-06-07 11:48:16.644261
+[INFO]	 [c2]	 2019-06-07 11:48:16.736739
+[INFO]	 [c2]	Time elapsed:  0.101248  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:17.262139
+[INFO]	 [c1]	Time elapsed:  0.617878  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:17.375570
+[INFO]	 [pool]	Time elapsed:  0.778186  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:17.375654
+[INFO]	 [c3]	 2019-06-07 11:48:17.394429
+[INFO]	 [c3]	 Time elapsed:  0.018775  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:17.394494
+[INFO]	 [c4]	 2019-06-07 11:48:17.394522
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_71]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_71]	 Time elapsed:  0.797516  seconds.
+
+[INFO]	 [req_72]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:17.394913
+[INFO]	 [c0]	 2019-06-07 11:48:17.394927
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:17.394956
+
+[INFO]	 [c2]	 2019-06-07 11:48:17.434455
+
+[INFO]	 [c1]	 2019-06-07 11:48:17.441630
+[INFO]	 [c2]	 2019-06-07 11:48:17.534568
+[INFO]	 [c2]	Time elapsed:  0.100113  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:17.947801
+[INFO]	 [c1]	Time elapsed:  0.506171  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:18.074542
+[INFO]	 [pool]	Time elapsed:  0.679586  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:18.074629
+[INFO]	 [c3]	 2019-06-07 11:48:18.093664
+[INFO]	 [c3]	 Time elapsed:  0.019035  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:18.093731
+[INFO]	 [c4]	 2019-06-07 11:48:18.093761
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_72]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_72]	 Time elapsed:  0.699165  seconds.
+
+[INFO]	 [req_73]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:18.094136
+[INFO]	 [c0]	 2019-06-07 11:48:18.094156
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:18.094177
+
+[INFO]	 [c2]	 2019-06-07 11:48:18.132079
+
+[INFO]	 [c1]	 2019-06-07 11:48:18.142210
+[INFO]	 [c2]	 2019-06-07 11:48:18.235192
+[INFO]	 [c2]	Time elapsed:  0.103113  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:18.736793
+[INFO]	 [c1]	Time elapsed:  0.594583  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:18.873296
+[INFO]	 [pool]	Time elapsed:  0.779119  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:18.873383
+[INFO]	 [c3]	 2019-06-07 11:48:18.892714
+[INFO]	 [c3]	 Time elapsed:  0.019331  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:18.892772
+[INFO]	 [c4]	 2019-06-07 11:48:18.892801
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_73]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_73]	 Time elapsed:  0.798984  seconds.
+
+[INFO]	 [req_74]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:18.893184
+[INFO]	 [c0]	 2019-06-07 11:48:18.893204
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:18.893234
+
+[INFO]	 [c2]	 2019-06-07 11:48:18.931257
+
+[INFO]	 [c1]	 2019-06-07 11:48:18.939699
+[INFO]	 [c2]	 2019-06-07 11:48:19.031417
+[INFO]	 [c2]	Time elapsed:  0.10016  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:19.429523
+[INFO]	 [c1]	Time elapsed:  0.489824  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:19.469792
+[INFO]	 [pool]	Time elapsed:  0.576558  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:19.469875
+[INFO]	 [c3]	 2019-06-07 11:48:19.488568
+[INFO]	 [c3]	 Time elapsed:  0.018693  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:19.488625
+[INFO]	 [c4]	 2019-06-07 11:48:19.488652
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_74]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_74]	 Time elapsed:  0.595794  seconds.
+
+[INFO]	 [req_75]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:19.489050
+[INFO]	 [c0]	 2019-06-07 11:48:19.489076
+[INFO]	 [c0]	Time elapsed:  2.6e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:19.489116
+
+[INFO]	 [c2]	 2019-06-07 11:48:19.527032
+
+[INFO]	 [c1]	 2019-06-07 11:48:19.535392
+[INFO]	 [c2]	 2019-06-07 11:48:19.628263
+[INFO]	 [c2]	Time elapsed:  0.101231  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:20.512114
+[INFO]	 [c1]	Time elapsed:  0.976722  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:20.566926
+[INFO]	 [pool]	Time elapsed:  1.07781  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:20.567019
+[INFO]	 [c3]	 2019-06-07 11:48:20.585747
+[INFO]	 [c3]	 Time elapsed:  0.018728  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:20.585805
+[INFO]	 [c4]	 2019-06-07 11:48:20.585832
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_75]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_75]	 Time elapsed:  1.09711  seconds.
+
+[INFO]	 [req_76]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:20.586206
+[INFO]	 [c0]	 2019-06-07 11:48:20.586220
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:20.586267
+
+[INFO]	 [c2]	 2019-06-07 11:48:20.624466
+
+[INFO]	 [c1]	 2019-06-07 11:48:20.632841
+[INFO]	 [c2]	 2019-06-07 11:48:20.727201
+[INFO]	 [c2]	Time elapsed:  0.102735  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:21.226104
+[INFO]	 [c1]	Time elapsed:  0.593263  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:21.365023
+[INFO]	 [pool]	Time elapsed:  0.778756  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:21.365111
+[INFO]	 [c3]	 2019-06-07 11:48:21.384925
+[INFO]	 [c3]	 Time elapsed:  0.019814  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:21.384990
+[INFO]	 [c4]	 2019-06-07 11:48:21.385019
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_76]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_76]	 Time elapsed:  0.799157  seconds.
+
+[INFO]	 [req_77]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:21.385420
+[INFO]	 [c0]	 2019-06-07 11:48:21.385434
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:21.385462
+
+[INFO]	 [c2]	 2019-06-07 11:48:21.424071
+
+[INFO]	 [c1]	 2019-06-07 11:48:21.432771
+[INFO]	 [c2]	 2019-06-07 11:48:21.527302
+[INFO]	 [c2]	Time elapsed:  0.103231  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:21.834874
+[INFO]	 [c1]	Time elapsed:  0.402103  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:21.964840
+[INFO]	 [pool]	Time elapsed:  0.579378  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:21.964927
+[INFO]	 [c3]	 2019-06-07 11:48:21.984891
+[INFO]	 [c3]	 Time elapsed:  0.019964  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:21.984960
+[INFO]	 [c4]	 2019-06-07 11:48:21.984990
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_77]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_77]	 Time elapsed:  0.599898  seconds.
+
+[INFO]	 [req_78]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:21.985379
+[INFO]	 [c0]	 2019-06-07 11:48:21.985398
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:21.985426
+
+[INFO]	 [c2]	 2019-06-07 11:48:22.023856
+
+[INFO]	 [c1]	 2019-06-07 11:48:22.032622
+[INFO]	 [c2]	 2019-06-07 11:48:22.125596
+[INFO]	 [c2]	Time elapsed:  0.10174  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:22.841907
+[INFO]	 [c1]	Time elapsed:  0.809285  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:22.965521
+[INFO]	 [pool]	Time elapsed:  0.980095  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:22.965613
+[INFO]	 [c3]	 2019-06-07 11:48:22.986736
+[INFO]	 [c3]	 Time elapsed:  0.021123  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:22.986805
+[INFO]	 [c4]	 2019-06-07 11:48:22.986832
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_78]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_78]	 Time elapsed:  1.001787  seconds.
+
+[INFO]	 [req_79]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:22.987222
+[INFO]	 [c0]	 2019-06-07 11:48:22.987240
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:22.987276
+
+[INFO]	 [c2]	 2019-06-07 11:48:23.025692
+
+[INFO]	 [c1]	 2019-06-07 11:48:23.034004
+[INFO]	 [c2]	 2019-06-07 11:48:23.126936
+[INFO]	 [c2]	Time elapsed:  0.101244  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:23.927395
+[INFO]	 [c1]	Time elapsed:  0.893391  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:24.066539
+[INFO]	 [pool]	Time elapsed:  1.079263  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:24.066635
+[INFO]	 [c3]	 2019-06-07 11:48:24.085302
+[INFO]	 [c3]	 Time elapsed:  0.018667  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:24.085363
+[INFO]	 [c4]	 2019-06-07 11:48:24.085393
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_79]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_79]	 Time elapsed:  1.098488  seconds.
+
+[INFO]	 [req_80]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:24.085771
+[INFO]	 [c0]	 2019-06-07 11:48:24.085790
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:24.085818
+
+[INFO]	 [c2]	 2019-06-07 11:48:24.123596
+
+[INFO]	 [c1]	 2019-06-07 11:48:24.132752
+[INFO]	 [c2]	 2019-06-07 11:48:24.225414
+[INFO]	 [c2]	Time elapsed:  0.101818  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:24.745769
+[INFO]	 [c1]	Time elapsed:  0.613017  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:24.862827
+[INFO]	 [pool]	Time elapsed:  0.777009  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:24.862910
+[INFO]	 [c3]	 2019-06-07 11:48:24.882000
+[INFO]	 [c3]	 Time elapsed:  0.01909  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:24.882059
+[INFO]	 [c4]	 2019-06-07 11:48:24.882087
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [req_80]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_80]	 Time elapsed:  0.796655  seconds.
+
+[INFO]	 [req_81]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:24.882477
+[INFO]	 [c0]	 2019-06-07 11:48:24.882495
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:24.882525
+
+[INFO]	 [c2]	 2019-06-07 11:48:24.920376
+
+[INFO]	 [c1]	 2019-06-07 11:48:24.928901
+[INFO]	 [c2]	 2019-06-07 11:48:25.021436
+[INFO]	 [c2]	Time elapsed:  0.10106  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:25.286336
+[INFO]	 [c1]	Time elapsed:  0.357435  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:25.359125
+[INFO]	 [pool]	Time elapsed:  0.4766  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:25.359209
+[INFO]	 [c3]	 2019-06-07 11:48:25.377917
+[INFO]	 [c3]	 Time elapsed:  0.018708  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:25.377978
+[INFO]	 [c4]	 2019-06-07 11:48:25.378005
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_81]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_81]	 Time elapsed:  0.495862  seconds.
+
+[INFO]	 [req_82]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:25.378402
+[INFO]	 [c0]	 2019-06-07 11:48:25.378421
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:25.378450
+
+[INFO]	 [c2]	 2019-06-07 11:48:25.416391
+
+[INFO]	 [c1]	 2019-06-07 11:48:25.424809
+[INFO]	 [c2]	 2019-06-07 11:48:25.517892
+[INFO]	 [c2]	Time elapsed:  0.101501  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:26.050490
+[INFO]	 [c1]	Time elapsed:  0.625681  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:26.156075
+[INFO]	 [pool]	Time elapsed:  0.777625  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:26.156168
+[INFO]	 [c3]	 2019-06-07 11:48:26.175812
+[INFO]	 [c3]	 Time elapsed:  0.019644  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:26.175876
+[INFO]	 [c4]	 2019-06-07 11:48:26.175906
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_82]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_82]	 Time elapsed:  0.79783  seconds.
+
+[INFO]	 [req_83]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:26.176305
+[INFO]	 [c0]	 2019-06-07 11:48:26.176333
+[INFO]	 [c0]	Time elapsed:  2.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:26.176356
+
+[INFO]	 [c2]	 2019-06-07 11:48:26.215346
+
+[INFO]	 [c1]	 2019-06-07 11:48:26.223236
+[INFO]	 [c2]	 2019-06-07 11:48:26.317198
+[INFO]	 [c2]	Time elapsed:  0.101852  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:27.362655
+[INFO]	 [c1]	Time elapsed:  1.139419  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:27.455540
+[INFO]	 [pool]	Time elapsed:  1.279184  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:27.455636
+[INFO]	 [c3]	 2019-06-07 11:48:27.475099
+[INFO]	 [c3]	 Time elapsed:  0.019463  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:27.475159
+[INFO]	 [c4]	 2019-06-07 11:48:27.475186
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_83]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_83]	 Time elapsed:  1.299217  seconds.
+
+[INFO]	 [req_84]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:27.475577
+[INFO]	 [c0]	 2019-06-07 11:48:27.475590
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:27.475618
+
+[INFO]	 [c2]	 2019-06-07 11:48:27.514024
+
+[INFO]	 [c1]	 2019-06-07 11:48:27.522009
+[INFO]	 [c2]	 2019-06-07 11:48:27.616186
+[INFO]	 [c2]	Time elapsed:  0.102162  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:28.607078
+[INFO]	 [c1]	Time elapsed:  1.085069  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:28.654119
+[INFO]	 [pool]	Time elapsed:  1.178501  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:28.654205
+[INFO]	 [c3]	 2019-06-07 11:48:28.673967
+[INFO]	 [c3]	 Time elapsed:  0.019762  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:28.674032
+[INFO]	 [c4]	 2019-06-07 11:48:28.674062
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_84]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_84]	 Time elapsed:  1.198829  seconds.
+
+[INFO]	 [req_85]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:28.674464
+[INFO]	 [c0]	 2019-06-07 11:48:28.674477
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:28.674499
+
+[INFO]	 [c2]	 2019-06-07 11:48:28.712924
+
+[INFO]	 [c1]	 2019-06-07 11:48:28.721339
+[INFO]	 [c2]	 2019-06-07 11:48:28.813160
+[INFO]	 [c2]	Time elapsed:  0.100236  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:29.298790
+[INFO]	 [c1]	Time elapsed:  0.577451  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:29.351710
+[INFO]	 [pool]	Time elapsed:  0.677211  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:29.351802
+[INFO]	 [c3]	 2019-06-07 11:48:29.370912
+[INFO]	 [c3]	 Time elapsed:  0.01911  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:29.370973
+[INFO]	 [c4]	 2019-06-07 11:48:29.371000
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_85]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_85]	 Time elapsed:  0.696849  seconds.
+
+[INFO]	 [req_86]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:29.371377
+[INFO]	 [c0]	 2019-06-07 11:48:29.371395
+[INFO]	 [c0]	Time elapsed:  1.8e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:29.371425
+
+[INFO]	 [c2]	 2019-06-07 11:48:29.411341
+
+[INFO]	 [c1]	 2019-06-07 11:48:29.417737
+[INFO]	 [c2]	 2019-06-07 11:48:29.512955
+[INFO]	 [c2]	Time elapsed:  0.101614  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:30.161737
+[INFO]	 [c1]	Time elapsed:  0.744  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:30.250399
+[INFO]	 [pool]	Time elapsed:  0.878974  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:30.250486
+[INFO]	 [c3]	 2019-06-07 11:48:30.269530
+[INFO]	 [c3]	 Time elapsed:  0.019044  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:30.269587
+[INFO]	 [c4]	 2019-06-07 11:48:30.269617
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_86]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_86]	 Time elapsed:  0.898557  seconds.
+
+[INFO]	 [req_87]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:30.270001
+[INFO]	 [c0]	 2019-06-07 11:48:30.270016
+[INFO]	 [c0]	Time elapsed:  1.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:30.270052
+
+[INFO]	 [c2]	 2019-06-07 11:48:30.307940
+
+[INFO]	 [c1]	 2019-06-07 11:48:30.316364
+[INFO]	 [c2]	 2019-06-07 11:48:30.410597
+[INFO]	 [c2]	Time elapsed:  0.102657  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:31.028022
+[INFO]	 [c1]	Time elapsed:  0.711658  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:31.147448
+[INFO]	 [pool]	Time elapsed:  0.877396  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:31.147536
+[INFO]	 [c3]	 2019-06-07 11:48:31.168128
+[INFO]	 [c3]	 Time elapsed:  0.020592  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:31.168192
+[INFO]	 [c4]	 2019-06-07 11:48:31.168221
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_87]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_87]	 Time elapsed:  0.898552  seconds.
+
+[INFO]	 [req_88]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:31.168615
+[INFO]	 [c0]	 2019-06-07 11:48:31.168634
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:31.168665
+
+[INFO]	 [c2]	 2019-06-07 11:48:31.207177
+
+[INFO]	 [c1]	 2019-06-07 11:48:31.215592
+[INFO]	 [c2]	 2019-06-07 11:48:31.309255
+[INFO]	 [c2]	Time elapsed:  0.102078  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:32.235163
+[INFO]	 [c1]	Time elapsed:  1.019571  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:32.347102
+[INFO]	 [pool]	Time elapsed:  1.178437  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:32.347188
+[INFO]	 [c3]	 2019-06-07 11:48:32.367284
+[INFO]	 [c3]	 Time elapsed:  0.020096  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:32.367346
+[INFO]	 [c4]	 2019-06-07 11:48:32.367376
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_88]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_88]	 Time elapsed:  1.199092  seconds.
+
+[INFO]	 [req_89]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:32.367760
+[INFO]	 [c0]	 2019-06-07 11:48:32.367773
+[INFO]	 [c0]	Time elapsed:  1.3e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:32.367800
+
+[INFO]	 [c2]	 2019-06-07 11:48:32.405629
+
+[INFO]	 [c1]	 2019-06-07 11:48:32.414137
+[INFO]	 [c2]	 2019-06-07 11:48:32.507911
+[INFO]	 [c2]	Time elapsed:  0.102282  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:32.993073
+[INFO]	 [c1]	Time elapsed:  0.578936  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:33.044426
+[INFO]	 [pool]	Time elapsed:  0.676626  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:33.044518
+[INFO]	 [c3]	 2019-06-07 11:48:33.063860
+[INFO]	 [c3]	 Time elapsed:  0.019342  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:33.063925
+[INFO]	 [c4]	 2019-06-07 11:48:33.063955
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_89]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_89]	 Time elapsed:  0.696544  seconds.
+
+[INFO]	 [req_90]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:33.064365
+[INFO]	 [c0]	 2019-06-07 11:48:33.064385
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:33.064421
+
+[INFO]	 [c2]	 2019-06-07 11:48:33.102697
+
+[INFO]	 [c1]	 2019-06-07 11:48:33.111168
+[INFO]	 [c2]	 2019-06-07 11:48:33.204728
+[INFO]	 [c2]	Time elapsed:  0.102031  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:33.717232
+[INFO]	 [c1]	Time elapsed:  0.606064  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:33.843552
+[INFO]	 [pool]	Time elapsed:  0.779131  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:33.843651
+[INFO]	 [c3]	 2019-06-07 11:48:33.863981
+[INFO]	 [c3]	 Time elapsed:  0.02033  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:33.864042
+[INFO]	 [c4]	 2019-06-07 11:48:33.864073
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+
+[INFO]	 [req_90]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_90]	 Time elapsed:  0.800056  seconds.
+
+[INFO]	 [req_91]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:33.864481
+[INFO]	 [c0]	 2019-06-07 11:48:33.864502
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:33.864524
+
+[INFO]	 [c2]	 2019-06-07 11:48:33.903025
+
+[INFO]	 [c1]	 2019-06-07 11:48:33.911602
+[INFO]	 [c2]	 2019-06-07 11:48:34.005648
+[INFO]	 [c2]	Time elapsed:  0.102623  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:34.486694
+[INFO]	 [c1]	Time elapsed:  0.575092  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:34.541824
+[INFO]	 [pool]	Time elapsed:  0.6773  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:34.541918
+[INFO]	 [c3]	 2019-06-07 11:48:34.560621
+[INFO]	 [c3]	 Time elapsed:  0.018703  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:34.560682
+[INFO]	 [c4]	 2019-06-07 11:48:34.560706
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+
+[INFO]	 [req_91]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_91]	 Time elapsed:  0.696546  seconds.
+
+[INFO]	 [req_92]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:34.561086
+[INFO]	 [c0]	 2019-06-07 11:48:34.561108
+[INFO]	 [c0]	Time elapsed:  2.2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:34.561139
+
+[INFO]	 [c2]	 2019-06-07 11:48:34.598936
+
+[INFO]	 [c1]	 2019-06-07 11:48:34.607456
+[INFO]	 [c2]	 2019-06-07 11:48:34.700706
+[INFO]	 [c2]	Time elapsed:  0.10177  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:35.219966
+[INFO]	 [c1]	Time elapsed:  0.61251  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:35.338959
+[INFO]	 [pool]	Time elapsed:  0.77782  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:35.339051
+[INFO]	 [c3]	 2019-06-07 11:48:35.360361
+[INFO]	 [c3]	 Time elapsed:  0.02131  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:35.360426
+[INFO]	 [c4]	 2019-06-07 11:48:35.360456
+[INFO]	 [c4]	 Time elapsed:  3e-05  seconds.
+
+[INFO]	 [req_92]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_92]	 Time elapsed:  0.799709  seconds.
+
+[INFO]	 [req_93]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:35.360858
+[INFO]	 [c0]	 2019-06-07 11:48:35.360877
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:35.360900
+
+[INFO]	 [c2]	 2019-06-07 11:48:35.399519
+
+[INFO]	 [c1]	 2019-06-07 11:48:35.407990
+[INFO]	 [c2]	 2019-06-07 11:48:35.501260
+[INFO]	 [c2]	Time elapsed:  0.101741  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:36.208167
+[INFO]	 [c1]	Time elapsed:  0.800177  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:36.340807
+[INFO]	 [pool]	Time elapsed:  0.979907  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:36.340903
+[INFO]	 [c3]	 2019-06-07 11:48:36.361692
+[INFO]	 [c3]	 Time elapsed:  0.020789  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:36.361757
+[INFO]	 [c4]	 2019-06-07 11:48:36.361792
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+
+[INFO]	 [req_93]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_93]	 Time elapsed:  1.001276  seconds.
+
+[INFO]	 [req_94]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:36.362199
+[INFO]	 [c0]	 2019-06-07 11:48:36.362218
+[INFO]	 [c0]	Time elapsed:  1.9e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:36.362272
+
+[INFO]	 [c2]	 2019-06-07 11:48:36.400747
+
+[INFO]	 [c1]	 2019-06-07 11:48:36.409611
+[INFO]	 [c2]	 2019-06-07 11:48:36.501775
+[INFO]	 [c2]	Time elapsed:  0.101028  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:37.010387
+[INFO]	 [c1]	Time elapsed:  0.600776  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:37.140619
+[INFO]	 [pool]	Time elapsed:  0.778347  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:37.140708
+[INFO]	 [c3]	 2019-06-07 11:48:37.159594
+[INFO]	 [c3]	 Time elapsed:  0.018886  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:37.159655
+[INFO]	 [c4]	 2019-06-07 11:48:37.159680
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+
+[INFO]	 [req_94]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_94]	 Time elapsed:  0.79781  seconds.
+
+[INFO]	 [req_95]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:37.160063
+[INFO]	 [c0]	 2019-06-07 11:48:37.160083
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:37.160110
+
+[INFO]	 [c2]	 2019-06-07 11:48:37.198003
+
+[INFO]	 [c1]	 2019-06-07 11:48:37.206617
+[INFO]	 [c2]	 2019-06-07 11:48:37.300313
+[INFO]	 [c2]	Time elapsed:  0.10231  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:37.965514
+[INFO]	 [c1]	Time elapsed:  0.758897  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:38.037396
+[INFO]	 [pool]	Time elapsed:  0.877286  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:38.037492
+[INFO]	 [c3]	 2019-06-07 11:48:38.057813
+[INFO]	 [c3]	 Time elapsed:  0.020321  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:38.057878
+[INFO]	 [c4]	 2019-06-07 11:48:38.057910
+[INFO]	 [c4]	 Time elapsed:  3.2e-05  seconds.
+
+[INFO]	 [req_95]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_95]	 Time elapsed:  0.898166  seconds.
+
+[INFO]	 [req_96]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:38.058324
+[INFO]	 [c0]	 2019-06-07 11:48:38.058339
+[INFO]	 [c0]	Time elapsed:  1.5e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:38.058375
+
+[INFO]	 [c2]	 2019-06-07 11:48:38.096901
+
+[INFO]	 [c1]	 2019-06-07 11:48:38.105220
+[INFO]	 [c2]	 2019-06-07 11:48:38.198092
+[INFO]	 [c2]	Time elapsed:  0.101191  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:38.672538
+[INFO]	 [c1]	Time elapsed:  0.567318  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:38.736074
+[INFO]	 [pool]	Time elapsed:  0.677699  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:38.736163
+[INFO]	 [c3]	 2019-06-07 11:48:38.757249
+[INFO]	 [c3]	 Time elapsed:  0.021086  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:38.757312
+[INFO]	 [c4]	 2019-06-07 11:48:38.757339
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_96]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_96]	 Time elapsed:  0.699352  seconds.
+
+[INFO]	 [req_97]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:38.757728
+[INFO]	 [c0]	 2019-06-07 11:48:38.757742
+[INFO]	 [c0]	Time elapsed:  1.4e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:38.757764
+
+[INFO]	 [c2]	 2019-06-07 11:48:38.796292
+
+[INFO]	 [c1]	 2019-06-07 11:48:38.804244
+[INFO]	 [c2]	 2019-06-07 11:48:38.899190
+[INFO]	 [c2]	Time elapsed:  0.102898  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:39.519798
+[INFO]	 [c1]	Time elapsed:  0.715554  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:39.635698
+[INFO]	 [pool]	Time elapsed:  0.877934  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:39.635793
+[INFO]	 [c3]	 2019-06-07 11:48:39.654985
+[INFO]	 [c3]	 Time elapsed:  0.019192  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:39.655042
+[INFO]	 [c4]	 2019-06-07 11:48:39.655069
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_97]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_97]	 Time elapsed:  0.897662  seconds.
+
+[INFO]	 [req_98]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:39.655449
+[INFO]	 [c0]	 2019-06-07 11:48:39.655469
+[INFO]	 [c0]	Time elapsed:  2e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:39.655500
+
+[INFO]	 [c2]	 2019-06-07 11:48:39.693612
+
+[INFO]	 [c1]	 2019-06-07 11:48:39.702144
+[INFO]	 [c2]	 2019-06-07 11:48:39.796808
+[INFO]	 [c2]	Time elapsed:  0.103196  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:40.451219
+[INFO]	 [c1]	Time elapsed:  0.749075  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:40.533611
+[INFO]	 [pool]	Time elapsed:  0.878111  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:40.533695
+[INFO]	 [c3]	 2019-06-07 11:48:40.553497
+[INFO]	 [c3]	 Time elapsed:  0.019802  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:40.553561
+[INFO]	 [c4]	 2019-06-07 11:48:40.553590
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+
+[INFO]	 [req_98]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_98]	 Time elapsed:  0.898464  seconds.
+
+[INFO]	 [req_99]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [c0]	 2019-06-07 11:48:40.553972
+[INFO]	 [c0]	 2019-06-07 11:48:40.553993
+[INFO]	 [c0]	Time elapsed:  2.1e-05  seconds.
+
+[INFO]	 [pool]	 2019-06-07 11:48:40.554022
+
+[INFO]	 [c2]	 2019-06-07 11:48:40.592683
+
+[INFO]	 [c1]	 2019-06-07 11:48:40.600871
+[INFO]	 [c2]	 2019-06-07 11:48:40.694906
+[INFO]	 [c2]	Time elapsed:  0.102223  seconds.
+[INFO]	 [c1]	 2019-06-07 11:48:41.247642
+[INFO]	 [c1]	Time elapsed:  0.646771  seconds.
+[INFO]	 [pool]	 2019-06-07 11:48:41.332237
+[INFO]	 [pool]	Time elapsed:  0.778215  seconds.
+
+[INFO]	 [c3]	 2019-06-07 11:48:41.332327
+[INFO]	 [c3]	 2019-06-07 11:48:41.351112
+[INFO]	 [c3]	 Time elapsed:  0.018785  seconds.
+
+[INFO]	 [c4]	 2019-06-07 11:48:41.351173
+[INFO]	 [c4]	 2019-06-07 11:48:41.351200
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+
+[INFO]	 [req_99]	 2019-06-07 11:47:18.493979
+
+[INFO]	 [req_99]	 Time elapsed:  0.797546  seconds.
+[INFO]	 [main]	 2019-06-07 11:48:41.351551
+[INFO]	 [main]	 Time elapsed:  82.857572  seconds.

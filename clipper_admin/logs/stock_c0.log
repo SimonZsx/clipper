@@ -1,0 +1,421 @@
+Model Server Started -- c0
+Received SetProxy:proxyName: "c0_1-82945-proxy"
+proxyPort: "22223"
+
+
+received request:
+
+received request:inputType: "string"
+inputStream: "HAS:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:HAS:2018:1:1
+received request:inputType: "string"
+inputStream: "IRM:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:IRM:2018:1:1
+received request:inputType: "string"
+inputStream: "TEL:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:TEL:2018:1:1
+received request:inputType: "string"
+inputStream: "EL:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:EL:2018:1:1
+received request:inputType: "string"
+inputStream: "ESS:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:ESS:2018:1:1
+received request:inputType: "string"
+inputStream: "COP:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:COP:2018:1:1
+received request:inputType: "string"
+inputStream: "KEY:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:KEY:2018:1:1
+received request:inputType: "string"
+inputStream: "FE:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:FE:2018:1:1
+received request:inputType: "string"
+inputStream: "CBS:2018:1:1"
+
+
+ELASPSED TIME 1.6689300537109375e-06
+||||----||||Predict Output:CBS:2018:1:1
+received request:inputType: "string"
+inputStream: "IFF:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:IFF:2018:1:1
+received request:inputType: "string"
+inputStream: "NOV:2018:1:1"
+
+
+ELASPSED TIME 1.430511474609375e-06
+||||----||||Predict Output:NOV:2018:1:1
+received request:inputType: "string"
+inputStream: "IRM:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:IRM:2018:1:1
+received request:inputType: "string"
+inputStream: "FL:2018:1:1"
+
+
+ELASPSED TIME 4.76837158203125e-07
+||||----||||Predict Output:FL:2018:1:1
+received request:inputType: "string"
+inputStream: "BBY:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:BBY:2018:1:1
+received request:inputType: "string"
+inputStream: "MS:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:MS:2018:1:1
+received request:inputType: "string"
+inputStream: "FAST:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:FAST:2018:1:1
+received request:inputType: "string"
+inputStream: "CRM:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:CRM:2018:1:1
+received request:inputType: "string"
+inputStream: "NUE:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:NUE:2018:1:1
+received request:inputType: "string"
+inputStream: "MSCI:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:MSCI:2018:1:1
+received request:inputType: "string"
+inputStream: "MMC:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:MMC:2018:1:1
+received request:inputType: "string"
+inputStream: "AIG:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:AIG:2018:1:1
+received request:inputType: "string"
+inputStream: "WELL:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:WELL:2018:1:1
+received request:inputType: "string"
+inputStream: "STT:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:STT:2018:1:1
+received request:inputType: "string"
+inputStream: "CMA:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:CMA:2018:1:1
+received request:inputType: "string"
+inputStream: "RMD:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:RMD:2018:1:1
+received request:inputType: "string"
+inputStream: "FB:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:FB:2018:1:1
+received request:inputType: "string"
+inputStream: "IFF:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:IFF:2018:1:1
+received request:inputType: "string"
+inputStream: "WU:2018:1:1"
+
+
+ELASPSED TIME 1.1920928955078125e-06
+||||----||||Predict Output:WU:2018:1:1
+received request:inputType: "string"
+inputStream: "USB:2018:1:1"
+
+
+ELASPSED TIME 1.1920928955078125e-06
+||||----||||Predict Output:USB:2018:1:1
+received request:inputType: "string"
+inputStream: "NI:2018:1:1"
+
+
+ELASPSED TIME 1.1920928955078125e-06
+||||----||||Predict Output:NI:2018:1:1
+received request:inputType: "string"
+inputStream: "EA:2018:1:1"
+
+
+ELASPSED TIME 1.1920928955078125e-06
+||||----||||Predict Output:EA:2018:1:1
+received request:inputType: "string"
+inputStream: "TRIP:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:TRIP:2018:1:1
+received request:inputType: "string"
+inputStream: "EBAY:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:EBAY:2018:1:1
+received request:inputType: "string"
+inputStream: "AON:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:AON:2018:1:1
+received request:inputType: "string"
+inputStream: "MS:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:MS:2018:1:1
+received request:inputType: "string"
+inputStream: "TXN:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:TXN:2018:1:1
+received request:inputType: "string"
+inputStream: "USB:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:USB:2018:1:1
+received request:inputType: "string"
+inputStream: "IRM:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:IRM:2018:1:1
+received request:inputType: "string"
+inputStream: "CE:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:CE:2018:1:1
+received request:inputType: "string"
+inputStream: "BK:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:BK:2018:1:1
+received request:inputType: "string"
+inputStream: "ROL:2018:1:1"
+
+
+ELASPSED TIME 4.76837158203125e-07
+||||----||||Predict Output:ROL:2018:1:1
+received request:inputType: "string"
+inputStream: "ANTM:2018:1:1"
+
+
+ELASPSED TIME 4.76837158203125e-07
+||||----||||Predict Output:ANTM:2018:1:1
+received request:inputType: "string"
+inputStream: "NVDA:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:NVDA:2018:1:1
+received request:inputType: "string"
+inputStream: "SEE:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:SEE:2018:1:1
+received request:inputType: "string"
+inputStream: "CNC:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:CNC:2018:1:1
+received request:inputType: "string"
+inputStream: "DXC:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:DXC:2018:1:1
+received request:inputType: "string"
+inputStream: "APA:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:APA:2018:1:1
+received request:inputType: "string"
+inputStream: "UPS:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:UPS:2018:1:1
+received request:inputType: "string"
+inputStream: "DOW:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:DOW:2018:1:1
+received request:inputType: "string"
+inputStream: "CAT:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:CAT:2018:1:1
+received request:inputType: "string"
+inputStream: "MET:2018:1:1"
+
+
+ELASPSED TIME 4.76837158203125e-07
+||||----||||Predict Output:MET:2018:1:1
+received request:inputType: "string"
+inputStream: "HIG:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:HIG:2018:1:1
+received request:inputType: "string"
+inputStream: "LOW:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:LOW:2018:1:1
+received request:inputType: "string"
+inputStream: "CAT:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:CAT:2018:1:1
+received request:inputType: "string"
+inputStream: "VZ:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:VZ:2018:1:1
+received request:inputType: "string"
+inputStream: "MSCI:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:MSCI:2018:1:1
+received request:inputType: "string"
+inputStream: "MA:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:MA:2018:1:1
+received request:inputType: "string"
+inputStream: "BEN:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:BEN:2018:1:1
+received request:inputType: "string"
+inputStream: "RMD:2018:1:1"
+
+
+ELASPSED TIME 4.76837158203125e-07
+||||----||||Predict Output:RMD:2018:1:1
+received request:inputType: "string"
+inputStream: "BEN:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:BEN:2018:1:1
+received request:inputType: "string"
+inputStream: "HPE:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:HPE:2018:1:1
+received request:inputType: "string"
+inputStream: "PGR:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:PGR:2018:1:1
+received request:inputType: "string"
+inputStream: "CNC:2018:1:1"
+
+
+ELASPSED TIME 1.1920928955078125e-06
+||||----||||Predict Output:CNC:2018:1:1
+received request:inputType: "string"
+inputStream: "PH:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:PH:2018:1:1
+received request:inputType: "string"
+inputStream: "PGR:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:PGR:2018:1:1
+received request:inputType: "string"
+inputStream: "MAC:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:MAC:2018:1:1
+received request:inputType: "string"
+inputStream: "NOV:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:NOV:2018:1:1
+received request:inputType: "string"
+inputStream: "BEN:2018:1:1"
+
+
+ELASPSED TIME 9.5367431640625e-07
+||||----||||Predict Output:BEN:2018:1:1
+received request:inputType: "string"
+inputStream: "ICE:2018:1:1"
+
+
+ELASPSED TIME 7.152557373046875e-07
+||||----||||Predict Output:ICE:2018:1:1

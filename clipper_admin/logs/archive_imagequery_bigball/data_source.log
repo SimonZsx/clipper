@@ -1,0 +1,8 @@
+get_bigball_pool_diff.py: diff from c1 and pool in bigBall, use: imagequery_bigBall_100req_for_get_diff.log
+c1_bigball_100req.log is c1 time in bigBall, generated from imagequery_bigBall_100req_for_get_diff.log
+pool_bigball_100req.log is pool time in bigBall, generated from imagequery_bigball_100req_for_get_diff.log
+used to calculate time from pool
+
+get_oursystem_c1_average.py: diff from c1 in our system container and bigball container under subprocess
+c1_withProxy_100req.log is c1 time in our system, generated from c1's container logs "Time elaspsed"
+

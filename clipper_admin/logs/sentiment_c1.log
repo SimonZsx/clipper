@@ -1,0 +1,2647 @@
+Model Server Started -- c1
+Received SetProxy:proxyName: "c1_1-74965-proxy"
+proxyPort: "22223"
+
+
+received request:
+
+received request:inputType: "string"
+inputStream: "850"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:41:54.026412
+/container/data/dataset3/recordings/850.wav
+please call us on the ass could bring these things
+[INFO]	 [c1]	 2019-06-07 03:41:54.589286
+[INFO]	 [c1]	Time elapsed:  0.562874  seconds.
+||||----||||Predict Output:please call us on the ass could bring these things
+received request:inputType: "string"
+inputStream: "898"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:41:59.404493
+/container/data/dataset3/recordings/898.wav
+please call still a basket or bring these
+[INFO]	 [c1]	 2019-06-07 03:41:59.773738
+[INFO]	 [c1]	Time elapsed:  0.369245  seconds.
+||||----||||Predict Output:please call still a basket or bring these
+received request:inputType: "string"
+inputStream: "908"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:00.060687
+/container/data/dataset3/recordings/908.wav
+please call stella astrid ring
+[INFO]	 [c1]	 2019-06-07 03:42:00.469719
+[INFO]	 [c1]	Time elapsed:  0.409032  seconds.
+||||----||||Predict Output:please call stella astrid ring
+received request:inputType: "string"
+inputStream: "938"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:00.771500
+/container/data/dataset3/recordings/938.wav
+he's gone is to not as hard to bring thee
+[INFO]	 [c1]	 2019-06-07 03:42:01.496356
+[INFO]	 [c1]	Time elapsed:  0.724856  seconds.
+||||----||||Predict Output:he's gone is to not as hard to bring thee
+received request:inputType: "string"
+inputStream: "782"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:01.939067
+/container/data/dataset3/recordings/782.wav
+the signal's the fast
+[INFO]	 [c1]	 2019-06-07 03:42:02.638066
+[INFO]	 [c1]	Time elapsed:  0.698999  seconds.
+||||----||||Predict Output:the signal's the fast
+received request:inputType: "string"
+inputStream: "887"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:03.244988
+/container/data/dataset3/recordings/887.wav
+police calls goblet astrid
+[INFO]	 [c1]	 2019-06-07 03:42:03.680803
+[INFO]	 [c1]	Time elapsed:  0.435815  seconds.
+||||----||||Predict Output:police calls goblet astrid
+received request:inputType: "string"
+inputStream: "792"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:03.982336
+/container/data/dataset3/recordings/792.wav
+please call stella desk or to bring these things were
+[INFO]	 [c1]	 2019-06-07 03:42:04.375109
+[INFO]	 [c1]	Time elapsed:  0.392773  seconds.
+||||----||||Predict Output:please call stella desk or to bring these things were
+received request:inputType: "string"
+inputStream: "897"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:04.667736
+/container/data/dataset3/recordings/897.wav
+please call still a schooner bring these things
+[INFO]	 [c1]	 2019-06-07 03:42:05.177301
+[INFO]	 [c1]	Time elapsed:  0.509565  seconds.
+||||----||||Predict Output:please call still a schooner bring these things
+received request:inputType: "string"
+inputStream: "816"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:05.464501
+/container/data/dataset3/recordings/816.wav
+we've golf bella as couldn't bring these things
+[INFO]	 [c1]	 2019-06-07 03:42:05.996842
+[INFO]	 [c1]	Time elapsed:  0.532341  seconds.
+||||----||||Predict Output:we've golf bella as couldn't bring these things
+received request:inputType: "string"
+inputStream: "828"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:06.598217
+/container/data/dataset3/recordings/828.wav
+nicole smell i ask of it randy
+[INFO]	 [c1]	 2019-06-07 03:42:07.493880
+[INFO]	 [c1]	Time elapsed:  0.895663  seconds.
+||||----||||Predict Output:nicole smell i ask of it randy
+received request:inputType: "string"
+inputStream: "849"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:07.769121
+/container/data/dataset3/recordings/849.wav
+please call that a osgood to bring
+[INFO]	 [c1]	 2019-06-07 03:42:08.151334
+[INFO]	 [c1]	Time elapsed:  0.382213  seconds.
+||||----||||Predict Output:please call that a osgood to bring
+received request:inputType: "string"
+inputStream: "905"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:08.445424
+/container/data/dataset3/recordings/905.wav
+please costello after tube
+[INFO]	 [c1]	 2019-06-07 03:42:08.807247
+[INFO]	 [c1]	Time elapsed:  0.361823  seconds.
+||||----||||Predict Output:please costello after tube
+received request:inputType: "string"
+inputStream: "710"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:09.094904
+/container/data/dataset3/recordings/710.wav
+three holes here are
+[INFO]	 [c1]	 2019-06-07 03:42:09.603995
+[INFO]	 [c1]	Time elapsed:  0.509091  seconds.
+||||----||||Predict Output:three holes here are
+received request:inputType: "string"
+inputStream: "919"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:09.873945
+/container/data/dataset3/recordings/919.wav
+piece called stand
+[INFO]	 [c1]	 2019-06-07 03:42:10.144669
+[INFO]	 [c1]	Time elapsed:  0.270724  seconds.
+||||----||||Predict Output:piece called stand
+received request:inputType: "string"
+inputStream: "741"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:10.422170
+/container/data/dataset3/recordings/741.wav
+please call the stone of critter bring the se
+[INFO]	 [c1]	 2019-06-07 03:42:10.916697
+[INFO]	 [c1]	Time elapsed:  0.494527  seconds.
+||||----||||Predict Output:please call the stone of critter bring the se
+received request:inputType: "string"
+inputStream: "817"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:11.342513
+/container/data/dataset3/recordings/817.wav
+freeze cost and ask her to bring peace
+[INFO]	 [c1]	 2019-06-07 03:42:11.825545
+[INFO]	 [c1]	Time elapsed:  0.483032  seconds.
+||||----||||Predict Output:freeze cost and ask her to bring peace
+received request:inputType: "string"
+inputStream: "912"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:12.104496
+/container/data/dataset3/recordings/912.wav
+the scrolls toe after the things
+[INFO]	 [c1]	 2019-06-07 03:42:12.818152
+[INFO]	 [c1]	Time elapsed:  0.713656  seconds.
+||||----||||Predict Output:the scrolls toe after the things
+received request:inputType: "string"
+inputStream: "809"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:13.240906
+/container/data/dataset3/recordings/809.wav
+please call still is heard during the
+[INFO]	 [c1]	 2019-06-07 03:42:13.671689
+[INFO]	 [c1]	Time elapsed:  0.430783  seconds.
+||||----||||Predict Output:please call still is heard during the
+received request:inputType: "string"
+inputStream: "853"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:13.939146
+/container/data/dataset3/recordings/853.wav
+police calls cannot ask us to bring me
+[INFO]	 [c1]	 2019-06-07 03:42:14.465714
+[INFO]	 [c1]	Time elapsed:  0.526568  seconds.
+||||----||||Predict Output:police calls cannot ask us to bring me
+received request:inputType: "string"
+inputStream: "871"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:14.723823
+/container/data/dataset3/recordings/871.wav
+please cars and ask her to pay
+[INFO]	 [c1]	 2019-06-07 03:42:15.191551
+[INFO]	 [c1]	Time elapsed:  0.467728  seconds.
+||||----||||Predict Output:please cars and ask her to pay
+received request:inputType: "string"
+inputStream: "806"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:15.462591
+/container/data/dataset3/recordings/806.wav
+please call stella ask her to bring these things
+[INFO]	 [c1]	 2019-06-07 03:42:15.925575
+[INFO]	 [c1]	Time elapsed:  0.462984  seconds.
+||||----||||Predict Output:please call stella ask her to bring these things
+received request:inputType: "string"
+inputStream: "803"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:16.211759
+/container/data/dataset3/recordings/803.wav
+please tell us how after giving these
+[INFO]	 [c1]	 2019-06-07 03:42:16.830922
+[INFO]	 [c1]	Time elapsed:  0.619163  seconds.
+||||----||||Predict Output:please tell us how after giving these
+received request:inputType: "string"
+inputStream: "845"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:17.110996
+/container/data/dataset3/recordings/845.wav
+we've cost ally at christopher
+[INFO]	 [c1]	 2019-06-07 03:42:17.645891
+[INFO]	 [c1]	Time elapsed:  0.534895  seconds.
+||||----||||Predict Output:we've cost ally at christopher
+received request:inputType: "string"
+inputStream: "818"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:18.065270
+/container/data/dataset3/recordings/818.wav
+he's got to ask a jittery nice things it'll
+[INFO]	 [c1]	 2019-06-07 03:42:18.699740
+[INFO]	 [c1]	Time elapsed:  0.63447  seconds.
+||||----||||Predict Output:he's got to ask a jittery nice things it'll
+received request:inputType: "string"
+inputStream: "917"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:19.111803
+/container/data/dataset3/recordings/917.wav
+because the hotter
+[INFO]	 [c1]	 2019-06-07 03:42:19.992690
+[INFO]	 [c1]	Time elapsed:  0.880887  seconds.
+||||----||||Predict Output:because the hotter
+received request:inputType: "string"
+inputStream: "872"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:20.338229
+/container/data/dataset3/recordings/872.wav
+things will go all out for many friends with her
+[INFO]	 [c1]	 2019-06-07 03:42:21.382576
+[INFO]	 [c1]	Time elapsed:  1.044347  seconds.
+||||----||||Predict Output:things will go all out for many friends with her
+received request:inputType: "string"
+inputStream: "873"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:21.650625
+/container/data/dataset3/recordings/873.wav
+please hold still ask would reader nice
+[INFO]	 [c1]	 2019-06-07 03:42:22.308756
+[INFO]	 [c1]	Time elapsed:  0.658131  seconds.
+||||----||||Predict Output:please hold still ask would reader nice
+received request:inputType: "string"
+inputStream: "820"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:22.592115
+/container/data/dataset3/recordings/820.wav
+please call stella ask that ring these things
+[INFO]	 [c1]	 2019-06-07 03:42:23.343830
+[INFO]	 [c1]	Time elapsed:  0.751715  seconds.
+||||----||||Predict Output:please call stella ask that ring these things
+received request:inputType: "string"
+inputStream: "927"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:23.623326
+/container/data/dataset3/recordings/927.wav
+please call to the attitude
+[INFO]	 [c1]	 2019-06-07 03:42:24.189637
+[INFO]	 [c1]	Time elapsed:  0.566311  seconds.
+||||----||||Predict Output:please call to the attitude
+received request:inputType: "string"
+inputStream: "932"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:24.527691
+/container/data/dataset3/recordings/932.wav
+move he's honest
+[INFO]	 [c1]	 2019-06-07 03:42:24.877542
+[INFO]	 [c1]	Time elapsed:  0.349851  seconds.
+||||----||||Predict Output:move he's honest
+received request:inputType: "string"
+inputStream: "913"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:25.296889
+/container/data/dataset3/recordings/913.wav
+these calls tell asked her to bring thee
+[INFO]	 [c1]	 2019-06-07 03:42:25.850974
+[INFO]	 [c1]	Time elapsed:  0.554085  seconds.
+||||----||||Predict Output:these calls tell asked her to bring thee
+received request:inputType: "string"
+inputStream: "736"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:26.126763
+/container/data/dataset3/recordings/736.wav
+to the polls will i've heard every new
+[INFO]	 [c1]	 2019-06-07 03:42:26.925738
+[INFO]	 [c1]	Time elapsed:  0.798975  seconds.
+||||----||||Predict Output:to the polls will i've heard every new
+received request:inputType: "string"
+inputStream: "759"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:27.403067
+/container/data/dataset3/recordings/759.wav
+these calls still a casket ring
+[INFO]	 [c1]	 2019-06-07 03:42:27.939739
+[INFO]	 [c1]	Time elapsed:  0.536672  seconds.
+||||----||||Predict Output:these calls still a casket ring
+received request:inputType: "string"
+inputStream: "834"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:28.229408
+/container/data/dataset3/recordings/834.wav
+the cost of ask entering the things of that
+[INFO]	 [c1]	 2019-06-07 03:42:29.059852
+[INFO]	 [c1]	Time elapsed:  0.830444  seconds.
+||||----||||Predict Output:the cost of ask entering the things of that
+received request:inputType: "string"
+inputStream: "722"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:29.474488
+/container/data/dataset3/recordings/722.wav
+please call stale a bastard of brain
+[INFO]	 [c1]	 2019-06-07 03:42:29.946664
+[INFO]	 [c1]	Time elapsed:  0.472176  seconds.
+||||----||||Predict Output:please call stale a bastard of brain
+received request:inputType: "string"
+inputStream: "772"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:30.244768
+/container/data/dataset3/recordings/772.wav
+please call still on to ask
+[INFO]	 [c1]	 2019-06-07 03:42:30.673610
+[INFO]	 [c1]	Time elapsed:  0.428842  seconds.
+||||----||||Predict Output:please call still on to ask
+received request:inputType: "string"
+inputStream: "928"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:30.942327
+/container/data/dataset3/recordings/928.wav
+he's gonna say the atkinson
+[INFO]	 [c1]	 2019-06-07 03:42:31.627659
+[INFO]	 [c1]	Time elapsed:  0.685332  seconds.
+||||----||||Predict Output:he's gonna say the atkinson
+received request:inputType: "string"
+inputStream: "821"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:32.116669
+/container/data/dataset3/recordings/821.wav
+create kyle's bella afternoon during these things
+[INFO]	 [c1]	 2019-06-07 03:42:32.817331
+[INFO]	 [c1]	Time elapsed:  0.700662  seconds.
+||||----||||Predict Output:create kyle's bella afternoon during these things
+received request:inputType: "string"
+inputStream: "760"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:33.267399
+/container/data/dataset3/recordings/760.wav
+these are the ad are the beating
+[INFO]	 [c1]	 2019-06-07 03:42:34.351107
+[INFO]	 [c1]	Time elapsed:  1.083708  seconds.
+||||----||||Predict Output:these are the ad are the beating
+received request:inputType: "string"
+inputStream: "907"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:34.765188
+/container/data/dataset3/recordings/907.wav
+please call still have to bring these things with firm
+[INFO]	 [c1]	 2019-06-07 03:42:35.445042
+[INFO]	 [c1]	Time elapsed:  0.679854  seconds.
+||||----||||Predict Output:please call still have to bring these things with firm
+received request:inputType: "string"
+inputStream: "915"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:35.722318
+/container/data/dataset3/recordings/915.wav
+on shit out to these calls them the fur
+[INFO]	 [c1]	 2019-06-07 03:42:36.301916
+[INFO]	 [c1]	Time elapsed:  0.579598  seconds.
+||||----||||Predict Output:on shit out to these calls them the fur
+received request:inputType: "string"
+inputStream: "752"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:36.645410
+/container/data/dataset3/recordings/752.wav
+please call the afternoon bring me
+[INFO]	 [c1]	 2019-06-07 03:42:37.049633
+[INFO]	 [c1]	Time elapsed:  0.404223  seconds.
+||||----||||Predict Output:please call the afternoon bring me
+received request:inputType: "string"
+inputStream: "939"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:37.374938
+/container/data/dataset3/recordings/939.wav
+disclose the ask the we
+[INFO]	 [c1]	 2019-06-07 03:42:38.178251
+[INFO]	 [c1]	Time elapsed:  0.803313  seconds.
+||||----||||Predict Output:disclose the ask the we
+received request:inputType: "string"
+inputStream: "841"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:38.572044
+/container/data/dataset3/recordings/841.wav
+these columns ally
+[INFO]	 [c1]	 2019-06-07 03:42:38.887661
+[INFO]	 [c1]	Time elapsed:  0.315617  seconds.
+||||----||||Predict Output:these columns ally
+received request:inputType: "string"
+inputStream: "796"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:39.164255
+/container/data/dataset3/recordings/796.wav
+these calls the outer to bring these things
+[INFO]	 [c1]	 2019-06-07 03:42:39.980045
+[INFO]	 [c1]	Time elapsed:  0.81579  seconds.
+||||----||||Predict Output:these calls the outer to bring these things
+received request:inputType: "string"
+inputStream: "804"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:40.330850
+/container/data/dataset3/recordings/804.wav
+please call stella ask her to bring me
+[INFO]	 [c1]	 2019-06-07 03:42:40.630863
+[INFO]	 [c1]	Time elapsed:  0.300013  seconds.
+||||----||||Predict Output:please call stella ask her to bring me
+received request:inputType: "string"
+inputStream: "902"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:40.903490
+/container/data/dataset3/recordings/902.wav
+we have calls them and ask other bring these
+[INFO]	 [c1]	 2019-06-07 03:42:41.492149
+[INFO]	 [c1]	Time elapsed:  0.588659  seconds.
+||||----||||Predict Output:we have calls them and ask other bring these
+received request:inputType: "string"
+inputStream: "738"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:41.769284
+/container/data/dataset3/recordings/738.wav
+please call still a basket of bernice
+[INFO]	 [c1]	 2019-06-07 03:42:42.221010
+[INFO]	 [c1]	Time elapsed:  0.451726  seconds.
+||||----||||Predict Output:please call still a basket of bernice
+received request:inputType: "string"
+inputStream: "723"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:42.504570
+/container/data/dataset3/recordings/723.wav
+the school's ella positively nice
+[INFO]	 [c1]	 2019-06-07 03:42:43.204165
+[INFO]	 [c1]	Time elapsed:  0.699595  seconds.
+||||----||||Predict Output:the school's ella positively nice
+received request:inputType: "string"
+inputStream: "875"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:43.719247
+/container/data/dataset3/recordings/875.wav
+please call cell and ashley river nice
+[INFO]	 [c1]	 2019-06-07 03:42:44.167014
+[INFO]	 [c1]	Time elapsed:  0.447767  seconds.
+||||----||||Predict Output:please call cell and ashley river nice
+received request:inputType: "string"
+inputStream: "700"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:44.454444
+/container/data/dataset3/recordings/700.wav
+we've got to pass it we mean you
+[INFO]	 [c1]	 2019-06-07 03:42:45.295336
+[INFO]	 [c1]	Time elapsed:  0.840892  seconds.
+||||----||||Predict Output:we've got to pass it we mean you
+received request:inputType: "string"
+inputStream: "721"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:45.890484
+/container/data/dataset3/recordings/721.wav
+he's close to
+[INFO]	 [c1]	 2019-06-07 03:42:46.216083
+[INFO]	 [c1]	Time elapsed:  0.325599  seconds.
+||||----||||Predict Output:he's close to
+received request:inputType: "string"
+inputStream: "793"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:46.613084
+/container/data/dataset3/recordings/793.wav
+please call still ask her to bring these things with
+[INFO]	 [c1]	 2019-06-07 03:42:46.929855
+[INFO]	 [c1]	Time elapsed:  0.316771  seconds.
+||||----||||Predict Output:please call still ask her to bring these things with
+received request:inputType: "string"
+inputStream: "791"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:47.211828
+/container/data/dataset3/recordings/791.wav
+the results than the astrid timber
+[INFO]	 [c1]	 2019-06-07 03:42:48.502677
+[INFO]	 [c1]	Time elapsed:  1.290849  seconds.
+||||----||||Predict Output:the results than the astrid timber
+received request:inputType: "string"
+inputStream: "701"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:48.930938
+/container/data/dataset3/recordings/701.wav
+these are the contradicting the new
+[INFO]	 [c1]	 2019-06-07 03:42:49.897510
+[INFO]	 [c1]	Time elapsed:  0.966572  seconds.
+||||----||||Predict Output:these are the contradicting the new
+received request:inputType: "string"
+inputStream: "801"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:50.309404
+/container/data/dataset3/recordings/801.wav
+we've got to ask them to bring the thing that part
+[INFO]	 [c1]	 2019-06-07 03:42:51.362323
+[INFO]	 [c1]	Time elapsed:  1.052919  seconds.
+||||----||||Predict Output:we've got to ask them to bring the thing that part
+received request:inputType: "string"
+inputStream: "874"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:51.873185
+/container/data/dataset3/recordings/874.wav
+these calls to ask her
+[INFO]	 [c1]	 2019-06-07 03:42:52.243603
+[INFO]	 [c1]	Time elapsed:  0.370418  seconds.
+||||----||||Predict Output:these calls to ask her
+received request:inputType: "string"
+inputStream: "811"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:52.512106
+/container/data/dataset3/recordings/811.wav
+sweet calls them the after to bring me
+[INFO]	 [c1]	 2019-06-07 03:42:53.053689
+[INFO]	 [c1]	Time elapsed:  0.541583  seconds.
+||||----||||Predict Output:sweet calls them the after to bring me
+received request:inputType: "string"
+inputStream: "745"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:53.383962
+/container/data/dataset3/recordings/745.wav
+please call bella abzug bring you
+[INFO]	 [c1]	 2019-06-07 03:42:53.870037
+[INFO]	 [c1]	Time elapsed:  0.486075  seconds.
+||||----||||Predict Output:please call bella abzug bring you
+received request:inputType: "string"
+inputStream: "771"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:54.175788
+/container/data/dataset3/recordings/771.wav
+to these cools the cost of
+[INFO]	 [c1]	 2019-06-07 03:42:54.571683
+[INFO]	 [c1]	Time elapsed:  0.395895  seconds.
+||||----||||Predict Output:to these cools the cost of
+received request:inputType: "string"
+inputStream: "833"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:54.916791
+/container/data/dataset3/recordings/833.wav
+who is host the best her room
+[INFO]	 [c1]	 2019-06-07 03:42:55.940826
+[INFO]	 [c1]	Time elapsed:  1.024035  seconds.
+||||----||||Predict Output:who is host the best her room
+received request:inputType: "string"
+inputStream: "881"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:56.295657
+/container/data/dataset3/recordings/881.wav
+please call stella ostrich bring
+[INFO]	 [c1]	 2019-06-07 03:42:56.798776
+[INFO]	 [c1]	Time elapsed:  0.503119  seconds.
+||||----||||Predict Output:please call stella ostrich bring
+received request:inputType: "string"
+inputStream: "705"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:57.093919
+/container/data/dataset3/recordings/705.wav
+to influence them and at
+[INFO]	 [c1]	 2019-06-07 03:42:57.771892
+[INFO]	 [c1]	Time elapsed:  0.677973  seconds.
+||||----||||Predict Output:to influence them and at
+received request:inputType: "string"
+inputStream: "840"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:58.028284
+/container/data/dataset3/recordings/840.wav
+queen although out an when you think lemaire
+[INFO]	 [c1]	 2019-06-07 03:42:58.713782
+[INFO]	 [c1]	Time elapsed:  0.685498  seconds.
+||||----||||Predict Output:queen although out an when you think lemaire
+received request:inputType: "string"
+inputStream: "879"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:58.987645
+/container/data/dataset3/recordings/879.wav
+please call still a ass
+[INFO]	 [c1]	 2019-06-07 03:42:59.419849
+[INFO]	 [c1]	Time elapsed:  0.432204  seconds.
+||||----||||Predict Output:please call still a ass
+received request:inputType: "string"
+inputStream: "788"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:42:59.684361
+/container/data/dataset3/recordings/788.wav
+please call the pastor greenleaf
+[INFO]	 [c1]	 2019-06-07 03:43:00.447308
+[INFO]	 [c1]	Time elapsed:  0.762947  seconds.
+||||----||||Predict Output:please call the pastor greenleaf
+received request:inputType: "string"
+inputStream: "899"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:00.782433
+/container/data/dataset3/recordings/899.wav
+please calm fidelity it us her
+[INFO]	 [c1]	 2019-06-07 03:43:01.697294
+[INFO]	 [c1]	Time elapsed:  0.914861  seconds.
+||||----||||Predict Output:please calm fidelity it us her
+received request:inputType: "string"
+inputStream: "748"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:01.969120
+/container/data/dataset3/recordings/748.wav
+please call the new hurry these things
+[INFO]	 [c1]	 2019-06-07 03:43:02.876637
+[INFO]	 [c1]	Time elapsed:  0.907517  seconds.
+||||----||||Predict Output:please call the new hurry these things
+received request:inputType: "string"
+inputStream: "861"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:03.227840
+/container/data/dataset3/recordings/861.wav
+these calls stella after to bring these things what
+[INFO]	 [c1]	 2019-06-07 03:43:03.733787
+[INFO]	 [c1]	Time elapsed:  0.505947  seconds.
+||||----||||Predict Output:these calls stella after to bring these things what
+received request:inputType: "string"
+inputStream: "862"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:04.018239
+/container/data/dataset3/recordings/862.wav
+we schools will ask him to bring me say
+[INFO]	 [c1]	 2019-06-07 03:43:04.695912
+[INFO]	 [c1]	Time elapsed:  0.677673  seconds.
+||||----||||Predict Output:we schools will ask him to bring me say
+received request:inputType: "string"
+inputStream: "824"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:04.963566
+/container/data/dataset3/recordings/824.wav
+these calls the island after death
+[INFO]	 [c1]	 2019-06-07 03:43:05.481876
+[INFO]	 [c1]	Time elapsed:  0.51831  seconds.
+||||----||||Predict Output:these calls the island after death
+received request:inputType: "string"
+inputStream: "780"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:05.827989
+/container/data/dataset3/recordings/780.wav
+can he call general
+[INFO]	 [c1]	 2019-06-07 03:43:06.375786
+[INFO]	 [c1]	Time elapsed:  0.547797  seconds.
+||||----||||Predict Output:can he call general
+received request:inputType: "string"
+inputStream: "855"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:06.655860
+/container/data/dataset3/recordings/855.wav
+these called stella have screwed up
+[INFO]	 [c1]	 2019-06-07 03:43:07.058243
+[INFO]	 [c1]	Time elapsed:  0.402383  seconds.
+||||----||||Predict Output:these called stella have screwed up
+received request:inputType: "string"
+inputStream: "852"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:07.336700
+/container/data/dataset3/recordings/852.wav
+please call still oscar to bring these three
+[INFO]	 [c1]	 2019-06-07 03:43:07.738270
+[INFO]	 [c1]	Time elapsed:  0.40157  seconds.
+||||----||||Predict Output:please call still oscar to bring these three
+received request:inputType: "string"
+inputStream: "731"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:08.021898
+/container/data/dataset3/recordings/731.wav
+please call still has her to
+[INFO]	 [c1]	 2019-06-07 03:43:08.406985
+[INFO]	 [c1]	Time elapsed:  0.385087  seconds.
+||||----||||Predict Output:please call still has her to
+received request:inputType: "string"
+inputStream: "743"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:08.668341
+/container/data/dataset3/recordings/743.wav
+the schools the oscars ring extinction hundred
+[INFO]	 [c1]	 2019-06-07 03:43:09.252885
+[INFO]	 [c1]	Time elapsed:  0.584544  seconds.
+||||----||||Predict Output:the schools the oscars ring extinction hundred
+received request:inputType: "string"
+inputStream: "763"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:09.682095
+/container/data/dataset3/recordings/763.wav
+say it off the
+[INFO]	 [c1]	 2019-06-07 03:43:10.023457
+[INFO]	 [c1]	Time elapsed:  0.341362  seconds.
+||||----||||Predict Output:say it off the
+received request:inputType: "string"
+inputStream: "726"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:10.293657
+/container/data/dataset3/recordings/726.wav
+please call the after you bring me
+[INFO]	 [c1]	 2019-06-07 03:43:10.897889
+[INFO]	 [c1]	Time elapsed:  0.604232  seconds.
+||||----||||Predict Output:please call the after you bring me
+received request:inputType: "string"
+inputStream: "921"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:11.245472
+/container/data/dataset3/recordings/921.wav
+he's called to him of torture
+[INFO]	 [c1]	 2019-06-07 03:43:11.805376
+[INFO]	 [c1]	Time elapsed:  0.559904  seconds.
+||||----||||Predict Output:he's called to him of torture
+received request:inputType: "string"
+inputStream: "799"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:12.227977
+/container/data/dataset3/recordings/799.wav
+please call stella astrid to bring
+[INFO]	 [c1]	 2019-06-07 03:43:12.617702
+[INFO]	 [c1]	Time elapsed:  0.389725  seconds.
+||||----||||Predict Output:please call stella astrid to bring
+received request:inputType: "string"
+inputStream: "884"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:12.917598
+/container/data/dataset3/recordings/884.wav
+we caught ala at the meeting
+[INFO]	 [c1]	 2019-06-07 03:43:13.519282
+[INFO]	 [c1]	Time elapsed:  0.601684  seconds.
+||||----||||Predict Output:we caught ala at the meeting
+received request:inputType: "string"
+inputStream: "859"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:13.876372
+/container/data/dataset3/recordings/859.wav
+please call stella of turner bring these things and i'm stuart
+[INFO]	 [c1]	 2019-06-07 03:43:14.731971
+[INFO]	 [c1]	Time elapsed:  0.855599  seconds.
+||||----||||Predict Output:please call stella of turner bring these things and i'm stuart
+received request:inputType: "string"
+inputStream: "894"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:15.302117
+/container/data/dataset3/recordings/894.wav
+peace talks over ross covering the stone
+[INFO]	 [c1]	 2019-06-07 03:43:15.946086
+[INFO]	 [c1]	Time elapsed:  0.643969  seconds.
+||||----||||Predict Output:peace talks over ross covering the stone
+received request:inputType: "string"
+inputStream: "922"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:16.301038
+/container/data/dataset3/recordings/922.wav
+these caught a dana
+[INFO]	 [c1]	 2019-06-07 03:43:16.881557
+[INFO]	 [c1]	Time elapsed:  0.580519  seconds.
+||||----||||Predict Output:these caught a dana
+received request:inputType: "string"
+inputStream: "774"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:17.161839
+/container/data/dataset3/recordings/774.wav
+please call still has to bring these things
+[INFO]	 [c1]	 2019-06-07 03:43:17.675775
+[INFO]	 [c1]	Time elapsed:  0.513936  seconds.
+||||----||||Predict Output:please call still has to bring these things
+received request:inputType: "string"
+inputStream: "825"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:17.956394
+/container/data/dataset3/recordings/825.wav
+please call stella after bring these things are for
+[INFO]	 [c1]	 2019-06-07 03:43:18.530008
+[INFO]	 [c1]	Time elapsed:  0.573614  seconds.
+||||----||||Predict Output:please call stella after bring these things are for
+received request:inputType: "string"
+inputStream: "751"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:18.808559
+/container/data/dataset3/recordings/751.wav
+the cold spell out her to bring these things are for
+[INFO]	 [c1]	 2019-06-07 03:43:19.490918
+[INFO]	 [c1]	Time elapsed:  0.682359  seconds.
+||||----||||Predict Output:the cold spell out her to bring these things are for
+received request:inputType: "string"
+inputStream: "880"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:19.824872
+/container/data/dataset3/recordings/880.wav
+these calls the oscar to bring the things we're
+[INFO]	 [c1]	 2019-06-07 03:43:20.640731
+[INFO]	 [c1]	Time elapsed:  0.815859  seconds.
+||||----||||Predict Output:these calls the oscar to bring the things we're
+received request:inputType: "string"
+inputStream: "935"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:21.056896
+/container/data/dataset3/recordings/935.wav
+these cars out ask his company
+[INFO]	 [c1]	 2019-06-07 03:43:22.112083
+[INFO]	 [c1]	Time elapsed:  1.055187  seconds.
+||||----||||Predict Output:these cars out ask his company
+received request:inputType: "string"
+inputStream: "733"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:22.383967
+/container/data/dataset3/recordings/733.wav
+he's called don't ask her to bring the thing
+[INFO]	 [c1]	 2019-06-07 03:43:23.027864
+[INFO]	 [c1]	Time elapsed:  0.643897  seconds.
+||||----||||Predict Output:he's called don't ask her to bring the thing
+received request:inputType: "string"
+inputStream: "766"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:23.675988
+/container/data/dataset3/recordings/766.wav
+he's going to interrupt
+[INFO]	 [c1]	 2019-06-07 03:43:24.056209
+[INFO]	 [c1]	Time elapsed:  0.380221  seconds.
+||||----||||Predict Output:he's going to interrupt
+received request:inputType: "string"
+inputStream: "885"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:24.466434
+/container/data/dataset3/recordings/885.wav
+police colts della boss could endure
+[INFO]	 [c1]	 2019-06-07 03:43:25.169812
+[INFO]	 [c1]	Time elapsed:  0.703378  seconds.
+||||----||||Predict Output:police colts della boss could endure
+received request:inputType: "string"
+inputStream: "712"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:25.456805
+/container/data/dataset3/recordings/712.wav
+please call still after bring these things over
+[INFO]	 [c1]	 2019-06-07 03:43:25.962105
+[INFO]	 [c1]	Time elapsed:  0.5053  seconds.
+||||----||||Predict Output:please call still after bring these things over
+received request:inputType: "string"
+inputStream: "757"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:26.255330
+/container/data/dataset3/recordings/757.wav
+please call the law that are run the ring to it
+[INFO]	 [c1]	 2019-06-07 03:43:27.325045
+[INFO]	 [c1]	Time elapsed:  1.069715  seconds.
+||||----||||Predict Output:please call the law that are run the ring to it
+received request:inputType: "string"
+inputStream: "877"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:27.745318
+/container/data/dataset3/recordings/877.wav
+was curls drove ask the room
+[INFO]	 [c1]	 2019-06-07 03:43:28.424360
+[INFO]	 [c1]	Time elapsed:  0.679042  seconds.
+||||----||||Predict Output:was curls drove ask the room
+received request:inputType: "string"
+inputStream: "893"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:28.796767
+/container/data/dataset3/recordings/893.wav
+white falls below cost an ring
+[INFO]	 [c1]	 2019-06-07 03:43:29.497215
+[INFO]	 [c1]	Time elapsed:  0.700448  seconds.
+||||----||||Predict Output:white falls below cost an ring
+received request:inputType: "string"
+inputStream: "787"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:29.784180
+/container/data/dataset3/recordings/787.wav
+please cold spell will ask river
+[INFO]	 [c1]	 2019-06-07 03:43:30.120403
+[INFO]	 [c1]	Time elapsed:  0.336223  seconds.
+||||----||||Predict Output:please cold spell will ask river
+received request:inputType: "string"
+inputStream: "764"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:30.407045
+/container/data/dataset3/recordings/764.wav
+she skull still a casket river
+[INFO]	 [c1]	 2019-06-07 03:43:30.714192
+[INFO]	 [c1]	Time elapsed:  0.307147  seconds.
+||||----||||Predict Output:she skull still a casket river
+received request:inputType: "string"
+inputStream: "933"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:31.001313
+/container/data/dataset3/recordings/933.wav
+could cause them and ask at ring
+[INFO]	 [c1]	 2019-06-07 03:43:31.717441
+[INFO]	 [c1]	Time elapsed:  0.716128  seconds.
+||||----||||Predict Output:could cause them and ask at ring
+received request:inputType: "string"
+inputStream: "779"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:31.991895
+/container/data/dataset3/recordings/779.wav
+the cost island after during the english
+[INFO]	 [c1]	 2019-06-07 03:43:32.805537
+[INFO]	 [c1]	Time elapsed:  0.813642  seconds.
+||||----||||Predict Output:the cost island after during the english
+received request:inputType: "string"
+inputStream: "900"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:33.216533
+/container/data/dataset3/recordings/900.wav
+please all the effort to bring
+[INFO]	 [c1]	 2019-06-07 03:43:33.848391
+[INFO]	 [c1]	Time elapsed:  0.631858  seconds.
+||||----||||Predict Output:please all the effort to bring
+received request:inputType: "string"
+inputStream: "765"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:34.210699
+/container/data/dataset3/recordings/765.wav
+the school stella after numbering the thing
+[INFO]	 [c1]	 2019-06-07 03:43:34.749611
+[INFO]	 [c1]	Time elapsed:  0.538912  seconds.
+||||----||||Predict Output:the school stella after numbering the thing
+received request:inputType: "string"
+inputStream: "802"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:35.180574
+/container/data/dataset3/recordings/802.wav
+the schools now as for to bring these things over
+[INFO]	 [c1]	 2019-06-07 03:43:36.419166
+[INFO]	 [c1]	Time elapsed:  1.238592  seconds.
+||||----||||Predict Output:the schools now as for to bring these things over
+received request:inputType: "string"
+inputStream: "781"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:36.767859
+/container/data/dataset3/recordings/781.wav
+please call stella ask it of green
+[INFO]	 [c1]	 2019-06-07 03:43:37.316615
+[INFO]	 [c1]	Time elapsed:  0.548756  seconds.
+||||----||||Predict Output:please call stella ask it of green
+received request:inputType: "string"
+inputStream: "886"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:37.605975
+/container/data/dataset3/recordings/886.wav
+we've got style asked in green he's
+[INFO]	 [c1]	 2019-06-07 03:43:38.228827
+[INFO]	 [c1]	Time elapsed:  0.622852  seconds.
+||||----||||Predict Output:we've got style asked in green he's
+received request:inputType: "string"
+inputStream: "815"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:38.647823
+/container/data/dataset3/recordings/815.wav
+please call stella after bring things up
+[INFO]	 [c1]	 2019-06-07 03:43:39.142265
+[INFO]	 [c1]	Time elapsed:  0.494442  seconds.
+||||----||||Predict Output:please call stella after bring things up
+received request:inputType: "string"
+inputStream: "918"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:39.410093
+/container/data/dataset3/recordings/918.wav
+please call
+[INFO]	 [c1]	 2019-06-07 03:43:39.741060
+[INFO]	 [c1]	Time elapsed:  0.330967  seconds.
+||||----||||Predict Output:please call
+received request:inputType: "string"
+inputStream: "770"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:40.022729
+/container/data/dataset3/recordings/770.wav
+please call stella after bring me
+[INFO]	 [c1]	 2019-06-07 03:43:40.491237
+[INFO]	 [c1]	Time elapsed:  0.468508  seconds.
+||||----||||Predict Output:please call stella after bring me
+received request:inputType: "string"
+inputStream: "869"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:40.761845
+/container/data/dataset3/recordings/869.wav
+please call dole out a oscar to bring me
+[INFO]	 [c1]	 2019-06-07 03:43:41.185763
+[INFO]	 [c1]	Time elapsed:  0.423918  seconds.
+||||----||||Predict Output:please call dole out a oscar to bring me
+received request:inputType: "string"
+inputStream: "910"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:41.453531
+/container/data/dataset3/recordings/910.wav
+these calls tell afternoon bring these things
+[INFO]	 [c1]	 2019-06-07 03:43:42.052153
+[INFO]	 [c1]	Time elapsed:  0.598622  seconds.
+||||----||||Predict Output:these calls tell afternoon bring these things
+received request:inputType: "string"
+inputStream: "761"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:42.338302
+/container/data/dataset3/recordings/761.wav
+we scoff at all at it and things like that
+[INFO]	 [c1]	 2019-06-07 03:43:43.649329
+[INFO]	 [c1]	Time elapsed:  1.311027  seconds.
+||||----||||Predict Output:we scoff at all at it and things like that
+received request:inputType: "string"
+inputStream: "916"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:43.946205
+/container/data/dataset3/recordings/916.wav
+the comments thing that handsome vain
+[INFO]	 [c1]	 2019-06-07 03:43:44.719760
+[INFO]	 [c1]	Time elapsed:  0.773555  seconds.
+||||----||||Predict Output:the comments thing that handsome vain
+received request:inputType: "string"
+inputStream: "785"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:45.075005
+/container/data/dataset3/recordings/785.wav
+these polls ally asking agree me
+[INFO]	 [c1]	 2019-06-07 03:43:45.599779
+[INFO]	 [c1]	Time elapsed:  0.524774  seconds.
+||||----||||Predict Output:these polls ally asking agree me
+received request:inputType: "string"
+inputStream: "704"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:45.866503
+/container/data/dataset3/recordings/704.wav
+we are cole allen ask
+[INFO]	 [c1]	 2019-06-07 03:43:46.523719
+[INFO]	 [c1]	Time elapsed:  0.657216  seconds.
+||||----||||Predict Output:we are cole allen ask
+received request:inputType: "string"
+inputStream: "735"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:46.791667
+/container/data/dataset3/recordings/735.wav
+these calls della ask her degree
+[INFO]	 [c1]	 2019-06-07 03:43:47.419944
+[INFO]	 [c1]	Time elapsed:  0.628277  seconds.
+||||----||||Predict Output:these calls della ask her degree
+received request:inputType: "string"
+inputStream: "778"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:47.704550
+/container/data/dataset3/recordings/778.wav
+nice cold spell it
+[INFO]	 [c1]	 2019-06-07 03:43:48.123518
+[INFO]	 [c1]	Time elapsed:  0.418968  seconds.
+||||----||||Predict Output:nice cold spell it
+received request:inputType: "string"
+inputStream: "749"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:48.388512
+/container/data/dataset3/recordings/749.wav
+please call bella after two
+[INFO]	 [c1]	 2019-06-07 03:43:48.866889
+[INFO]	 [c1]	Time elapsed:  0.478377  seconds.
+||||----||||Predict Output:please call bella after two
+received request:inputType: "string"
+inputStream: "750"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:49.155362
+/container/data/dataset3/recordings/750.wav
+dreams cole's the island
+[INFO]	 [c1]	 2019-06-07 03:43:49.520343
+[INFO]	 [c1]	Time elapsed:  0.364981  seconds.
+||||----||||Predict Output:dreams cole's the island
+received request:inputType: "string"
+inputStream: "794"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:50.030802
+/container/data/dataset3/recordings/794.wav
+these calls dylan outtake of thing
+[INFO]	 [c1]	 2019-06-07 03:43:50.933024
+[INFO]	 [c1]	Time elapsed:  0.902222  seconds.
+||||----||||Predict Output:these calls dylan outtake of thing
+received request:inputType: "string"
+inputStream: "800"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:51.257098
+/container/data/dataset3/recordings/800.wav
+we've caught bella as current bring these
+[INFO]	 [c1]	 2019-06-07 03:43:51.775563
+[INFO]	 [c1]	Time elapsed:  0.518465  seconds.
+||||----||||Predict Output:we've caught bella as current bring these
+received request:inputType: "string"
+inputStream: "837"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:52.214739
+/container/data/dataset3/recordings/837.wav
+freeze will stumble as to
+[INFO]	 [c1]	 2019-06-07 03:43:52.790898
+[INFO]	 [c1]	Time elapsed:  0.576159  seconds.
+||||----||||Predict Output:freeze will stumble as to
+received request:inputType: "string"
+inputStream: "707"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:53.055854
+/container/data/dataset3/recordings/707.wav
+please all of that one ask
+[INFO]	 [c1]	 2019-06-07 03:43:53.687903
+[INFO]	 [c1]	Time elapsed:  0.632049  seconds.
+||||----||||Predict Output:please all of that one ask
+received request:inputType: "string"
+inputStream: "920"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:53.954534
+/container/data/dataset3/recordings/920.wav
+jeez calls so of scuttling the
+[INFO]	 [c1]	 2019-06-07 03:43:54.511730
+[INFO]	 [c1]	Time elapsed:  0.557196  seconds.
+||||----||||Predict Output:jeez calls so of scuttling the
+received request:inputType: "string"
+inputStream: "847"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:54.840653
+/container/data/dataset3/recordings/847.wav
+please call della after
+[INFO]	 [c1]	 2019-06-07 03:43:55.267830
+[INFO]	 [c1]	Time elapsed:  0.427177  seconds.
+||||----||||Predict Output:please call della after
+received request:inputType: "string"
+inputStream: "775"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:55.553025
+/container/data/dataset3/recordings/775.wav
+please go and still yes
+[INFO]	 [c1]	 2019-06-07 03:43:56.082124
+[INFO]	 [c1]	Time elapsed:  0.529099  seconds.
+||||----||||Predict Output:please go and still yes
+received request:inputType: "string"
+inputStream: "895"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:56.351483
+/container/data/dataset3/recordings/895.wav
+please call stella asked her to bring these
+[INFO]	 [c1]	 2019-06-07 03:43:56.741625
+[INFO]	 [c1]	Time elapsed:  0.390142  seconds.
+||||----||||Predict Output:please call stella asked her to bring these
+received request:inputType: "string"
+inputStream: "868"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:57.022792
+/container/data/dataset3/recordings/868.wav
+please call still has to go bring the things with her for
+[INFO]	 [c1]	 2019-06-07 03:43:57.468561
+[INFO]	 [c1]	Time elapsed:  0.445769  seconds.
+||||----||||Predict Output:please call still has to go bring the things with her for
+received request:inputType: "string"
+inputStream: "914"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:57.815135
+/container/data/dataset3/recordings/914.wav
+please call us as a as a
+[INFO]	 [c1]	 2019-06-07 03:43:58.326471
+[INFO]	 [c1]	Time elapsed:  0.511336  seconds.
+||||----||||Predict Output:please call us as a as a
+received request:inputType: "string"
+inputStream: "863"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:58.585779
+/container/data/dataset3/recordings/863.wav
+please call stella off the rim beef
+[INFO]	 [c1]	 2019-06-07 03:43:59.081617
+[INFO]	 [c1]	Time elapsed:  0.495838  seconds.
+||||----||||Predict Output:please call stella off the rim beef
+received request:inputType: "string"
+inputStream: "768"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:43:59.444201
+/container/data/dataset3/recordings/768.wav
+please call the love of scooter bring the thing
+[INFO]	 [c1]	 2019-06-07 03:44:00.048084
+[INFO]	 [c1]	Time elapsed:  0.603883  seconds.
+||||----||||Predict Output:please call the love of scooter bring the thing
+received request:inputType: "string"
+inputStream: "865"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:00.478030
+/container/data/dataset3/recordings/865.wav
+please call stella ask the bernie's thing
+[INFO]	 [c1]	 2019-06-07 03:44:00.931065
+[INFO]	 [c1]	Time elapsed:  0.453035  seconds.
+||||----||||Predict Output:please call stella ask the bernie's thing
+received request:inputType: "string"
+inputStream: "754"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:01.438084
+/container/data/dataset3/recordings/754.wav
+we also asked her
+[INFO]	 [c1]	 2019-06-07 03:44:01.878642
+[INFO]	 [c1]	Time elapsed:  0.440558  seconds.
+||||----||||Predict Output:we also asked her
+received request:inputType: "string"
+inputStream: "805"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:02.145345
+/container/data/dataset3/recordings/805.wav
+please call us all a doctor number
+[INFO]	 [c1]	 2019-06-07 03:44:02.718973
+[INFO]	 [c1]	Time elapsed:  0.573628  seconds.
+||||----||||Predict Output:please call us all a doctor number
+received request:inputType: "string"
+inputStream: "742"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:02.998600
+/container/data/dataset3/recordings/742.wav
+sweet off the anchor to bring me
+[INFO]	 [c1]	 2019-06-07 03:44:03.700584
+[INFO]	 [c1]	Time elapsed:  0.701984  seconds.
+||||----||||Predict Output:sweet off the anchor to bring me
+received request:inputType: "string"
+inputStream: "717"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:04.034215
+/container/data/dataset3/recordings/717.wav
+do you call go after the ring
+[INFO]	 [c1]	 2019-06-07 03:44:04.658180
+[INFO]	 [c1]	Time elapsed:  0.623965  seconds.
+||||----||||Predict Output:do you call go after the ring
+received request:inputType: "string"
+inputStream: "708"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:05.000525
+/container/data/dataset3/recordings/708.wav
+the school stella after entering
+[INFO]	 [c1]	 2019-06-07 03:44:05.626670
+[INFO]	 [c1]	Time elapsed:  0.626145  seconds.
+||||----||||Predict Output:the school stella after entering
+received request:inputType: "string"
+inputStream: "790"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:05.967842
+/container/data/dataset3/recordings/790.wav
+please calm down a path to the brain these things that are
+[INFO]	 [c1]	 2019-06-07 03:44:06.777740
+[INFO]	 [c1]	Time elapsed:  0.809898  seconds.
+||||----||||Predict Output:please calm down a path to the brain these things that are
+received request:inputType: "string"
+inputStream: "848"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:07.119481
+/container/data/dataset3/recordings/848.wav
+please call fella has cabrini thanks to the firm
+[INFO]	 [c1]	 2019-06-07 03:44:07.650474
+[INFO]	 [c1]	Time elapsed:  0.530993  seconds.
+||||----||||Predict Output:please call fella has cabrini thanks to the firm
+received request:inputType: "string"
+inputStream: "889"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:08.050892
+/container/data/dataset3/recordings/889.wav
+three skulls they'll ask her to bring these things
+[INFO]	 [c1]	 2019-06-07 03:44:08.541630
+[INFO]	 [c1]	Time elapsed:  0.490738  seconds.
+||||----||||Predict Output:three skulls they'll ask her to bring these things
+received request:inputType: "string"
+inputStream: "888"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:08.986482
+/container/data/dataset3/recordings/888.wav
+the gold don't often agree meat
+[INFO]	 [c1]	 2019-06-07 03:44:09.454223
+[INFO]	 [c1]	Time elapsed:  0.467741  seconds.
+||||----||||Predict Output:the gold don't often agree meat
+received request:inputType: "string"
+inputStream: "798"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:09.958958
+/container/data/dataset3/recordings/798.wav
+please call bill passed are bringing
+[INFO]	 [c1]	 2019-06-07 03:44:10.372794
+[INFO]	 [c1]	Time elapsed:  0.413836  seconds.
+||||----||||Predict Output:please call bill passed are bringing
+received request:inputType: "string"
+inputStream: "830"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:10.644236
+/container/data/dataset3/recordings/830.wav
+faceless the pocket ring these things
+[INFO]	 [c1]	 2019-06-07 03:44:11.804271
+[INFO]	 [c1]	Time elapsed:  1.160035  seconds.
+||||----||||Predict Output:faceless the pocket ring these things
+received request:inputType: "string"
+inputStream: "740"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:12.165629
+/container/data/dataset3/recordings/740.wav
+we will go entered ring
+[INFO]	 [c1]	 2019-06-07 03:44:12.731297
+[INFO]	 [c1]	Time elapsed:  0.565668  seconds.
+||||----||||Predict Output:we will go entered ring
+received request:inputType: "string"
+inputStream: "762"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:13.004925
+/container/data/dataset3/recordings/762.wav
+preschool stay alone basket
+[INFO]	 [c1]	 2019-06-07 03:44:13.435221
+[INFO]	 [c1]	Time elapsed:  0.430296  seconds.
+||||----||||Predict Output:preschool stay alone basket
+received request:inputType: "string"
+inputStream: "753"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:13.719427
+/container/data/dataset3/recordings/753.wav
+the schools the stuttering these things
+[INFO]	 [c1]	 2019-06-07 03:44:14.401753
+[INFO]	 [c1]	Time elapsed:  0.682326  seconds.
+||||----||||Predict Output:the schools the stuttering these things
+received request:inputType: "string"
+inputStream: "839"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:14.828959
+/container/data/dataset3/recordings/839.wav
+these calls the house cat and wring the sting
+[INFO]	 [c1]	 2019-06-07 03:44:15.533525
+[INFO]	 [c1]	Time elapsed:  0.704566  seconds.
+||||----||||Predict Output:these calls the house cat and wring the sting
+received request:inputType: "string"
+inputStream: "797"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:15.968225
+/container/data/dataset3/recordings/797.wav
+we've called the pass through to bring
+[INFO]	 [c1]	 2019-06-07 03:44:16.612364
+[INFO]	 [c1]	Time elapsed:  0.644139  seconds.
+||||----||||Predict Output:we've called the pass through to bring
+received request:inputType: "string"
+inputStream: "846"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:17.116802
+/container/data/dataset3/recordings/846.wav
+please call svehla as for bringing
+[INFO]	 [c1]	 2019-06-07 03:44:17.544125
+[INFO]	 [c1]	Time elapsed:  0.427323  seconds.
+||||----||||Predict Output:please call svehla as for bringing
+received request:inputType: "string"
+inputStream: "876"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:17.868132
+/container/data/dataset3/recordings/876.wav
+the school still cost to bring these
+[INFO]	 [c1]	 2019-06-07 03:44:18.475518
+[INFO]	 [c1]	Time elapsed:  0.607386  seconds.
+||||----||||Predict Output:the school still cost to bring these
+received request:inputType: "string"
+inputStream: "929"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:18.825476
+/container/data/dataset3/recordings/929.wav
+the scholars they'll all casket
+[INFO]	 [c1]	 2019-06-07 03:44:19.273524
+[INFO]	 [c1]	Time elapsed:  0.448048  seconds.
+||||----||||Predict Output:the scholars they'll all casket
+received request:inputType: "string"
+inputStream: "725"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:19.768566
+/container/data/dataset3/recordings/725.wav
+please call ella afternoon brains
+[INFO]	 [c1]	 2019-06-07 03:44:20.284657
+[INFO]	 [c1]	Time elapsed:  0.516091  seconds.
+||||----||||Predict Output:please call ella afternoon brains
+received request:inputType: "string"
+inputStream: "783"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:20.569828
+/container/data/dataset3/recordings/783.wav
+please call stella ask
+[INFO]	 [c1]	 2019-06-07 03:44:20.893304
+[INFO]	 [c1]	Time elapsed:  0.323476  seconds.
+||||----||||Predict Output:please call stella ask
+received request:inputType: "string"
+inputStream: "909"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:21.167827
+/container/data/dataset3/recordings/909.wav
+please call a valid at that ring the day
+[INFO]	 [c1]	 2019-06-07 03:44:21.908821
+[INFO]	 [c1]	Time elapsed:  0.740994  seconds.
+||||----||||Predict Output:please call a valid at that ring the day
+received request:inputType: "string"
+inputStream: "906"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:22.248026
+/container/data/dataset3/recordings/906.wav
+please call the one after bringing
+[INFO]	 [c1]	 2019-06-07 03:44:22.676945
+[INFO]	 [c1]	Time elapsed:  0.428919  seconds.
+||||----||||Predict Output:please call the one after bringing
+received request:inputType: "string"
+inputStream: "714"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:23.015106
+/container/data/dataset3/recordings/714.wav
+at least call stat law ask her to bring the east
+[INFO]	 [c1]	 2019-06-07 03:44:23.588408
+[INFO]	 [c1]	Time elapsed:  0.573302  seconds.
+||||----||||Predict Output:at least call stat law ask her to bring the east
+received request:inputType: "string"
+inputStream: "844"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:23.944515
+/container/data/dataset3/recordings/844.wav
+the calls the asking attorney
+[INFO]	 [c1]	 2019-06-07 03:44:24.565790
+[INFO]	 [c1]	Time elapsed:  0.621275  seconds.
+||||----||||Predict Output:the calls the asking attorney
+received request:inputType: "string"
+inputStream: "776"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:24.976829
+/container/data/dataset3/recordings/776.wav
+please call stella ask her to bring me
+[INFO]	 [c1]	 2019-06-07 03:44:25.530348
+[INFO]	 [c1]	Time elapsed:  0.553519  seconds.
+||||----||||Predict Output:please call stella ask her to bring me
+received request:inputType: "string"
+inputStream: "786"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:25.534960
+/container/data/dataset3/recordings/786.wav
+please calm down and
+[INFO]	 [c1]	 2019-06-07 03:44:25.808255
+[INFO]	 [c1]	Time elapsed:  0.273295  seconds.
+||||----||||Predict Output:please calm down and
+received request:inputType: "string"
+inputStream: "878"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:26.081607
+/container/data/dataset3/recordings/878.wav
+please call so after bernice and a firm
+[INFO]	 [c1]	 2019-06-07 03:44:26.590366
+[INFO]	 [c1]	Time elapsed:  0.508759  seconds.
+||||----||||Predict Output:please call so after bernice and a firm
+received request:inputType: "string"
+inputStream: "924"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:26.888412
+/container/data/dataset3/recordings/924.wav
+control stella and as rich
+[INFO]	 [c1]	 2019-06-07 03:44:27.394576
+[INFO]	 [c1]	Time elapsed:  0.506164  seconds.
+||||----||||Predict Output:control stella and as rich
+received request:inputType: "string"
+inputStream: "904"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:27.693437
+/container/data/dataset3/recordings/904.wav
+please cocktail and asked her to burn
+[INFO]	 [c1]	 2019-06-07 03:44:28.008987
+[INFO]	 [c1]	Time elapsed:  0.31555  seconds.
+||||----||||Predict Output:please cocktail and asked her to burn
+received request:inputType: "string"
+inputStream: "843"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:28.310365
+/container/data/dataset3/recordings/843.wav
+please close to outfit
+[INFO]	 [c1]	 2019-06-07 03:44:28.668040
+[INFO]	 [c1]	Time elapsed:  0.357675  seconds.
+||||----||||Predict Output:please close to outfit
+received request:inputType: "string"
+inputStream: "822"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:28.951555
+/container/data/dataset3/recordings/822.wav
+please call stella ask her to bring the east
+[INFO]	 [c1]	 2019-06-07 03:44:29.314515
+[INFO]	 [c1]	Time elapsed:  0.36296  seconds.
+||||----||||Predict Output:please call stella ask her to bring the east
+received request:inputType: "string"
+inputStream: "829"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:29.689123
+/container/data/dataset3/recordings/829.wav
+dissolves the f. has scourge of gringo
+[INFO]	 [c1]	 2019-06-07 03:44:30.330123
+[INFO]	 [c1]	Time elapsed:  0.641  seconds.
+||||----||||Predict Output:dissolves the f. has scourge of gringo
+received request:inputType: "string"
+inputStream: "718"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:30.706260
+/container/data/dataset3/recordings/718.wav
+please call them we'll ask her to bring
+[INFO]	 [c1]	 2019-06-07 03:44:31.160938
+[INFO]	 [c1]	Time elapsed:  0.454678  seconds.
+||||----||||Predict Output:please call them we'll ask her to bring
+received request:inputType: "string"
+inputStream: "936"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:31.614484
+/container/data/dataset3/recordings/936.wav
+these calls gamma ask her to
+[INFO]	 [c1]	 2019-06-07 03:44:32.038628
+[INFO]	 [c1]	Time elapsed:  0.424144  seconds.
+||||----||||Predict Output:these calls gamma ask her to
+received request:inputType: "string"
+inputStream: "858"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:32.305888
+/container/data/dataset3/recordings/858.wav
+krieg all stella after it to dream
+[INFO]	 [c1]	 2019-06-07 03:44:32.875658
+[INFO]	 [c1]	Time elapsed:  0.56977  seconds.
+||||----||||Predict Output:krieg all stella after it to dream
+received request:inputType: "string"
+inputStream: "896"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:33.191458
+/container/data/dataset3/recordings/896.wav
+please call stella got to bring the scenes
+[INFO]	 [c1]	 2019-06-07 03:44:33.931794
+[INFO]	 [c1]	Time elapsed:  0.740336  seconds.
+||||----||||Predict Output:please call stella got to bring the scenes
+received request:inputType: "string"
+inputStream: "925"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:34.288279
+/container/data/dataset3/recordings/925.wav
+please cost of estrogen
+[INFO]	 [c1]	 2019-06-07 03:44:34.787611
+[INFO]	 [c1]	Time elapsed:  0.499332  seconds.
+||||----||||Predict Output:please cost of estrogen
+received request:inputType: "string"
+inputStream: "836"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:35.062439
+/container/data/dataset3/recordings/836.wav
+recall the at randy's the
+[INFO]	 [c1]	 2019-06-07 03:44:35.927850
+[INFO]	 [c1]	Time elapsed:  0.865411  seconds.
+||||----||||Predict Output:recall the at randy's the
+received request:inputType: "string"
+inputStream: "814"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:36.412779
+/container/data/dataset3/recordings/814.wav
+please call still a oscar degree
+[INFO]	 [c1]	 2019-06-07 03:44:37.111344
+[INFO]	 [c1]	Time elapsed:  0.698565  seconds.
+||||----||||Predict Output:please call still a oscar degree
+received request:inputType: "string"
+inputStream: "711"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:37.386499
+/container/data/dataset3/recordings/711.wav
+please call's gala at
+[INFO]	 [c1]	 2019-06-07 03:44:37.673318
+[INFO]	 [c1]	Time elapsed:  0.286819  seconds.
+||||----||||Predict Output:please call's gala at
+received request:inputType: "string"
+inputStream: "851"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:38.089163
+/container/data/dataset3/recordings/851.wav
+these golf will inherit randy
+[INFO]	 [c1]	 2019-06-07 03:44:38.828699
+[INFO]	 [c1]	Time elapsed:  0.739536  seconds.
+||||----||||Predict Output:these golf will inherit randy
+received request:inputType: "string"
+inputStream: "784"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:39.113024
+/container/data/dataset3/recordings/784.wav
+please call fellow at the bring the thing
+[INFO]	 [c1]	 2019-06-07 03:44:39.650381
+[INFO]	 [c1]	Time elapsed:  0.537357  seconds.
+||||----||||Predict Output:please call fellow at the bring the thing
+received request:inputType: "string"
+inputStream: "883"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:40.063934
+/container/data/dataset3/recordings/883.wav
+please call the lot ask richard
+[INFO]	 [c1]	 2019-06-07 03:44:40.374260
+[INFO]	 [c1]	Time elapsed:  0.310326  seconds.
+||||----||||Predict Output:please call the lot ask richard
+received request:inputType: "string"
+inputStream: "854"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:40.717163
+/container/data/dataset3/recordings/854.wav
+please call scanlon ask her to bring tea
+[INFO]	 [c1]	 2019-06-07 03:44:41.077953
+[INFO]	 [c1]	Time elapsed:  0.36079  seconds.
+||||----||||Predict Output:please call scanlon ask her to bring tea
+received request:inputType: "string"
+inputStream: "724"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:41.361192
+/container/data/dataset3/recordings/724.wav
+please help dylan and hit him during the
+[INFO]	 [c1]	 2019-06-07 03:44:41.867438
+[INFO]	 [c1]	Time elapsed:  0.506246  seconds.
+||||----||||Predict Output:please help dylan and hit him during the
+received request:inputType: "string"
+inputStream: "713"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:42.139045
+/container/data/dataset3/recordings/713.wav
+please all fellow ass
+[INFO]	 [c1]	 2019-06-07 03:44:42.601226
+[INFO]	 [c1]	Time elapsed:  0.462181  seconds.
+||||----||||Predict Output:please all fellow ass
+received request:inputType: "string"
+inputStream: "737"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:42.866160
+/container/data/dataset3/recordings/737.wav
+pete hold on a oscar to bring these
+[INFO]	 [c1]	 2019-06-07 03:44:43.571393
+[INFO]	 [c1]	Time elapsed:  0.705233  seconds.
+||||----||||Predict Output:pete hold on a oscar to bring these
+received request:inputType: "string"
+inputStream: "819"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:43.850495
+/container/data/dataset3/recordings/819.wav
+please call the island after bring the things
+[INFO]	 [c1]	 2019-06-07 03:44:44.306112
+[INFO]	 [c1]	Time elapsed:  0.455617  seconds.
+||||----||||Predict Output:please call the island after bring the things
+received request:inputType: "string"
+inputStream: "767"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:44.731226
+/container/data/dataset3/recordings/767.wav
+please off the thingy things
+[INFO]	 [c1]	 2019-06-07 03:44:45.131512
+[INFO]	 [c1]	Time elapsed:  0.400286  seconds.
+||||----||||Predict Output:please off the thingy things
+received request:inputType: "string"
+inputStream: "746"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:45.566577
+/container/data/dataset3/recordings/746.wav
+the schools the best the bring the same
+[INFO]	 [c1]	 2019-06-07 03:44:46.285880
+[INFO]	 [c1]	Time elapsed:  0.719303  seconds.
+||||----||||Predict Output:the schools the best the bring the same
+received request:inputType: "string"
+inputStream: "739"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:46.836613
+/container/data/dataset3/recordings/739.wav
+these calls stella after bring these things were
+[INFO]	 [c1]	 2019-06-07 03:44:47.333575
+[INFO]	 [c1]	Time elapsed:  0.496962  seconds.
+||||----||||Predict Output:these calls stella after bring these things were
+received request:inputType: "string"
+inputStream: "867"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:47.627078
+/container/data/dataset3/recordings/867.wav
+please call still at turner bring me
+[INFO]	 [c1]	 2019-06-07 03:44:48.002335
+[INFO]	 [c1]	Time elapsed:  0.375257  seconds.
+||||----||||Predict Output:please call still at turner bring me
+received request:inputType: "string"
+inputStream: "729"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:48.266342
+/container/data/dataset3/recordings/729.wav
+please tell stella after giving these things of that
+[INFO]	 [c1]	 2019-06-07 03:44:48.938958
+[INFO]	 [c1]	Time elapsed:  0.672616  seconds.
+||||----||||Predict Output:please tell stella after giving these things of that
+received request:inputType: "string"
+inputStream: "923"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:49.223525
+/container/data/dataset3/recordings/923.wav
+recalls the at rain
+[INFO]	 [c1]	 2019-06-07 03:44:49.810597
+[INFO]	 [c1]	Time elapsed:  0.587072  seconds.
+||||----||||Predict Output:recalls the at rain
+received request:inputType: "string"
+inputStream: "882"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:50.153763
+/container/data/dataset3/recordings/882.wav
+please call stella ask or bring these things which are
+[INFO]	 [c1]	 2019-06-07 03:44:50.604321
+[INFO]	 [c1]	Time elapsed:  0.450558  seconds.
+||||----||||Predict Output:please call stella ask or bring these things which are
+received request:inputType: "string"
+inputStream: "728"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:50.877195
+/container/data/dataset3/recordings/728.wav
+please call fella afternoon
+[INFO]	 [c1]	 2019-06-07 03:44:51.295341
+[INFO]	 [c1]	Time elapsed:  0.418146  seconds.
+||||----||||Predict Output:please call fella afternoon
+received request:inputType: "string"
+inputStream: "903"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:51.575920
+/container/data/dataset3/recordings/903.wav
+these are the hour after the it and he v.
+[INFO]	 [c1]	 2019-06-07 03:44:52.296870
+[INFO]	 [c1]	Time elapsed:  0.72095  seconds.
+||||----||||Predict Output:these are the hour after the it and he v.
+received request:inputType: "string"
+inputStream: "773"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:52.689974
+/container/data/dataset3/recordings/773.wav
+please call the law has the ring
+[INFO]	 [c1]	 2019-06-07 03:44:53.220927
+[INFO]	 [c1]	Time elapsed:  0.530953  seconds.
+||||----||||Predict Output:please call the law has the ring
+received request:inputType: "string"
+inputStream: "777"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:53.634470
+/container/data/dataset3/recordings/777.wav
+please hold still a opted to bring
+[INFO]	 [c1]	 2019-06-07 03:44:54.334994
+[INFO]	 [c1]	Time elapsed:  0.700524  seconds.
+||||----||||Predict Output:please hold still a opted to bring
+received request:inputType: "string"
+inputStream: "901"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:54.616195
+/container/data/dataset3/recordings/901.wav
+please gulf below bos card
+[INFO]	 [c1]	 2019-06-07 03:44:55.047197
+[INFO]	 [c1]	Time elapsed:  0.431002  seconds.
+||||----||||Predict Output:please gulf below bos card
+received request:inputType: "string"
+inputStream: "838"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:55.334280
+/container/data/dataset3/recordings/838.wav
+please close ally
+[INFO]	 [c1]	 2019-06-07 03:44:55.862897
+[INFO]	 [c1]	Time elapsed:  0.528617  seconds.
+||||----||||Predict Output:please close ally
+received request:inputType: "string"
+inputStream: "732"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:56.135819
+/container/data/dataset3/recordings/732.wav
+these calls a casket attorneys been good
+[INFO]	 [c1]	 2019-06-07 03:44:57.016669
+[INFO]	 [c1]	Time elapsed:  0.88085  seconds.
+||||----||||Predict Output:these calls a casket attorneys been good
+received request:inputType: "string"
+inputStream: "807"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:57.300434
+/container/data/dataset3/recordings/807.wav
+these calls the ala tass cabrini thing
+[INFO]	 [c1]	 2019-06-07 03:44:57.812126
+[INFO]	 [c1]	Time elapsed:  0.511692  seconds.
+||||----||||Predict Output:these calls the ala tass cabrini thing
+received request:inputType: "string"
+inputStream: "831"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:58.195830
+/container/data/dataset3/recordings/831.wav
+we've got stella ask an bring the east
+[INFO]	 [c1]	 2019-06-07 03:44:58.976134
+[INFO]	 [c1]	Time elapsed:  0.780304  seconds.
+||||----||||Predict Output:we've got stella ask an bring the east
+received request:inputType: "string"
+inputStream: "734"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:44:59.477754
+/container/data/dataset3/recordings/734.wav
+please call still a ashford or bring these
+[INFO]	 [c1]	 2019-06-07 03:44:59.975174
+[INFO]	 [c1]	Time elapsed:  0.49742  seconds.
+||||----||||Predict Output:please call still a ashford or bring these
+received request:inputType: "string"
+inputStream: "702"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:00.263814
+/container/data/dataset3/recordings/702.wav
+please calls to ask the bring me
+[INFO]	 [c1]	 2019-06-07 03:45:00.767979
+[INFO]	 [c1]	Time elapsed:  0.504165  seconds.
+||||----||||Predict Output:please calls to ask the bring me
+received request:inputType: "string"
+inputStream: "826"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:01.091325
+/container/data/dataset3/recordings/826.wav
+please call will pass to re visa
+[INFO]	 [c1]	 2019-06-07 03:45:01.748161
+[INFO]	 [c1]	Time elapsed:  0.656836  seconds.
+||||----||||Predict Output:please call will pass to re visa
+received request:inputType: "string"
+inputStream: "835"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:02.025012
+/container/data/dataset3/recordings/835.wav
+please call though
+[INFO]	 [c1]	 2019-06-07 03:45:02.248099
+[INFO]	 [c1]	Time elapsed:  0.223087  seconds.
+||||----||||Predict Output:please call though
+received request:inputType: "string"
+inputStream: "730"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:02.534740
+/container/data/dataset3/recordings/730.wav
+please call stella structured imprint
+[INFO]	 [c1]	 2019-06-07 03:45:03.204864
+[INFO]	 [c1]	Time elapsed:  0.670124  seconds.
+||||----||||Predict Output:please call stella structured imprint
+received request:inputType: "string"
+inputStream: "864"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:03.497218
+/container/data/dataset3/recordings/864.wav
+many schools stand and osgood
+[INFO]	 [c1]	 2019-06-07 03:45:03.956952
+[INFO]	 [c1]	Time elapsed:  0.459734  seconds.
+||||----||||Predict Output:many schools stand and osgood
+received request:inputType: "string"
+inputStream: "827"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:04.226808
+/container/data/dataset3/recordings/827.wav
+the east coast thou hast her to bring these things
+[INFO]	 [c1]	 2019-06-07 03:45:05.022439
+[INFO]	 [c1]	Time elapsed:  0.795631  seconds.
+||||----||||Predict Output:the east coast thou hast her to bring these things
+received request:inputType: "string"
+inputStream: "926"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:05.407433
+/container/data/dataset3/recordings/926.wav
+today it caught on a stand up
+[INFO]	 [c1]	 2019-06-07 03:45:06.021808
+[INFO]	 [c1]	Time elapsed:  0.614375  seconds.
+||||----||||Predict Output:today it caught on a stand up
+received request:inputType: "string"
+inputStream: "937"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:06.279609
+/container/data/dataset3/recordings/937.wav
+these cars that are as carats of green
+[INFO]	 [c1]	 2019-06-07 03:45:06.937254
+[INFO]	 [c1]	Time elapsed:  0.657645  seconds.
+||||----||||Predict Output:these cars that are as carats of green
+received request:inputType: "string"
+inputStream: "756"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:07.233263
+/container/data/dataset3/recordings/756.wav
+the whole ella and her
+[INFO]	 [c1]	 2019-06-07 03:45:07.821208
+[INFO]	 [c1]	Time elapsed:  0.587945  seconds.
+||||----||||Predict Output:the whole ella and her
+received request:inputType: "string"
+inputStream: "823"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:08.160591
+/container/data/dataset3/recordings/823.wav
+please call still have to bring these things were
+[INFO]	 [c1]	 2019-06-07 03:45:08.846004
+[INFO]	 [c1]	Time elapsed:  0.685413  seconds.
+||||----||||Predict Output:please call still have to bring these things were
+received request:inputType: "string"
+inputStream: "795"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:09.122272
+/container/data/dataset3/recordings/795.wav
+please call stella got her to bring these things work
+[INFO]	 [c1]	 2019-06-07 03:45:09.677085
+[INFO]	 [c1]	Time elapsed:  0.554813  seconds.
+||||----||||Predict Output:please call stella got her to bring these things work
+received request:inputType: "string"
+inputStream: "703"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:09.962264
+/container/data/dataset3/recordings/703.wav
+his own stella after bring these things were confirmed
+[INFO]	 [c1]	 2019-06-07 03:45:10.846194
+[INFO]	 [c1]	Time elapsed:  0.88393  seconds.
+||||----||||Predict Output:his own stella after bring these things were confirmed
+received request:inputType: "string"
+inputStream: "857"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:11.120674
+/container/data/dataset3/recordings/857.wav
+please call stella of scourge of bringing things with her for
+[INFO]	 [c1]	 2019-06-07 03:45:11.682893
+[INFO]	 [c1]	Time elapsed:  0.562219  seconds.
+||||----||||Predict Output:please call stella of scourge of bringing things with her for
+received request:inputType: "string"
+inputStream: "832"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:11.965311
+/container/data/dataset3/recordings/832.wav
+whose goal though those whom
+[INFO]	 [c1]	 2019-06-07 03:45:12.735563
+[INFO]	 [c1]	Time elapsed:  0.770252  seconds.
+||||----||||Predict Output:whose goal though those whom
+received request:inputType: "string"
+inputStream: "727"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:13.013220
+/container/data/dataset3/recordings/727.wav
+the schools and confident
+[INFO]	 [c1]	 2019-06-07 03:45:13.733535
+[INFO]	 [c1]	Time elapsed:  0.720315  seconds.
+||||----||||Predict Output:the schools and confident
+received request:inputType: "string"
+inputStream: "706"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:14.066344
+/container/data/dataset3/recordings/706.wav
+please call the law ask than we need
+[INFO]	 [c1]	 2019-06-07 03:45:14.622457
+[INFO]	 [c1]	Time elapsed:  0.556113  seconds.
+||||----||||Predict Output:please call the law ask than we need
+received request:inputType: "string"
+inputStream: "860"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:14.961249
+/container/data/dataset3/recordings/860.wav
+we will stay out a
+[INFO]	 [c1]	 2019-06-07 03:45:15.379459
+[INFO]	 [c1]	Time elapsed:  0.41821  seconds.
+||||----||||Predict Output:we will stay out a
+received request:inputType: "string"
+inputStream: "769"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:15.630954
+/container/data/dataset3/recordings/769.wav
+please call stella ask her to bring these
+[INFO]	 [c1]	 2019-06-07 03:45:16.001496
+[INFO]	 [c1]	Time elapsed:  0.370542  seconds.
+||||----||||Predict Output:please call stella ask her to bring these
+received request:inputType: "string"
+inputStream: "813"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:16.291647
+/container/data/dataset3/recordings/813.wav
+please call svehla astrid and bring
+[INFO]	 [c1]	 2019-06-07 03:45:16.750373
+[INFO]	 [c1]	Time elapsed:  0.458726  seconds.
+||||----||||Predict Output:please call svehla astrid and bring
+received request:inputType: "string"
+inputStream: "747"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:17.085066
+/container/data/dataset3/recordings/747.wav
+please call the path through to bring
+[INFO]	 [c1]	 2019-06-07 03:45:17.609881
+[INFO]	 [c1]	Time elapsed:  0.524815  seconds.
+||||----||||Predict Output:please call the path through to bring
+received request:inputType: "string"
+inputStream: "709"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:17.963611
+/container/data/dataset3/recordings/709.wav
+please tell us galloped and hurt her niece in
+[INFO]	 [c1]	 2019-06-07 03:45:18.561799
+[INFO]	 [c1]	Time elapsed:  0.598188  seconds.
+||||----||||Predict Output:please tell us galloped and hurt her niece in
+received request:inputType: "string"
+inputStream: "931"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:18.854268
+/container/data/dataset3/recordings/931.wav
+he coldness the
+[INFO]	 [c1]	 2019-06-07 03:45:19.243890
+[INFO]	 [c1]	Time elapsed:  0.389622  seconds.
+||||----||||Predict Output:he coldness the
+received request:inputType: "string"
+inputStream: "930"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:19.539865
+/container/data/dataset3/recordings/930.wav
+these calls them the
+[INFO]	 [c1]	 2019-06-07 03:45:19.951511
+[INFO]	 [c1]	Time elapsed:  0.411646  seconds.
+||||----||||Predict Output:these calls them the
+received request:inputType: "string"
+inputStream: "866"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:20.208577
+/container/data/dataset3/recordings/866.wav
+please close ally gasket and gray
+[INFO]	 [c1]	 2019-06-07 03:45:20.658681
+[INFO]	 [c1]	Time elapsed:  0.450104  seconds.
+||||----||||Predict Output:please close ally gasket and gray
+received request:inputType: "string"
+inputStream: "870"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:20.965239
+/container/data/dataset3/recordings/870.wav
+these call stella asked to bring these things
+[INFO]	 [c1]	 2019-06-07 03:45:21.553025
+[INFO]	 [c1]	Time elapsed:  0.587786  seconds.
+||||----||||Predict Output:these call stella asked to bring these things
+received request:inputType: "string"
+inputStream: "715"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:21.830915
+/container/data/dataset3/recordings/715.wav
+please call della ask
+[INFO]	 [c1]	 2019-06-07 03:45:22.247260
+[INFO]	 [c1]	Time elapsed:  0.416345  seconds.
+||||----||||Predict Output:please call della ask
+received request:inputType: "string"
+inputStream: "856"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:22.513733
+/container/data/dataset3/recordings/856.wav
+please call still astra's bring these things
+[INFO]	 [c1]	 2019-06-07 03:45:23.028429
+[INFO]	 [c1]	Time elapsed:  0.514696  seconds.
+||||----||||Predict Output:please call still astra's bring these things
+received request:inputType: "string"
+inputStream: "842"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:23.456218
+/container/data/dataset3/recordings/842.wav
+please call stella as forgiving v.
+[INFO]	 [c1]	 2019-06-07 03:45:23.981845
+[INFO]	 [c1]	Time elapsed:  0.525627  seconds.
+||||----||||Predict Output:please call stella as forgiving v.
+received request:inputType: "string"
+inputStream: "810"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:24.253720
+/container/data/dataset3/recordings/810.wav
+please castellano casket and bring the sting
+[INFO]	 [c1]	 2019-06-07 03:45:24.739255
+[INFO]	 [c1]	Time elapsed:  0.485535  seconds.
+||||----||||Predict Output:please castellano casket and bring the sting
+received request:inputType: "string"
+inputStream: "716"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:25.108573
+/container/data/dataset3/recordings/716.wav
+please call stella after having these thing
+[INFO]	 [c1]	 2019-06-07 03:45:25.922221
+[INFO]	 [c1]	Time elapsed:  0.813648  seconds.
+||||----||||Predict Output:please call stella after having these thing
+received request:inputType: "string"
+inputStream: "744"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:26.203488
+/container/data/dataset3/recordings/744.wav
+he's called stella astrid occur
+[INFO]	 [c1]	 2019-06-07 03:45:26.716726
+[INFO]	 [c1]	Time elapsed:  0.513238  seconds.
+||||----||||Predict Output:he's called stella astrid occur
+received request:inputType: "string"
+inputStream: "720"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:27.153980
+/container/data/dataset3/recordings/720.wav
+please go lou waters were
+[INFO]	 [c1]	 2019-06-07 03:45:27.659484
+[INFO]	 [c1]	Time elapsed:  0.505504  seconds.
+||||----||||Predict Output:please go lou waters were
+received request:inputType: "string"
+inputStream: "789"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:27.936749
+/container/data/dataset3/recordings/789.wav
+please call spell and ask her to bring these things and
+[INFO]	 [c1]	 2019-06-07 03:45:28.492542
+[INFO]	 [c1]	Time elapsed:  0.555793  seconds.
+||||----||||Predict Output:please call spell and ask her to bring these things and
+received request:inputType: "string"
+inputStream: "934"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:28.762584
+/container/data/dataset3/recordings/934.wav
+please go also asked him
+[INFO]	 [c1]	 2019-06-07 03:45:29.050959
+[INFO]	 [c1]	Time elapsed:  0.288375  seconds.
+||||----||||Predict Output:please go also asked him
+received request:inputType: "string"
+inputStream: "891"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:29.315918
+/container/data/dataset3/recordings/891.wav
+these costello after bring
+[INFO]	 [c1]	 2019-06-07 03:45:29.606429
+[INFO]	 [c1]	Time elapsed:  0.290511  seconds.
+||||----||||Predict Output:these costello after bring
+received request:inputType: "string"
+inputStream: "808"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:29.884049
+/container/data/dataset3/recordings/808.wav
+these castilla after bring these things up
+[INFO]	 [c1]	 2019-06-07 03:45:30.415693
+[INFO]	 [c1]	Time elapsed:  0.531644  seconds.
+||||----||||Predict Output:these castilla after bring these things up
+received request:inputType: "string"
+inputStream: "890"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:30.687096
+/container/data/dataset3/recordings/890.wav
+these calls to look after bring thee
+[INFO]	 [c1]	 2019-06-07 03:45:31.140751
+[INFO]	 [c1]	Time elapsed:  0.453655  seconds.
+||||----||||Predict Output:these calls to look after bring thee
+received request:inputType: "string"
+inputStream: "892"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:31.421682
+/container/data/dataset3/recordings/892.wav
+we'll help gala and couldn't bring
+[INFO]	 [c1]	 2019-06-07 03:45:31.908655
+[INFO]	 [c1]	Time elapsed:  0.486973  seconds.
+||||----||||Predict Output:we'll help gala and couldn't bring
+received request:inputType: "string"
+inputStream: "812"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:32.489680
+/container/data/dataset3/recordings/812.wav
+these are all still a count it bring the thing to
+[INFO]	 [c1]	 2019-06-07 03:45:33.344044
+[INFO]	 [c1]	Time elapsed:  0.854364  seconds.
+||||----||||Predict Output:these are all still a count it bring the thing to
+received request:inputType: "string"
+inputStream: "755"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:33.675740
+/container/data/dataset3/recordings/755.wav
+the east coast and the
+[INFO]	 [c1]	 2019-06-07 03:45:34.444498
+[INFO]	 [c1]	Time elapsed:  0.768758  seconds.
+||||----||||Predict Output:the east coast and the
+received request:inputType: "string"
+inputStream: "911"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:34.776604
+/container/data/dataset3/recordings/911.wav
+the polls have a lot to bring the thing
+[INFO]	 [c1]	 2019-06-07 03:45:35.835624
+[INFO]	 [c1]	Time elapsed:  1.05902  seconds.
+||||----||||Predict Output:the polls have a lot to bring the thing
+received request:inputType: "string"
+inputStream: "719"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:36.251135
+/container/data/dataset3/recordings/719.wav
+we've called all after grungy me
+[INFO]	 [c1]	 2019-06-07 03:45:36.627357
+[INFO]	 [c1]	Time elapsed:  0.376222  seconds.
+||||----||||Predict Output:we've called all after grungy me
+received request:inputType: "string"
+inputStream: "758"
+
+
+
+[INFO]	 [c1]	 2019-06-07 03:45:37.069247
+/container/data/dataset3/recordings/758.wav
+to these calls the oscar to bring me
+[INFO]	 [c1]	 2019-06-07 03:45:37.631930
+[INFO]	 [c1]	Time elapsed:  0.562683  seconds.
+||||----||||Predict Output:to these calls the oscar to bring me

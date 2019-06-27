@@ -1,0 +1,198 @@
+inputt_total:  ['744', '714', '790', '753', '764', '723', '703', '727', '784', '724', '746', '778', '771', '759', '704', '774', '745', '789', '710', '761', '767', '747', '721', '740', '712', '791', '786', '772', '750', '716', '766', '760', '758', '763', '715', '780', '730', '728', '717', '705', '781', '765', '773', '755', '719', '732', '748', '722', '787', '734', '775', '713', '731', '735', '754', '785', '739', '752', '779', '725', '729', '701', '743', '770', '736', '742', '700', '777', '718', '738', '794', '720', '783', '776', '702', '788', '792', '706', '709', '749', '726', '708', '756', '733', '769', '768', '793', '741', '795', '757', '711', '737', '762', '751', '707', '782']
+Starting worker => 427
+Input 744 returns Output: req sequence: 1; time: 1310ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 714 returns Output: req sequence: 2; time: 785ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 790 returns Output: req sequence: 3; time: 868ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 753 returns Output: req sequence: 4; time: 954ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 764 returns Output: req sequence: 5; time: 491ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 723 returns Output: req sequence: 6; time: 1040ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 703 returns Output: req sequence: 7; time: 1040ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 727 returns Output: req sequence: 8; time: 882ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 784 returns Output: req sequence: 9; time: 791ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 724 returns Output: req sequence: 10; time: 704ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 746 returns Output: req sequence: 11; time: 1105ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 778 returns Output: req sequence: 12; time: 579ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 771 returns Output: req sequence: 13; time: 595ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 759 returns Output: req sequence: 14; time: 718ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 704 returns Output: req sequence: 15; time: 788ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 774 returns Output: req sequence: 16; time: 647ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 745 returns Output: req sequence: 17; time: 648ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 789 returns Output: req sequence: 18; time: 701ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 710 returns Output: req sequence: 19; time: 643ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 761 returns Output: req sequence: 20; time: 1457ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 767 returns Output: req sequence: 21; time: 1115ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 747 returns Output: req sequence: 22; time: 692ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 721 returns Output: req sequence: 23; time: 597ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 740 returns Output: req sequence: 24; time: 716ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 712 returns Output: req sequence: 25; time: 661ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 791 returns Output: req sequence: 26; time: 1467ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 786 returns Output: req sequence: 27; time: 433ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 772 returns Output: req sequence: 28; time: 597ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 750 returns Output: req sequence: 29; time: 710ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 716 returns Output: req sequence: 30; time: 981ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 766 returns Output: req sequence: 31; time: 663ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 760 returns Output: req sequence: 32; time: 1281ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 758 returns Output: req sequence: 33; time: 720ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 763 returns Output: req sequence: 34; time: 491ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 715 returns Output: req sequence: 35; time: 558ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 780 returns Output: req sequence: 36; time: 690ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 730 returns Output: req sequence: 37; time: 776ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 728 returns Output: req sequence: 38; time: 598ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 717 returns Output: req sequence: 39; time: 824ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 705 returns Output: req sequence: 40; time: 850ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 781 returns Output: req sequence: 41; time: 713ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 765 returns Output: req sequence: 42; time: 834ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 773 returns Output: req sequence: 43; time: 824ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 755 returns Output: req sequence: 44; time: 971ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 719 returns Output: req sequence: 45; time: 704ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 732 returns Output: req sequence: 46; time: 1014ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 748 returns Output: req sequence: 47; time: 1099ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 722 returns Output: req sequence: 48; time: 662ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 787 returns Output: req sequence: 49; time: 518ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 734 returns Output: req sequence: 50; time: 643ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 775 returns Output: req sequence: 51; time: 675ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 713 returns Output: req sequence: 52; time: 619ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 731 returns Output: req sequence: 53; time: 556ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 735 returns Output: req sequence: 54; time: 773ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 754 returns Output: req sequence: 55; time: 608ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 785 returns Output: req sequence: 56; time: 652ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 739 returns Output: req sequence: 57; time: 691ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 752 returns Output: req sequence: 58; time: 584ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 779 returns Output: req sequence: 59; time: 1138ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 725 returns Output: req sequence: 60; time: 665ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 729 returns Output: req sequence: 61; time: 837ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 701 returns Output: req sequence: 62; time: 1195ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 743 returns Output: req sequence: 63; time: 885ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 770 returns Output: req sequence: 64; time: 626ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 736 returns Output: req sequence: 65; time: 1076ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 742 returns Output: req sequence: 66; time: 910ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 700 returns Output: req sequence: 67; time: 1248ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 777 returns Output: req sequence: 68; time: 747ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 718 returns Output: req sequence: 69; time: 716ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 738 returns Output: req sequence: 70; time: 605ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 794 returns Output: req sequence: 71; time: 1107ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 720 returns Output: req sequence: 72; time: 717ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 783 returns Output: req sequence: 73; time: 491ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 776 returns Output: req sequence: 74; time: 680ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 702 returns Output: req sequence: 75; time: 697ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 788 returns Output: req sequence: 76; time: 910ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 792 returns Output: req sequence: 77; time: 596ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 706 returns Output: req sequence: 78; time: 784ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 709 returns Output: req sequence: 79; time: 928ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 749 returns Output: req sequence: 80; time: 645ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 726 returns Output: req sequence: 81; time: 824ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 708 returns Output: req sequence: 82; time: 804ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 756 returns Output: req sequence: 83; time: 828ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 733 returns Output: req sequence: 84; time: 1122ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 769 returns Output: req sequence: 85; time: 542ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 768 returns Output: req sequence: 86; time: 850ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 793 returns Output: req sequence: 87; time: 500ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 741 returns Output: req sequence: 88; time: 812ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 795 returns Output: req sequence: 89; time: 738ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 757 returns Output: req sequence: 90; time: 1242ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 711 returns Output: req sequence: 91; time: 571ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 737 returns Output: req sequence: 92; time: 834ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 762 returns Output: req sequence: 93; time: 605ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 751 returns Output: req sequence: 94; time: 920ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 707 returns Output: req sequence: 95; time: 789ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Input 782 returns Output: req sequence: 96; time: 1128ms; OUPUT (starting from next line):
+Sentiment Analysis finished
+Worker 427 exiting...
+Finished 96 requests with time:
+76.68995237350464
+Parent process exiting...

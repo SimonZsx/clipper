@@ -1,0 +1,904 @@
+preprocess.py modules loaded successfully in 0.49752171999716666 seconds.
+Model Server Started -- c3_nlpMappingGenerator
+received request:
+
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|the school\'s anna get to prove the skin"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:17:57.589783
+[INFO]	 [c3]	 2019-06-07 11:17:57.617513
+[INFO]	 [c3]	 Time elapsed:  0.02773  seconds.
+||||----||||Predict Output:motorcyclist bear sit tree branch, school 's anna-sit, get
+received request:inputType: "String"
+inputStream: "a close up of a cake on a table|he claudia have"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:17:57.929295
+[INFO]	 [c3]	 2019-06-07 11:17:57.947761
+[INFO]	 [c3]	 Time elapsed:  0.018466  seconds.
+||||----||||Predict Output:close cake-
+received request:inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|the schools then the oscar"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:17:58.318355
+[INFO]	 [c3]	 2019-06-07 11:17:58.336676
+[INFO]	 [c3]	 Time elapsed:  0.018321  seconds.
+||||----||||Predict Output:black white photo teddy, school oscar-bear
+received request:inputType: "String"
+inputStream: "a white teddy bear sitting on a bed .|we\'ve called bella acting agree"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:17:58.842398
+[INFO]	 [c3]	 2019-06-07 11:17:58.861454
+[INFO]	 [c3]	 Time elapsed:  0.019056  seconds.
+||||----||||Predict Output:white teddy, sit bed, 've call-sit, agree
+received request:inputType: "String"
+inputStream: "a close up of a cell phone on a table|these will still the tears to me"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:17:59.521822
+[INFO]	 [c3]	 2019-06-07 11:17:59.540116
+[INFO]	 [c3]	 Time elapsed:  0.018294  seconds.
+||||----||||Predict Output:-
+received request:inputType: "String"
+inputStream: "a black and white photo of a man holding a teddy bear .|we call that the earth a brandy"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:00.467910
+[INFO]	 [c3]	 2019-06-07 11:18:00.487505
+[INFO]	 [c3]	 Time elapsed:  0.019595  seconds.
+||||----||||Predict Output:black white photo man, teddy bear-hold, call
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|these calls down and ask that the brain bee sting"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:01.032831
+[INFO]	 [c3]	 2019-06-07 11:18:01.052494
+[INFO]	 [c3]	 Time elapsed:  0.019663  seconds.
+||||----||||Predict Output:motorcyclist bear sit tree branch, .these call, brain bee sting-sit, ask
+received request:inputType: "String"
+inputStream: "a picture of a person holding a sign .|he goes down ask her to brain"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:01.669002
+[INFO]	 [c3]	 2019-06-07 11:18:01.687486
+[INFO]	 [c3]	 Time elapsed:  0.018484  seconds.
+||||----||||Predict Output:picture person, sign, brain-hold, go, ask
+received request:inputType: "String"
+inputStream: "a clock that is on top of a wall .|please call him the that\'s it"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:02.558102
+[INFO]	 [c3]	 2019-06-07 11:18:02.577004
+[INFO]	 [c3]	 Time elapsed:  0.018902  seconds.
+||||----||||Predict Output:top wall .please call-clock
+received request:inputType: "String"
+inputStream: "a picture of a clock on a wall .|please call still ask"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:02.894308
+[INFO]	 [c3]	 2019-06-07 11:18:02.911460
+[INFO]	 [c3]	 Time elapsed:  0.017152  seconds.
+||||----||||Predict Output:picture clock wall .please call-ask
+received request:inputType: "String"
+inputStream: "a close up of a phone on a table|we won\'t allow it to burundi"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:03.537948
+[INFO]	 [c3]	 2019-06-07 11:18:03.556782
+[INFO]	 [c3]	 Time elapsed:  0.018834  seconds.
+||||----||||Predict Output:close phone tablewe-allow
+received request:inputType: "String"
+inputStream: "a close up of a person holding a book|the cold and we\'re at kempton"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:04.254149
+[INFO]	 [c3]	 2019-06-07 11:18:04.272833
+[INFO]	 [c3]	 Time elapsed:  0.018684  seconds.
+||||----||||Predict Output:close person, bookthe cold kempton-hold
+received request:inputType: "String"
+inputStream: "a birthday cake with a train on it|these clothes they\'ll still lot"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:04.688386
+[INFO]	 [c3]	 2019-06-07 11:18:04.707318
+[INFO]	 [c3]	 Time elapsed:  0.018932  seconds.
+||||----||||Predict Output:birthday cake train, itthese clothe-
+received request:inputType: "String"
+inputStream: "a close up of a clock on a wall|the law in the i can\'t read"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:05.910378
+[INFO]	 [c3]	 2019-06-07 11:18:05.928374
+[INFO]	 [c3]	 Time elapsed:  0.017996  seconds.
+||||----||||Predict Output:close clock wallthe law-read
+received request:inputType: "String"
+inputStream: "a close up of a person holding a book|he\'s going to"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:06.283233
+[INFO]	 [c3]	 2019-06-07 11:18:06.301176
+[INFO]	 [c3]	 Time elapsed:  0.017943  seconds.
+||||----||||Predict Output:close person, bookhe-hold, go
+received request:inputType: "String"
+inputStream: "a sign that is on the side of a building .|and it\'s going at it as soon as"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:06.944256
+[INFO]	 [c3]	 2019-06-07 11:18:06.962843
+[INFO]	 [c3]	 Time elapsed:  0.018587  seconds.
+||||----||||Predict Output:sign side building-sign, go
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|the school so soft it in the"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:07.571485
+[INFO]	 [c3]	 2019-06-07 11:18:07.590457
+[INFO]	 [c3]	 Time elapsed:  0.018972  seconds.
+||||----||||Predict Output:motorcyclist bear, top rock-sit
+received request:inputType: "String"
+inputStream: "a close up of a stuffed animal on a table|then the callers steve"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:08.104298
+[INFO]	 [c3]	 2019-06-07 11:18:08.122988
+[INFO]	 [c3]	 Time elapsed:  0.01869  seconds.
+||||----||||Predict Output:close stuff animal tablethen caller steve-
+received request:inputType: "String"
+inputStream: "a black and white photo of a person holding a book|please call the law of her that"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:08.796424
+[INFO]	 [c3]	 2019-06-07 11:18:08.815523
+[INFO]	 [c3]	 Time elapsed:  0.019099  seconds.
+||||----||||Predict Output:black white photo person, bookplease call law-hold
+received request:inputType: "String"
+inputStream: "a close up of a clock on a wall|he\'s close the eyes"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:09.336985
+[INFO]	 [c3]	 2019-06-07 11:18:09.355374
+[INFO]	 [c3]	 Time elapsed:  0.018389  seconds.
+||||----||||Predict Output:close clock wallhe 's close eye-
+received request:inputType: "String"
+inputStream: "a clock that is on the side of a building .|and these call in to him"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:09.979330
+[INFO]	 [c3]	 2019-06-07 11:18:09.997732
+[INFO]	 [c3]	 Time elapsed:  0.018402  seconds.
+||||----||||Predict Output:clock side building-clock
+received request:inputType: "String"
+inputStream: "a black and lake suitcase sitting on a table .|do you suppose that a oscar did"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:10.630513
+[INFO]	 [c3]	 2019-06-07 11:18:10.648779
+[INFO]	 [c3]	 Time elapsed:  0.018266  seconds.
+||||----||||Predict Output:black lake suitcase sit table, oscar-sit, suppose
+received request:inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|he\'s close to that fair"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:11.290649
+[INFO]	 [c3]	 2019-06-07 11:18:11.309449
+[INFO]	 [c3]	 Time elapsed:  0.0188  seconds.
+||||----||||Predict Output:black white photo motorcyclist bear-
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on the ground next to a tree .|he calls them the offer to ring the who"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:11.877260
+[INFO]	 [c3]	 2019-06-07 11:18:11.896513
+[INFO]	 [c3]	 Time elapsed:  0.019253  seconds.
+||||----||||Predict Output:motorcyclist bear sit ground, .he call offer ring-sit
+received request:inputType: "String"
+inputStream: "a clock on the wall of a building .|leaflets in the ass"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:12.425664
+[INFO]	 [c3]	 2019-06-07 11:18:12.443712
+[INFO]	 [c3]	 Time elapsed:  0.018048  seconds.
+||||----||||Predict Output:clock, wall building, ass-.leaflet
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting in a grassy field .|these aren\'t that ten ot"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:13.376320
+[INFO]	 [c3]	 2019-06-07 11:18:13.394554
+[INFO]	 [c3]	 Time elapsed:  0.018234  seconds.
+||||----||||Predict Output:motorcyclist bear, grassy field-sit, .these
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|please call the law ask her to"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:13.811108
+[INFO]	 [c3]	 2019-06-07 11:18:13.829781
+[INFO]	 [c3]	 Time elapsed:  0.018673  seconds.
+||||----||||Predict Output:motorcyclist bear, top rock .please call law-sit, ask
+received request:inputType: "String"
+inputStream: "a stuffed animal is sitting on a table|it may also huh"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:14.455626
+[INFO]	 [c3]	 2019-06-07 11:18:14.474216
+[INFO]	 [c3]	 Time elapsed:  0.01859  seconds.
+||||----||||Predict Output:stuff animal, sit tableit-may, huh
+received request:inputType: "String"
+inputStream: "a close up of a clock on a wall|are pete will it to that"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:15.186360
+[INFO]	 [c3]	 2019-06-07 11:18:15.204337
+[INFO]	 [c3]	 Time elapsed:  0.017977  seconds.
+||||----||||Predict Output:close clock, pete-
+received request:inputType: "String"
+inputStream: "a close up of a cake on a table|the court in a basket"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:15.987015
+[INFO]	 [c3]	 2019-06-07 11:18:16.004598
+[INFO]	 [c3]	 Time elapsed:  0.017583  seconds.
+||||----||||Predict Output:close cake, tablethe court basket-
+received request:inputType: "String"
+inputStream: "a teddy bear sitting on top of a chair .|please go with them and i\'m scared to bring days"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:16.675254
+[INFO]	 [c3]	 2019-06-07 11:18:16.695241
+[INFO]	 [c3]	 Time elapsed:  0.019987  seconds.
+||||----||||Predict Output:teddy, top chair, day-sit, go
+received request:inputType: "String"
+inputStream: "a picture of a clock on a wall .|he also i\'ve turned over and be"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:17.334893
+[INFO]	 [c3]	 2019-06-07 11:18:17.352689
+[INFO]	 [c3]	 Time elapsed:  0.017796  seconds.
+||||----||||Predict Output:picture clock wall-turn
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|please cole\'s bella africa"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:17.747753
+[INFO]	 [c3]	 2019-06-07 11:18:17.766527
+[INFO]	 [c3]	 Time elapsed:  0.018774  seconds.
+||||----||||Predict Output:motorcyclist bear sit tree branch .please cole 's bella africa-sit
+received request:inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|the whole battle after giving the"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:18.368681
+[INFO]	 [c3]	 2019-06-07 11:18:18.386989
+[INFO]	 [c3]	 Time elapsed:  0.018308  seconds.
+||||----||||Predict Output:black white photo teddy, whole battle-bear, give
+received request:inputType: "String"
+inputStream: "a picture of a clock on a wall .|the eighties a close a"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:19.011241
+[INFO]	 [c3]	 2019-06-07 11:18:19.029437
+[INFO]	 [c3]	 Time elapsed:  0.018196  seconds.
+||||----||||Predict Output:picture clock wall-
+received request:inputType: "String"
+inputStream: "a close up of a cake with a train on it|he is called the at that"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:19.535418
+[INFO]	 [c3]	 2019-06-07 11:18:19.552901
+[INFO]	 [c3]	 Time elapsed:  0.017483  seconds.
+||||----||||Predict Output:close cake, ithe call-
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|these gloves to in there"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:19.922292
+[INFO]	 [c3]	 2019-06-07 11:18:19.940054
+[INFO]	 [c3]	 Time elapsed:  0.017762  seconds.
+||||----||||Predict Output:close book tablethese glove-
+received request:inputType: "String"
+inputStream: "a close up of a black and white background|these ghosts and laugh and to britain"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:20.807074
+[INFO]	 [c3]	 2019-06-07 11:18:20.825462
+[INFO]	 [c3]	 Time elapsed:  0.018388  seconds.
+||||----||||Predict Output:close black white backgroundthese ghost, britain-
+received request:inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|we\'ve got scanlon asking country"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:21.347980
+[INFO]	 [c3]	 2019-06-07 11:18:21.367549
+[INFO]	 [c3]	 Time elapsed:  0.019569  seconds.
+||||----||||Predict Output:black white photo motorcyclist bear, scanlon ask country-get, ask
+received request:inputType: "String"
+inputStream: "a black and white photo of a clock on a wall .|he\'s going to eva"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:21.916631
+[INFO]	 [c3]	 2019-06-07 11:18:21.934917
+[INFO]	 [c3]	 Time elapsed:  0.018286  seconds.
+||||----||||Predict Output:black white photo clock wall-go
+received request:inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|a piece called stand up"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:22.304128
+[INFO]	 [c3]	 2019-06-07 11:18:22.323012
+[INFO]	 [c3]	 Time elapsed:  0.018884  seconds.
+||||----||||Predict Output:black white photo motorcyclist bear .a piece call-
+received request:inputType: "String"
+inputStream: "a clock on the wall of a building .|these callers n. a"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:22.738071
+[INFO]	 [c3]	 2019-06-07 11:18:22.757397
+[INFO]	 [c3]	 Time elapsed:  0.019326  seconds.
+||||----||||Predict Output:clock wall building, .these caller-
+received request:inputType: "String"
+inputStream: "a large clock mounted to the side of a building .|these calls that a cost"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:23.176821
+[INFO]	 [c3]	 2019-06-07 11:18:23.195807
+[INFO]	 [c3]	 Time elapsed:  0.018986  seconds.
+||||----||||Predict Output:large clock mount side building, .these call cost-
+received request:inputType: "String"
+inputStream: "a close up of a phone on a table|today\'s court is that in the"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:23.799064
+[INFO]	 [c3]	 2019-06-07 11:18:23.816648
+[INFO]	 [c3]	 Time elapsed:  0.017584  seconds.
+||||----||||Predict Output:close phone tabletoday 's court-
+received request:inputType: "String"
+inputStream: "a teddy bear sitting on a tree branch .|he\'s going to have said"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:24.372817
+[INFO]	 [c3]	 2019-06-07 11:18:24.391322
+[INFO]	 [c3]	 Time elapsed:  0.018505  seconds.
+||||----||||Predict Output:teddy, sit tree branch-sit, go, say
+received request:inputType: "String"
+inputStream: "a picture of a clock on a building .|these halls of us the ring the sting"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:25.402925
+[INFO]	 [c3]	 2019-06-07 11:18:25.422047
+[INFO]	 [c3]	 Time elapsed:  0.019122  seconds.
+||||----||||Predict Output:picture clock building, .these hall, us-ste
+received request:inputType: "String"
+inputStream: "a close up of a cake on a table|see most the huh"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:26.105809
+[INFO]	 [c3]	 2019-06-07 11:18:26.123512
+[INFO]	 [c3]	 Time elapsed:  0.017703  seconds.
+||||----||||Predict Output:close cake tablesee-
+received request:inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|a nice clothes and the house can but me"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:26.709273
+[INFO]	 [c3]	 2019-06-07 11:18:26.728579
+[INFO]	 [c3]	 Time elapsed:  0.019306  seconds.
+||||----||||Predict Output:black white photo motorcyclist bear .a nice clothe house-
+received request:inputType: "String"
+inputStream: "a close up of a person holding a cell phone|the school stella asked her to bring peace"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:27.333219
+[INFO]	 [c3]	 2019-06-07 11:18:27.352862
+[INFO]	 [c3]	 Time elapsed:  0.019643  seconds.
+||||----||||Predict Output:close person, cell phonethe school stella, peace-hold, ask, bring
+received request:inputType: "String"
+inputStream: "a black and white photo of a person holding a book|please calm down a path for it to dry"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:27.861805
+[INFO]	 [c3]	 2019-06-07 11:18:27.880617
+[INFO]	 [c3]	 Time elapsed:  0.018812  seconds.
+||||----||||Predict Output:black white photo person, bookplease calm path-hold, dry
+received request:inputType: "String"
+inputStream: "a close up of a clock on a wall|and we\'ve gotten a outings of thing"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:28.653996
+[INFO]	 [c3]	 2019-06-07 11:18:28.672778
+[INFO]	 [c3]	 Time elapsed:  0.018782  seconds.
+||||----||||Predict Output:close clock walland, outing thing-get, out
+received request:inputType: "String"
+inputStream: "a black and white photo of a clock on a wall .|he won\'t cannot at at room"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:29.515886
+[INFO]	 [c3]	 2019-06-07 11:18:29.534496
+[INFO]	 [c3]	 Time elapsed:  0.01861  seconds.
+||||----||||Predict Output:black white photo clock wall-room
+received request:inputType: "String"
+inputStream: "a picture of a person holding a book .|the score was in the arrest her"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:30.284528
+[INFO]	 [c3]	 2019-06-07 11:18:30.303554
+[INFO]	 [c3]	 Time elapsed:  0.019026  seconds.
+||||----||||Predict Output:picture person, book, score arrest-
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|but he\'s going to stand up and talk to"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:30.913563
+[INFO]	 [c3]	 2019-06-07 11:18:30.931663
+[INFO]	 [c3]	 Time elapsed:  0.0181  seconds.
+||||----||||Predict Output:close book tablebut, talk-go, stand
+received request:inputType: "String"
+inputStream: "a teddy bear is sitting on a bed .|was told dale a basket"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:31.325154
+[INFO]	 [c3]	 2019-06-07 11:18:31.343757
+[INFO]	 [c3]	 Time elapsed:  0.018603  seconds.
+||||----||||Predict Output:teddy, sit bed, dale basket-sit, tell
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting in a grassy area .|the news caught it on ask her"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:32.035133
+[INFO]	 [c3]	 2019-06-07 11:18:32.053387
+[INFO]	 [c3]	 Time elapsed:  0.018254  seconds.
+||||----||||Predict Output:motorcyclist bear, grassy area, news catch-sit, ask
+received request:inputType: "String"
+inputStream: "a black and white photo of a baseball bat|you caught him huh a"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:32.653394
+[INFO]	 [c3]	 2019-06-07 11:18:32.672004
+[INFO]	 [c3]	 Time elapsed:  0.01861  seconds.
+||||----||||Predict Output:black white photo baseball, batyou-catch
+received request:inputType: "String"
+inputStream: "a book with a picture of a bird on it .|please call the effort to burn"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:33.471813
+[INFO]	 [c3]	 2019-06-07 11:18:33.489892
+[INFO]	 [c3]	 Time elapsed:  0.018079  seconds.
+||||----||||Predict Output:picture bird-burn
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|please aunt eleanor atlanta"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:33.990600
+[INFO]	 [c3]	 2019-06-07 11:18:34.008963
+[INFO]	 [c3]	 Time elapsed:  0.018363  seconds.
+||||----||||Predict Output:close book tableplease aunt eleanor, atlanta-
+received request:inputType: "String"
+inputStream: "a black and white photo of a clock on a wall .|he\'s close to him on a a cause them to be"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:35.210011
+[INFO]	 [c3]	 2019-06-07 11:18:35.229015
+[INFO]	 [c3]	 Time elapsed:  0.019004  seconds.
+||||----||||Predict Output:black white photo clock wall, close cause-
+received request:inputType: "String"
+inputStream: "a close up of a traffic light with a sky background|the asian hotel i\'ve had reigned"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:35.861358
+[INFO]	 [c3]	 2019-06-07 11:18:35.881164
+[INFO]	 [c3]	 Time elapsed:  0.019806  seconds.
+||||----||||Predict Output:close traffic light sky backgroundthe asian hotel reign-
+received request:inputType: "String"
+inputStream: "a man is standing in front of a train|you goals emma are her children"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:36.373196
+[INFO]	 [c3]	 2019-06-07 11:18:36.391539
+[INFO]	 [c3]	 Time elapsed:  0.018343  seconds.
+||||----||||Predict Output:man, front trainyou goal emma child-stand
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a tree .|please close the amount of kafka and"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:37.056191
+[INFO]	 [c3]	 2019-06-07 11:18:37.075256
+[INFO]	 [c3]	 Time elapsed:  0.019065  seconds.
+||||----||||Predict Output:motorcyclist bear, top tree, .please close amount kafka-sit
+received request:inputType: "String"
+inputStream: "a close up of a person holding a book|raincoat and a while oh"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:37.505353
+[INFO]	 [c3]	 2019-06-07 11:18:37.522687
+[INFO]	 [c3]	 Time elapsed:  0.017334  seconds.
+||||----||||Predict Output:close person, bookraincoat-
+received request:inputType: "String"
+inputStream: "a teddy bear sitting on top of a wooden table .|the clothes the in the stadium"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:38.199024
+[INFO]	 [c3]	 2019-06-07 11:18:38.217922
+[INFO]	 [c3]	 Time elapsed:  0.018898  seconds.
+||||----||||Predict Output:teddy, top wooden table, clothe stadium-sit
+received request:inputType: "String"
+inputStream: "a motorcyclists bear standing on top of a lush green field .|it was in a hot cut"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:38.689860
+[INFO]	 [c3]	 2019-06-07 11:18:38.709590
+[INFO]	 [c3]	 Time elapsed:  0.01973  seconds.
+||||----||||Predict Output:motorcyclist bear, top lush green field, hot cut-stand
+received request:inputType: "String"
+inputStream: "a picture of a clock on a wall .|the calls that a tax cut"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:39.281680
+[INFO]	 [c3]	 2019-06-07 11:18:39.300197
+[INFO]	 [c3]	 Time elapsed:  0.018517  seconds.
+||||----||||Predict Output:picture clock wall, tax cut-call
+received request:inputType: "String"
+inputStream: "a picture of a person holding a sign .|and he\'s close to the president of"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:40.193937
+[INFO]	 [c3]	 2019-06-07 11:18:40.211737
+[INFO]	 [c3]	 Time elapsed:  0.0178  seconds.
+||||----||||Predict Output:picture person, sign, close president-hold
+received request:inputType: "String"
+inputStream: "a teddy bear with a racing on its head .|these calls the brass ring"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:41.199406
+[INFO]	 [c3]	 2019-06-07 11:18:41.218503
+[INFO]	 [c3]	 Time elapsed:  0.019097  seconds.
+||||----||||Predict Output:teddy, racing head, .these call brass ring-bear, race
+received request:inputType: "String"
+inputStream: "a white teddy bear sitting on top of a bed .|he\'s close to the school of us don\'t know of"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:41.965705
+[INFO]	 [c3]	 2019-06-07 11:18:41.985076
+[INFO]	 [c3]	 Time elapsed:  0.019371  seconds.
+||||----||||Predict Output:white teddy, top bed, .he close school, us-sit, know
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|he hold bella ask her to bring"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:42.605599
+[INFO]	 [c3]	 2019-06-07 11:18:42.624222
+[INFO]	 [c3]	 Time elapsed:  0.018623  seconds.
+||||----||||Predict Output:close book tablehe, bella-ask
+received request:inputType: "String"
+inputStream: "a clock that is on top of a table .|please call for the oscars are being these things were"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:43.240747
+[INFO]	 [c3]	 2019-06-07 11:18:43.259339
+[INFO]	 [c3]	 Time elapsed:  0.018592  seconds.
+||||----||||Predict Output:top table, oscar thing-clock, call
+received request:inputType: "String"
+inputStream: "a picture of a person holding a book .|please call go ask her to bring"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:43.756542
+[INFO]	 [c3]	 2019-06-07 11:18:43.775305
+[INFO]	 [c3]	 Time elapsed:  0.018763  seconds.
+||||----||||Predict Output:picture person, book, .please call-go, ask, bring
+received request:inputType: "String"
+inputStream: "a close up of a person holding a cell phone|we want the actor to be and what"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:44.380280
+[INFO]	 [c3]	 2019-06-07 11:18:44.399611
+[INFO]	 [c3]	 Time elapsed:  0.019331  seconds.
+||||----||||Predict Output:close person, cell phonewe, actor-hold, want
+received request:inputType: "String"
+inputStream: "a picture of a clock on the wall .|he\'s called taylor has condemned"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:45.113581
+[INFO]	 [c3]	 2019-06-07 11:18:45.132552
+[INFO]	 [c3]	 Time elapsed:  0.018971  seconds.
+||||----||||Predict Output:picture clock wall, .he 's call taylor condemn-
+received request:inputType: "String"
+inputStream: "a teddy bear is sitting on a chair .|please call us the past"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:45.665575
+[INFO]	 [c3]	 2019-06-07 11:18:45.683311
+[INFO]	 [c3]	 Time elapsed:  0.017736  seconds.
+||||----||||Predict Output:teddy, sit chair, us-sit, call
+received request:inputType: "String"
+inputStream: "a man in a suit and tie holding a sign .|soon can get a pen"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:46.452440
+[INFO]	 [c3]	 2019-06-07 11:18:46.471729
+[INFO]	 [c3]	 Time elapsed:  0.019289  seconds.
+||||----||||Predict Output:man, hold sign, pen-tie, get
+received request:inputType: "String"
+inputStream: "a close up of a stuffed animal on a book|the skulls that o. i\'ve got to do these things"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:47.137849
+[INFO]	 [c3]	 2019-06-07 11:18:47.156642
+[INFO]	 [c3]	 Time elapsed:  0.018793  seconds.
+||||----||||Predict Output:close stuff animal, bookthe skull, o, thing-get
+received request:inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|these goals valor and courage"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:47.770123
+[INFO]	 [c3]	 2019-06-07 11:18:47.788364
+[INFO]	 [c3]	 Time elapsed:  0.018241  seconds.
+||||----||||Predict Output:black white photo teddy, .these goal valor courage-bear
+received request:inputType: "String"
+inputStream: "a clock on the side of a building .|please call the hat"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:48.356788
+[INFO]	 [c3]	 2019-06-07 11:18:48.374909
+[INFO]	 [c3]	 Time elapsed:  0.018121  seconds.
+||||----||||Predict Output:clock side building, hat-clock
+received request:inputType: "String"
+inputStream: "a close up of a person holding a nintendo wii controller|he is close to that of cattle being nice"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:49.039745
+[INFO]	 [c3]	 2019-06-07 11:18:49.058909
+[INFO]	 [c3]	 Time elapsed:  0.019164  seconds.
+||||----||||Predict Output:close person-hold, wii
+received request:inputType: "String"
+inputStream: "a close up of a person holding a book|and in a cold you"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:49.976381
+[INFO]	 [c3]	 2019-06-07 11:18:49.993786
+[INFO]	 [c3]	 Time elapsed:  0.017405  seconds.
+||||----||||Predict Output:close person, bookand-hold
+received request:inputType: "String"
+inputStream: "a close up of a gather on a table|to the school is in"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:50.452852
+[INFO]	 [c3]	 2019-06-07 11:18:50.469946
+[INFO]	 [c3]	 Time elapsed:  0.017094  seconds.
+||||----||||Predict Output:close gather tableto school-
+received request:inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|nice clothes down the outskirts of there"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:51.305864
+[INFO]	 [c3]	 2019-06-07 11:18:51.324997
+[INFO]	 [c3]	 Time elapsed:  0.019133  seconds.
+||||----||||Predict Output:black white photo motorcyclist, clothe outskirt-
+received request:inputType: "String"
+inputStream: "a teddy bear with a racing on its head .|please call the oscar"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:51.741524
+[INFO]	 [c3]	 2019-06-07 11:18:51.759120
+[INFO]	 [c3]	 Time elapsed:  0.017596  seconds.
+||||----||||Predict Output:teddy, racing head, .please call oscar-bear, race
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|he\'s called the oscar to bring this thing"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:52.414169
+[INFO]	 [c3]	 2019-06-07 11:18:52.432454
+[INFO]	 [c3]	 Time elapsed:  0.018285  seconds.
+||||----||||Predict Output:motorcyclist bear, top rock, call oscar, thing-sit, bring
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|this girl said that after it to bring thee"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:53.126523
+[INFO]	 [c3]	 2019-06-07 11:18:53.145159
+[INFO]	 [c3]	 Time elapsed:  0.018636  seconds.
+||||----||||Predict Output:motorcyclist bear, top rock, girl, thee-sit, say, bring
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|the court\'s been a basket of ray"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:54.010137
+[INFO]	 [c3]	 2019-06-07 11:18:54.028197
+[INFO]	 [c3]	 Time elapsed:  0.01806  seconds.
+||||----||||Predict Output:motorcyclist bear sit tree branch, court basket ray-sit
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a pile of rocks .|the court instead of cost cutting"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:54.589521
+[INFO]	 [c3]	 2019-06-07 11:18:54.608518
+[INFO]	 [c3]	 Time elapsed:  0.018997  seconds.
+||||----||||Predict Output:motorcyclist bear, top pile rock, court, cutting-sit, cost
+received request:inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|she called the pattern and run"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:55.318673
+[INFO]	 [c3]	 2019-06-07 11:18:55.337131
+[INFO]	 [c3]	 Time elapsed:  0.018458  seconds.
+||||----||||Predict Output:black white photo teddy, .she call pattern run-
+received request:inputType: "String"
+inputStream: "a clock that is on top of a wall .|the school and get out"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:55.695473
+[INFO]	 [c3]	 2019-06-07 11:18:55.712778
+[INFO]	 [c3]	 Time elapsed:  0.017305  seconds.
+||||----||||Predict Output:top wall, school-clock, get
+received request:inputType: "String"
+inputStream: "a teddy bear sitting on top of a wooden table .|dude called the past who have been"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:56.584199
+[INFO]	 [c3]	 2019-06-07 11:18:56.603210
+[INFO]	 [c3]	 Time elapsed:  0.019011  seconds.
+||||----||||Predict Output:teddy, top wooden table-sit, call
+received request:inputType: "String"
+inputStream: "a black and white photo of a pair of scissors .|it is coliseum outskirts of brain"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:57.114751
+[INFO]	 [c3]	 2019-06-07 11:18:57.133119
+[INFO]	 [c3]	 Time elapsed:  0.018368  seconds.
+||||----||||Predict Output:black white photo pair scissor, coliseum outskirt brain-
+received request:inputType: "String"
+inputStream: "a close up of a horse on a beach|they called emma asked to review"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:57.898709
+[INFO]	 [c3]	 2019-06-07 11:18:57.916810
+[INFO]	 [c3]	 Time elapsed:  0.018101  seconds.
+||||----||||Predict Output:close horse beachthey, emma-call, ask
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|you call that a lot of the moon"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:58.914076
+[INFO]	 [c3]	 2019-06-07 11:18:58.932478
+[INFO]	 [c3]	 Time elapsed:  0.018402  seconds.
+||||----||||Predict Output:close book tableyou call lot moon-
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting in a grassy area .|he thought that the victim"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:18:59.744189
+[INFO]	 [c3]	 2019-06-07 11:18:59.762806
+[INFO]	 [c3]	 Time elapsed:  0.018617  seconds.
+||||----||||Predict Output:motorcyclist bear, grassy area, victim-sit, think
+received request:inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|we called l. o. have cuddling"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:19:00.520070
+[INFO]	 [c3]	 2019-06-07 11:19:00.538969
+[INFO]	 [c3]	 Time elapsed:  0.018899  seconds.
+||||----||||Predict Output:motorcyclist bear, top rock-sit, call
+received request:inputType: "String"
+inputStream: "a picture of a person holding a skateboard .|please call the actor"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:19:01.096018
+[INFO]	 [c3]	 2019-06-07 11:19:01.113836
+[INFO]	 [c3]	 Time elapsed:  0.017818  seconds.
+||||----||||Predict Output:picture person, skateboard .please call actor-hold
+received request:inputType: "String"
+inputStream: "a close up of a book on a table|these gloves to use a f. of the brain"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:19:01.974788
+[INFO]	 [c3]	 2019-06-07 11:19:01.993570
+[INFO]	 [c3]	 Time elapsed:  0.018782  seconds.
+||||----||||Predict Output:close book tablethese glove, f brain-
+received request:inputType: "String"
+inputStream: "a close up of a phone on a table|we love you a casket"
+
+
+
+[INFO]	 [c3]	 2019-06-07 11:19:02.608642
+[INFO]	 [c3]	 2019-06-07 11:19:02.626478
+[INFO]	 [c3]	 Time elapsed:  0.017836  seconds.
+||||----||||Predict Output:close phone tablewe love casket-

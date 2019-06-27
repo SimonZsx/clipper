@@ -1,0 +1,903 @@
+Model Server Started -- c4_questionAnswerer
+received request:
+
+received request:inputType: "string"
+inputStream: "close person, cell phonean aunt aladdin-hold, go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:26:57.587850
+[INFO]	 [c4]	 2019-06-07 11:26:57.587887
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+||||----||||Predict Output:hold, go
+received request:inputType: "string"
+inputStream: "clock side building, knee call-clock"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:26:58.304082
+[INFO]	 [c4]	 2019-06-07 11:26:58.304108
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:clock
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock, call oscar, thing-sit, bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:26:58.905830
+[INFO]	 [c4]	 2019-06-07 11:26:58.905857
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, bring
+received request:inputType: "string"
+inputStream: "black white photo clock wall-go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:26:59.440771
+[INFO]	 [c4]	 2019-06-07 11:26:59.440798
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:go
+received request:inputType: "string"
+inputStream: "black white photo man, teddy bear, green tea-hold, call, write"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:00.438951
+[INFO]	 [c4]	 2019-06-07 11:27:00.438979
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:hold, call, write
+received request:inputType: "string"
+inputStream: "black lake suitcase sit table-sit, call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:01.096890
+[INFO]	 [c4]	 2019-06-07 11:27:01.096918
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:sit, call
+received request:inputType: "string"
+inputStream: "motorcyclist bear sit tree branch, .these call, brain-sit, ask, stay"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:01.705234
+[INFO]	 [c4]	 2019-06-07 11:27:01.705262
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:sit, ask, stay
+received request:inputType: "string"
+inputStream: "picture clock wall, thing-ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:02.345928
+[INFO]	 [c4]	 2019-06-07 11:27:02.345955
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:ask
+received request:inputType: "string"
+inputStream: "black white photo person, bookplease calm-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:02.866944
+[INFO]	 [c4]	 2019-06-07 11:27:02.866975
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "picture clock building, .these hall, us-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:03.855672
+[INFO]	 [c4]	 2019-06-07 11:27:03.855700
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "close cake, tablethe court basket-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:04.661815
+[INFO]	 [c4]	 2019-06-07 11:27:04.661853
+[INFO]	 [c4]	 Time elapsed:  3.8e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "teddy, racing head, .these call brass ring-bear, race"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:05.611140
+[INFO]	 [c4]	 2019-06-07 11:27:05.611166
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:bear, race
+received request:inputType: "string"
+inputStream: "sign side building-sign, go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:06.246075
+[INFO]	 [c4]	 2019-06-07 11:27:06.246110
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+||||----||||Predict Output:sign, go
+received request:inputType: "string"
+inputStream: "teddy, sit tree branch-sit, go, say"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:06.786755
+[INFO]	 [c4]	 2019-06-07 11:27:06.786782
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, go, say
+received request:inputType: "string"
+inputStream: "-handle"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:07.606585
+[INFO]	 [c4]	 2019-06-07 11:27:07.606612
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:handle
+received request:inputType: "string"
+inputStream: "motorcyclist bear, grassy area, news catch-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:08.269940
+[INFO]	 [c4]	 2019-06-07 11:27:08.269967
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, ask
+received request:inputType: "string"
+inputStream: "close clock wallthe law-mean"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:09.431976
+[INFO]	 [c4]	 2019-06-07 11:27:09.432018
+[INFO]	 [c4]	 Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:mean
+received request:inputType: "string"
+inputStream: "-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:10.110895
+[INFO]	 [c4]	 2019-06-07 11:27:10.110928
+[INFO]	 [c4]	 Time elapsed:  3.3e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "clock side building, hat-clock"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:10.694132
+[INFO]	 [c4]	 2019-06-07 11:27:10.694158
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:clock
+received request:inputType: "string"
+inputStream: "black white photo motorcyclist bear, .nice clothe child care brew-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:11.476501
+[INFO]	 [c4]	 2019-06-07 11:27:11.476528
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "birthday cake train, itthese clothe-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:11.897341
+[INFO]	 [c4]	 2019-06-07 11:27:11.897369
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo motorcyclist bear-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:12.544600
+[INFO]	 [c4]	 2019-06-07 11:27:12.544627
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "picture bird-burn"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:13.319349
+[INFO]	 [c4]	 2019-06-07 11:27:13.319376
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:burn
+received request:inputType: "string"
+inputStream: "teddy, top chair, us, house, day-sit, call, bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:14.011266
+[INFO]	 [c4]	 2019-06-07 11:27:14.011293
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, call, bring
+received request:inputType: "string"
+inputStream: "close clock wallhe \'s close eye-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:14.532465
+[INFO]	 [c4]	 2019-06-07 11:27:14.532490
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "picture clock wall .please call-ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:14.854780
+[INFO]	 [c4]	 2019-06-07 11:27:14.854806
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:ask
+received request:inputType: "string"
+inputStream: "close person-hold, wii"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:15.509445
+[INFO]	 [c4]	 2019-06-07 11:27:15.509484
+[INFO]	 [c4]	 Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:hold, wii
+received request:inputType: "string"
+inputStream: "close person, bookringo-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:15.957332
+[INFO]	 [c4]	 2019-06-07 11:27:15.957359
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "top table, oscar thing-clock, call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:16.589623
+[INFO]	 [c4]	 2019-06-07 11:27:16.589652
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+||||----||||Predict Output:clock, call
+received request:inputType: "string"
+inputStream: "close book, tablethese glove, brain-leave"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:17.465603
+[INFO]	 [c4]	 2019-06-07 11:27:17.465630
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:leave
+received request:inputType: "string"
+inputStream: "stuff animal, sit tableit-may, fulfill, tattoo"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:18.090881
+[INFO]	 [c4]	 2019-06-07 11:27:18.090907
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:may, fulfill, tattoo
+received request:inputType: "string"
+inputStream: "motorcyclist bear, grassy area, victim-sit, think"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:18.882101
+[INFO]	 [c4]	 2019-06-07 11:27:18.882128
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, think
+received request:inputType: "string"
+inputStream: "black white photo motorcyclist bear .a nice clothe house-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:19.482837
+[INFO]	 [c4]	 2019-06-07 11:27:19.482866
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "close book, tablehe call bella-ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:20.112919
+[INFO]	 [c4]	 2019-06-07 11:27:20.112945
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:ask
+received request:inputType: "string"
+inputStream: "top wall .please call-clock"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:20.973346
+[INFO]	 [c4]	 2019-06-07 11:27:20.973371
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:clock
+received request:inputType: "string"
+inputStream: "teddy, sit bed-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:21.362373
+[INFO]	 [c4]	 2019-06-07 11:27:21.362400
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, ask
+received request:inputType: "string"
+inputStream: "black white photo teddy, .these goal valor courage-bear"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:21.996698
+[INFO]	 [c4]	 2019-06-07 11:27:21.996724
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:bear
+received request:inputType: "string"
+inputStream: "close person, bookthe cold kempton-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:22.720174
+[INFO]	 [c4]	 2019-06-07 11:27:22.720212
+[INFO]	 [c4]	 Time elapsed:  3.8e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "large clock mount side building, .these call cost-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:23.128311
+[INFO]	 [c4]	 2019-06-07 11:27:23.128347
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "picture clock wall-ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:23.782243
+[INFO]	 [c4]	 2019-06-07 11:27:23.782280
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+||||----||||Predict Output:ask
+received request:inputType: "string"
+inputStream: "close book tablethese glove-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:24.149720
+[INFO]	 [c4]	 2019-06-07 11:27:24.149745
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "top wall, school lead-clock, get"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:24.518312
+[INFO]	 [c4]	 2019-06-07 11:27:24.518339
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:clock, get
+received request:inputType: "string"
+inputStream: "close black white backgroundthese ghost town-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:25.379711
+[INFO]	 [c4]	 2019-06-07 11:27:25.379736
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "us-sit, goldstein, get"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:25.962013
+[INFO]	 [c4]	 2019-06-07 11:27:25.962039
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit, goldstein, get
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock, l o cuddle-sit, call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:26.727461
+[INFO]	 [c4]	 2019-06-07 11:27:26.727487
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit, call
+received request:inputType: "string"
+inputStream: "black white photo person, bookplease call law-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:27.409518
+[INFO]	 [c4]	 2019-06-07 11:27:27.409545
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "black white photo teddy, whole battle-bear, give"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:27.979226
+[INFO]	 [c4]	 2019-06-07 11:27:27.979251
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:bear, give
+received request:inputType: "string"
+inputStream: "picture person, book, score arrest-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:28.594402
+[INFO]	 [c4]	 2019-06-07 11:27:28.594430
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "man, hold sign, pen-tie"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:29.183686
+[INFO]	 [c4]	 2019-06-07 11:27:29.183707
+[INFO]	 [c4]	 Time elapsed:  2.1e-05  seconds.
+||||----||||Predict Output:tie
+received request:inputType: "string"
+inputStream: "black white photo teddy, .to school oscar-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:29.576097
+[INFO]	 [c4]	 2019-06-07 11:27:29.576124
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo teddy-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:30.267259
+[INFO]	 [c4]	 2019-06-07 11:27:30.267285
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "close person, bookand-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:31.192882
+[INFO]	 [c4]	 2019-06-07 11:27:31.192908
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "man, front trainit call emma child-stand"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:31.731961
+[INFO]	 [c4]	 2019-06-07 11:27:31.731986
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:stand
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top lush green field, hot cut-stand"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:32.255053
+[INFO]	 [c4]	 2019-06-07 11:27:32.255080
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:stand
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top tree, .please close amount-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:32.873429
+[INFO]	 [c4]	 2019-06-07 11:27:32.873455
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "close cake, ithe call-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:33.385035
+[INFO]	 [c4]	 2019-06-07 11:27:33.385062
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "picture clock wall, tax cut-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:33.984159
+[INFO]	 [c4]	 2019-06-07 11:27:33.984199
+[INFO]	 [c4]	 Time elapsed:  4e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "close horse beachthey, emma-call, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:34.709310
+[INFO]	 [c4]	 2019-06-07 11:27:34.709338
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:call, ask
+received request:inputType: "string"
+inputStream: "teddy, top wooden table, hall-sit, hit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:35.573499
+[INFO]	 [c4]	 2019-06-07 11:27:35.573525
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit, hit
+received request:inputType: "string"
+inputStream: "close cake tablehe-go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:35.938340
+[INFO]	 [c4]	 2019-06-07 11:27:35.938366
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:go
+received request:inputType: "string"
+inputStream: "close stuff animal, tablethe nice clothe steve-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:36.444960
+[INFO]	 [c4]	 2019-06-07 11:27:36.444985
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "motorcyclist bear sit tree branch .please cole \'s bella africa-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:36.935068
+[INFO]	 [c4]	 2019-06-07 11:27:36.935105
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "teddy, sit chair, us-sit, call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:37.467184
+[INFO]	 [c4]	 2019-06-07 11:27:37.467210
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit, call
+received request:inputType: "string"
+inputStream: "picture person, skateboard .please call actor-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:38.037822
+[INFO]	 [c4]	 2019-06-07 11:27:38.037848
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "close phone tabletoday \'s court-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:38.621071
+[INFO]	 [c4]	 2019-06-07 11:27:38.621096
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "motorcyclist bear sit ground, .he call offer ring-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:39.204427
+[INFO]	 [c4]	 2019-06-07 11:27:39.204453
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "close person, cell phonethe school stella, peace-hold, get, bre"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:39.782583
+[INFO]	 [c4]	 2019-06-07 11:27:39.782608
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:hold, get, bre
+received request:inputType: "string"
+inputStream: "clock, wall building, caller-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:40.170296
+[INFO]	 [c4]	 2019-06-07 11:27:40.170323
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo clock wall .keys cost-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:41.434607
+[INFO]	 [c4]	 2019-06-07 11:27:41.434646
+[INFO]	 [c4]	 Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo motorcyclist bear, scanlon ask country-get, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:41.924234
+[INFO]	 [c4]	 2019-06-07 11:27:41.924260
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:get, ask
+received request:inputType: "string"
+inputStream: "motorcyclist bear sit tree branch, court basket ray-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:42.812612
+[INFO]	 [c4]	 2019-06-07 11:27:42.812648
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock, school soft bundy-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:43.442663
+[INFO]	 [c4]	 2019-06-07 11:27:43.442690
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock, girl, thee-sit, say, bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:44.127985
+[INFO]	 [c4]	 2019-06-07 11:27:44.128010
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:sit, say, bring
+received request:inputType: "string"
+inputStream: "picture person, sign, brain-hold, go, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:44.750822
+[INFO]	 [c4]	 2019-06-07 11:27:44.750849
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:hold, go, ask
+received request:inputType: "string"
+inputStream: "black white photo baseball, batyou, god-get"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:45.310517
+[INFO]	 [c4]	 2019-06-07 11:27:45.310545
+[INFO]	 [c4]	 Time elapsed:  2.8e-05  seconds.
+||||----||||Predict Output:get
+received request:inputType: "string"
+inputStream: "close cake, tablethe vote-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:45.942917
+[INFO]	 [c4]	 2019-06-07 11:27:45.942942
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "white teddy, top bed, clothe-sit, know"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:46.722928
+[INFO]	 [c4]	 2019-06-07 11:27:46.722955
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, know
+received request:inputType: "string"
+inputStream: "picture person, sign, close president-hold"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:47.612209
+[INFO]	 [c4]	 2019-06-07 11:27:47.612234
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:hold
+received request:inputType: "string"
+inputStream: "close phone tablewe-allow"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:48.250236
+[INFO]	 [c4]	 2019-06-07 11:27:48.250262
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:allow
+received request:inputType: "string"
+inputStream: "teddy, racing head, .please call oscar-bear, race"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:48.683538
+[INFO]	 [c4]	 2019-06-07 11:27:48.683565
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:bear, race
+received request:inputType: "string"
+inputStream: "clock, wall building, ass-.leaflet"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:49.228001
+[INFO]	 [c4]	 2019-06-07 11:27:49.228026
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:.leaflet
+received request:inputType: "string"
+inputStream: "picture clock wall, eightie close day-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:49.823227
+[INFO]	 [c4]	 2019-06-07 11:27:49.823253
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top rock .please call law-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:50.259175
+[INFO]	 [c4]	 2019-06-07 11:27:50.259202
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, ask
+received request:inputType: "string"
+inputStream: "picture person, book, .please call-go, ask, bring"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:50.769900
+[INFO]	 [c4]	 2019-06-07 11:27:50.769926
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:go, ask, bring
+received request:inputType: "string"
+inputStream: "close person, bookhe-hold, go"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:51.140065
+[INFO]	 [c4]	 2019-06-07 11:27:51.140090
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:hold, go
+received request:inputType: "string"
+inputStream: "close book tablebut close gaz truck-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:51.772395
+[INFO]	 [c4]	 2019-06-07 11:27:51.772421
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "close book tableyou call lot moon-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:52.711823
+[INFO]	 [c4]	 2019-06-07 11:27:52.711849
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "white teddy, sit bed, bella-sit, call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:53.229098
+[INFO]	 [c4]	 2019-06-07 11:27:53.229125
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, call
+received request:inputType: "string"
+inputStream: "close clock walland, outing thing-call"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:54.052462
+[INFO]	 [c4]	 2019-06-07 11:27:54.052486
+[INFO]	 [c4]	 Time elapsed:  2.4e-05  seconds.
+||||----||||Predict Output:call
+received request:inputType: "string"
+inputStream: "-hide"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:54.515415
+[INFO]	 [c4]	 2019-06-07 11:27:54.515441
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:hide
+received request:inputType: "string"
+inputStream: "close traffic light sky backgroundthe asian hotel reign-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:55.091259
+[INFO]	 [c4]	 2019-06-07 11:27:55.091284
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "motorcyclist bear, grassy field, not n n ot-sit, .these"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:56.051530
+[INFO]	 [c4]	 2019-06-07 11:27:56.051557
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, .these
+received request:inputType: "string"
+inputStream: "close stuff animal, bookthe school, thing-get"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:56.667975
+[INFO]	 [c4]	 2019-06-07 11:27:56.668001
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:get
+received request:inputType: "string"
+inputStream: "close phone tablewe love casket-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:57.289276
+[INFO]	 [c4]	 2019-06-07 11:27:57.289307
+[INFO]	 [c4]	 Time elapsed:  3.1e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo clock wall, e cong not room-cong"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:58.167196
+[INFO]	 [c4]	 2019-06-07 11:27:58.167225
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+||||----||||Predict Output:cong
+received request:inputType: "string"
+inputStream: "motorcyclist bear, top pile rock, court, cutting-sit, cost"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:58.734838
+[INFO]	 [c4]	 2019-06-07 11:27:58.734865
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit, cost
+received request:inputType: "string"
+inputStream: "close book tableplease aunt eleanor, atlanta-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:59.204789
+[INFO]	 [c4]	 2019-06-07 11:27:59.204815
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo pair scissor, coliseum outskirt brain-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:27:59.709543
+[INFO]	 [c4]	 2019-06-07 11:27:59.709568
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "black white photo motorcyclist bear .he call stand-"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:28:00.012211
+[INFO]	 [c4]	 2019-06-07 11:28:00.012238
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:
+received request:inputType: "string"
+inputStream: "teddy, top wooden table, clothe stadium-sit"
+
+
+
+[INFO]	 [c4]	 2019-06-07 11:28:00.688756
+[INFO]	 [c4]	 2019-06-07 11:28:00.688783
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+||||----||||Predict Output:sit

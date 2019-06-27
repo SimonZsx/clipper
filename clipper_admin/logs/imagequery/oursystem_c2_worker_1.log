@@ -1,0 +1,952 @@
+INFO:tensorflow:Building model.
+WARNING:tensorflow:From /container/show_and_tell_model.py:55: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+WARNING:tensorflow:From /container/show_and_tell_model.py:248: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is deprecated, please use tf.nn.rnn_cell.LSTMCell, which supports all the feature this cell currently has. Please replace the existing code with tf.nn.rnn_cell.LSTMCell(name='basic_lstm_cell').
+INFO:tensorflow:Initializing vocabulary from file: /container/im2txt/data/word_counts.txt
+INFO:tensorflow:Created vocabulary with 11520 words
+2019-06-07 11:08:13.501078: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-07 11:08:13.748740: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-06-07 11:08:13.749866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1b.0
+totalMemory: 15.75GiB freeMemory: 15.44GiB
+2019-06-07 11:08:13.854274: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-06-07 11:08:13.855388: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 1 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1c.0
+totalMemory: 15.75GiB freeMemory: 15.44GiB
+2019-06-07 11:08:13.974294: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-06-07 11:08:13.976351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 2 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1d.0
+totalMemory: 15.75GiB freeMemory: 15.44GiB
+2019-06-07 11:08:14.086024: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-06-07 11:08:14.087168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 3 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.75GiB freeMemory: 15.44GiB
+2019-06-07 11:08:14.087239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0, 1, 2, 3
+2019-06-07 11:08:15.865097: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-07 11:08:15.865144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 1 2 3 
+2019-06-07 11:08:15.865161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N Y Y Y 
+2019-06-07 11:08:15.865173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 1:   Y N Y Y 
+2019-06-07 11:08:15.865185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 2:   Y Y N Y 
+2019-06-07 11:08:15.865196: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 3:   Y Y Y N 
+2019-06-07 11:08:15.867959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14943 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1b.0, compute capability: 7.0)
+2019-06-07 11:08:15.868711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 14943 MB memory) -> physical GPU (device: 1, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1c.0, compute capability: 7.0)
+2019-06-07 11:08:15.869419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 14943 MB memory) -> physical GPU (device: 2, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1d.0, compute capability: 7.0)
+2019-06-07 11:08:15.869636: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 14943 MB memory) -> physical GPU (device: 3, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+INFO:tensorflow:Loading model from checkpoint: /container/im2txt/model/newmodel.ckpt-2000000
+INFO:tensorflow:Restoring parameters from /container/im2txt/model/newmodel.ckpt-2000000
+INFO:tensorflow:Successfully loaded checkpoint: newmodel.ckpt-2000000
+
+[INFO]	 [c2]	 2019-06-07 11:08:16.267665
+[INFO]	 [c2]	 2019-06-07 11:08:25.089712
+[INFO]	 [c2]	Time elapsed:  8.822047  seconds.
+Fully initialized model (with 1 extra prediction).
+Model Server Started -- c2_imageCaptionGenerator
+received request:
+
+received request:inputType: "string"
+inputStream: "4"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:03.265706
+[INFO]	 [c2]	 2019-06-07 11:09:03.349339
+[INFO]	 [c2]	Time elapsed:  0.083633  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a rock .
+received request:inputType: "string"
+inputStream: "51"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:04.001831
+[INFO]	 [c2]	 2019-06-07 11:09:04.085873
+[INFO]	 [c2]	Time elapsed:  0.084042  seconds.
+||||----||||Predict Output:a close up of a cake on a table
+received request:inputType: "string"
+inputStream: "59"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:04.789916
+[INFO]	 [c2]	 2019-06-07 11:09:04.873021
+[INFO]	 [c2]	Time elapsed:  0.083105  seconds.
+||||----||||Predict Output:a black and white photo of a person holding a book
+received request:inputType: "string"
+inputStream: "5"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:05.327210
+[INFO]	 [c2]	 2019-06-07 11:09:05.410742
+[INFO]	 [c2]	Time elapsed:  0.083532  seconds.
+||||----||||Predict Output:a teddy bear sitting on a tree branch .
+received request:inputType: "string"
+inputStream: "81"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:05.745133
+[INFO]	 [c2]	 2019-06-07 11:09:05.828423
+[INFO]	 [c2]	Time elapsed:  0.08329  seconds.
+||||----||||Predict Output:a close up of a cake on a table
+received request:inputType: "string"
+inputStream: "39"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:06.117440
+[INFO]	 [c2]	 2019-06-07 11:09:06.201484
+[INFO]	 [c2]	Time elapsed:  0.084044  seconds.
+||||----||||Predict Output:a picture of a person holding a book .
+received request:inputType: "string"
+inputStream: "7"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:06.651969
+[INFO]	 [c2]	 2019-06-07 11:09:06.736076
+[INFO]	 [c2]	Time elapsed:  0.084107  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a rock .
+received request:inputType: "string"
+inputStream: "45"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:07.116062
+[INFO]	 [c2]	 2019-06-07 11:09:07.199550
+[INFO]	 [c2]	Time elapsed:  0.083488  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "12"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:07.783431
+[INFO]	 [c2]	 2019-06-07 11:09:07.867323
+[INFO]	 [c2]	Time elapsed:  0.083892  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on a tree branch .
+received request:inputType: "string"
+inputStream: "40"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:08.347517
+[INFO]	 [c2]	 2019-06-07 11:09:08.431264
+[INFO]	 [c2]	Time elapsed:  0.083747  seconds.
+||||----||||Predict Output:a large clock mounted to the side of a building .
+received request:inputType: "string"
+inputStream: "46"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:08.784082
+[INFO]	 [c2]	 2019-06-07 11:09:08.867531
+[INFO]	 [c2]	Time elapsed:  0.083449  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "23"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:09.172365
+[INFO]	 [c2]	 2019-06-07 11:09:09.255586
+[INFO]	 [c2]	Time elapsed:  0.083221  seconds.
+||||----||||Predict Output:a stuffed animal is sitting on a table
+received request:inputType: "string"
+inputStream: "50"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:09.838395
+[INFO]	 [c2]	 2019-06-07 11:09:09.921950
+[INFO]	 [c2]	Time elapsed:  0.083555  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "33"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:10.354236
+[INFO]	 [c2]	 2019-06-07 11:09:10.438173
+[INFO]	 [c2]	Time elapsed:  0.083937  seconds.
+||||----||||Predict Output:a motorcyclists bear standing on top of a lush green field .
+received request:inputType: "string"
+inputStream: "16"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:10.916802
+[INFO]	 [c2]	 2019-06-07 11:09:10.999767
+[INFO]	 [c2]	Time elapsed:  0.082965  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting in a grassy area .
+received request:inputType: "string"
+inputStream: "44"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:11.609779
+[INFO]	 [c2]	 2019-06-07 11:09:11.693562
+[INFO]	 [c2]	Time elapsed:  0.083783  seconds.
+||||----||||Predict Output:a clock that is on top of a wall .
+received request:inputType: "string"
+inputStream: "88"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:12.064535
+[INFO]	 [c2]	 2019-06-07 11:09:12.147927
+[INFO]	 [c2]	Time elapsed:  0.083392  seconds.
+||||----||||Predict Output:a black and white photo of a man holding a teddy bear .
+received request:inputType: "string"
+inputStream: "15"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:13.044265
+[INFO]	 [c2]	 2019-06-07 11:09:13.128042
+[INFO]	 [c2]	Time elapsed:  0.083777  seconds.
+||||----||||Predict Output:a black and white photo of a teddy bear .
+received request:inputType: "string"
+inputStream: "17"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:13.702110
+[INFO]	 [c2]	 2019-06-07 11:09:13.785625
+[INFO]	 [c2]	Time elapsed:  0.083515  seconds.
+||||----||||Predict Output:a black and white photo of a pair of scissors .
+received request:inputType: "string"
+inputStream: "31"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:14.268464
+[INFO]	 [c2]	 2019-06-07 11:09:14.352253
+[INFO]	 [c2]	Time elapsed:  0.083789  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a rock .
+received request:inputType: "string"
+inputStream: "83"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:14.998874
+[INFO]	 [c2]	 2019-06-07 11:09:15.082713
+[INFO]	 [c2]	Time elapsed:  0.083839  seconds.
+||||----||||Predict Output:a close up of a clock on a wall
+received request:inputType: "string"
+inputStream: "43"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:16.267702
+[INFO]	 [c2]	 2019-06-07 11:09:16.351594
+[INFO]	 [c2]	Time elapsed:  0.083892  seconds.
+||||----||||Predict Output:a picture of a clock on the wall .
+received request:inputType: "string"
+inputStream: "37"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:16.982249
+[INFO]	 [c2]	 2019-06-07 11:09:17.065659
+[INFO]	 [c2]	Time elapsed:  0.08341  seconds.
+||||----||||Predict Output:a white teddy bear sitting on top of a bed .
+received request:inputType: "string"
+inputStream: "72"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:17.896380
+[INFO]	 [c2]	 2019-06-07 11:09:17.979632
+[INFO]	 [c2]	Time elapsed:  0.083252  seconds.
+||||----||||Predict Output:a close up of a cake with a train on it
+received request:inputType: "string"
+inputStream: "24"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:18.438366
+[INFO]	 [c2]	 2019-06-07 11:09:18.521713
+[INFO]	 [c2]	Time elapsed:  0.083347  seconds.
+||||----||||Predict Output:a teddy bear is sitting on a chair .
+received request:inputType: "string"
+inputStream: "11"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:19.028189
+[INFO]	 [c2]	 2019-06-07 11:09:19.114339
+[INFO]	 [c2]	Time elapsed:  0.08615  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a rock .
+received request:inputType: "string"
+inputStream: "56"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:19.695280
+[INFO]	 [c2]	 2019-06-07 11:09:19.778613
+[INFO]	 [c2]	Time elapsed:  0.083333  seconds.
+||||----||||Predict Output:a picture of a person holding a skateboard .
+received request:inputType: "string"
+inputStream: "20"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:20.327356
+[INFO]	 [c2]	 2019-06-07 11:09:20.410929
+[INFO]	 [c2]	Time elapsed:  0.083573  seconds.
+||||----||||Predict Output:a teddy bear sitting on top of a chair .
+received request:inputType: "string"
+inputStream: "53"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:21.034863
+[INFO]	 [c2]	 2019-06-07 11:09:21.118030
+[INFO]	 [c2]	Time elapsed:  0.083167  seconds.
+||||----||||Predict Output:a man is standing in front of a train
+received request:inputType: "string"
+inputStream: "79"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:21.588468
+[INFO]	 [c2]	 2019-06-07 11:09:21.671652
+[INFO]	 [c2]	Time elapsed:  0.083184  seconds.
+||||----||||Predict Output:a clock that is on top of a wall .
+received request:inputType: "string"
+inputStream: "92"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:22.458817
+[INFO]	 [c2]	 2019-06-07 11:09:22.542007
+[INFO]	 [c2]	Time elapsed:  0.08319  seconds.
+||||----||||Predict Output:a close up of a person holding a nintendo wii controller
+received request:inputType: "string"
+inputStream: "35"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:23.179698
+[INFO]	 [c2]	 2019-06-07 11:09:23.264346
+[INFO]	 [c2]	Time elapsed:  0.084648  seconds.
+||||----||||Predict Output:a black and white photo of a motorcyclists bear .
+received request:inputType: "string"
+inputStream: "65"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:23.503412
+[INFO]	 [c2]	 2019-06-07 11:09:23.587189
+[INFO]	 [c2]	Time elapsed:  0.083777  seconds.
+||||----||||Predict Output:a close up of a clock on a wall
+received request:inputType: "string"
+inputStream: "29"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:24.249036
+[INFO]	 [c2]	 2019-06-07 11:09:24.332788
+[INFO]	 [c2]	Time elapsed:  0.083752  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on a tree branch .
+received request:inputType: "string"
+inputStream: "58"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:25.140200
+[INFO]	 [c2]	 2019-06-07 11:09:25.223753
+[INFO]	 [c2]	Time elapsed:  0.083553  seconds.
+||||----||||Predict Output:a book with a picture of a bird on it .
+received request:inputType: "string"
+inputStream: "96"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:25.979652
+[INFO]	 [c2]	 2019-06-07 11:09:26.062957
+[INFO]	 [c2]	Time elapsed:  0.083305  seconds.
+||||----||||Predict Output:a close up of a traffic light with a sky background
+received request:inputType: "string"
+inputStream: "32"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:26.586081
+[INFO]	 [c2]	 2019-06-07 11:09:26.669663
+[INFO]	 [c2]	Time elapsed:  0.083582  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting in a grassy field .
+received request:inputType: "string"
+inputStream: "78"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:27.626292
+[INFO]	 [c2]	 2019-06-07 11:09:27.709417
+[INFO]	 [c2]	Time elapsed:  0.083125  seconds.
+||||----||||Predict Output:a man in a suit and tie holding a sign .
+received request:inputType: "string"
+inputStream: "6"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:28.430757
+[INFO]	 [c2]	 2019-06-07 11:09:28.514681
+[INFO]	 [c2]	Time elapsed:  0.083924  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting in a grassy area .
+received request:inputType: "string"
+inputStream: "2"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:29.303573
+[INFO]	 [c2]	 2019-06-07 11:09:29.386773
+[INFO]	 [c2]	Time elapsed:  0.0832  seconds.
+||||----||||Predict Output:a black and white photo of a teddy bear .
+received request:inputType: "string"
+inputStream: "97"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:29.723875
+[INFO]	 [c2]	 2019-06-07 11:09:29.807510
+[INFO]	 [c2]	Time elapsed:  0.083635  seconds.
+||||----||||Predict Output:a close up of a gather on a table
+received request:inputType: "string"
+inputStream: "54"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:30.207252
+[INFO]	 [c2]	 2019-06-07 11:09:30.290454
+[INFO]	 [c2]	Time elapsed:  0.083202  seconds.
+||||----||||Predict Output:a black and white photo of a clock on a wall .
+received request:inputType: "string"
+inputStream: "99"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:31.043892
+[INFO]	 [c2]	 2019-06-07 11:09:31.127204
+[INFO]	 [c2]	Time elapsed:  0.083312  seconds.
+||||----||||Predict Output:a close up of a phone on a table
+received request:inputType: "string"
+inputStream: "41"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:31.700397
+[INFO]	 [c2]	 2019-06-07 11:09:31.783410
+[INFO]	 [c2]	Time elapsed:  0.083013  seconds.
+||||----||||Predict Output:a clock on the wall of a building .
+received request:inputType: "string"
+inputStream: "87"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:32.120320
+[INFO]	 [c2]	 2019-06-07 11:09:32.203450
+[INFO]	 [c2]	Time elapsed:  0.08313  seconds.
+||||----||||Predict Output:a black and white photo of a person holding a book
+received request:inputType: "string"
+inputStream: "34"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:32.843613
+[INFO]	 [c2]	 2019-06-07 11:09:32.927488
+[INFO]	 [c2]	Time elapsed:  0.083875  seconds.
+||||----||||Predict Output:a black and white photo of a teddy bear .
+received request:inputType: "string"
+inputStream: "13"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:33.574544
+[INFO]	 [c2]	 2019-06-07 11:09:33.657639
+[INFO]	 [c2]	Time elapsed:  0.083095  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a rock .
+received request:inputType: "string"
+inputStream: "0"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:34.342310
+[INFO]	 [c2]	 2019-06-07 11:09:34.425666
+[INFO]	 [c2]	Time elapsed:  0.083356  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on a tree branch .
+received request:inputType: "string"
+inputStream: "1"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:34.951388
+[INFO]	 [c2]	 2019-06-07 11:09:35.034594
+[INFO]	 [c2]	Time elapsed:  0.083206  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on the ground next to a tree .
+received request:inputType: "string"
+inputStream: "48"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:35.597755
+[INFO]	 [c2]	 2019-06-07 11:09:35.681110
+[INFO]	 [c2]	Time elapsed:  0.083355  seconds.
+||||----||||Predict Output:a picture of a clock on a wall .
+received request:inputType: "string"
+inputStream: "18"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:36.224662
+[INFO]	 [c2]	 2019-06-07 11:09:36.308060
+[INFO]	 [c2]	Time elapsed:  0.083398  seconds.
+||||----||||Predict Output:a close up of a stuffed animal on a table
+received request:inputType: "string"
+inputStream: "66"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:36.758055
+[INFO]	 [c2]	 2019-06-07 11:09:36.843651
+[INFO]	 [c2]	Time elapsed:  0.085596  seconds.
+||||----||||Predict Output:a close up of a horse on a beach
+received request:inputType: "string"
+inputStream: "9"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:37.524049
+[INFO]	 [c2]	 2019-06-07 11:09:37.607325
+[INFO]	 [c2]	Time elapsed:  0.083276  seconds.
+||||----||||Predict Output:a teddy bear with a racing on its head .
+received request:inputType: "string"
+inputStream: "28"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:38.494136
+[INFO]	 [c2]	 2019-06-07 11:09:38.577734
+[INFO]	 [c2]	Time elapsed:  0.083598  seconds.
+||||----||||Predict Output:a black and white photo of a motorcyclists bear .
+received request:inputType: "string"
+inputStream: "19"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:39.024557
+[INFO]	 [c2]	 2019-06-07 11:09:39.107660
+[INFO]	 [c2]	Time elapsed:  0.083103  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a tree .
+received request:inputType: "string"
+inputStream: "76"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:39.665639
+[INFO]	 [c2]	 2019-06-07 11:09:39.748818
+[INFO]	 [c2]	Time elapsed:  0.083179  seconds.
+||||----||||Predict Output:a close up of a cake on a table
+received request:inputType: "string"
+inputStream: "93"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:40.374369
+[INFO]	 [c2]	 2019-06-07 11:09:40.458187
+[INFO]	 [c2]	Time elapsed:  0.083818  seconds.
+||||----||||Predict Output:a close up of a black and white background
+received request:inputType: "string"
+inputStream: "98"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:41.268468
+[INFO]	 [c2]	 2019-06-07 11:09:41.351978
+[INFO]	 [c2]	Time elapsed:  0.08351  seconds.
+||||----||||Predict Output:a black and lake suitcase sitting on a table .
+received request:inputType: "string"
+inputStream: "80"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:41.939183
+[INFO]	 [c2]	 2019-06-07 11:09:42.022793
+[INFO]	 [c2]	Time elapsed:  0.08361  seconds.
+||||----||||Predict Output:a clock on the wall of a building .
+received request:inputType: "string"
+inputStream: "27"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:42.526934
+[INFO]	 [c2]	 2019-06-07 11:09:42.610099
+[INFO]	 [c2]	Time elapsed:  0.083165  seconds.
+||||----||||Predict Output:a white teddy bear sitting on a bed .
+received request:inputType: "string"
+inputStream: "75"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:43.073777
+[INFO]	 [c2]	 2019-06-07 11:09:43.157324
+[INFO]	 [c2]	Time elapsed:  0.083547  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "84"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:44.117884
+[INFO]	 [c2]	 2019-06-07 11:09:44.201241
+[INFO]	 [c2]	Time elapsed:  0.083357  seconds.
+||||----||||Predict Output:a close up of a person holding a book
+received request:inputType: "string"
+inputStream: "22"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:45.072096
+[INFO]	 [c2]	 2019-06-07 11:09:45.155643
+[INFO]	 [c2]	Time elapsed:  0.083547  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on top of a pile of rocks .
+received request:inputType: "string"
+inputStream: "70"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:45.702700
+[INFO]	 [c2]	 2019-06-07 11:09:45.786296
+[INFO]	 [c2]	Time elapsed:  0.083596  seconds.
+||||----||||Predict Output:a picture of a person holding a sign .
+received request:inputType: "string"
+inputStream: "95"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:46.658325
+[INFO]	 [c2]	 2019-06-07 11:09:46.742348
+[INFO]	 [c2]	Time elapsed:  0.084023  seconds.
+||||----||||Predict Output:a close up of a cell phone on a table
+received request:inputType: "string"
+inputStream: "71"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:47.380381
+[INFO]	 [c2]	 2019-06-07 11:09:47.463835
+[INFO]	 [c2]	Time elapsed:  0.083454  seconds.
+||||----||||Predict Output:a clock that is on top of a table .
+received request:inputType: "string"
+inputStream: "57"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:48.039000
+[INFO]	 [c2]	 2019-06-07 11:09:48.121942
+[INFO]	 [c2]	Time elapsed:  0.082942  seconds.
+||||----||||Predict Output:a sign that is on the side of a building .
+received request:inputType: "string"
+inputStream: "52"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:48.695098
+[INFO]	 [c2]	 2019-06-07 11:09:48.780910
+[INFO]	 [c2]	Time elapsed:  0.085812  seconds.
+||||----||||Predict Output:a picture of a clock on a wall .
+received request:inputType: "string"
+inputStream: "82"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:49.047266
+[INFO]	 [c2]	 2019-06-07 11:09:49.130941
+[INFO]	 [c2]	Time elapsed:  0.083675  seconds.
+||||----||||Predict Output:a picture of a clock on a wall .
+received request:inputType: "string"
+inputStream: "25"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:49.673761
+[INFO]	 [c2]	 2019-06-07 11:09:49.757541
+[INFO]	 [c2]	Time elapsed:  0.08378  seconds.
+||||----||||Predict Output:a teddy bear is sitting on a bed .
+received request:inputType: "string"
+inputStream: "63"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:50.138313
+[INFO]	 [c2]	 2019-06-07 11:09:50.221700
+[INFO]	 [c2]	Time elapsed:  0.083387  seconds.
+||||----||||Predict Output:a birthday cake with a train on it
+received request:inputType: "string"
+inputStream: "55"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:50.581599
+[INFO]	 [c2]	 2019-06-07 11:09:50.665161
+[INFO]	 [c2]	Time elapsed:  0.083562  seconds.
+||||----||||Predict Output:a black and white photo of a baseball bat
+received request:inputType: "string"
+inputStream: "3"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:51.114112
+[INFO]	 [c2]	 2019-06-07 11:09:51.197669
+[INFO]	 [c2]	Time elapsed:  0.083557  seconds.
+||||----||||Predict Output:a black and white photo of a teddy bear .
+received request:inputType: "string"
+inputStream: "77"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:51.783674
+[INFO]	 [c2]	 2019-06-07 11:09:51.868548
+[INFO]	 [c2]	Time elapsed:  0.084874  seconds.
+||||----||||Predict Output:a close up of a person holding a book
+received request:inputType: "string"
+inputStream: "64"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:52.179952
+[INFO]	 [c2]	 2019-06-07 11:09:52.263435
+[INFO]	 [c2]	Time elapsed:  0.083483  seconds.
+||||----||||Predict Output:a close up of a person holding a cell phone
+received request:inputType: "string"
+inputStream: "69"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:52.822998
+[INFO]	 [c2]	 2019-06-07 11:09:52.906390
+[INFO]	 [c2]	Time elapsed:  0.083392  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "68"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:53.731067
+[INFO]	 [c2]	 2019-06-07 11:09:53.814819
+[INFO]	 [c2]	Time elapsed:  0.083752  seconds.
+||||----||||Predict Output:a close up of a book on a table
+received request:inputType: "string"
+inputStream: "91"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:54.404152
+[INFO]	 [c2]	 2019-06-07 11:09:54.487863
+[INFO]	 [c2]	Time elapsed:  0.083711  seconds.
+||||----||||Predict Output:a close up of a phone on a table
+received request:inputType: "string"
+inputStream: "61"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:55.007978
+[INFO]	 [c2]	 2019-06-07 11:09:55.091320
+[INFO]	 [c2]	Time elapsed:  0.083342  seconds.
+||||----||||Predict Output:a close up of a person holding a book
+received request:inputType: "string"
+inputStream: "42"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:55.470415
+[INFO]	 [c2]	 2019-06-07 11:09:55.554215
+[INFO]	 [c2]	Time elapsed:  0.0838  seconds.
+||||----||||Predict Output:a picture of a clock on a building .
+received request:inputType: "string"
+inputStream: "38"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:56.547189
+[INFO]	 [c2]	 2019-06-07 11:09:56.630480
+[INFO]	 [c2]	Time elapsed:  0.083291  seconds.
+||||----||||Predict Output:a clock that is on the side of a building .
+received request:inputType: "string"
+inputStream: "14"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:57.220530
+[INFO]	 [c2]	 2019-06-07 11:09:57.303779
+[INFO]	 [c2]	Time elapsed:  0.083249  seconds.
+||||----||||Predict Output:a motorcyclists bear sitting on a tree branch .
+received request:inputType: "string"
+inputStream: "10"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:57.662951
+[INFO]	 [c2]	 2019-06-07 11:09:57.745998
+[INFO]	 [c2]	Time elapsed:  0.083047  seconds.
+||||----||||Predict Output:a teddy bear sitting on top of a wooden table .
+received request:inputType: "string"
+inputStream: "49"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:58.523316
+[INFO]	 [c2]	 2019-06-07 11:09:58.606955
+[INFO]	 [c2]	Time elapsed:  0.083639  seconds.
+||||----||||Predict Output:a close up of a stuffed animal on a book
+received request:inputType: "string"
+inputStream: "90"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:59.188495
+[INFO]	 [c2]	 2019-06-07 11:09:59.271967
+[INFO]	 [c2]	Time elapsed:  0.083472  seconds.
+||||----||||Predict Output:a close up of a person holding a cell phone
+received request:inputType: "string"
+inputStream: "47"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:09:59.839751
+[INFO]	 [c2]	 2019-06-07 11:09:59.923533
+[INFO]	 [c2]	Time elapsed:  0.083782  seconds.
+||||----||||Predict Output:a black and white photo of a clock on a wall .
+received request:inputType: "string"
+inputStream: "86"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:01.028663
+[INFO]	 [c2]	 2019-06-07 11:10:01.112438
+[INFO]	 [c2]	Time elapsed:  0.083775  seconds.
+||||----||||Predict Output:a picture of a person holding a book .
+received request:inputType: "string"
+inputStream: "60"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:01.671480
+[INFO]	 [c2]	 2019-06-07 11:10:01.755094
+[INFO]	 [c2]	Time elapsed:  0.083614  seconds.
+||||----||||Predict Output:a black and white photo of a clock on a wall .
+received request:inputType: "string"
+inputStream: "94"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:02.223200
+[INFO]	 [c2]	 2019-06-07 11:10:02.306820
+[INFO]	 [c2]	Time elapsed:  0.08362  seconds.
+||||----||||Predict Output:a close up of a phone on a table
+received request:inputType: "string"
+inputStream: "8"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:02.892222
+[INFO]	 [c2]	 2019-06-07 11:10:02.975935
+[INFO]	 [c2]	Time elapsed:  0.083713  seconds.
+||||----||||Predict Output:a black and white photo of a motorcyclists bear .
+received request:inputType: "string"
+inputStream: "30"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:03.553647
+[INFO]	 [c2]	 2019-06-07 11:10:03.637088
+[INFO]	 [c2]	Time elapsed:  0.083441  seconds.
+||||----||||Predict Output:a teddy bear sitting on top of a wooden table .
+received request:inputType: "string"
+inputStream: "36"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:04.273605
+[INFO]	 [c2]	 2019-06-07 11:10:04.357187
+[INFO]	 [c2]	Time elapsed:  0.083582  seconds.
+||||----||||Predict Output:a black and white photo of a motorcyclists bear .
+received request:inputType: "string"
+inputStream: "26"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:04.855006
+[INFO]	 [c2]	 2019-06-07 11:10:04.938392
+[INFO]	 [c2]	Time elapsed:  0.083386  seconds.
+||||----||||Predict Output:a teddy bear with a racing on its head .
+received request:inputType: "string"
+inputStream: "62"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:05.337533
+[INFO]	 [c2]	 2019-06-07 11:10:05.423552
+[INFO]	 [c2]	Time elapsed:  0.086019  seconds.
+||||----||||Predict Output:a close up of a clock on a wall
+received request:inputType: "string"
+inputStream: "89"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:06.159192
+[INFO]	 [c2]	 2019-06-07 11:10:06.242871
+[INFO]	 [c2]	Time elapsed:  0.083679  seconds.
+||||----||||Predict Output:a picture of a clock on a wall .
+received request:inputType: "string"
+inputStream: "74"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:06.814380
+[INFO]	 [c2]	 2019-06-07 11:10:06.898194
+[INFO]	 [c2]	Time elapsed:  0.083814  seconds.
+||||----||||Predict Output:a close up of a clock on a wall
+received request:inputType: "string"
+inputStream: "73"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:07.344067
+[INFO]	 [c2]	 2019-06-07 11:10:07.427474
+[INFO]	 [c2]	Time elapsed:  0.083407  seconds.
+||||----||||Predict Output:a clock on the side of a building .
+received request:inputType: "string"
+inputStream: "67"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:07.971651
+[INFO]	 [c2]	 2019-06-07 11:10:08.055145
+[INFO]	 [c2]	Time elapsed:  0.083494  seconds.
+||||----||||Predict Output:a close up of a person holding a book
+received request:inputType: "string"
+inputStream: "85"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:08.734547
+[INFO]	 [c2]	 2019-06-07 11:10:08.817774
+[INFO]	 [c2]	Time elapsed:  0.083227  seconds.
+||||----||||Predict Output:a picture of a person holding a sign .
+received request:inputType: "string"
+inputStream: "21"
+
+
+
+[INFO]	 [c2]	 2019-06-07 11:10:09.421488
+[INFO]	 [c2]	 2019-06-07 11:10:09.504457
+[INFO]	 [c2]	Time elapsed:  0.082969  seconds.
+||||----||||Predict Output:a black and white photo of a motorcyclists bear .

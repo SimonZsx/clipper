@@ -1,0 +1,1340 @@
+Model Server Started -- c4
+[Input]inputType: "string"
+inputStream: "he\'s called stella astrid occur,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:34.149003
+[INFO]	 [c4]	 2019-06-09 07:30:34.162064
+[INFO]	 [c4]	Time elapsed:  0.013061  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word occur has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "at least call stat law ask her to bring the east,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:35.519192
+[INFO]	 [c4]	 2019-06-09 07:30:35.544960
+[INFO]	 [c4]	Time elapsed:  0.025768  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 7
+Top three frequent words: (count, word)
+The word stat has appeared for 1 times in this text
+The word least has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these cost to have to bring these things that are,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:36.466460
+[INFO]	 [c4]	 2019-06-09 07:30:36.489309
+[INFO]	 [c4]	Time elapsed:  0.022849  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the schools the stuttering these things,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:37.282684
+[INFO]	 [c4]	 2019-06-09 07:30:37.296791
+[INFO]	 [c4]	Time elapsed:  0.014107  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word stutter has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "she skull still a casket river,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:37.893433
+[INFO]	 [c4]	 2019-06-09 07:30:37.907648
+[INFO]	 [c4]	Time elapsed:  0.014215  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word skull has appeared for 1 times in this text
+The word river has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the school\'s ella positively nice,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:38.736221
+[INFO]	 [c4]	 2019-06-09 07:30:38.753702
+[INFO]	 [c4]	Time elapsed:  0.017481  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word positively has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "his own stella after bring these things were confirmed,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:39.991817
+[INFO]	 [c4]	 2019-06-09 07:30:40.012692
+[INFO]	 [c4]	Time elapsed:  0.020875  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word own has appeared for 1 times in this text
+The word confirm has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call us and good good good,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:40.857182
+[INFO]	 [c4]	 2019-06-09 07:30:40.881164
+[INFO]	 [c4]	Time elapsed:  0.023982  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word good has appeared for 3 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call fellow at the bring the thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:41.541818
+[INFO]	 [c4]	 2019-06-09 07:30:41.560255
+[INFO]	 [c4]	Time elapsed:  0.018437  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word fellow has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please help dylan and hit him during the,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:42.359821
+[INFO]	 [c4]	 2019-06-09 07:30:42.387354
+[INFO]	 [c4]	Time elapsed:  0.027533  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word hit has appeared for 1 times in this text
+The word help has appeared for 1 times in this text
+The word dylan has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the schools the best the bring the same,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:43.234226
+[INFO]	 [c4]	 2019-06-09 07:30:43.252734
+[INFO]	 [c4]	Time elapsed:  0.018508  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word same has appeared for 1 times in this text
+The word good has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "nice cold spell it,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:44.058234
+[INFO]	 [c4]	 2019-06-09 07:30:44.072504
+[INFO]	 [c4]	Time elapsed:  0.01427  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word spell has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+The word cold has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "to these calls the cost of,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:44.604734
+[INFO]	 [c4]	 2019-06-09 07:30:44.618765
+[INFO]	 [c4]	Time elapsed:  0.014031  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word cost has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these calls still a casket ring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:45.357005
+[INFO]	 [c4]	 2019-06-09 07:30:45.370953
+[INFO]	 [c4]	Time elapsed:  0.013948  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we are cole allen ask,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:46.161346
+[INFO]	 [c4]	 2019-06-09 07:30:46.173311
+[INFO]	 [c4]	Time elapsed:  0.011965  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word cole has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still has to bring these things,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:46.800779
+[INFO]	 [c4]	 2019-06-09 07:30:46.818856
+[INFO]	 [c4]	Time elapsed:  0.018077  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call bella ask you to bring you,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:47.451539
+[INFO]	 [c4]	 2019-06-09 07:30:47.469862
+[INFO]	 [c4]	Time elapsed:  0.018323  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word bella has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call spell and ask her to bring these things and,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:48.157114
+[INFO]	 [c4]	 2019-06-09 07:30:48.181634
+[INFO]	 [c4]	Time elapsed:  0.02452  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word spell has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "three holes here are,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:48.805656
+[INFO]	 [c4]	 2019-06-09 07:30:48.815449
+[INFO]	 [c4]	Time elapsed:  0.009793  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word hole has appeared for 1 times in this text
+The word here has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we call that walcott and things like that,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:50.243259
+[INFO]	 [c4]	 2019-06-09 07:30:50.261679
+[INFO]	 [c4]	Time elapsed:  0.01842  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word walcott has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please off that at the in things,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:51.309531
+[INFO]	 [c4]	 2019-06-09 07:30:51.325027
+[INFO]	 [c4]	Time elapsed:  0.015496  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call to ask her to bring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:52.059868
+[INFO]	 [c4]	 2019-06-09 07:30:52.075674
+[INFO]	 [c4]	Time elapsed:  0.015806  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "he\'s close to,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:52.553687
+[INFO]	 [c4]	 2019-06-09 07:30:52.560794
+[INFO]	 [c4]	Time elapsed:  0.007107  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word close has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we will go entered ring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:53.375230
+[INFO]	 [c4]	 2019-06-09 07:30:53.387081
+[INFO]	 [c4]	Time elapsed:  0.011851  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still after bring these things over,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:54.030893
+[INFO]	 [c4]	 2019-06-09 07:30:54.048368
+[INFO]	 [c4]	Time elapsed:  0.017475  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word over has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the these calls them astrid timber,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:55.434992
+[INFO]	 [c4]	 2019-06-09 07:30:55.448853
+[INFO]	 [c4]	Time elapsed:  0.013861  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word timber has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word astrid has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please calm down and,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:55.946415
+[INFO]	 [c4]	 2019-06-09 07:30:55.955666
+[INFO]	 [c4]	Time elapsed:  0.009251  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word down has appeared for 1 times in this text
+The word calm has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still on to ask,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:56.546688
+[INFO]	 [c4]	 2019-06-09 07:30:56.560575
+[INFO]	 [c4]	Time elapsed:  0.013887  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "dreams cole\'s the island,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:57.054582
+[INFO]	 [c4]	 2019-06-09 07:30:57.063950
+[INFO]	 [c4]	Time elapsed:  0.009368  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word island has appeared for 1 times in this text
+The word dream has appeared for 1 times in this text
+The word cole has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella after having these things,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:58.221437
+[INFO]	 [c4]	 2019-06-09 07:30:58.237498
+[INFO]	 [c4]	Time elapsed:  0.016061  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "he\'s going to interrupt,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:30:58.780159
+[INFO]	 [c4]	 2019-06-09 07:30:58.789465
+[INFO]	 [c4]	Time elapsed:  0.009306  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word interrupt has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these are the at an eighty days,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:00.108937
+[INFO]	 [c4]	 2019-06-09 07:31:00.125076
+[INFO]	 [c4]	Time elapsed:  0.016139  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word day has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "to these calls the oscar to bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:00.850440
+[INFO]	 [c4]	 2019-06-09 07:31:00.867999
+[INFO]	 [c4]	Time elapsed:  0.017559  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "say it off the,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:01.397828
+[INFO]	 [c4]	 2019-06-09 07:31:01.407335
+[INFO]	 [c4]	Time elapsed:  0.009507  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word say has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella ask,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:01.948557
+[INFO]	 [c4]	 2019-06-09 07:31:01.957555
+[INFO]	 [c4]	Time elapsed:  0.008998  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "can he call general,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:02.636927
+[INFO]	 [c4]	 2019-06-09 07:31:02.646526
+[INFO]	 [c4]	Time elapsed:  0.009599  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word general has appeared for 1 times in this text
+The word can has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella after getting to,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:03.423959
+[INFO]	 [c4]	 2019-06-09 07:31:03.437276
+[INFO]	 [c4]	Time elapsed:  0.013317  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word get has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call fella action,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:03.992062
+[INFO]	 [c4]	 2019-06-09 07:31:04.001693
+[INFO]	 [c4]	Time elapsed:  0.009631  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word fella has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word action has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these call go after the ring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:04.775222
+[INFO]	 [c4]	 2019-06-09 07:31:04.788458
+[INFO]	 [c4]	Time elapsed:  0.013236  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "to influence them and at,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:05.704152
+[INFO]	 [c4]	 2019-06-09 07:31:05.715881
+[INFO]	 [c4]	Time elapsed:  0.011729  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word influence has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella ask it of green,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:06.392509
+[INFO]	 [c4]	 2019-06-09 07:31:06.408048
+[INFO]	 [c4]	Time elapsed:  0.015539  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word green has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the school stella after numbering the thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:07.107614
+[INFO]	 [c4]	 2019-06-09 07:31:07.123695
+[INFO]	 [c4]	Time elapsed:  0.016081  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word number has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the law as the ring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:07.938285
+[INFO]	 [c4]	 2019-06-09 07:31:07.953629
+[INFO]	 [c4]	Time elapsed:  0.015344  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the east coast and the,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:08.980766
+[INFO]	 [c4]	 2019-06-09 07:31:08.992435
+[INFO]	 [c4]	Time elapsed:  0.011669  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word east has appeared for 1 times in this text
+The word coast has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we\'ve called all after grungy me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:09.591458
+[INFO]	 [c4]	 2019-06-09 07:31:09.604812
+[INFO]	 [c4]	Time elapsed:  0.013354  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word have has appeared for 1 times in this text
+The word grungy has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these calls a casket attorneys been good,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:10.740189
+[INFO]	 [c4]	 2019-06-09 07:31:10.756661
+[INFO]	 [c4]	Time elapsed:  0.016472  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word good has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the you hurry these things,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:11.784910
+[INFO]	 [c4]	 2019-06-09 07:31:11.800373
+[INFO]	 [c4]	Time elapsed:  0.015463  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word hurry has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stale a bastard of brain,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:12.487585
+[INFO]	 [c4]	 2019-06-09 07:31:12.503809
+[INFO]	 [c4]	Time elapsed:  0.016224  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word stale has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word brain has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please cold spell will ask river,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:13.025494
+[INFO]	 [c4]	 2019-06-09 07:31:13.038817
+[INFO]	 [c4]	Time elapsed:  0.013323  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word spell has appeared for 1 times in this text
+The word river has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still a ashford or bring these,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:13.661062
+[INFO]	 [c4]	 2019-06-09 07:31:13.679398
+[INFO]	 [c4]	Time elapsed:  0.018336  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please go and still yes,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:14.358879
+[INFO]	 [c4]	 2019-06-09 07:31:14.370136
+[INFO]	 [c4]	Time elapsed:  0.011257  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please all fellow cars,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:14.966548
+[INFO]	 [c4]	 2019-06-09 07:31:14.976077
+[INFO]	 [c4]	Time elapsed:  0.009529  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word fellow has appeared for 1 times in this text
+The word car has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still constructive,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:15.542742
+[INFO]	 [c4]	 2019-06-09 07:31:15.551944
+[INFO]	 [c4]	Time elapsed:  0.009202  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word constructive has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these calls della ask her degree,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:16.292511
+[INFO]	 [c4]	 2019-06-09 07:31:16.306659
+[INFO]	 [c4]	Time elapsed:  0.014148  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word della has appeared for 1 times in this text
+The word degree has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we also asked her,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:16.916937
+[INFO]	 [c4]	 2019-06-09 07:31:16.926231
+[INFO]	 [c4]	Time elapsed:  0.009294  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word ask has appeared for 1 times in this text
+The word also has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these polls ally asking agree me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:17.574761
+[INFO]	 [c4]	 2019-06-09 07:31:17.589448
+[INFO]	 [c4]	Time elapsed:  0.014687  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word poll has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+The word ally has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these call stella after during these things were,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:18.245164
+[INFO]	 [c4]	 2019-06-09 07:31:18.262585
+[INFO]	 [c4]	Time elapsed:  0.017421  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the anson rainey,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:18.767476
+[INFO]	 [c4]	 2019-06-09 07:31:18.779348
+[INFO]	 [c4]	Time elapsed:  0.011872  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word rainey has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word anson has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the cost on the green the english,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:19.799888
+[INFO]	 [c4]	 2019-06-09 07:31:19.815419
+[INFO]	 [c4]	Time elapsed:  0.015531  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word green has appeared for 1 times in this text
+The word english has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call ella afternoon brains,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:20.631293
+[INFO]	 [c4]	 2019-06-09 07:31:20.643203
+[INFO]	 [c4]	Time elapsed:  0.01191  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word ella has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word brain has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please tell stella after giving these things of that,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:21.470039
+[INFO]	 [c4]	 2019-06-09 07:31:21.489769
+[INFO]	 [c4]	Time elapsed:  0.01973  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word tell has appeared for 1 times in this text
+The word give has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these are content content to bring the new,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:22.625785
+[INFO]	 [c4]	 2019-06-09 07:31:22.644118
+[INFO]	 [c4]	Time elapsed:  0.018333  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word content has appeared for 2 times in this text
+The word new has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "he\'s close to and ring extinction hundred,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:23.435496
+[INFO]	 [c4]	 2019-06-09 07:31:23.451223
+[INFO]	 [c4]	Time elapsed:  0.015727  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word extinction has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella after bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:24.196512
+[INFO]	 [c4]	 2019-06-09 07:31:24.210145
+[INFO]	 [c4]	Time elapsed:  0.013633  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "to the polls will i\'ve heard every new,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:25.091981
+[INFO]	 [c4]	 2019-06-09 07:31:25.109709
+[INFO]	 [c4]	Time elapsed:  0.017728  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word poll has appeared for 1 times in this text
+The word new has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "sweet off the anchor to bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:26.129698
+[INFO]	 [c4]	 2019-06-09 07:31:26.145780
+[INFO]	 [c4]	Time elapsed:  0.016082  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word sweet has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word anchor has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we\'ve got to pass it ring the city,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:27.229757
+[INFO]	 [c4]	 2019-06-09 07:31:27.247488
+[INFO]	 [c4]	Time elapsed:  0.017731  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word pass has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please hold still a opted to bring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:28.166222
+[INFO]	 [c4]	 2019-06-09 07:31:28.182344
+[INFO]	 [c4]	Time elapsed:  0.016122  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word opt has appeared for 1 times in this text
+The word hold has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call them we\'ll ask her to bring,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:28.750912
+[INFO]	 [c4]	 2019-06-09 07:31:28.768504
+[INFO]	 [c4]	Time elapsed:  0.017592  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still a basket of bernice,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:29.490678
+[INFO]	 [c4]	 2019-06-09 07:31:29.506748
+[INFO]	 [c4]	Time elapsed:  0.01607  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bernice has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call svehla our vision thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:30.560551
+[INFO]	 [c4]	 2019-06-09 07:31:30.574146
+[INFO]	 [c4]	Time elapsed:  0.013595  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word vision has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word svehla has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please all lou waters were,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:31.314664
+[INFO]	 [c4]	 2019-06-09 07:31:31.326617
+[INFO]	 [c4]	Time elapsed:  0.011953  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word water has appeared for 1 times in this text
+The word lou has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella ask,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:31.813557
+[INFO]	 [c4]	 2019-06-09 07:31:31.822548
+[INFO]	 [c4]	Time elapsed:  0.008991  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella ask her to bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:32.501928
+[INFO]	 [c4]	 2019-06-09 07:31:32.519943
+[INFO]	 [c4]	Time elapsed:  0.018015  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please calls the asking of bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:33.146422
+[INFO]	 [c4]	 2019-06-09 07:31:33.161656
+[INFO]	 [c4]	Time elapsed:  0.015234  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "we call the pastor greenleaf,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:34.049221
+[INFO]	 [c4]	 2019-06-09 07:31:34.061010
+[INFO]	 [c4]	Time elapsed:  0.011789  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word pastor has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella s. courage bring these things were,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:34.685486
+[INFO]	 [c4]	 2019-06-09 07:31:34.705102
+[INFO]	 [c4]	Time elapsed:  0.019616  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word courage has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the law ask than we need,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:35.420070
+[INFO]	 [c4]	 2019-06-09 07:31:35.438272
+[INFO]	 [c4]	Time elapsed:  0.018202  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word need has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please house,l. o. and her three nice thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:36.272639
+[INFO]	 [c4]	 2019-06-09 07:31:36.290400
+[INFO]	 [c4]	Time elapsed:  0.017761  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word o. has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call bella after two,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:37.058955
+[INFO]	 [c4]	 2019-06-09 07:31:37.070654
+[INFO]	 [c4]	Time elapsed:  0.011699  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bella has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the after you bring me,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:37.836197
+[INFO]	 [c4]	 2019-06-09 07:31:37.851484
+[INFO]	 [c4]	Time elapsed:  0.015287  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the school stella after entering,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:38.626956
+[INFO]	 [c4]	 2019-06-09 07:31:38.638633
+[INFO]	 [c4]	Time elapsed:  0.011677  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word enter has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "the whole ella enter,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:39.443663
+[INFO]	 [c4]	 2019-06-09 07:31:39.452897
+[INFO]	 [c4]	Time elapsed:  0.009234  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word whole has appeared for 1 times in this text
+The word enter has appeared for 1 times in this text
+The word ella has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "he\'s called don\'t ask her to bring the thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:40.318614
+[INFO]	 [c4]	 2019-06-09 07:31:40.339963
+[INFO]	 [c4]	Time elapsed:  0.021349  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word s has appeared for 1 times in this text
+The word donot has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella ask her to bring these,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:41.170263
+[INFO]	 [c4]	 2019-06-09 07:31:41.187609
+[INFO]	 [c4]	Time elapsed:  0.017346  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the love of scooter bring the thing,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:41.902192
+[INFO]	 [c4]	 2019-06-09 07:31:41.922626
+[INFO]	 [c4]	Time elapsed:  0.020434  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word scooter has appeared for 1 times in this text
+The word love has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call still ask her to bring these things with,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:42.525930
+[INFO]	 [c4]	 2019-06-09 07:31:42.547531
+[INFO]	 [c4]	Time elapsed:  0.021601  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "these clothes,no,i\'m not trigger bring the se,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:43.185820
+[INFO]	 [c4]	 2019-06-09 07:31:43.202458
+[INFO]	 [c4]	Time elapsed:  0.016638  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word trigger has appeared for 1 times in this text
+The word not has appeared for 1 times in this text
+The word clothe has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call stella got her to bring these things work,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:44.072019
+[INFO]	 [c4]	 2019-06-09 07:31:44.093695
+[INFO]	 [c4]	Time elapsed:  0.021676  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word work has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word get has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call the law of the river in the ring to it,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:45.162750
+[INFO]	 [c4]	 2019-06-09 07:31:45.189455
+[INFO]	 [c4]	Time elapsed:  0.026705  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word river has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+
+[Input]inputType: "string"
+inputStream: "please call\'s gala at,"
+
+
+
+[INFO]	 [c4]	 2019-06-09 07:31:45.772453
+[INFO]	 [c4]	 2019-06-09 07:31:45.781586
+[INFO]	 [c4]	Time elapsed:  0.009133  seconds.
+[Output]After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word gala has appeared for 1 times in this text
+The word call has appeared for 1 times in this text

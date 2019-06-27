@@ -1,0 +1,3487 @@
+Model Server Started -- c5
+Received SetProxy:proxyName: "c5_1-4556-proxy"
+proxyPort: "22223"
+
+
+received request:
+
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word could has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:41:59.401065
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word could has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:41:59.401122
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:00.057718
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:00.057774
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word ring has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word astrid has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:00.768435
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word astrid has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:00.768486
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word s has appeared for 1 times in this text\nThe word not has appeared for 1 times in this text\nThe word hard has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:01.936029
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word not has appeared for 1 times in this text
+The word hard has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:01.936098
+[INFO]	 [c5]	Time elapsed:  6.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word signal has appeared for 1 times in this text\nThe word fast has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:03.242056
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word signal has appeared for 1 times in this text
+The word fast has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:03.242102
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word police has appeared for 1 times in this text\nThe word goblet has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:03.979288
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word police has appeared for 1 times in this text
+The word goblet has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:03.979350
+[INFO]	 [c5]	Time elapsed:  6.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word desk has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:04.664737
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word desk has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:04.664784
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word schooner has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:05.461641
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word schooner has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:05.461689
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word not has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:06.595258
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word not has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:06.595312
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word smell has appeared for 1 times in this text\nThe word randy has appeared for 1 times in this text\nThe word nicole has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:07.766188
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word smell has appeared for 1 times in this text
+The word randy has appeared for 1 times in this text
+The word nicole has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:07.766254
+[INFO]	 [c5]	Time elapsed:  6.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word osgood has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:08.442643
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word osgood has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:08.442693
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word tube has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:09.092120
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word tube has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:09.092170
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word hole has appeared for 1 times in this text\nThe word here has appeared for 1 times in this text\nThe word be has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:09.871038
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word hole has appeared for 1 times in this text
+The word here has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:09.871086
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word stand has appeared for 1 times in this text\nThe word piece has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:10.419195
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word stand has appeared for 1 times in this text
+The word piece has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:10.419249
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word stone has appeared for 1 times in this text\nThe word critter has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:11.339679
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word stone has appeared for 1 times in this text
+The word critter has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:11.339721
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word peace has appeared for 1 times in this text\nThe word freeze has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:12.101628
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word peace has appeared for 1 times in this text
+The word freeze has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:12.101701
+[INFO]	 [c5]	Time elapsed:  7.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word toe has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word scroll has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:13.238265
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word toe has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word scroll has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:13.238315
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word hear has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:13.936388
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word hear has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:13.936437
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word police has appeared for 1 times in this text\nThe word not has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:14.720909
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word police has appeared for 1 times in this text
+The word not has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:14.720979
+[INFO]	 [c5]	Time elapsed:  7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word pay has appeared for 1 times in this text\nThe word car has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:15.459742
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word pay has appeared for 1 times in this text
+The word car has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:15.459791
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:16.209159
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:16.209206
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word tell has appeared for 1 times in this text\nThe word how has appeared for 1 times in this text\nThe word give has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:17.108303
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word tell has appeared for 1 times in this text
+The word how has appeared for 1 times in this text
+The word give has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:17.108350
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word have has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\nThe word christopher has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:18.062569
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word have has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+The word christopher has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:18.062621
+[INFO]	 [c5]	Time elapsed:  5.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thingitll has appeared for 1 times in this text\nThe word s has appeared for 1 times in this text\nThe word nice has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:19.108979
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thingitll has appeared for 1 times in this text
+The word s has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:19.109021
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word hot has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:20.335341
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word hot has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:20.335448
+[INFO]	 [c5]	Time elapsed:  0.000107  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word out has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:21.647772
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word out has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:21.647843
+[INFO]	 [c5]	Time elapsed:  7.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word would has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word reader has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:22.589354
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word would has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word reader has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:22.589401
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:23.620508
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:23.620557
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word attitude has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:24.524925
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word attitude has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:24.524966
+[INFO]	 [c5]	Time elapsed:  4.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word s has appeared for 1 times in this text\nThe word move has appeared for 1 times in this text\nThe word honest has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:25.293847
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word move has appeared for 1 times in this text
+The word honest has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:25.293908
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word tell has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:26.123918
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word tell has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:26.123963
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word poll has appeared for 1 times in this text\nThe word new has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:27.400179
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word poll has appeared for 1 times in this text
+The word new has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:27.400227
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word casket has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:28.226641
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:28.226684
+[INFO]	 [c5]	Time elapsed:  4.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word enter has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:29.471693
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word enter has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:29.471735
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word stale has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word brain has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:30.241821
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word stale has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word brain has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:30.241869
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:30.939642
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:30.939713
+[INFO]	 [c5]	Time elapsed:  7.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word say has appeared for 1 times in this text\nThe word s has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:32.113765
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word say has appeared for 1 times in this text
+The word s has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:32.113826
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word kyle has appeared for 1 times in this text\nThe word create has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:33.264567
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word kyle has appeared for 1 times in this text
+The word create has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:33.264629
+[INFO]	 [c5]	Time elapsed:  6.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word be has appeared for 2 times in this text\nThe word beating has appeared for 1 times in this text\nThe word ad has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:34.762270
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word be has appeared for 2 times in this text
+The word beating has appeared for 1 times in this text
+The word ad has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:34.762322
+[INFO]	 [c5]	Time elapsed:  5.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:35.719551
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:35.719610
+[INFO]	 [c5]	Time elapsed:  5.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word out has appeared for 1 times in this text\nThe word fur has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:36.642567
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word out has appeared for 1 times in this text
+The word fur has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:36.642614
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\nThe word afternoon has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:37.372140
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word afternoon has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:37.372214
+[INFO]	 [c5]	Time elapsed:  7.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word disclose has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:38.569261
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word disclose has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:38.569318
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word column has appeared for 1 times in this text\nThe word ally has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:39.161360
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word column has appeared for 1 times in this text
+The word ally has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:39.161421
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word outer has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:40.327761
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word outer has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:40.327808
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:40.900659
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:40.900712
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word other has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:41.766422
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word other has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:41.766469
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bernice has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:42.501762
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bernice has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:42.501803
+[INFO]	 [c5]	Time elapsed:  4.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word school has appeared for 1 times in this text\nThe word positively has appeared for 1 times in this text\nThe word nice has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:43.716471
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word positively has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:43.716547
+[INFO]	 [c5]	Time elapsed:  7.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word river has appeared for 1 times in this text\nThe word nice has appeared for 1 times in this text\nThe word cell has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:44.451588
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word river has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+The word cell has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:44.451633
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word pass has appeared for 1 times in this text\nThe word mean has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:45.887542
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word pass has appeared for 1 times in this text
+The word mean has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:45.887612
+[INFO]	 [c5]	Time elapsed:  7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word s has appeared for 1 times in this text\nThe word close has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:46.610310
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word close has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:46.610357
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:47.208839
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:47.208912
+[INFO]	 [c5]	Time elapsed:  7.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word timber has appeared for 1 times in this text\nThe word result has appeared for 1 times in this text\nThe word astrid has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:48.928096
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word timber has appeared for 1 times in this text
+The word result has appeared for 1 times in this text
+The word astrid has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:48.928166
+[INFO]	 [c5]	Time elapsed:  7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word new has appeared for 1 times in this text\nThe word contradict has appeared for 1 times in this text\nThe word be has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:50.306476
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word new has appeared for 1 times in this text
+The word contradict has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:50.306562
+[INFO]	 [c5]	Time elapsed:  8.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word part has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:51.870058
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word part has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:51.870134
+[INFO]	 [c5]	Time elapsed:  7.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:52.509261
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:52.509326
+[INFO]	 [c5]	Time elapsed:  6.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word sweet has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:53.381135
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word sweet has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:53.381199
+[INFO]	 [c5]	Time elapsed:  6.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\nThe word bella has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:54.172996
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word bella has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:54.173062
+[INFO]	 [c5]	Time elapsed:  6.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word cost has appeared for 1 times in this text\nThe word cool has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:54.913842
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word cost has appeared for 1 times in this text
+The word cool has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:54.913915
+[INFO]	 [c5]	Time elapsed:  7.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word room has appeared for 1 times in this text\nThe word host has appeared for 1 times in this text\nThe word good has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:56.292806
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word room has appeared for 1 times in this text
+The word host has appeared for 1 times in this text
+The word good has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:56.292861
+[INFO]	 [c5]	Time elapsed:  5.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word ostrich has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:57.091168
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word ostrich has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:57.091227
+[INFO]	 [c5]	Time elapsed:  5.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word influence has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:58.025495
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word influence has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:58.025546
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word when has appeared for 1 times in this text\nThe word think has appeared for 1 times in this text\nThe word queen has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:58.984847
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word when has appeared for 1 times in this text
+The word think has appeared for 1 times in this text
+The word queen has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:58.984889
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:42:59.681594
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:42:59.681640
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word pastor has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:00.779602
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word pastor has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:00.779647
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word fidelity has appeared for 1 times in this text\nThe word calm has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:01.966322
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word fidelity has appeared for 1 times in this text
+The word calm has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:01.966370
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word new has appeared for 1 times in this text\nThe word hurry has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:03.225023
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word new has appeared for 1 times in this text
+The word hurry has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:03.225070
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:04.015390
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:04.015468
+[INFO]	 [c5]	Time elapsed:  7.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:04.960671
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:04.960721
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word island has appeared for 1 times in this text\nThe word death has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:05.825196
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word island has appeared for 1 times in this text
+The word death has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:05.825256
+[INFO]	 [c5]	Time elapsed:  6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word general has appeared for 1 times in this text\nThe word can has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:06.653038
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word general has appeared for 1 times in this text
+The word can has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:06.653097
+[INFO]	 [c5]	Time elapsed:  5.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word up has appeared for 1 times in this text\nThe word screw has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:07.333761
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word up has appeared for 1 times in this text
+The word screw has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:07.333815
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:08.018885
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:08.018941
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:08.665370
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:08.665435
+[INFO]	 [c5]	Time elapsed:  6.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word school has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word oscar has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:09.679322
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word oscar has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:09.679368
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word say has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:10.290891
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word say has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:10.290940
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:11.242605
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:11.242654
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word torture has appeared for 1 times in this text\nThe word s has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:12.225158
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word torture has appeared for 1 times in this text
+The word s has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:12.225241
+[INFO]	 [c5]	Time elapsed:  8.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\nThe word astrid has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:12.914879
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word astrid has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:12.914972
+[INFO]	 [c5]	Time elapsed:  9.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word meeting has appeared for 1 times in this text\nThe word catch has appeared for 1 times in this text\nThe word ala has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:13.873595
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word meeting has appeared for 1 times in this text
+The word catch has appeared for 1 times in this text
+The word ala has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:13.873666
+[INFO]	 [c5]	Time elapsed:  7.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word turner has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word stuart has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:15.299359
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word turner has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word stuart has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:15.299443
+[INFO]	 [c5]	Time elapsed:  8.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word talk has appeared for 1 times in this text\nThe word stone has appeared for 1 times in this text\nThe word ross has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:16.298215
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word talk has appeared for 1 times in this text
+The word stone has appeared for 1 times in this text
+The word ross has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:16.298262
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word dana has appeared for 1 times in this text\nThe word catch has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:17.158936
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word dana has appeared for 1 times in this text
+The word catch has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:17.158985
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:17.953447
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:17.953498
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word spell has appeared for 1 times in this text\nThe word out has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:19.821941
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word spell has appeared for 1 times in this text
+The word out has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:19.822019
+[INFO]	 [c5]	Time elapsed:  7.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word out has appeared for 1 times in this text\nThe word company has appeared for 1 times in this text\nThe word car has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:22.381045
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word out has appeared for 1 times in this text
+The word company has appeared for 1 times in this text
+The word car has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:22.381096
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word s has appeared for 1 times in this text\nThe word donot has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:23.673084
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word s has appeared for 1 times in this text
+The word donot has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:23.673131
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word s has appeared for 1 times in this text\nThe word interrupt has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:24.463631
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word interrupt has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:24.463693
+[INFO]	 [c5]	Time elapsed:  6.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word police has appeared for 1 times in this text\nThe word endure has appeared for 1 times in this text\nThe word della has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:25.453962
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word police has appeared for 1 times in this text
+The word endure has appeared for 1 times in this text
+The word della has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:25.454016
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word over has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:26.252332
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word over has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:26.252389
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word run has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word law has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:27.742461
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word run has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:27.742508
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word room has appeared for 1 times in this text\nThe word drive has appeared for 1 times in this text\nThe word curl has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:28.793790
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word room has appeared for 1 times in this text
+The word drive has appeared for 1 times in this text
+The word curl has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:28.793853
+[INFO]	 [c5]	Time elapsed:  6.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word white has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word fall has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:29.781283
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word white has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word fall has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:29.781338
+[INFO]	 [c5]	Time elapsed:  5.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word spell has appeared for 1 times in this text\nThe word river has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:30.404251
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word spell has appeared for 1 times in this text
+The word river has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:30.404324
+[INFO]	 [c5]	Time elapsed:  7.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word skull has appeared for 1 times in this text\nThe word river has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:30.998567
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word skull has appeared for 1 times in this text
+The word river has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:30.998620
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word ring has appeared for 1 times in this text\nThe word could has appeared for 1 times in this text\nThe word cause has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:31.989097
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word could has appeared for 1 times in this text
+The word cause has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:31.989146
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word island has appeared for 1 times in this text\nThe word english has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:33.213737
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word island has appeared for 1 times in this text
+The word english has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:33.213791
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word effort has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:34.207996
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word effort has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:34.208041
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\nThe word number has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:35.177700
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word number has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:35.177748
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\nThe word over has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:36.764922
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word over has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:36.764968
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word green has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:37.603097
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word green has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:37.603143
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word style has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word greenhes has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:38.645178
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word style has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word greenhes has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:38.645229
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word up has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:39.407282
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word up has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:39.407338
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:40.019926
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:40.019972
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word out has appeared for 1 times in this text\nThe word dole has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:41.450868
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word out has appeared for 1 times in this text
+The word dole has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:41.450909
+[INFO]	 [c5]	Time elapsed:  4.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word tell has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:42.335366
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word tell has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:42.335464
+[INFO]	 [c5]	Time elapsed:  9.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word scoff has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:43.943351
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word scoff has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:43.943427
+[INFO]	 [c5]	Time elapsed:  7.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word vain has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word handsome has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:45.072029
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word vain has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word handsome has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:45.072111
+[INFO]	 [c5]	Time elapsed:  8.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word poll has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\nThe word ally has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:45.863662
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word poll has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+The word ally has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:45.863715
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word cole has appeared for 1 times in this text\nThe word be has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:46.788740
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word cole has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:46.788803
+[INFO]	 [c5]	Time elapsed:  6.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word della has appeared for 1 times in this text\nThe word degree has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:47.701662
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word della has appeared for 1 times in this text
+The word degree has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:47.701708
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word spell has appeared for 1 times in this text\nThe word nice has appeared for 1 times in this text\nThe word cold has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:48.385579
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word spell has appeared for 1 times in this text
+The word nice has appeared for 1 times in this text
+The word cold has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:48.385640
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word bella has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:49.152456
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word bella has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:49.152522
+[INFO]	 [c5]	Time elapsed:  6.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word island has appeared for 1 times in this text\nThe word dream has appeared for 1 times in this text\nThe word cole has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:50.027991
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word island has appeared for 1 times in this text
+The word dream has appeared for 1 times in this text
+The word cole has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:50.028036
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word outtake has appeared for 1 times in this text\nThe word dylan has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:51.254249
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word outtake has appeared for 1 times in this text
+The word dylan has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:51.254313
+[INFO]	 [c5]	Time elapsed:  6.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word have has appeared for 1 times in this text\nThe word current has appeared for 1 times in this text\nThe word catch has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:52.212050
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word have has appeared for 1 times in this text
+The word current has appeared for 1 times in this text
+The word catch has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:52.212096
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word stumble has appeared for 1 times in this text\nThe word freeze has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:53.053047
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word stumble has appeared for 1 times in this text
+The word freeze has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:53.053095
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:53.951712
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:53.951773
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word so has appeared for 1 times in this text\nThe word scuttle has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:54.837928
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word so has appeared for 1 times in this text
+The word scuttle has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:54.837970
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word della has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:55.550237
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word della has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:55.550295
+[INFO]	 [c5]	Time elapsed:  5.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:56.348735
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:56.348788
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word rim has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word beef has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:43:59.441292
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word rim has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word beef has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:43:59.441367
+[INFO]	 [c5]	Time elapsed:  7.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word scooter has appeared for 1 times in this text\nThe word love has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:00.475148
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word scooter has appeared for 1 times in this text
+The word love has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:00.475228
+[INFO]	 [c5]	Time elapsed:  8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bernie has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:01.435212
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bernie has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:01.435265
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word ask has appeared for 1 times in this text\nThe word also has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:02.142564
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word ask has appeared for 1 times in this text
+The word also has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:02.142627
+[INFO]	 [c5]	Time elapsed:  6.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word number has appeared for 1 times in this text\nThe word doctor has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:02.995855
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word number has appeared for 1 times in this text
+The word doctor has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:02.995929
+[INFO]	 [c5]	Time elapsed:  7.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word sweet has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\nThe word anchor has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:04.031436
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word sweet has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+The word anchor has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:04.031510
+[INFO]	 [c5]	Time elapsed:  7.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word ring has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\nThe word do has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:04.997757
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+The word do has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:04.997814
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word school has appeared for 1 times in this text\nThe word enter has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:05.964905
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word enter has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:05.964954
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word path has appeared for 1 times in this text\nThe word down has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:07.116636
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word path has appeared for 1 times in this text
+The word down has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:07.116697
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thank has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word firm has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:08.047956
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thank has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word firm has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:08.048006
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word skull has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:08.983558
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word skull has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:08.983615
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word often has appeared for 1 times in this text\nThe word meat has appeared for 1 times in this text\nThe word gold has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:09.956201
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word often has appeared for 1 times in this text
+The word meat has appeared for 1 times in this text
+The word gold has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:09.956244
+[INFO]	 [c5]	Time elapsed:  4.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word pass has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:10.641359
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word pass has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:10.641420
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word pocket has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:12.162762
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word pocket has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:12.162820
+[INFO]	 [c5]	Time elapsed:  5.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:13.002019
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:13.002078
+[INFO]	 [c5]	Time elapsed:  5.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word stay has appeared for 1 times in this text\nThe word preschool has appeared for 1 times in this text\nThe word basket has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:13.716582
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word stay has appeared for 1 times in this text
+The word preschool has appeared for 1 times in this text
+The word basket has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:13.716655
+[INFO]	 [c5]	Time elapsed:  7.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word stutter has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:14.825989
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word stutter has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:14.826063
+[INFO]	 [c5]	Time elapsed:  7.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word wre has appeared for 1 times in this text\nThe word sting has appeared for 1 times in this text\nThe word house has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:15.965370
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word wre has appeared for 1 times in this text
+The word sting has appeared for 1 times in this text
+The word house has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:15.965438
+[INFO]	 [c5]	Time elapsed:  6.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word pass has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:17.113969
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word pass has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:17.114030
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word svehla has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:17.865286
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word svehla has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:17.865355
+[INFO]	 [c5]	Time elapsed:  6.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:18.822649
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:18.822712
+[INFO]	 [c5]	Time elapsed:  6.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word scholar has appeared for 1 times in this text\nThe word casket has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:19.765673
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word scholar has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:19.765731
+[INFO]	 [c5]	Time elapsed:  5.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word ella has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word brain has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:20.567123
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word ella has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word brain has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:20.567184
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word valid has appeared for 1 times in this text\nThe word ring has appeared for 1 times in this text\nThe word day has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:22.244992
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word valid has appeared for 1 times in this text
+The word ring has appeared for 1 times in this text
+The word day has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:22.245054
+[INFO]	 [c5]	Time elapsed:  6.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 7\nTop three frequent words: (count, word)\nThe word stat has appeared for 1 times in this text\nThe word least has appeared for 1 times in this text\nThe word law has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:23.941786
+Received Input:After cleaning: 
+Total number of meaningful words: 7
+Top three frequent words: (count, word)
+The word stat has appeared for 1 times in this text
+The word least has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:23.941848
+[INFO]	 [c5]	Time elapsed:  6.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word call has appeared for 1 times in this text\nThe word attorney has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:24.973943
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word call has appeared for 1 times in this text
+The word attorney has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:24.973988
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word down has appeared for 1 times in this text\nThe word calm has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:26.078820
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word down has appeared for 1 times in this text
+The word calm has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:26.078870
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word so has appeared for 1 times in this text\nThe word firm has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:26.885646
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word so has appeared for 1 times in this text
+The word firm has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:26.885689
+[INFO]	 [c5]	Time elapsed:  4.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word rich has appeared for 1 times in this text\nThe word control has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:27.690401
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word rich has appeared for 1 times in this text
+The word control has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:27.690457
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word cocktail has appeared for 1 times in this text\nThe word burn has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:28.307461
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word cocktail has appeared for 1 times in this text
+The word burn has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:28.307506
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word outfit has appeared for 1 times in this text\nThe word close has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:28.948730
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word outfit has appeared for 1 times in this text
+The word close has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:28.948778
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word east has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:29.686322
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word east has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:29.686367
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word scourge has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word gringo has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:30.703434
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word scourge has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word gringo has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:30.703518
+[INFO]	 [c5]	Time elapsed:  8.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word gamma has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:32.303157
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word gamma has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:32.303208
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word krieg has appeared for 1 times in this text\nThe word dream has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:33.188598
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word krieg has appeared for 1 times in this text
+The word dream has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:33.188665
+[INFO]	 [c5]	Time elapsed:  6.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word scene has appeared for 1 times in this text\nThe word get has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:34.285442
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word scene has appeared for 1 times in this text
+The word get has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:34.285525
+[INFO]	 [c5]	Time elapsed:  8.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word estrogen has appeared for 1 times in this text\nThe word cost has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:35.059730
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word estrogen has appeared for 1 times in this text
+The word cost has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:35.059794
+[INFO]	 [c5]	Time elapsed:  6.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word recall has appeared for 1 times in this text\nThe word randys has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:36.409942
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word recall has appeared for 1 times in this text
+The word randys has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:36.409997
+[INFO]	 [c5]	Time elapsed:  5.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word degree has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:37.383588
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word degree has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:37.383657
+[INFO]	 [c5]	Time elapsed:  6.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word gala has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:38.086273
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word gala has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:38.086321
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word randy has appeared for 1 times in this text\nThe word inherit has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:39.110113
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word randy has appeared for 1 times in this text
+The word inherit has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:39.110181
+[INFO]	 [c5]	Time elapsed:  6.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word fellow has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:40.061252
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word fellow has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:40.061294
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word richard has appeared for 1 times in this text\nThe word lot has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:40.714354
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word richard has appeared for 1 times in this text
+The word lot has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:40.714405
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word tea has appeared for 1 times in this text\nThe word scanlon has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:41.358423
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word tea has appeared for 1 times in this text
+The word scanlon has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:41.358471
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word hit has appeared for 1 times in this text\nThe word help has appeared for 1 times in this text\nThe word dylan has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:42.136349
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word hit has appeared for 1 times in this text
+The word help has appeared for 1 times in this text
+The word dylan has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:42.136394
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word fellow has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:42.863454
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word fellow has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:42.863496
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word pete has appeared for 1 times in this text\nThe word hold has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:43.847714
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word pete has appeared for 1 times in this text
+The word hold has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:43.847771
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word island has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:44.728406
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word island has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:44.728455
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word thingy has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:45.563856
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word thingy has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:45.563922
+[INFO]	 [c5]	Time elapsed:  6.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word school has appeared for 1 times in this text\nThe word same has appeared for 1 times in this text\nThe word good has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:46.833846
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word same has appeared for 1 times in this text
+The word good has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:46.833895
+[INFO]	 [c5]	Time elapsed:  4.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word turner has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:48.263634
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word turner has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:48.263674
+[INFO]	 [c5]	Time elapsed:  4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word tell has appeared for 1 times in this text\nThe word give has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:49.220645
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word tell has appeared for 1 times in this text
+The word give has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:49.220702
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word recall has appeared for 1 times in this text\nThe word rain has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:50.150622
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word recall has appeared for 1 times in this text
+The word rain has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:50.150680
+[INFO]	 [c5]	Time elapsed:  5.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:50.874408
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:50.874460
+[INFO]	 [c5]	Time elapsed:  5.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word fella has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word afternoon has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:51.573268
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word fella has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word afternoon has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:51.573307
+[INFO]	 [c5]	Time elapsed:  3.9e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word hour has appeared for 1 times in this text\nThe word be has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:52.687135
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word hour has appeared for 1 times in this text
+The word be has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:52.687188
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word ring has appeared for 1 times in this text\nThe word law has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:53.631826
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word ring has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:53.631868
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word still has appeared for 1 times in this text\nThe word opt has appeared for 1 times in this text\nThe word hold has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:54.613358
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word still has appeared for 1 times in this text
+The word opt has appeared for 1 times in this text
+The word hold has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:54.613410
+[INFO]	 [c5]	Time elapsed:  5.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word gulf has appeared for 1 times in this text\nThe word card has appeared for 1 times in this text\nThe word bos has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:55.331561
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word gulf has appeared for 1 times in this text
+The word card has appeared for 1 times in this text
+The word bos has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:55.331607
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word close has appeared for 1 times in this text\nThe word ally has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:56.132987
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word close has appeared for 1 times in this text
+The word ally has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:56.133042
+[INFO]	 [c5]	Time elapsed:  5.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word good has appeared for 1 times in this text\nThe word casket has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:57.297723
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word good has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:57.297791
+[INFO]	 [c5]	Time elapsed:  6.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word tass has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:58.193026
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word tass has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:58.193076
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word have has appeared for 1 times in this text\nThe word get has appeared for 1 times in this text\nThe word east has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:44:59.474937
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word have has appeared for 1 times in this text
+The word get has appeared for 1 times in this text
+The word east has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:44:59.474985
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word visa has appeared for 1 times in this text\nThe word pass has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:02.022123
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word visa has appeared for 1 times in this text
+The word pass has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:02.022173
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word though has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:02.531909
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word though has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:02.531957
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word structure has appeared for 1 times in this text\nThe word imprint has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:03.494355
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word structure has appeared for 1 times in this text
+The word imprint has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:03.494415
+[INFO]	 [c5]	Time elapsed:  6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word stand has appeared for 1 times in this text\nThe word school has appeared for 1 times in this text\nThe word many has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:04.223934
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word stand has appeared for 1 times in this text
+The word school has appeared for 1 times in this text
+The word many has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:04.223998
+[INFO]	 [c5]	Time elapsed:  6.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 6\nTop three frequent words: (count, word)\nThe word thou has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word hast has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:05.404578
+Received Input:After cleaning: 
+Total number of meaningful words: 6
+Top three frequent words: (count, word)
+The word thou has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word hast has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:05.404649
+[INFO]	 [c5]	Time elapsed:  7.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word up has appeared for 1 times in this text\nThe word today has appeared for 1 times in this text\nThe word stand has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:06.276799
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word up has appeared for 1 times in this text
+The word today has appeared for 1 times in this text
+The word stand has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:06.276847
+[INFO]	 [c5]	Time elapsed:  4.8e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word green has appeared for 1 times in this text\nThe word carat has appeared for 1 times in this text\nThe word car has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:07.230518
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word green has appeared for 1 times in this text
+The word carat has appeared for 1 times in this text
+The word car has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:07.230558
+[INFO]	 [c5]	Time elapsed:  4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word whole has appeared for 1 times in this text\nThe word ella has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:08.157738
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word whole has appeared for 1 times in this text
+The word ella has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:08.157794
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word work has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word get has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:09.959617
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word work has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word get has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:09.959662
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word own has appeared for 1 times in this text\nThe word confirm has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:11.117884
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word own has appeared for 1 times in this text
+The word confirm has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:11.117927
+[INFO]	 [c5]	Time elapsed:  4.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word scourge has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:11.962548
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word scourge has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:11.962601
+[INFO]	 [c5]	Time elapsed:  5.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word goal has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:13.010508
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word goal has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:13.010564
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word school has appeared for 1 times in this text\nThe word confident has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:14.063609
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word school has appeared for 1 times in this text
+The word confident has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:14.063679
+[INFO]	 [c5]	Time elapsed:  7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word need has appeared for 1 times in this text\nThe word law has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:14.958588
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word need has appeared for 1 times in this text
+The word law has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:14.958634
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word will has appeared for 1 times in this text\nThe word stay has appeared for 1 times in this text\nThe word out has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:15.628154
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word will has appeared for 1 times in this text
+The word stay has appeared for 1 times in this text
+The word out has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:15.628220
+[INFO]	 [c5]	Time elapsed:  6.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word svehla has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:17.082466
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word svehla has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:17.082508
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word path has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:17.960866
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word path has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:17.960922
+[INFO]	 [c5]	Time elapsed:  5.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word tell has appeared for 1 times in this text\nThe word niece has appeared for 1 times in this text\nThe word hurt has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:18.851619
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word tell has appeared for 1 times in this text
+The word niece has appeared for 1 times in this text
+The word hurt has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:18.851661
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word coldness has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:19.537100
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word coldness has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:19.537143
+[INFO]	 [c5]	Time elapsed:  4.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word gray has appeared for 1 times in this text\nThe word gasket has appeared for 1 times in this text\nThe word close has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:20.962461
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word gray has appeared for 1 times in this text
+The word gasket has appeared for 1 times in this text
+The word close has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:20.962518
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word della has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:22.510994
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word della has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:22.511046
+[INFO]	 [c5]	Time elapsed:  5.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word forgive has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:24.250921
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word forgive has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:24.250971
+[INFO]	 [c5]	Time elapsed:  5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word sting has appeared for 1 times in this text\nThe word castellano has appeared for 1 times in this text\nThe word casket has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:25.105868
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word sting has appeared for 1 times in this text
+The word castellano has appeared for 1 times in this text
+The word casket has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:25.105922
+[INFO]	 [c5]	Time elapsed:  5.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word have has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:26.200691
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word have has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:26.200754
+[INFO]	 [c5]	Time elapsed:  6.3e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word s has appeared for 1 times in this text\nThe word occur has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:27.151189
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word s has appeared for 1 times in this text
+The word occur has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:27.151231
+[INFO]	 [c5]	Time elapsed:  4.2e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word water has appeared for 1 times in this text\nThe word lou has appeared for 1 times in this text\nThe word go has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:27.933976
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word water has appeared for 1 times in this text
+The word lou has appeared for 1 times in this text
+The word go has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:27.934047
+[INFO]	 [c5]	Time elapsed:  7.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word spell has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:28.759928
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word spell has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:28.759973
+[INFO]	 [c5]	Time elapsed:  4.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word go has appeared for 1 times in this text\nThe word ask has appeared for 1 times in this text\nThe word also has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:29.313229
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word go has appeared for 1 times in this text
+The word ask has appeared for 1 times in this text
+The word also has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:29.313270
+[INFO]	 [c5]	Time elapsed:  4.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 1\nTop three frequent words: (count, word)\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:29.881317
+Received Input:After cleaning: 
+Total number of meaningful words: 1
+Top three frequent words: (count, word)
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:29.881374
+[INFO]	 [c5]	Time elapsed:  5.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word up has appeared for 1 times in this text\nThe word thing has appeared for 1 times in this text\nThe word castilla has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:30.684373
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word up has appeared for 1 times in this text
+The word thing has appeared for 1 times in this text
+The word castilla has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:30.684419
+[INFO]	 [c5]	Time elapsed:  4.6e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word look has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\nThe word bring has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:31.418997
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word look has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+The word bring has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:31.419041
+[INFO]	 [c5]	Time elapsed:  4.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 4\nTop three frequent words: (count, word)\nThe word not has appeared for 1 times in this text\nThe word help has appeared for 1 times in this text\nThe word gala has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:32.486759
+Received Input:After cleaning: 
+Total number of meaningful words: 4
+Top three frequent words: (count, word)
+The word not has appeared for 1 times in this text
+The word help has appeared for 1 times in this text
+The word gala has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:32.486823
+[INFO]	 [c5]	Time elapsed:  6.4e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word still has appeared for 1 times in this text\nThe word count has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:33.673059
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word still has appeared for 1 times in this text
+The word count has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:33.673110
+[INFO]	 [c5]	Time elapsed:  5.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 2\nTop three frequent words: (count, word)\nThe word east has appeared for 1 times in this text\nThe word coast has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:34.773756
+Received Input:After cleaning: 
+Total number of meaningful words: 2
+Top three frequent words: (count, word)
+The word east has appeared for 1 times in this text
+The word coast has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:34.773831
+[INFO]	 [c5]	Time elapsed:  7.5e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 5\nTop three frequent words: (count, word)\nThe word thing has appeared for 1 times in this text\nThe word poll has appeared for 1 times in this text\nThe word lot has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:36.248393
+Received Input:After cleaning: 
+Total number of meaningful words: 5
+Top three frequent words: (count, word)
+The word thing has appeared for 1 times in this text
+The word poll has appeared for 1 times in this text
+The word lot has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:36.248440
+[INFO]	 [c5]	Time elapsed:  4.7e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
+received request:inputType: "String"
+inputStream: "After cleaning: \nTotal number of meaningful words: 3\nTop three frequent words: (count, word)\nThe word have has appeared for 1 times in this text\nThe word grungy has appeared for 1 times in this text\nThe word call has appeared for 1 times in this text\n|True"
+
+
+
+[INFO]	 [c5]	 2019-06-07 03:45:37.066437
+Received Input:After cleaning: 
+Total number of meaningful words: 3
+Top three frequent words: (count, word)
+The word have has appeared for 1 times in this text
+The word grungy has appeared for 1 times in this text
+The word call has appeared for 1 times in this text
+|True
+[INFO]	 [c5]	 2019-06-07 03:45:37.066498
+[INFO]	 [c5]	Time elapsed:  6.1e-05  seconds.
+||||----||||Predict Output:Sentiment Analysis finished
