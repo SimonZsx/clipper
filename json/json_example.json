@@ -1,0 +1,24 @@
+{
+	"appName": "imagequery",
+	"supportSwarm": true,
+	"images": {
+		"bigball": ["imagequery:bigball"],
+		"clipper": ["imagequery:clipper"],
+		"withoutProxy": ["imagequery_wo_proxy:c0", "imagequery_wo_proxy:c1"],
+		"withProxy": ["imagequery_w_proxy:c0", "imagequery_w_proxy:c1"]
+	},
+	"buildFilePath": {
+		"bigball": "/clipper/build.sh",
+		"clipper": "/clipper/build.sh",
+		"withoutProxy": "/clipper/build.sh",
+		"withProxy": "/clipper/build.sh"
+	},
+	"frontendServerPath": "/clipper/clipper_admin/imagequery.py",
+	"frontendClientPath": "/clipper/clipper_admin/imagequery_concurrent_client.py",
+	"frontendClientParams": {
+		"worker": 1,
+		"system": "oursystem",
+		"port": 22223,
+		"ip": "172.0.0.0"
+	}
+}
