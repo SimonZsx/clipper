@@ -1,0 +1,9 @@
+5
+2
+c0_entryContainer,1,imagequery:container0,false,0
+c1_speechRecognition,1,imagequery:container1,false,0
+c2_imageCaptionGenerator,1,imagequery:container2,false,0
+c3_nlpMappingGenerator,1,imagequery:container3,false,0
+c4_questionAnswerer,1,imagequery:container4,false,0
+dist[1->2,3;4->5]
+reduce[2,3->4]
