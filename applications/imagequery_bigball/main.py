@@ -72,8 +72,8 @@ if __name__ == "__main__":
         print("\n[INFO]\t[req_{}]\t{}".format(i, str(tx)))
         run(i)
         ty = datetime.utcnow()
-        print("\n[INFO]\t[req_{}]\t{}".format(i, str(ty)))
-        print("\n[INFO]\t[req_{}]\tTime elapsed: {:.10f} seconds.".format(i, (ty-tx).total_seconds()))
+        print("[INFO]\t[req_{}]\t{}".format(i, str(ty)))
+        print("[INFO]\t[req_{}]\tTime elapsed: {:.10f} seconds.".format(i, (ty-tx).total_seconds()))
 
     t2 = datetime.utcnow()
     print("[INFO]\t[main]\t{}".format(str(t2)))
