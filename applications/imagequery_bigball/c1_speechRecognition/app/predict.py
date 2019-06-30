@@ -64,14 +64,14 @@ def recognize(audio_file_index):
 
 def predict(audio_file_path):
     t1 = datetime.utcnow()
-    print("\n[INFO]\t", "[c1]\t", str(t1))
+    print("[INFO]\t[c1]\t{}".format(str(t1)))
 
     recognized_string = recognize(audio_file_path)
 
     t2 = datetime.utcnow()
-    print("[INFO]\t", "[c1]\t", str(t2))
-    print("[INFO]\t", "[c1]\tTime elapsed: ", (t2-t1).total_seconds(), " seconds." )
-        
+    print("[INFO]\t[c1]\t{}".format(str(t2)))
+    print("[INFO]\t[c1]\tTime elapsed: {:.10f} seconds.".format(str((t2-t1).total_seconds())) )
+
     return recognized_string
 
 
