@@ -70,7 +70,7 @@ def predict(audio_file_path):
 
     t2 = datetime.utcnow()
     print("[INFO]\t[c1]\t{}".format(str(t2)))
-    print("[INFO]\t[c1]\tTime elapsed: {:.10f} seconds.".format(str((t2-t1).total_seconds())) )
+    print("[INFO]\t[c1]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
 
     return recognized_string
 

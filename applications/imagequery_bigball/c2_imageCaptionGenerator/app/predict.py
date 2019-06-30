@@ -92,7 +92,7 @@ def predict(image_file_index):
 
     t2 = datetime.utcnow()
     print("[INFO]\t[c2]\t{}".format(str(t2)))
-    print("[INFO]\t[c2]\tTime elapsed: {:.10f} seconds.".format(str((t2-t1).total_seconds())) )
+    print("[INFO]\t[c2]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
         
     return generated_caption
 

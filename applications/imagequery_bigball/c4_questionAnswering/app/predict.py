@@ -26,6 +26,6 @@ def predict(mapping):
 
     t2 = datetime.utcnow()
     print("[INFO]\t[c4]\t{}".format(str(t2)))
-    print("[INFO]\t[c4]\tTime elapsed: {:.10f} seconds.".format(str((t2-t1).total_seconds())) )
+    print("[INFO]\t[c4]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
 
     return answer
