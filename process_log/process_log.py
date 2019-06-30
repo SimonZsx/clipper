@@ -1,11 +1,12 @@
 import re
 import os 
+import argparse
 
 def process_bigball_log(is_imagequery=False):
     timebook = []
-
     num_requests = 0
-    num_containers = 5
+    num_containers = 5 # should read from json
+
     for _ in range(num_containers):
         timebook.append([])
 
@@ -21,8 +22,8 @@ def process_bigball_log(is_imagequery=False):
                     if container_id == 0: 
                         num_requests+=1
                         
-    if is_imagequery:
-        timebook[2] = timebook[2][1:]
+    # if is_imagequery:
+    #     timebook[2] = timebook[2][1:]
 
     for i, container_time_list in enumerate(timebook):
         print("Container{} average latency: {:.3f} miliseconds.".format(i, 1000 * sum(timebook[i]) / num_requests))
@@ -44,9 +45,10 @@ def process_w_proxy_log():
     avg_latency /= num_requests
     print("Average latency: {:.3f} miliseonds".format(avg_latency))
 
+
+
 def process_wo_proxy_log():
     num_requests = 0
-
 
     f = open("./process_log/wo_proxy.log", "r")
     for line in f:
@@ -59,8 +61,25 @@ def process_wo_proxy_log():
                 print("Average latency: {:.3f} miliseconds".format(total_time * 1000 / num_requests))
             except Exception as e:
                 print(e)
-    
-process_bigball_log(is_imagequery=True)
-process_w_proxy_log()
-process_wo_proxy_log()
+     
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Log processor')
+
+    parser.add_argument('--is_imagequery', nargs=1, type=str, help="true/false")
+    parser.add_argument('--system', nargs=1, type=str, help="w_proxy/wo_proxy/bigball")
+    parser.add_argument('--log_file', nargs=1, type=str, help="Path to log file")
+                       
+    args = parser.parse_args()
+
+    is_imagequery = args.is_imagequery[0]
+    system = args.system[0]
+    log_file = args.log_file[0]
+
+    # print(is_imagequery, system)
+
+    process_bigball_log(is_imagequery=True)
+    process_w_proxy_log()
+    process_wo_proxy_log()
+
 
