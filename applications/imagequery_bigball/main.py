@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     for i in range(100):
         tx = datetime.utcnow()
-        print("\n[INFO]\t[req_{}]\t{}".format(i, str(tx)))
+        print("[INFO]\t[req_{}]\t{}".format(i, str(tx)))
         run(i)
         ty = datetime.utcnow()
         print("[INFO]\t[req_{}]\t{}".format(i, str(ty)))
