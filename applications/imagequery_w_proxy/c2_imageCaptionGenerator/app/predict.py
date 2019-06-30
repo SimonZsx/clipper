@@ -99,5 +99,6 @@ def predict(image_file_index):
 
 predict(1000)
 print("Fully initialized model (with 1 extra prediction).")
+print("c2 started!")
 
 

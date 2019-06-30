@@ -28,3 +28,5 @@ def predict(mapping):
     print("[INFO]\t", "[c4]\t", str(t2))
     print("[INFO]\t", "[c4]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds." )
     return answer
+  
+print("c4 started!")

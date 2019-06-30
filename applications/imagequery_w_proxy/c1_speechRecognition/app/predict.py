@@ -74,3 +74,5 @@ def predict(audio_file_path):
 
 if __name__ == "__main__":
     predict(1)
+
+print("c1 started!")
