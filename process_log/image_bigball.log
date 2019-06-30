@@ -1,0 +1,73 @@
+[INFO]  [c2]    2019-06-30 08:50:16.867517
+[INFO]  [c2]    2019-06-30 08:50:25.613846
+[INFO]  [c2]    Time elapsed: 8.7463290000 seconds.
+Fully initialized model (with 1 extra prediction).
+preprocess.py modules loaded successfully in 0.339793439999994 seconds.
+---Modules successfully imported---
+[INFO]  [main]  2019-06-30 08:50:26.409232
+
+[INFO]  [req_0] 2019-06-30 08:50:26.409254
+[INFO]  [c0]    2019-06-30 08:50:26.409273
+[INFO]  [c0]    2019-06-30 08:50:26.409284
+[INFO]  [c0]    Time elapsed: 0.0000110000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:26.409315
+[INFO]  [c2]    2019-06-30 08:50:26.448069
+[INFO]  [c1]    2019-06-30 08:50:26.450588
+[INFO]  [c2]    2019-06-30 08:50:26.549980
+[INFO]  [c2]    Time elapsed: 0.1019110000 seconds.
+[INFO]  [c1]    2019-06-30 08:50:27.025250
+[INFO]  [c1]    Time elapsed: 0.5746620000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:27.082300
+[INFO]  [pool]  Time elapsed: 0.6729850000 seconds.
+[INFO]  [c3]    2019-06-30 08:50:27.082385
+[INFO]  [c3]    2019-06-30 08:50:27.110662
+[INFO]  [c3]    Time elapsed: 0.0282770000 seconds.
+[INFO]  [c4]    2019-06-30 08:50:27.110718
+[INFO]  [c4]    2019-06-30 08:50:27.110741
+[INFO]  [c4]    Time elapsed: 0.0000230000 seconds.
+[INFO]  [req_0] 2019-06-30 08:50:27.111015
+[INFO]  [req_0] Time elapsed: 0.7017610000 seconds.
+
+[INFO]  [req_1] 2019-06-30 08:50:27.111069
+[INFO]  [c0]    2019-06-30 08:50:27.111086
+[INFO]  [c0]    2019-06-30 08:50:27.111096
+[INFO]  [c0]    Time elapsed: 0.0000100000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:27.111112
+[INFO]  [c2]    2019-06-30 08:50:27.144905
+[INFO]  [c1]    2019-06-30 08:50:27.151134
+[INFO]  [c2]    2019-06-30 08:50:27.247869
+[INFO]  [c2]    Time elapsed: 0.1029640000 seconds.
+[INFO]  [c1]    2019-06-30 08:50:27.763318
+[INFO]  [c1]    Time elapsed: 0.6121840000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:27.879001
+[INFO]  [pool]  Time elapsed: 0.7678890000 seconds.
+[INFO]  [c3]    2019-06-30 08:50:27.879085
+[INFO]  [c3]    2019-06-30 08:50:27.900355
+[INFO]  [c3]    Time elapsed: 0.0212700000 seconds.
+[INFO]  [c4]    2019-06-30 08:50:27.900412
+[INFO]  [c4]    2019-06-30 08:50:27.900436
+[INFO]  [c4]    Time elapsed: 0.0000240000 seconds.
+[INFO]  [req_1] 2019-06-30 08:50:27.900745
+[INFO]  [req_1] Time elapsed: 0.7896760000 seconds.
+
+[INFO]  [req_2] 2019-06-30 08:50:27.900793
+[INFO]  [c0]    2019-06-30 08:50:27.900811
+[INFO]  [c0]    2019-06-30 08:50:27.900821
+[INFO]  [c0]    Time elapsed: 0.0000100000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:27.900846
+[INFO]  [c2]    2019-06-30 08:50:27.934714
+[INFO]  [c1]    2019-06-30 08:50:27.940801
+[INFO]  [c2]    2019-06-30 08:50:28.036061
+[INFO]  [c2]    Time elapsed: 0.1013470000 seconds.
+[INFO]  [c1]    2019-06-30 08:50:28.406798
+[INFO]  [c1]    Time elapsed: 0.4659970000 seconds.
+[INFO]  [pool]  2019-06-30 08:50:28.468733
+[INFO]  [pool]  Time elapsed: 0.5678870000 seconds.
+[INFO]  [c3]    2019-06-30 08:50:28.468824
+[INFO]  [c3]    2019-06-30 08:50:28.489614
+[INFO]  [c3]    Time elapsed: 0.0207900000 seconds.
+[INFO]  [c4]    2019-06-30 08:50:28.489670
+[INFO]  [c4]    2019-06-30 08:50:28.489691
+[INFO]  [c4]    Time elapsed: 0.0000210000 seconds.
+[INFO]  [req_2] 2019-06-30 08:50:28.489967
+[INFO]  [req_2] Time elapsed: 0.5891740000 seconds.
