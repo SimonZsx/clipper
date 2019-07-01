@@ -120,7 +120,7 @@ if __name__ == '__main__':
                 refresh=data["buildFilePath"][parser.parse_args().mode],
                 start_app=data["frontendServerPath"][parser.parse_args().mode],
                 start_app_argv = data["frontendServerArgs"][parser.parse_args().mode],
-                frontend=data["frontendClientPath"][parser.parse_args().mode()],
+                frontend=data["frontendClientPath"][parser.parse_args().mode],
                 frontend_param=data['frontendClientParams'][parser.parse_args().mode])
     test.prepare_for_clipper()
 
