@@ -74,7 +74,15 @@ class App:
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
         print("> "+frontend_cmd)
         try:
-            os.system(frontend_cmd)
+            f = open("./process_log/"+self.appName+"_"+self.mode+".log", "w")
+            
+            oFlowLog = os.popen(frontend_cmd)
+            senct = oFlowLog.readline()
+            while senct != "":
+                print(senct, end="")
+                f.write(senct)
+                senct = os.readline()
+            f.close()
             return PROC_OK
         except:
             print("Fail to run the frontend: ", self.frontend, "with: ", self.frontend_param,"\nCheck configuration")
@@ -139,7 +147,7 @@ if __name__ == '__main__':
     print("Log processing...")
     process_log.log_generator(data["appName"]=="imagequery", 
                               system=test.get_mode(), 
-                              log_file="./process_log/"+test.get_appName()+".log")
+                              log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
     
     print("Close all the containers")
     if test.get_network() == 'localhost':
