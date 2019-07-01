@@ -65,7 +65,7 @@
 		"withoutProxy":{
 			"worker": "1",
 			"system": "withoutproxy",
-			"port": "22223",
+			"port": "22222",
 			"ip": "172.0.0.0"
 		}
 	}
