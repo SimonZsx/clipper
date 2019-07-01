@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser.add_argument('--dag_graph', type=str, help='File Path of DAG file')
                        
     args = parser.parse_args()
-    dag_graph = args.dag_graph[0]
+    dag_graph = args.dag_graph
 
     signal.signal(signal.SIGINT, signal_handler)
     clipper_conn = ClipperConnection(DockerContainerManager())
