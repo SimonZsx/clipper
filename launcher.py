@@ -1,4 +1,4 @@
-import os
+import os, sys
 import json
 import argparse
 sys.path.append(os.path.abspath("/clipper/process_log"))
