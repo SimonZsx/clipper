@@ -61,7 +61,15 @@ def process_wo_proxy_log():
                 print("Average latency: {:.3f} miliseconds".format(total_time * 1000 / num_requests))
             except Exception as e:
                 print(e)
-     
+
+def log_generator(is_imagequery, system, log_file):
+    print(is_imagequery, system)
+
+    process_bigball_log(is_imagequery=True)
+    process_w_proxy_log()
+    process_wo_proxy_log()
+    
+    return 0
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Log processor')
