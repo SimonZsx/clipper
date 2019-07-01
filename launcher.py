@@ -47,7 +47,7 @@ class App:
             while(thisLine != ""):
                 print(thisLine,end='')
 
-                if(self.mode=='clipper' and "-frontend-" in thisLine):
+                if(self.mode=='withProxy' and "-frontend-" in thisLine):
                     self.frontend_param["ip"] = thisLine.split(',')[-1]
                 
                 thisLine = oFlow.readline()
@@ -67,7 +67,7 @@ class App:
             print("IP is not detected, please enter manually:", end='\t')
             self.frontend_param["ip"]=input()
         
-        frontend_cmd = "python3" + self.frontend
+        frontend_cmd = "python3 " + self.frontend
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
         print("> "+frontend_cmd)
         try:
