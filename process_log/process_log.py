@@ -2,7 +2,7 @@ import re
 import os 
 import argparse
 
-def process_bigball_log(is_imagequery=False, log_file):
+def process_bigball_log(log_file, is_imagequery=False):
     timebook = []
     num_requests = 0
     num_containers = 5 # should read from json
@@ -70,7 +70,7 @@ def log_generator(is_imagequery, system, log_file):
     """
 
     if system == "bigball":
-        process_bigball_log(is_imagequery=True, log_file)
+        process_bigball_log(log_file, is_imagequery=True)
     elif system == "withoutProxt":
         process_wo_proxy_log(log_file)
     elif system == "withProxy":
