@@ -8,6 +8,10 @@ import time
 import numpy as np
 import signal
 import sys
+import argparse
+
+
+
 
 # Stop Clipper on Ctrl-C
 def signal_handler(signal, frame):
@@ -18,11 +22,14 @@ def signal_handler(signal, frame):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Enter the dag name')
+    parser.add_argument('--dag', '-d', help='File Path of DAG file', dest='dag_graph')
+
     signal.signal(signal.SIGINT, signal_handler)
     clipper_conn = ClipperConnection(DockerContainerManager())
     clipper_conn.start_clipper()
 
-    f = open("../applications/auto_pilot/dag_formatted","r")
+    f = open(parser.parse_args().dag_graph,"r")
     dag_description = f.read()
     f.close()
 

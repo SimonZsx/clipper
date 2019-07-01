@@ -9,7 +9,7 @@ logic already provides good enough result.
 
 def predict(mapping):
     t1 = datetime.utcnow()
-    print("\n[INFO]\t", "[c4]\t", str(t1))
+    print("[INFO]\t[c4]\t{}".format(str(t1)))
 
     split = mapping.split('-')
     noun_str = split[0]
@@ -25,6 +25,7 @@ def predict(mapping):
       answer = "Unable to analyze..."
 
     t2 = datetime.utcnow()
-    print("[INFO]\t", "[c4]\t", str(t2))
-    print("[INFO]\t", "[c4]\t", "Time elapsed: ", (t2-t1).total_seconds(), " seconds." )
+    print("[INFO]\t[c4]\t{}".format(str(t2)))
+    print("[INFO]\t[c4]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
+
     return answer
