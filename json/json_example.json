@@ -11,7 +11,7 @@
 			"imagequery_wo_proxy:c3",
 			"imagequery_wo_proxy:c4"
 		],
-		"withoutProxy": [
+		"withProxy": [
 			"imagequery_w_proxy:c0", 
 			"imagequery_w_proxy:c1", 
 			"imagequery_w_proxy:c2", 
@@ -22,7 +22,7 @@
 	"buildFilePath": {
 		"bigball": "/clipper/applications/imagequery_bigball/build.sh",
 		"clipper": "/clipper/applications/imagequery_clipper/container/build.sh",
-		"withoutProxy": "/clipper/applications/imagequery_wo_proxy.sh",
+		"withoutProxy": "/clipper/applications/build_imagequery_wo_proxy.sh",
 		"withProxy": "/clipper/applications/build_imagequery_w_proxy.sh"
 	},
 	"frontendServerPath": { 
