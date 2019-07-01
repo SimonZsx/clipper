@@ -23,14 +23,17 @@ def signal_handler(signal, frame):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Enter the dag name')
-    parser.add_argument('--dag', '-d', help='File Path of DAG file', dest='dag_graph')
+    parser.add_argument('--dag_graph', type=str, help='File Path of DAG file')
+                       
+    args = parser.parse_args()
+    dag_graph = args.dag_graph[0]
 
     signal.signal(signal.SIGINT, signal_handler)
     clipper_conn = ClipperConnection(DockerContainerManager())
     clipper_conn.start_clipper()
 
 
-    f = open(parser.parse_args().dag_graph,"r")
+    f = open(dag_graph,"r")
     dag_description = f.read()
     f.close()
     
