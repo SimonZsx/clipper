@@ -13,12 +13,23 @@
 		"withoutProxy": "/clipper/build.sh",
 		"withProxy": "/clipper/build.sh"
 	},
-	"frontendServerPath": "/clipper/clipper_admin/imagequery.py",
+	"frontendServerPath": { 
+		"bigball": "/clipper/applications/imagequery_bigball/run.sh",
+		"clipper": "#",
+		"withoutProxy": "/clipper/applications/run_imagequery_wo_proxy.sh",
+		"withProxy": "/clipper/clipper_admin/imagequery.py"
+	},
+	"frontendServerArgs": { 
+		"bigball": "",
+		"clipper": "",
+		"withoutProxy": "",
+		"withProxy": "--dag /clipper/applications/imagequery_w_porxy/dag_formatted"
+	},
 	"frontendClientPath": "/clipper/clipper_admin/imagequery_concurrent_client.py",
 	"frontendClientParams": {
-		"worker": 1,
+		"worker": "1",
 		"system": "oursystem",
-		"port": 22223,
+		"port": "22223",
 		"ip": "172.0.0.0"
 	}
 }
