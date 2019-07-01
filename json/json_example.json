@@ -23,7 +23,7 @@
 		"bigball": "",
 		"clipper": "",
 		"withoutProxy": "",
-		"withProxy": "--dag /clipper/applications/imagequery_w_porxy/dag_formatted"
+		"withProxy": "--dag /clipper/applications/imagequery_w_proxy/dag_formatted"
 	},
 	"frontendClientPath": "/clipper/clipper_admin/imagequery_concurrent_client.py",
 	"frontendClientParams": {
