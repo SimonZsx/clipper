@@ -1,0 +1,159 @@
+syntax = "proto3";
+
+package management;
+
+// service, encode a plain text 
+service ManagementServer {
+
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+
+
+
+    //////////////////////////////////////////////////////////////////
+    // Failure Daemon
+    //////////////////////////////////////////////////////////////////
+
+
+    rpc ReportContainerFailure (FailureInfo) returns (FailureResponse) {}
+
+
+    //////////////////////////////////////////////////////////////////
+    // Management Server
+    //////////////////////////////////////////////////////////////////
+
+    //SET
+    rpc AddModel (ModelInfo) returns (Response) {}
+    rpc AddModelContainer (ModelContainerInfo) returns (Response) {}
+    rpc AddProxyContainer (ProxyContainerInfo) returns (Response) {}
+
+    rpc AddDAG (DAGInfo) returns (Response) {}
+    rpc AddRuntimeDAG (RuntimeDAGInfo) returns (Response) {}
+
+    rpc AddApp (AppInfo) returns (Response) {}
+    rpc AddAppDAGLink (LinkInfo) returns (Response) {}
+
+    // Recoverey
+
+    //rpc StartUpdateRuntimeDAG (RuntimeDAGInfo) returns (RuntimeDAGInfo) {}
+    //rpc FinishUpdateRuntimeDAG (RuntimeDAGInfo) returns (RuntimeDAGInfo) {}
+    //rpc DropUpdateRuntimeEDAG (RuntimeDAGInfo) returns (RuntimeDAGInfo) {}
+
+    // UPDATE
+
+    rpc UpdateRuntimeDAG (RuntimeDAGInfo) returns (Response) {}
+
+
+    //GET
+
+    rpc GetModelByName (ModelInfo) returns (ModelInfo) {}
+
+    rpc GetAllModel (Request) returns (ModelInfoList) {}
+
+    rpc GetRuntimeDAG (RuntimeDAGInfo) returns (RuntimeDAGInfo) {}
+}
+
+
+message FailureInfo{
+    string modelid = 1;  // model id means which node (the first node -> modelid=1)
+    string hostip = 2; // N/A currently igored
+    string failuretime = 3; // N/A
+    string appid = 4; // N/A
+    string proxyip = 5; // N/A
+    string modelname = 6; //The failured model container name
+}
+
+message FailureResponse{
+    string oldruntimedag = 1;
+    string newruntimedag = 2;
+    bool isprimary = 3; // True / False
+    bool isstateful = 4; // True / False
+    string status = 5; // N/A
+    string modelid = 6; // model id means which node (the first node -> modelid=1), same as the FailureInfo
+}
+
+
+message Request{
+    string msg = 1;
+}
+
+message ModelInfo{
+    string modelname = 1;
+    string modelversion = 2;
+    string inputtype = 3;
+    string outputtype = 4;
+    bool stateful = 5;
+    string image = 6;
+}
+
+message ModelInfoList{
+    repeated ModelInfo list = 1;
+}
+
+message ModelContainerInfo{
+    string modelname = 1;
+    string modelversion = 2;
+    string ip = 3;
+    string host = 4;
+    uint32 port = 5;
+    string containerid = 6;
+    uint32 replicaid = 7;
+}
+
+message ModelContainerInfoList{
+    repeated ModelContainerInfo list = 1;
+}
+
+message ProxyContainerInfo{
+    string proxyname = 1;
+    string modelname = 2;
+    string modelversion = 3;
+    uint32 modelreplicaid = 4;
+    string ip = 5;
+    string host = 6;
+    uint32 port = 7;
+    string containerid = 8;
+    string image = 9;   
+}
+
+message DAGInfo{
+    string file = 1;
+    string name = 2;
+    string version = 3;
+    string format = 4;
+}
+
+message RuntimeDAGInfo{
+    string file = 1;
+    string id = 2;
+    string name = 3;
+    string version = 4;
+    string format = 5;
+}
+
+message AppInfo{
+    string name = 1;
+    string version = 2;
+    // SLOs and others 
+}
+
+message LinkInfo{
+    string appname = 1;
+    string appversion =2;
+    string dagname =3;
+    string dagversion = 4;
+    string dagid = 5;
+}
+
+message Response {
+    string status = 1;
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
