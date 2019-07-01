@@ -65,7 +65,7 @@ class App:
         if ch!='y' and ch!='n':
             self.frontend_param["ip"] = ch
         elif ch=='n':
-            os.system(docker inspect c0 | grep "IPAddress")
+            os.system("docker inspect c0 | grep \"IPAddress\"")
             self.frontend_param["ip"] = input("please enter ip now: ")
         
         frontend_cmd = "python3 " + self.frontend
