@@ -41,13 +41,14 @@ class App:
 
     def start(self):
         try:
-            print("> python3 "+self.start_app)
-            oFlow = os.popen("python3 "+self.start_app)
+            start_cmd = "python3 "+ self.start_app if "py" in self.start_app else self.start_app
+            print("> " + start_cmd)
+            oFlow = os.popen(start_cmd)
             thisLine = oFlow.readline()
             while(thisLine != ""):
                 print(thisLine,end='')
 
-                if(self.mode=='withProxy' and "-frontend-" in thisLine):
+                if "-frontend-" in thisLine:
                     self.frontend_param["ip"] = thisLine.split(',')[-1]
                 
                 thisLine = oFlow.readline()
@@ -59,13 +60,18 @@ class App:
             return PROC_ERR
 
     def start_frontend(self):
-        if self.mode != 'clipper' and (not 'Proxy' in self.mode):
+        if self.frontend == "" :
             print("Current mode does not support a frontend enquire")
             return PROC_OK
         
         if self.frontend_param["ip"]=="172.0.0.0":
             print("IP is not detected, please enter manually:", end='\t')
             self.frontend_param["ip"]=input()
+        else:
+            print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm or enter the IP manually")
+            ch = input()
+            if ch!='y':
+                self.frontend_param["ip"] = ch
         
         frontend_cmd = "python3 " + self.frontend
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
@@ -114,8 +120,8 @@ if __name__ == '__main__':
                 refresh=data["buildFilePath"][parser.parse_args().mode],
                 start_app=data["frontendServerPath"][parser.parse_args().mode],
                 start_app_argv = data["frontendServerArgs"][parser.parse_args().mode],
-                frontend=data["frontendClientPath"],
-                frontend_param=data['frontendClientParams'])
+                frontend=data["frontendClientPath"][parser.parse_args().mode()],
+                frontend_param=data['frontendClientParams'][parser.parse_args().mode])
     test.prepare_for_clipper()
 
     if (refresh_image):
