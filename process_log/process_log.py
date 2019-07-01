@@ -2,7 +2,7 @@ import re
 import os 
 import argparse
 
-def process_bigball_log(is_imagequery=False):
+def process_bigball_log(is_imagequery=False, log_file):
     timebook = []
     num_requests = 0
     num_containers = 5 # should read from json
@@ -10,7 +10,7 @@ def process_bigball_log(is_imagequery=False):
     for _ in range(num_containers):
         timebook.append([])
 
-    f = open("./process_log/image_bigball.log", "r")
+    f = open(log_file, "r")
     for line in f:
         if "Time elapsed:" in line:
             container_id_str = str(line[10])
@@ -22,19 +22,19 @@ def process_bigball_log(is_imagequery=False):
                     if container_id == 0: 
                         num_requests+=1
                         
-    # if is_imagequery:
-    #     timebook[2] = timebook[2][1:]
+    if is_imagequery:
+        timebook[2] = timebook[2][1:]
 
     for i, container_time_list in enumerate(timebook):
         print("Container{} average latency: {:.3f} miliseconds.".format(i, 1000 * sum(timebook[i]) / num_requests))
 
     
 
-def process_w_proxy_log():
+def process_w_proxy_log(log_file):
     avg_latency = 0.0
     num_requests = 0
 
-    f = open("./process_log/w_proxy.log", "r")
+    f = open(log_file, "r")
     for line in f:
         if "time:" in line:
             num_requests += 1
@@ -47,10 +47,10 @@ def process_w_proxy_log():
 
 
 
-def process_wo_proxy_log():
+def process_wo_proxy_log(log_file):
     num_requests = 0
 
-    f = open("./process_log/wo_proxy.log", "r")
+    f = open(log_file, "r")
     for line in f:
         if line[:5] == "Input":
             num_requests += 1
@@ -63,13 +63,22 @@ def process_wo_proxy_log():
                 print(e)
 
 def log_generator(is_imagequery, system, log_file):
-    print(is_imagequery, system)
+    print(is_imagequery, system, log_file)
 
-    process_bigball_log(is_imagequery=True)
-    process_w_proxy_log()
-    process_wo_proxy_log()
-    
-    return 0
+    """ 
+    system: clipper, bigball, withoutProxy, withProxy
+    """
+
+    if system == "bigball":
+        process_bigball_log(is_imagequery=True, log_file)
+    elif system == "withoutProxt":
+        process_wo_proxy_log(log_file)
+    elif system == "withProxy":
+        process_w_proxy_log(log_file)
+    else:
+        print("Cannot handle this mode!")
+
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Log processor')
