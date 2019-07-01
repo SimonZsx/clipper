@@ -1,6 +1,8 @@
 import os
 import json
 import argparse
+sys.path.append(os.path.abspath("/clipper/process_log"))
+import process_log
 
 """
 MODE: clipper, bigball, withoutProxy, withProxy
@@ -133,6 +135,12 @@ if __name__ == '__main__':
 
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
+    
+    print("Log processing...")
+    process_log.log_generator(test.get_mode()=="bigball", 
+                              system=test.get_mode(), 
+                              log_file="./process_log/"+test.get_appName()+".log")
+    
     print("Close all the containers")
     if test.get_network() == 'localhost':
         print("> python3 /clipper/clipper_admin/stop_all.py")
