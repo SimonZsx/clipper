@@ -18,6 +18,7 @@ class App:
                              frontend="/clipper/clipper_admin/concrrent_frontend_client.py",
                              frontend_param={"worker":"1", "system":"outsystem", "port":"22223", "ip":"172.0.0.0"}):
         self.appName = name
+        self.network = network
         self.mode = mode # can be "clipper", "bigball", "withoutProxy" or "withProxy"
         self.in_swarm = False if network=='localhost' else True
         self.images = images
@@ -132,7 +133,7 @@ if __name__ == '__main__':
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
     print("Close all the containers")
-    if test.get_network == 'localhost':
+    if test.get_network() == 'localhost':
         print("> python3 /clipper/clipper_admin/stop_all.py")
         os.system("python3 /clipper/clipper_admin/stop_all.py")
     else:
