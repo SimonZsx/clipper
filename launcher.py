@@ -60,10 +60,13 @@ class App:
             print("Current mode does not support a frontend enquire")
             return PROC_OK
         
-        print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm or enter the IP manually")
+        print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm, \'n\' to inspect or enter the IP manually")
         ch = input()
-        if ch!='y':
+        if ch!='y' and ch!='n':
             self.frontend_param["ip"] = ch
+        elif ch=='n':
+            os.system(docker inspect c0 | grep "IPAddress")
+            self.frontend_param["ip"] = input("please enter ip now: ")
         
         frontend_cmd = "python3 " + self.frontend
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
