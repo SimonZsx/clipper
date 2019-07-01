@@ -67,7 +67,7 @@ class App:
             print("IP is not detected, please enter manually:", end='\t')
             self.frontend_param["ip"]=input()
         
-        frontend_cmd = self.frontend
+        frontend_cmd = "python3" + self.frontend
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
         print("> "+frontend_cmd)
         try:
