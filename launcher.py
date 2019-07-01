@@ -47,10 +47,6 @@ class App:
             thisLine = oFlow.readline()
             while(thisLine != ""):
                 print(thisLine,end='')
-
-                if "-frontend-" in thisLine:
-                    self.frontend_param["ip"] = thisLine.split(',')[-1]
-                
                 thisLine = oFlow.readline()
             oFlow.close()
             print("\n"+"-"*20+"\nApplication started up")
@@ -64,14 +60,10 @@ class App:
             print("Current mode does not support a frontend enquire")
             return PROC_OK
         
-        if self.frontend_param["ip"]=="172.0.0.0":
-            print("IP is not detected, please enter manually:", end='\t')
-            self.frontend_param["ip"]=input()
-        else:
-            print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm or enter the IP manually")
-            ch = input()
-            if ch!='y':
-                self.frontend_param["ip"] = ch
+        print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm or enter the IP manually")
+        ch = input()
+        if ch!='y':
+            self.frontend_param["ip"] = ch
         
         frontend_cmd = "python3 " + self.frontend
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
