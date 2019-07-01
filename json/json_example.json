@@ -41,7 +41,7 @@
 		"bigball":"",
 		"clipper":"",
 		"withProxy":"/clipper/clipper_admin/imagequery_concurrent_client.py",
-		"withoutProxy":""
+		"withoutProxy":"/clipper/clipper_admin/imagequery_concurrent_client.py"
 	},	
 	"frontendClientParams": {
 		"bigball":{
