@@ -1,0 +1,191 @@
+syntax = "proto3";
+
+package prediction;
+import "google/protobuf/timestamp.proto";
+import "model.proto";
+
+
+//The message passed between proxies.
+//maintainer: xs.
+message request{
+    modeltest.input input_ = 1;
+
+    string src_uri = 2;
+    uint32 seq = 3;
+    uint32 req_id = 4;
+
+    google.protobuf.Timestamp timestamp = 5;
+}
+
+
+
+//The info of proxy used for recovery.
+//maintainer: xs,
+message proxy_info {
+    string ip = 1;
+    uint32 port = 2;
+    bool stateful = 3;
+    bool is_primary = 4;
+
+    uint32 seq = 5;
+    uint32 model_id = 6;
+
+    string container_name = 7;  
+
+    string model_container_name = 8; 
+}
+
+//The return value (info needed) while reporting a node's failure to the manager.
+//maintainer: xs, sx
+message failure_reply{
+    proxy_info new_proxy = 1;
+
+    repeated proxy_info successors =2;
+    repeated proxy_info predecessors = 3;
+
+    bool is_primary = 4;
+}
+
+//The recovery req between proxies .
+//maintainer: xs.
+message recovery_req {
+    proxy_info failed_proxy = 1;
+    proxy_info new_proxy = 2;
+    uint32 start_seq = 3;
+    bool is_stateful = 4;
+    bool is_primary = 5;
+}
+
+//The recovery req between proxies .
+//maintainer: xs.
+message successor_prepare_reply {
+    uint32 seq = 1;
+}
+
+//The recovery req between proxies .
+//maintainer: xs.
+message ping_req{
+
+}
+
+//The recovery req between proxies .
+//maintainer: xs.
+message ping_reply{
+    uint32 status = 1; //enum representing a status status
+
+    bool stateful = 2;
+
+    bool is_primary = 3;
+}
+
+//The recovery req between proxies .
+//maintainer: xs.
+message successor_prepare_req{
+    proxy_info failed_proxy = 1;
+    proxy_info new_proxy = 2;
+}
+
+
+
+//The recovery req between proxies .
+//maintainer: xs.
+message proxy_group {
+    repeated proxy_info proxies = 1;
+    bool stateful = 2;
+
+}
+
+
+//The recovery req between proxies .
+//maintainer: xs.
+message new_proxy_recover_req{
+    repeated proxy_group pred_groups = 1;
+    repeated proxy_group down_groups = 2;
+    uint32 start_seq = 3;
+    string model_ip = 4; 
+    uint32 model_id = 5; 
+    string my_uri = 6; 
+    string dag_name = 7; 
+    int32 batch_size =8; 
+}
+
+
+
+message modelinfo {
+    string modelName = 1;
+    uint32 modelPort = 2;
+    uint32 modelId = 3;
+    string modelIp = 4;
+    uint32 replicaid = 5;
+    string reserved = 6;
+}
+
+message dag{
+    string dag_ = 1;
+}
+
+message runtimequery {
+
+}
+
+message runtimeinfo {
+    float cache_hit_rate = 1; 
+    uint32 n_requests = 2; 
+}
+
+message batch_adj_request {
+    float ratio = 1; 
+}
+
+message modelinfolist {
+    repeated modelinfo list= 1;
+}
+
+service ProxyServer{
+
+    /*
+    A proxy calls this method on a downstream proxy to pass its model output as
+    request to the downstream.
+
+    Client: Upstream Proxy || The SMR leader.
+    Server: Downstream Proxy.
+
+    Input: The passed request. (currently not batched)
+    Returns: A simple ACK.
+    */
+    rpc downstream (request) returns(modeltest.response){}
+
+    /*
+    Failure Recovery RPCs
+    */
+    rpc prepare_recover_successor (successor_prepare_req) returns (successor_prepare_reply){}
+    rpc prepare_recover_predecessor (recovery_req) returns (modeltest.response) {}
+    rpc commit_recover_successor(recovery_req) returns (modeltest.response) {}
+    rpc commit_recover_predecessor(recovery_req) returns (modeltest.response) {}
+    rpc recover_new_proxy (new_proxy_recover_req) returns (modeltest.response) {}
+    rpc promote_primary (new_proxy_recover_req) returns (modeltest.response) {}
+
+    /*
+    An predecessor call this to appoint a stateful downstream replica as primary.
+    */
+    // rpc set_primary(proxy_info) returns (modeltest.response) {}
+    rpc ping(ping_req) returns (ping_reply) {}
+
+    //Called by manager
+    rpc SetModel(modelinfo) returns (modeltest.response) {}
+    rpc SetDAG(dag) returns (modeltest.response) {}
+
+    // Set a bunch of replicas 
+
+    rpc SetModelReplica(modelinfolist) returns (modeltest.response) {}
+
+    // Frontend proxy usage only 
+    rpc outputstream (request) returns (modeltest.response) {}
+    rpc notifyentryproxy (proxy_info) returns (modeltest.response) {}
+
+    // Runtime infos
+    
+    rpc GetRuntimeInfo(runtimequery) returns (runtimeinfo) {}
+
+    rpc AdjustBatchSize (batch_adj_request) returns (modeltest.response) {}
+}

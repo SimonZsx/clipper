@@ -3,6 +3,11 @@ docker run -it --network=host \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v /tmp:/tmp zsxhku/clipperpy35dev
 
+docker run -it --network=host \
+-v ~/code_yy/clipper:/clipper \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v /tmp:/tmp zsxhku/clipperpy35dev
+
 docker pull zsxhku/clipperpy35dev && docker pull mxschen/ai-proxy
 
 python3 imagequery_concurrent_client.py --port 22223 --system oursystem --ip 172.19.0.15 --worker 1

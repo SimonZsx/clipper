@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package modeltest;
+
+// service, encode a plain text 
+service PredictService {
+    // request a service of encode
+    rpc Predict(input) returns (output) {}
+    // Reminder: 
+    // The order of output[] need to be the same as input[]
+    rpc BatchPredict (BatchInput) returns (BatchOuput) {}
+
+    rpc SetProxy(proxyinfo) returns (response) {}
+    rpc Ping(hi) returns (response) {}
+}
+
+message hi {
+    string msg = 1;
+}
+
+message input {
+    string inputType = 1;
+    string inputStream = 2;
+}
+
+message output {
+    string outputType = 1;
+    string outputStream = 2;
+}
+
+message proxyinfo {
+    string proxyName = 1;
+    string proxyPort = 2;
+}
+
+message response {
+    string status = 1;
+}
+
+message BatchInput{
+    repeated input inputs = 1; 
+    uint32 count = 2; 
+}
+
+message BatchOuput{
+    repeated output outputs = 1; 
+    uint32 count = 2; 
+}
+
+
+
