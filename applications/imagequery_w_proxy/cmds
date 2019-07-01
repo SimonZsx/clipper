@@ -8,7 +8,7 @@ docker run -it --network=host \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -v /tmp:/tmp zsxhku/clipperpy35dev
 
-python3 imagequery.py --dag ../applications/imageuquery_w_proxy/dag_formatted
+python3 imagequery.py --dag ../applications/imagequery_w_proxy/dag_formatted
 
 
 python3 imagequery_concurrent_client.py --port 22223 --system oursystem --ip 172.19.0.15 --worker 1
