@@ -22,13 +22,12 @@ class App:
         self.mode = mode # can be "clipper", "bigball", "withoutProxy" or "withProxy"
         self.in_swarm = False if network=='localhost' else True
         self.images = images
-        self.refresh_image_cmd = ["docker image pull "+img for img in self.images] if refresh=="" else [].append(refresh)
+        self.refresh_image_cmd = ["docker image pull "+img for img in self.images] if refresh=="" else refresh.split(',')
         self.start_app = " ".join([start_app, start_app_argv])
         self.frontend = frontend
         self.frontend_param = frontend_param
 
     def refresh_image(self):
-        print(self.refresh_image_cmd)
         try:
             for cmd in self.refresh_image_cmd:
                 print("> "+cmd)
