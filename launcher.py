@@ -137,7 +137,7 @@ if __name__ == '__main__':
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
     
     print("Log processing...")
-    process_log.log_generator(test.get_mode()=="bigball", 
+    process_log.log_generator(data["appName"]=="imagequery", 
                               system=test.get_mode(), 
                               log_file="./process_log/"+test.get_appName()+".log")
     
