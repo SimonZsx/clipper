@@ -1,13 +1,15 @@
 import os
+import json
+import argparse
 
 """
-MODE: clipper, bigball, wo_proxy
+MODE: clipper, bigball, withoutProxy, withProxy
 NETWORK: localhost, swarm, clipper
 """
 PROC_OK, PROC_ERR = 0, 1
 
 class App:
-    def __init__(self, name, mode="local", 
+    def __init__(self, name, mode="withProxy", 
                              network="clipper",
                              images=[],
                              refresh="",
@@ -16,8 +18,8 @@ class App:
                              frontend="/clipper/clipper_admin/concrrent_frontend_client.py",
                              frontend_param={"worker":"1", "system":"outsystem", "port":"22223", "ip":"172.0.0.0"}):
         self.appName = name
-        self.mode = mode # can be "clipper", "bigball", "wo_porxy"
-        self.in_swarm = False if network=='localhost' else False
+        self.mode = mode # can be "clipper", "bigball", "withoutProxy" or "withProxy"
+        self.in_swarm = False if network=='localhost' else True
         self.images = images
         self.refresh_image_cmd = ["docker image pull "+img for img in self.images] if refresh=="" else [].append(refresh)
         self.start_app = " ".join([start_app, start_app_argv])
@@ -56,7 +58,7 @@ class App:
             return PROC_ERR
 
     def start_frontend(self):
-        if self.mode != 'clipper' and self.mode != 'wo_proxy':
+        if self.mode != 'clipper' and (not 'Proxy' in self.mode):
             print("Current mode does not support a frontend enquire")
             return PROC_OK
         
@@ -79,25 +81,40 @@ class App:
     
     def get_mode(self):
         return self.mode
+    
+    def get_network(self):
+        return self.network
 
     def prepare_for_clipper(self):
-        if self.in_swarm and self.mode == "clipper" :
+        if self.in_swarm and self.mode == "withProxy" :
             print("> python3 /clipper/cliipper_admin/auto_set_ip.py")
             os.system("python3 /clipper/cliipper_admin/auto_set_ip.py")
         return PROC_OK
 
 if __name__ == '__main__':
-    refresh_image = False
-    network = 'localhost'
+    parser = argparse.ArgumentParser(description='App name, mode and network')
+    parser.add_argument('--appName','-n',help='name of the app',dest='appName',required=True)
+    parser.add_argument('--mode','-m',help='mode',dest='mode',required=True,
+                        choices=['clipper','withoutProxy','bigball','withProxy'],default='withProxy')
+    parser.add_argument('--network','--net',default='localhost',choices=['localhost','swarm','clipper'],dest='net')
+    parser.add_argument('--refresh','-r',action='store_true',dest='refresh')
+
+    with open('json/json_example.json') as config:
+    #should be json/json_ + parser.parse_args().appName +.json
+        data = json.load(config)
+
+    refresh_image = bool(parser.parse_args().refresh)
     err_flag = 0
 
-    test = App('SIMPLE_APP',
-                mode='local',
-                network='localhost',
-                images=["zsxhku/simple_dag:container"+str(i) for i in range(0,6)],
-                start_app="/clipper/clipper_admin/imagequery_concrrent_client.py",
-                start_app_argv = '--dag /clipper/applivations/simpledag/dag_formatted',
-                frontend="/clipper/clipper_admin/imagequery_concrrent_client.py")
+    test = App(parser.parse_args().appName,
+                mode=parser.parse_args().mode,
+                network=parser.parse_args().net,
+                images=data["images"][parser.parse_args().mode],
+                refresh=data["buildFilePath"][parser.parse_args().mode],
+                start_app=data["frontendServerPath"][parser.parse_args().mode],
+                start_app_argv = data["frontendServerArgs"][parser.parse_args().mode],
+                frontend=data["frontendClientPath"],
+                frontend_param=data['frontendClientParams'])
     test.prepare_for_clipper()
 
     if (refresh_image):
@@ -115,7 +132,7 @@ if __name__ == '__main__':
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
     print("Close all the containers")
-    if network == 'localhost':
+    if test.get_network == 'localhost':
         print("> python3 /clipper/clipper_admin/stop_all.py")
         os.system("python3 /clipper/clipper_admin/stop_all.py")
     else:
