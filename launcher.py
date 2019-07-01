@@ -28,6 +28,7 @@ class App:
         self.frontend_param = frontend_param
 
     def refresh_image(self):
+        print(self.refresh_image_cmd)
         try:
             for cmd in self.refresh_image_cmd:
                 print("> "+cmd)
