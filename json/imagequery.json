@@ -1,5 +1,6 @@
 {
 	"appName": "imagequery",
+	"num_containers": 5,
 	"supportSwarm": true,
 	"images": {
 		"bigball": ["imagequery:bigball"],

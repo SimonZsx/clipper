@@ -112,7 +112,7 @@ if __name__ == '__main__':
     parser.add_argument('--network','--net',default='localhost',choices=['localhost','swarm','clipper'],dest='net')
     parser.add_argument('--refresh','-r',action='store_true',dest='refresh')
 
-    with open('json/json_example.json') as config:
+    with open('json/imagequery.json') as config:
     #should be json/json_ + parser.parse_args().appName +.json
         data = json.load(config)
 
@@ -147,7 +147,8 @@ if __name__ == '__main__':
         try:
             process_log.analyze_log(data["appName"]=="imagequery", 
                                     system=test.get_mode(), 
-                                    log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+                                    log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log",
+                                    num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
     

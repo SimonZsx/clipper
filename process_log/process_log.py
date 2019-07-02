@@ -2,11 +2,10 @@ import re
 import os 
 import argparse
 
-def process_bigball_log(log_file, is_imagequery=False):
+def process_bigball_log(log_file, num_containers, is_imagequery=False):
     timebook = []
     avg_timebook = []
     num_requests = 0
-    num_containers = 5 # should read from json
 
     for _ in range(num_containers):
         timebook.append([])
@@ -14,14 +13,14 @@ def process_bigball_log(log_file, is_imagequery=False):
     f = open(log_file, "r")
     for line in f:
         if "[c" in line and "Time elapsed:" in line: # add "[c" to avoid matching "[main]"
-            container_id_str = str(line[10])
+            container_id_str = str(line[10]) # slice out the digit in "[cx]"
             if container_id_str.isdigit():
                 container_id = int(container_id_str)
                 if container_id < num_containers:
                     container_time = float(re.findall(r"[-+]?\d*\.\d+|\d+", line[11:])[0])
                     timebook[container_id].append(container_time)
                     if container_id == 0: 
-                        num_requests+=1
+                        num_requests += 1
                         
     if is_imagequery:
         timebook[2] = timebook[2][1:]
@@ -65,7 +64,8 @@ def process_wo_proxy_log(log_file):
             except Exception as e:
                 print(e)
 
-def analyze_log(is_imagequery, system, log_file):
+
+def analyze_log(is_imagequery, system, log_file, num_containers):
     print(is_imagequery, system, log_file)
 
     """ 
@@ -73,7 +73,7 @@ def analyze_log(is_imagequery, system, log_file):
     """
 
     if system == "bigball":
-        process_bigball_log(log_file, is_imagequery=True)
+        process_bigball_log(log_file, num_containers, is_imagequery=True)
     elif system == "withoutProxy":
         process_wo_proxy_log(log_file)
     elif system == "withProxy":
@@ -86,17 +86,18 @@ def analyze_log(is_imagequery, system, log_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Log processor')
 
-    parser.add_argument('--is_imagequery', nargs=1, type=str, help="true/false")
-    parser.add_argument('--system', nargs=1, type=str, help="withoutProxy/withProxy/bigball")
-    parser.add_argument('--log_file', nargs=1, type=str, help="Path to log file")
+    parser.add_argument('--is_imagequery', type=bool, help="true/false")
+    parser.add_argument('--system', type=str, help="withoutProxy/withProxy/bigball")
+    parser.add_argument('--log_file', type=str, help="Path to log file")
+    parser.add_argument('--num_containers', type=int, help="number of containers")
                        
     args = parser.parse_args()
+    is_imagequery = args.is_imagequery
+    system = args.system
+    log_file = args.log_file
+    num_containers = args.num_containers
 
-    is_imagequery = args.is_imagequery[0]
-    system = args.system[0]
-    log_file = args.log_file[0]
-
-    analyze_log(is_imagequery, system, log_file)
+    analyze_log(is_imagequery, system, log_file, num_containers)
 
 
 
