@@ -145,7 +145,7 @@ if __name__ == '__main__':
     if err_flag == 0: 
         print("Log processing, @", "./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
         try:
-            process_log.log_generator(data["appName"]=="imagequery", 
+            process_log.analyze_log(data["appName"]=="imagequery", 
                                     system=test.get_mode(), 
                                     log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
         except:
