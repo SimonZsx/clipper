@@ -143,10 +143,13 @@ if __name__ == '__main__':
         err_flag = test.start_frontend()
 
     if err_flag == 0: 
-        print("Log processing...")
-        process_log.log_generator(data["appName"]=="imagequery", 
-                                system=test.get_mode(), 
-                                log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+        print("Log processing, @", "./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+        try:
+            process_log.log_generator(data["appName"]=="imagequery", 
+                                    system=test.get_mode(), 
+                                    log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+        except:
+            print("Fail to handle the log processing.")
     
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
