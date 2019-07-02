@@ -81,8 +81,9 @@ class App:
             while senct != "":
                 print(senct, end="")
                 f.write(senct)
-                senct = os.readline()
+                senct = oFlowLog.readline()
             f.close()
+            oFlowLog.close()
             return PROC_OK
         except:
             print("Fail to run the frontend: ", self.frontend, "with: ", self.frontend_param,"\nCheck configuration")
