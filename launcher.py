@@ -141,13 +141,14 @@ if __name__ == '__main__':
         print("Start the frontend service")
         err_flag = test.start_frontend()
 
+    if err_flag == 0: 
+        print("Log processing...")
+        process_log.log_generator(data["appName"]=="imagequery", 
+                                system=test.get_mode(), 
+                                log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+    
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
-    
-    print("Log processing...")
-    process_log.log_generator(data["appName"]=="imagequery", 
-                              system=test.get_mode(), 
-                              log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
     
     print("Close all the containers")
     if test.get_network() == 'localhost':
