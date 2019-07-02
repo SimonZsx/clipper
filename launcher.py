@@ -1,8 +1,12 @@
 import os, sys
-import json
-import argparse
+import json, argparse
+from datetime import datetime
 sys.path.append(os.path.abspath("/clipper/process_log"))
+sys.path.append(os.path.abspath("/clipper/clipper_admin"))
 import process_log
+import stop_all, cluster_stop_all
+import gerneral_start, cluster_general_start
+import auto_set_ip
 
 """
 MODE: clipper, bigball, withoutProxy, withProxy
@@ -43,16 +47,14 @@ class App:
 
     def start(self):
         try:
-            start_cmd = "python3 "+ self.start_app if "py" in self.start_app else self.start_app
-            print("> " + start_cmd)
-            oFlow = os.popen(start_cmd)
-            thisLine = oFlow.readline()
-            while(thisLine != ""):
-                print(thisLine,end='')
-                thisLine = oFlow.readline()
-            oFlow.close()
-            print("\n"+"-"*20+"\nApplication started up")
-            return PROC_OK
+            if self.mode == "withProxy":
+                self.frontend_param = self.frontend_param.split()[-1] # get rid of "--dag"
+                if self.in_swarm:
+                    cluster_general_start.start(self.frontend_param, self.appName)
+                else:
+                    gerneral_start.start(self.frontend_param, self.appName)
+            else:
+                os.system(self.frontend)
         except:
             print("Fail to start the application: Check the configuration")
             return PROC_ERR
@@ -70,11 +72,15 @@ class App:
             os.system("docker inspect c0 | grep \"IPAddress\"")
             self.frontend_param["ip"] = input("please enter ip now: ")
         
-        frontend_cmd = "python3 " + self.frontend
+        if "py" in self.frontend:
+            frontend_cmd = "python3 " + self.frontend
+        else:
+            frontend_cmd = self.frontend
+        
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
         print("> "+frontend_cmd)
         try:
-            f = open("./process_log/"+self.appName+"_"+self.mode+".log", "w")
+            f = open("./process_log/"+datetime.now().strftime("%y%m%d_%H%M%S")+self.appName+"_"+self.mode+".log", "w")
             
             oFlowLog = os.popen(frontend_cmd)
             senct = oFlowLog.readline()
@@ -101,7 +107,7 @@ class App:
     def prepare_for_clipper(self):
         if self.in_swarm and self.mode == "withProxy" :
             print("> python3 /clipper/cliipper_admin/auto_set_ip.py")
-            os.system("python3 /clipper/cliipper_admin/auto_set_ip.py")
+            auto_set_ip.ip_setter()
         return PROC_OK
 
 if __name__ == '__main__':
@@ -157,8 +163,6 @@ if __name__ == '__main__':
     
     print("Close all the containers")
     if test.get_network() == 'localhost':
-        print("> python3 /clipper/clipper_admin/stop_all.py")
-        os.system("python3 /clipper/clipper_admin/stop_all.py")
+        stop_all.stop_all_containers()
     else:
-        print("> python3 /clipper/clipper_admin/cluster_stop_all.py")
-        os.system("python3 /clipper/clipper_admin/cluster_stop_all.py")
+        cluster_stop_all.stop_all_containers()
