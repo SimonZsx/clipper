@@ -10,10 +10,10 @@ import signal
 import sys
 
 
-if __name__ == '__main__':
+def stop_all_containers():
     clipper_conn = ClipperConnection(DockerContainerManager())
- #   python_deployer.create_endpoint(clipper_conn, "simple-example", "doubles",
- #                                   feature_sum)
+#   python_deployer.create_endpoint(clipper_conn, "simple-example", "doubles",
+#                                   feature_sum)
 
 
     clipper_conn.connect_host("202.45.128.174", "2375")
@@ -21,3 +21,5 @@ if __name__ == '__main__':
     clipper_conn.stop_all(graceful=False)
     time.sleep(2)
 
+if __name__ == '__main__':   
+   stop_all_containers()

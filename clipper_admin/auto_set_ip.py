@@ -10,7 +10,8 @@ def get_host_ip():
 	 	s.close
 	 return ip
 
-if __name__ == '__main__':
+
+def ip_setter():
 	ip = get_host_ip()
 	print("IP = ", ip)
 
@@ -41,3 +42,6 @@ if __name__ == '__main__':
 		file_cont = open(file,"w")
 		file_cont.write("\n".join(file_st))
 		file_cont.close()
+
+if __name__ == '__main__':
+	ip_setter()

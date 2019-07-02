@@ -9,8 +9,7 @@ import numpy as np
 import signal
 import sys
 
-
-if __name__ == '__main__':
+def stop_all_containers():
     clipper_conn = ClipperConnection(DockerContainerManager())
  #   python_deployer.create_endpoint(clipper_conn, "simple-example", "doubles",
  #                                   feature_sum)
@@ -19,3 +18,5 @@ if __name__ == '__main__':
     clipper_conn.stop_all(graceful=False)
     time.sleep(2)
 
+if __name__ == '__main__':
+   stop_all_containers()

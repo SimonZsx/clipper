@@ -21,20 +21,25 @@ def signal_handler(signal, frame):
     sys.exit(0)
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Enter the dag name')
-    parser.add_argument('--dag', '-d', help='File Path of DAG file', dest='dag_graph')
-    parser.add_argument('--name','-n', help='Name of the DAG',       dest='dag_name')
+def start(dag_graph, dag_name):
 
     signal.signal(signal.SIGINT, signal_handler)
     clipper_conn = ClipperConnection(DockerContainerManager())
     clipper_conn.start_clipper()
 
-    f = open(parser.parse_args().dag_graph,"r")
+
+    f = open(dag_graph,"r")
     dag_description = f.read()
     f.close()
 
-    clipper_conn.deploy_DAG(parser.parse_args().dag_name, "test", dag_description, runtime="nvidia")
+    clipper_conn.deploy_DAG(dag_name, "test", dag_description, runtime="nvidia")
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Enter the dag name')
+    parser.add_argument('--dag', '-d', help='File Path of DAG file', dest='dag_graph')
+    parser.add_argument('--name','-n', help='Name of the DAG',       dest='dag_name')
+
+    start(parser.parse_args().dag_graph, parser.parse_args().dag_name)
 
 
 
