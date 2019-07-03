@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath("/clipper/process_log"))
 sys.path.append(os.path.abspath("/clipper/clipper_admin"))
 import process_log
 import stop_all, cluster_stop_all
-import gerneral_start, cluster_general_start
+import general_start, cluster_general_start
 import auto_set_ip
 
 """
