@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath("/clipper/process_log"))
 sys.path.append(os.path.abspath("/clipper/clipper_admin"))
 import process_log
 import stop_all, cluster_stop_all
-import general_start, cluster_general_start
+import gerneral_start, cluster_general_start
 import auto_set_ip
 
 """
@@ -48,7 +48,7 @@ class App:
     def start(self):
         try:
             if self.mode == "withProxy":
-                self.frontend_param = self.frontend_param.split()[-1] # get rid of "--dag"
+                self.frontend_param = self.frontend_param["withProxy"].split()[-1] # get rid of "--dag"
                 if self.in_swarm:
                     cluster_general_start.start(self.frontend_param, self.appName)
                 else:
@@ -118,8 +118,7 @@ if __name__ == '__main__':
     parser.add_argument('--network','--net',default='localhost',choices=['localhost','swarm','clipper'],dest='net')
     parser.add_argument('--refresh','-r',action='store_true',dest='refresh')
 
-    with open('json/imagequery.json') as config:
-    #should be json/json_ + parser.parse_args().appName +.json
+    with open('json/'+parser.parse_args().appName+'.json') as config:
         data = json.load(config)
 
     refresh_image = bool(parser.parse_args().refresh)
