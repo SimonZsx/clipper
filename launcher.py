@@ -122,7 +122,7 @@ def write_container_log(application,container_tags):
         logFlow = os.popen("docker inspect " + container)
         buff = logFlow.read()
         logFlow.close()
-        "{0}c{1}.log".format(application.get_log_name().split('.')[0], container)
+        print(".{0}c{1}.log".format(application.get_log_name().split('.')[1], container))
         with open("{0}c{1}.log".format(application.get_log_name().split('.')[0], container), 'w') as logFlow:
             logFlow.write(buff)
 
