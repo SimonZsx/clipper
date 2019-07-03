@@ -123,8 +123,9 @@ def write_container_log(application,container_tags):
         buff = logFlow.read()
         logFlow.close()
         print(".{0}c{1}.log".format(application.get_log_name().split('.')[1], container))
-        with open("{0}c{1}.log".format(application.get_log_name().split('.')[1], container), 'w') as logFlow:
-            logFlow.write(buff)
+        logFlow = open("{0}c{1}.log".format(application.get_log_name().split('.')[1], container), 'w')
+        logFlow.write(buff)
+        logFlow.close()
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='App name, mode and network')
