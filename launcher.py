@@ -123,7 +123,7 @@ def write_container_log(application,container_tags):
         buff = logFlow.read()
         logFlow.close()
         print(".{0}c{1}.log".format(application.get_log_name().split('.')[1], container))
-        with open("{0}c{1}.log".format(application.get_log_name().split('.')[0], container), 'w') as logFlow:
+        with open("{0}c{1}.log".format(application.get_log_name().split('.')[1], container), 'w') as logFlow:
             logFlow.write(buff)
 
 if __name__ == '__main__':
