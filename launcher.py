@@ -114,7 +114,7 @@ class App:
         return PROC_OK
     
     def get_log_name(self):
-        return "./process_log/"+log_timeStamp+self.appName+"_"+self.mode+".log"
+        return "./process_log/" + self.appName + "_" + self.mode + "_" + log_timeStamp + ".log"
 
 def write_container_log(application,container_tags):
     for container in container_tags:
