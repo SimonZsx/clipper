@@ -14,6 +14,8 @@ NETWORK: localhost, swarm, clipper
 """
 PROC_OK, PROC_ERR = 0, 1
 
+log_timeStamp = datetime.now().strftime("%y%m%d_%H%M%S") 
+
 class App:
     def __init__(self, name, mode="withProxy", 
                              network="clipper",
@@ -55,6 +57,7 @@ class App:
                     general_start.start(self.start_app, self.appName)
             else:
                 os.system(self.start_app)
+            return PROC_OK
         except:
             print("Fail to start the application: Check the configuration")
             return PROC_ERR
@@ -78,9 +81,9 @@ class App:
             frontend_cmd = self.frontend
         
         frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
-        print("> "+frontend_cmd)
+        print("> "+frontend_cmd+"\nStoring logs, please wait")
         try:
-            f = open("./process_log/"+datetime.now().strftime("%y%m%d_%H%M%S")+self.appName+"_"+self.mode+".log", "w")
+            f = open(self.get_log_name(), "w")
             
             oFlowLog = os.popen(frontend_cmd)
             senct = oFlowLog.readline()
@@ -109,6 +112,18 @@ class App:
             print("> python3 /clipper/cliipper_admin/auto_set_ip.py")
             auto_set_ip.ip_setter()
         return PROC_OK
+    
+    def get_log_name(self):
+        return "./process_log/"+log_timeStamp+self.appName+"_"+self.mode+".log"
+
+def write_container_log(application,container_tags):
+    for container in container_tags:
+        print("Fetching logs @", container)
+        logFlow = os.popen("docker inspect " + container)
+        buff = logFlow.read()
+        logFlow.close()
+        with open("c"+container+application.get_log_name(), 'w') as logFlow:
+            logFlow.write(buff)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='App name, mode and network')
@@ -148,11 +163,15 @@ if __name__ == '__main__':
         err_flag = test.start_frontend()
 
     if err_flag == 0: 
-        print("Log processing, @", "./process_log/"+test.get_appName()+"_"+test.get_mode()+".log")
+        os.system("docker ps | grep -v proxy")
+        container_tags = input("Enter the tags of containers you would like to inspect").split()
+        if(len(container_tags)!=0):
+            write_container_log(test, container_tags)
+        print("Log processing, @", test.get_log_name())
         try:
             process_log.analyze_log(data["appName"]=="imagequery", 
                                     system=test.get_mode(), 
-                                    log_file="./process_log/"+test.get_appName()+"_"+test.get_mode()+".log",
+                                    log_file=test.get_log_name(),
                                     num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
