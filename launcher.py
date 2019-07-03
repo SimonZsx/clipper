@@ -122,7 +122,8 @@ def write_container_log(application,container_tags):
         logFlow = os.popen("docker inspect " + container)
         buff = logFlow.read()
         logFlow.close()
-        with open("c"+container+application.get_log_name(), 'w') as logFlow:
+        "{0}c{1}.log".format(application.get_log_name().split('.')[0], container)
+        with open("{0}c{1}.log".format(application.get_log_name().split('.')[0], container), 'w') as logFlow:
             logFlow.write(buff)
 
 if __name__ == '__main__':
@@ -163,7 +164,7 @@ if __name__ == '__main__':
         err_flag = test.start_frontend()
 
     if err_flag == 0: 
-        os.system("docker ps | grep -v proxy")
+        os.system("docker ps | grep -v mxschen | grep -v zsxhku")
         container_tags = input("Enter the tags of containers you would like to inspect").split()
         if(len(container_tags)!=0):
             write_container_log(test, container_tags)
