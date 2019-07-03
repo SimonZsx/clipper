@@ -48,13 +48,13 @@ class App:
     def start(self):
         try:
             if self.mode == "withProxy":
-                self.frontend_param = self.frontend_param["withProxy"].split()[-1] # get rid of "--dag"
+                self.start_app = self.start_app.split()[-1] # get rid of "--dag"
                 if self.in_swarm:
-                    cluster_general_start.start(self.frontend_param, self.appName)
+                    cluster_general_start.start(self.start_app, self.appName)
                 else:
-                    gerneral_start.start(self.frontend_param, self.appName)
+                    general_start.start(self.start_app, self.appName)
             else:
-                os.system(self.frontend)
+                os.system(self.start_app)
         except:
             print("Fail to start the application: Check the configuration")
             return PROC_ERR
