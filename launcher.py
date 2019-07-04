@@ -112,12 +112,16 @@ class App:
             return PROC_ERR
 
     def write_container_log(self, container_tags):
-        for container in container_tags:
-            print("Fetching logs @", container)
-            logFlow = os.popen("docker inspect " + container)
+        log_dir = "./process_log"
+        for container_tag in container_tags:
+            docker_id = container_tag.split("-")[0] # f9842338fdc5
+            container_id = container_tag.split("-")[1] # c0
+            
+            print("Fetching logs for {}".format(container_tag))
+            logFlow = os.popen("docker logs " + container_id)
             buff = logFlow.read()
             logFlow.close()
-            print(".{0}c{1}.log".format(self.get_log_name().split('.')[1], container))
+            print("Log saved as: .{0}c{1}.log".format(self.get_log_name().split('.')[1], container))
             logFlow = open(".{0}c{1}.log".format(self.get_log_name().split('.')[1], container), 'w')
             logFlow.write(buff)
             logFlow.close()
@@ -172,8 +176,12 @@ if __name__ == '__main__':
         err_flag = app.run_frontend_client()
 
     if err_flag == 0: 
-        os.system("docker ps -a")
-        container_tags = input("Enter the tags of containers you would like to inspect").split()
+        os.system("docker ps -a | grep -v Exited | grep -v '-proxy'")
+        print("Enter the tags of containers you would like to inspect.")
+        print("The format should be: [container_id]-[tag_you_want_for_log].")
+        print("Exampel: ÿf9842338fdc5-c1")
+        container_tags = input()
+        
 
         if len(container_tags) != 0 :
             app.write_container_log(container_tags)
