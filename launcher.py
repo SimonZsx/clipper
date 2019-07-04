@@ -179,7 +179,7 @@ if __name__ == '__main__':
         err_flag = app.run_frontend_client()
 
     if err_flag == 0: 
-        os.system("docker ps -a | grep -v Exited | grep -v '-proxy'")
+        os.system("docker ps -a | grep -v Exited | grep -v -- -proxy")
         print("Enter the tags of containers you would like to inspect.")
         print("The format should be: [container_id]-[tag_you_want_for_log].")
         print("Exampel: f9842338fdc5-c1 => log for c1 will be saved at: ./process_log/appname_mode_c1_timestamp.log")
