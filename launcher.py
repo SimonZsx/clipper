@@ -96,6 +96,7 @@ class App:
         print("> " + frontend_client_cmd)
 
         try:
+            print("Log of frontend client will be written to: {}".format(self.get_client_log_file_path()))
             f = open(self.get_client_log_file_path(), "w")
             oFlowLog = os.popen(frontend_client_cmd)
             senct = oFlowLog.readline()
@@ -198,8 +199,8 @@ if __name__ == '__main__':
         print("Log processing.")
         try:
             process_log.analyze_log(data["appName"] == "imagequery", 
-                                    system=app.get_mode(), 
-                                    log_file=app.get_client_log_file_path(),
+                                    system = app.get_mode(), 
+                                    log_file = app.get_client_log_file_name(),
                                     num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
