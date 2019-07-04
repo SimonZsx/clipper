@@ -113,22 +113,26 @@ class App:
             print("Fail to run ", self.frontend_client, "with: ", self.frontend_client_param)
             return PROC_ERR
 
-    def write_container_log(self, container_tags):
-        for container_tag in container_tags:
-            docker_id = container_tag.split("-")[0]     # f9842338fdc5
-            container_id = container_tag.split("-")[1]  # c0
-            
-            logFlow = os.popen("docker logs " + container_id)
-            buff = logFlow.read()
-            logFlow.close()
+    def write_container_log(self, log_requests_str):
+        log_requests = log_requests_str.split()
+        if len(log_requests) == 0:
+            print("No valid input, no log would be saved.")
+        else:
+            for request in log_requests:                    # f9842338fdc5-c0
+                docker_id = container_tag.split("-")[0]     # f9842338fdc5
+                container_id = container_tag.split("-")[1]  # c0
+                
+                logFlow = os.popen("docker logs " + container_id)
+                buff = logFlow.read()
+                logFlow.close()
 
-            log_file_name = self.appName + "_" + self.mode + "_" + container_tag + "_" + log_timeStamp + ".log"
-            log_file_path = os.path.join(".", 'process_log', log_file_name )
+                log_file_name = self.appName + "_" + self.mode + "_" + container_tag + "_" + log_timeStamp + ".log"
+                log_file_path = os.path.join(".", 'process_log', log_file_name )
 
-            print("{} saved as: {}".format(container_tag, str(log_file_path)))
-            logFlow = open(log_file_path, 'w')
-            logFlow.write(buff)
-            logFlow.close()
+                print("{} saved as: {}".format(container_tag, str(log_file_path)))
+                logFlow = open(log_file_path, 'w')
+                logFlow.write(buff)
+                logFlow.close()
 
         
     def get_appName(self):
@@ -183,10 +187,10 @@ if __name__ == '__main__':
         print("Enter the tags of containers you would like to inspect.")
         print("The format should be: [container_id]-[tag_you_want_for_log].")
         print("Exampel: f9842338fdc5-c1 => log for c1 will be saved at: ./process_log/appname_mode_c1_timestamp.log")
-        container_tags = input()
+        log_requests_str = input()
         
         if len(container_tags) != 0 :
-            app.write_container_log(container_tags)
+            app.write_container_log(log_requests_str)
 
         print("Log processing.")
         try:
