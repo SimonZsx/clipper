@@ -146,7 +146,7 @@ class App:
         return client_log_file_name
 
     def get_client_log_file_path(self):
-        client_log_file_path = os.path.join(".", 'process_log', self.get_client_log_file_name)
+        client_log_file_path = os.path.join(".", 'process_log', self.get_client_log_file_name())
         return client_log_file_path
 
 
