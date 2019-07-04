@@ -1,8 +1,10 @@
 import os, sys
 import json, argparse
 from datetime import datetime
-sys.path.append(os.path.abspath("/clipper/process_log"))
-sys.path.append(os.path.abspath("/clipper/clipper_admin"))
+
+sys.path.append("./process_log"))
+sys.path.append("./clipper_admin")
+
 import process_log
 import stop_all, cluster_stop_all
 import start_withproxy_frontend, cluster_general_start
@@ -203,7 +205,7 @@ if __name__ == '__main__':
         try:
             process_log.analyze_log(data["appName"] == "imagequery", 
                                     system = app.get_mode(), 
-                                    log_file = app.get_client_log_file_name(),
+                                    log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
