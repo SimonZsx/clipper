@@ -107,7 +107,7 @@ def main():
     args = parser.parse_args()
      
     # Generate your inputt list here
-    inputt_total = list(range(100))
+    inputt_total = list(range(20))
     import random
     random.shuffle(inputt_total)
     inputt_total = [str(i) for i in inputt_total]

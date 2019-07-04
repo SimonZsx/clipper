@@ -38,7 +38,7 @@ if __name__ == '__main__':
     f.close()
     
 
-    clipper_conn.deploy_DAG("stock", "test", dag_description, runtime="nvidia")
+    clipper_conn.deploy_DAG("imagequery", "test", dag_description, runtime="nvidia")
 
 
     #time.sleep(2)

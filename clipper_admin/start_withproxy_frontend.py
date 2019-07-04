@@ -21,8 +21,7 @@ def signal_handler(signal, frame):
     sys.exit(0)
 
 
-def start(dag_graph, dag_name):
-
+def start(dag_name, dag_graph):
     signal.signal(signal.SIGINT, signal_handler)
     clipper_conn = ClipperConnection(DockerContainerManager())
     clipper_conn.start_clipper()
@@ -31,19 +30,22 @@ def start(dag_graph, dag_name):
     f = open(dag_graph,"r")
     dag_description = f.read()
     f.close()
-
+    print("General start:", dag_name, dag_description)
     clipper_conn.deploy_DAG(dag_name, "test", dag_description, runtime="nvidia")
+    # The first argument, dag_name, as well as the second argument, does not affecting the running the app. 
+    # Clipper deploys the app just according to the dag_description, our dag_formatted in this case. 
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Enter the dag name')
     parser.add_argument('--dag', '-d', help='File Path of DAG file', dest='dag_graph')
     parser.add_argument('--name','-n', help='Name of the DAG',       dest='dag_name')
 
-    start(parser.parse_args().dag_graph, parser.parse_args().dag_name)
+    start(parser.parse_args().dag_name, parser.parse_args().dag_graph)
 
 
 
-    #time.sleep(2)
+    # time.sleep(2)
 
     # For batch inputs set this number > 1
     # batch_size = 1

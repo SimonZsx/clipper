@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath("/clipper/process_log"))
 sys.path.append(os.path.abspath("/clipper/clipper_admin"))
 import process_log
 import stop_all, cluster_stop_all
-import general_start, cluster_general_start
+import start_withproxy_frontend, cluster_general_start
 import auto_set_ip
 
 """
@@ -17,23 +17,32 @@ PROC_OK, PROC_ERR = 0, 1
 log_timeStamp = datetime.now().strftime("%y%m%d_%H%M%S") 
 
 class App:
-    def __init__(self, name, mode="withProxy", 
-                             network="clipper",
-                             images=[],
-                             refresh="",
-                             start_app="/clipper/clipper_admin/simple_dag.py",
-                             start_app_argv="--dag /clipper/applications/simpledag/dag_formatted",
-                             frontend="/clipper/clipper_admin/concrrent_frontend_client.py",
-                             frontend_param={"worker":"1", "system":"outsystem", "port":"22223", "ip":"172.0.0.0"}):
+    def __init__(self, 
+                name, 
+                mode="withProxy", 
+                network="clipper",
+                images=[],
+                refresh="",
+                frontend_server="/clipper/clipper_admin/simple_dag.py",
+                frontend_server_args="--dag /clipper/applications/simpledag/dag_formatted",
+                frontend_client="/clipper/clipper_admin/concrrent_frontend_client.py",
+                frontend_client_param={"worker":"1", "system":"outsystem", "port":"22223", "ip":"172.0.0.0"}):
         self.appName = name
         self.network = network
         self.mode = mode # can be "clipper", "bigball", "withoutProxy" or "withProxy"
         self.in_swarm = False if network=='localhost' else True
         self.images = images
         self.refresh_image_cmd = ["docker image pull "+img for img in self.images] if refresh=="" else refresh.split(',')
-        self.start_app = " ".join([start_app, start_app_argv])
-        self.frontend = frontend
-        self.frontend_param = frontend_param
+        self.frontend_server = frontend_server
+        self.frontend_server_args = frontend_server_args
+        self.frontend_client = frontend_client
+        self.frontend_client_param = frontend_client_param
+    
+    def prepare_for_clipper(self):
+        if self.in_swarm and self.mode == "withProxy" :
+            print("> python3 /clipper/cliipper_admin/auto_set_ip.py")
+            auto_set_ip.ip_setter()
+        return PROC_OK
 
     def refresh_image(self):
         try:
@@ -47,44 +56,48 @@ class App:
             print("Fail to refresh image: Check the configuration")
             return PROC_ERR
 
-    def start(self):
+    def start_frontend(self): # start frontend server
         try:
             if self.mode == "withProxy":
-                self.start_app = self.start_app.split()[-1] # get rid of "--dag"
+                dag_description = self.frontend_server_args.split()[-1] # the path to the dag_description/dag_formatted
+                print(dag_description)
                 if self.in_swarm:
-                    cluster_general_start.start(self.start_app, self.appName)
+                    cluster_general_start.start(self.frontend_server, self.appName)
                 else:
-                    general_start.start(self.start_app, self.appName)
+                    start_withproxy_frontend.start(self.appName, dag_description)
             else:
-                os.system(self.start_app)
+                print(self.frontend_server)
+                os.system(self.frontend_server)
             return PROC_OK
         except:
             print("Fail to start the application: Check the configuration")
             return PROC_ERR
 
-    def start_frontend(self):
-        if self.frontend == "" :
-            print("Current mode does not support a frontend enquire")
-            return PROC_OK
+    def run_frontend_client(self):  # start frontend client, or the run.sh for bigball
+        # if self.frontend_client == "" :
+        #     print("Current mode does not support a frontend enquire")
+        #     return PROC_OK
         
-        print("Front End @ ", self.frontend_param["ip"], "Enter \'y\' to confirm, \'n\' to inspect or enter the IP manually")
+        print("Default frontend server at ip: ", self.frontend_client_param["ip"], "\tEnter \'y\' to confirm, \'n\' to inspect and enter the IP manually")
         ch = input()
         if ch!='y' and ch!='n':
-            self.frontend_param["ip"] = ch
+            self.frontend_client_param["ip"] = ch
         elif ch=='n':
             os.system("docker inspect c0 | grep \"IPAddress\"")
-            self.frontend_param["ip"] = input("please enter ip now: ")
+            self.frontend_client_param["ip"] = input("Please enter ip: ")
         
-        if "py" in self.frontend:
-            frontend_cmd = "python3 " + self.frontend
+        if "py" in self.frontend_client:
+            frontend_client_cmd = "python3 " + self.frontend_client
         else:
-            frontend_cmd = self.frontend
-        
-        frontend_cmd += " ".join(["  --"+arg+" "+val for arg,val in self.frontend_param.items()])
-        print("> "+frontend_cmd+"\nStoring logs, please wait")
+            frontend_client_cmd = self.frontend_client
+
+        print("Start running frontend client!")
+        frontend_client_cmd += " ".join(["  --" + arg + " " + val for arg, val in self.frontend_client_param.items()])
+        print("> " + frontend_cmd)
+
+
         try:
             f = open(self.get_log_name(), "w")
-            
             oFlowLog = os.popen(frontend_cmd)
             senct = oFlowLog.readline()
             while senct != "":
@@ -95,8 +108,19 @@ class App:
             oFlowLog.close()
             return PROC_OK
         except:
-            print("Fail to run the frontend: ", self.frontend, "with: ", self.frontend_param,"\nCheck configuration")
+            print("Fail to run the frontend_client: ", self.frontend_client, "with: ", self.frontend_client_param,"\nCheck configuration")
             return PROC_ERR
+
+    def write_container_log(self, container_tags):
+        for container in container_tags:
+            print("Fetching logs @", container)
+            logFlow = os.popen("docker inspect " + container)
+            buff = logFlow.read()
+            logFlow.close()
+            print(".{0}c{1}.log".format(self.get_log_name().split('.')[1], container))
+            logFlow = open(".{0}c{1}.log".format(self.get_log_name().split('.')[1], container), 'w')
+            logFlow.write(buff)
+            logFlow.close()
         
     def get_appName(self):
         return self.appName
@@ -106,32 +130,15 @@ class App:
     
     def get_network(self):
         return self.network
-
-    def prepare_for_clipper(self):
-        if self.in_swarm and self.mode == "withProxy" :
-            print("> python3 /clipper/cliipper_admin/auto_set_ip.py")
-            auto_set_ip.ip_setter()
-        return PROC_OK
     
     def get_log_name(self):
         return "./process_log/" + self.appName + "_" + self.mode + "_" + log_timeStamp + ".log"
-
-def write_container_log(application,container_tags):
-    for container in container_tags:
-        print("Fetching logs @", container)
-        logFlow = os.popen("docker inspect " + container)
-        buff = logFlow.read()
-        logFlow.close()
-        print(".{0}c{1}.log".format(application.get_log_name().split('.')[1], container))
-        logFlow = open(".{0}c{1}.log".format(application.get_log_name().split('.')[1], container), 'w')
-        logFlow.write(buff)
-        logFlow.close()
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='App name, mode and network')
     parser.add_argument('--appName','-n',help='name of the app',dest='appName',required=True)
     parser.add_argument('--mode','-m',help='mode',dest='mode',required=True,
-                        choices=['clipper','withoutProxy','bigball','withProxy'],default='withProxy')
+                        choices=['clipper','withoutProxy','bigball','withProxy'], default='withProxy')
     parser.add_argument('--network','--net',default='localhost',choices=['localhost','swarm','clipper'],dest='net')
     parser.add_argument('--refresh','-r',action='store_true',dest='refresh')
 
@@ -141,39 +148,41 @@ if __name__ == '__main__':
     refresh_image = bool(parser.parse_args().refresh)
     err_flag = 0
 
-    test = App(parser.parse_args().appName,
+    app = App(parser.parse_args().appName,
                 mode=parser.parse_args().mode,
                 network=parser.parse_args().net,
                 images=data["images"][parser.parse_args().mode],
                 refresh=data["buildFilePath"][parser.parse_args().mode],
-                start_app=data["frontendServerPath"][parser.parse_args().mode],
-                start_app_argv = data["frontendServerArgs"][parser.parse_args().mode],
-                frontend=data["frontendClientPath"][parser.parse_args().mode],
-                frontend_param=data['frontendClientParams'][parser.parse_args().mode])
-    test.prepare_for_clipper()
+                frontend_server=data["frontendServerPath"][parser.parse_args().mode],
+                frontedn_server_args = data["frontendServerArgs"][parser.parse_args().mode],
+                frontend_client=data["frontendClientPath"][parser.parse_args().mode],
+                frontend_client_param=data['frontendClientParams'][parser.parse_args().mode])
+    app.prepare_for_clipper()
 
     if (refresh_image):
-        print("Images to be refreshed")
-        err_flag = test.refresh_image()
+        print("Refreshing images.")
+        err_flag = app.refresh_image()
 
     if err_flag == 0:
-        print("Deploy the applications")
-        err_flag = test.start()
+        print("Start application frontend")
+        err_flag = app.start_frontend()
 
     if err_flag == 0:
-        print("Start the frontend service")
-        err_flag = test.start_frontend()
+        print("Run the frontend client")
+        err_flag = app.run_frontend_client()
 
     if err_flag == 0: 
-        os.system("docker ps | grep -v mxschen | grep -v zsxhku")
+        os.system("docker ps -a")
         container_tags = input("Enter the tags of containers you would like to inspect").split()
-        if(len(container_tags)!=0):
-            write_container_log(test, container_tags)
-        print("Log processing, @", test.get_log_name())
+
+        if len(container_tags) != 0 :
+            app.write_container_log(container_tags)
+
+        print("Log processing, @", app.get_log_name())
         try:
             process_log.analyze_log(data["appName"]=="imagequery", 
-                                    system=test.get_mode(), 
-                                    log_file=test.get_log_name(),
+                                    system=app.get_mode(), 
+                                    log_file=app.get_log_name(),
                                     num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
@@ -182,7 +191,7 @@ if __name__ == '__main__':
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
     
     print("Close all the containers")
-    if test.get_network() == 'localhost':
+    if app.get_network() == 'localhost':
         stop_all.stop_all_containers()
     else:
         cluster_stop_all.stop_all_containers()
