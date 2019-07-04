@@ -2,7 +2,7 @@ import os, sys
 import json, argparse
 from datetime import datetime
 
-sys.path.append("./process_log"))
+sys.path.append("./process_log")
 sys.path.append("./clipper_admin")
 
 import process_log
@@ -197,9 +197,8 @@ if __name__ == '__main__':
         print("Exampel: f9842338fdc5-c1 => log for c1 will be saved at: ./process_log/appname_mode_c1_timestamp.log")
         print("Or you can press Enter to skip.")
         log_requests_str = input()
-        if (len(log_requests_str) > 0){
+        if len(log_requests_str) > 0:
             app.write_container_logs(log_requests_str)
-        }
 
         print("Log processing.")
         try:
