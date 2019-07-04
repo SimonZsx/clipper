@@ -97,7 +97,7 @@ class App:
 
         try:
             client_log_name = self.appName + "_" + self.mode + "_client_" + log_timeStamp + ".log"
-            client_log_path = os.join(".", 'process_log', client_log_name )
+            client_log_path = os.path.join(".", 'process_log', client_log_name)
 
             f = open(client_log_path, "w")
             oFlowLog = os.popen(frontend_client_cmd)
@@ -110,7 +110,7 @@ class App:
             oFlowLog.close()
             return PROC_OK
         except:
-            print("Fail to run the frontend_client: ", self.frontend_client, "with: ", self.frontend_client_param,"\nCheck configuration")
+            print("Fail to run ", self.frontend_client, "with: ", self.frontend_client_param)
             return PROC_ERR
 
     def write_container_log(self, container_tags):
@@ -123,7 +123,7 @@ class App:
             logFlow.close()
 
             log_file_name = self.appName + "_" + self.mode + "_" + container_tag + "_" + log_timeStamp + ".log"
-            log_file_path = os.join(".", 'process_log', log_file_name )
+            log_file_path = os.path.join(".", 'process_log', log_file_name )
 
             print("{} saved as: {}".format(container_tag, str(log_file_path)))
             logFlow = open(log_file_path, 'w')
