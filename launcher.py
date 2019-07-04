@@ -96,7 +96,7 @@ class App:
         print("> " + frontend_client_cmd)
 
         try:
-            f = open(self.get_client_log_file_path, "w")
+            f = open(self.get_client_log_file_path(), "w")
             oFlowLog = os.popen(frontend_client_cmd)
             senct = oFlowLog.readline()
             while senct != "":
@@ -115,7 +115,7 @@ class App:
         if len(log_requests) == 0:
             print("No valid input, no log would be saved.")
         else:
-            for request in log_requests:                    # f9842338fdc5-c0
+            for request in log_requests:              # f9842338fdc5-c0
                 docker_id = request.split("-")[0]     # f9842338fdc5
                 container_id = request.split("-")[1]  # c0
                 
