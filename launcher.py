@@ -79,7 +79,7 @@ class App:
         #     return PROC_OK
         
         print("Default frontend server at ip: ", self.frontend_client_param["ip"], "\tEnter \'y\' to confirm, \'n\' to inspect and enter the IP manually")
-        ch = input()
+        ch = input("Input: ")
         if ch!='y' and ch!='n':
             self.frontend_client_param["ip"] = ch
         elif ch=='n':
@@ -96,10 +96,7 @@ class App:
         print("> " + frontend_client_cmd)
 
         try:
-            client_log_name = self.appName + "_" + self.mode + "_client_" + log_timeStamp + ".log"
-            client_log_path = os.path.join(".", 'process_log', client_log_name)
-
-            f = open(client_log_path, "w")
+            f = open(self.get_client_log_file_path, "w")
             oFlowLog = os.popen(frontend_client_cmd)
             senct = oFlowLog.readline()
             while senct != "":
@@ -143,6 +140,14 @@ class App:
     
     def get_network(self):
         return self.network
+
+    def get_client_log_file_name(self):
+        client_log_file_name = self.appName + "_" + self.mode + "_client_" + log_timeStamp + ".log"
+        return client_log_file_name
+
+    def get_client_log_file_path(self):
+        client_log_file_path = os.path.join(".", 'process_log', self.get_client_log_file_name)
+        return client_log_file_path
 
 
 if __name__ == '__main__':
@@ -194,9 +199,9 @@ if __name__ == '__main__':
 
         print("Log processing.")
         try:
-            process_log.analyze_log(data["appName"]=="imagequery", 
+            process_log.analyze_log(data["appName"] == "imagequery", 
                                     system=app.get_mode(), 
-                                    log_file=app.get_log_name(),
+                                    log_file=app.get_client_log_file_path(),
                                     num_containers=data["num_containers"])
         except:
             print("Fail to handle the log processing.")
