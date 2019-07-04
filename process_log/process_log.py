@@ -67,6 +67,7 @@ def process_wo_proxy_log(log_file):
 
 def analyze_log(is_imagequery, system, log_file, num_containers):
     print(is_imagequery, system, log_file)
+    print(os.getcwd())
 
     """ 
     system: clipper, bigball, withoutProxy, withProxy

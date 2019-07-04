@@ -193,8 +193,11 @@ if __name__ == '__main__':
         print("Enter the tags of containers you would like to inspect.")
         print("The format should be: [container_id]-[tag_you_want_for_log].")
         print("Exampel: f9842338fdc5-c1 => log for c1 will be saved at: ./process_log/appname_mode_c1_timestamp.log")
+        print("Or you can press Enter to skip.")
         log_requests_str = input()
-        app.write_container_logs(log_requests_str)
+        if (len(log_requests_str) > 0){
+            app.write_container_logs(log_requests_str)
+        }
 
         print("Log processing.")
         try:
