@@ -93,12 +93,12 @@ class App:
 
         print("Start running frontend client!")
         frontend_client_cmd += " ".join(["  --" + arg + " " + val for arg, val in self.frontend_client_param.items()])
-        print("> " + frontend_cmd)
+        print("> " + frontend_client_cmd)
 
 
         try:
             f = open(self.get_log_name(), "w")
-            oFlowLog = os.popen(frontend_cmd)
+            oFlowLog = os.popen(frontend_client_cmd)
             senct = oFlowLog.readline()
             while senct != "":
                 print(senct, end="")
@@ -154,7 +154,7 @@ if __name__ == '__main__':
                 images=data["images"][parser.parse_args().mode],
                 refresh=data["buildFilePath"][parser.parse_args().mode],
                 frontend_server=data["frontendServerPath"][parser.parse_args().mode],
-                frontedn_server_args = data["frontendServerArgs"][parser.parse_args().mode],
+                frontend_server_args = data["frontendServerArgs"][parser.parse_args().mode],
                 frontend_client=data["frontendClientPath"][parser.parse_args().mode],
                 frontend_client_param=data['frontendClientParams'][parser.parse_args().mode])
     app.prepare_for_clipper()
