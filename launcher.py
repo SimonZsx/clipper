@@ -112,19 +112,20 @@ class App:
             return PROC_ERR
 
     def write_container_log(self, container_tags):
-        log_dir = "./process_log"
         for container_tag in container_tags:
-            docker_id = container_tag.split("-")[0] # f9842338fdc5
-            container_id = container_tag.split("-")[1] # c0
+            docker_id = container_tag.split("-")[0]     # f9842338fdc5
+            container_id = container_tag.split("-")[1]  # c0
             
-            print("Fetching logs for {}".format(container_tag))
             logFlow = os.popen("docker logs " + container_id)
             buff = logFlow.read()
             logFlow.close()
-            print("Log saved as: .{0}c{1}.log".format(self.get_log_name().split('.')[1], container))
-            logFlow = open(".{0}c{1}.log".format(self.get_log_name().split('.')[1], container), 'w')
+            log_file_name = self.appName + "_" + self.mode + "_" + container_tag + "_" + log_timeStamp + ".log"
+            log_file_path = os.join(".", 'process_log',  )
+            print("{} saved as: {}".format(container_tag, str(log_file_path)))
+            logFlow = open(log_file_path, 'w')
             logFlow.write(buff)
             logFlow.close()
+
         
     def get_appName(self):
         return self.appName
@@ -134,9 +135,7 @@ class App:
     
     def get_network(self):
         return self.network
-    
-    def get_log_name(self):
-        return "./process_log/" + self.appName + "_" + self.mode + "_" + log_timeStamp + ".log"
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='App name, mode and network')
@@ -179,14 +178,13 @@ if __name__ == '__main__':
         os.system("docker ps -a | grep -v Exited | grep -v '-proxy'")
         print("Enter the tags of containers you would like to inspect.")
         print("The format should be: [container_id]-[tag_you_want_for_log].")
-        print("Exampel: ÿf9842338fdc5-c1")
+        print("Exampel: f9842338fdc5-c1 => log for c1 will be saved at: ./process_log/appname_mode_c1_timestamp.log")
         container_tags = input()
         
-
         if len(container_tags) != 0 :
             app.write_container_log(container_tags)
 
-        print("Log processing, @", app.get_log_name())
+        print("Log processing.")
         try:
             process_log.analyze_log(data["appName"]=="imagequery", 
                                     system=app.get_mode(), 
