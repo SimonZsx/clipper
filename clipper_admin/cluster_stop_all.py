@@ -16,8 +16,8 @@ def stop_all_containers():
 #                                   feature_sum)
 
 
-    clipper_conn.connect_host("202.45.128.174", "2375")
-    clipper_conn.connect_host("202.45.128.175", "2375")
+    clipper_conn.connect_host("3.18.199.88", "2377")
+    clipper_conn.connect_host("18.219.190.191", "2377")
     clipper_conn.stop_all(graceful=False)
     time.sleep(2)
 
