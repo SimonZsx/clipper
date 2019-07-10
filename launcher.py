@@ -2,7 +2,7 @@ import os, sys
 import json, argparse
 from datetime import datetime
 
-sys.path.append("./process_log"))
+sys.path.append("./process_log")
 sys.path.append("./clipper_admin")
 
 import process_log
