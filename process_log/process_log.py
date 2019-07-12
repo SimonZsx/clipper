@@ -65,10 +65,19 @@ def process_w_proxy_log(log_file, log_file_list=None):
     tp = num_requests * 1000 / avg_latency
     avg_latency /= num_requests
     print("Average latency: {:.3f} miliseonds".format(avg_latency))
+    store_in_csv({"TimeStamp":testingTime,
+                  "AppName":log_file.split('/')[-1].split('_')[0]+"-Entire",
+                  "Mode":log_file.split('/')[-1].split('_')[1],
+                  "Request":str(num_requests),
+                  "Throughput":str(tp),
+                  "Latency":str(avg_latency)})
+
 
     # Get breakdown
+    breakdown = {}
     if log_file_list and len(log_file_list) > 0: # process only if log_file_list is provided
         for file in log_file_list:
+            container_id = str(file).split('-')[2] # c0
             f = open(file, "r")
             for line in f:
                 if "[INFO]" in line and "Time elapsed:" in line:
@@ -76,14 +85,15 @@ def process_w_proxy_log(log_file, log_file_list=None):
                     time = float(re.findall(r"[-+]?\d*\.\d+|\d+", line[line.index("elapsed: "):])[0])
                     avg_latency += time
             avg_latency /= num_requests
-            print("Average latency from {}: {:.3f} milliseconds".format(file, avg_latency))
-
-    store_in_csv({"TimeStamp":testingTime,
-                  "AppName":log_file.split('/')[-1].split('_')[0]+"-Entire",
+            breakdown[str(container_id)] = avg_latency
+            print("Average latency for {}: {:.3f} milliseconds".format(container_id, avg_latency))
+            store_in_csv({"TimeStamp":testingTime,
+                  "AppName":log_file.split('/')[-1].split('_')[0]+"-"+container_id,
                   "Mode":log_file.split('/')[-1].split('_')[1],
                   "Request":str(num_requests),
-                  "Throughput":str(tp),
+                  "Throughput":"N/A",
                   "Latency":str(avg_latency)})
+    print(breakdown)
 
 
 
