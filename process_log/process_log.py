@@ -76,7 +76,7 @@ def process_w_proxy_log(log_file, log_list=None):
     # Get breakdown
     if log_list and len(log_list) > 0: # process only if log_list is provided
         for file in log_list:
-            container_id = str(file).split('/')[-1].split('-')[2] # c0
+            container_id = str(file).split('/')[-1].split('_')[2] # c0
 
             f = open(file, "r")
             for line in f:
