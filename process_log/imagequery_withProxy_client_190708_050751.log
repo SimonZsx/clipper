@@ -1,0 +1,46 @@
+inputt_total:  ['11', '17', '15', '9', '14', '0', '16', '1', '4', '10', '12', '13', '5', '2', '3', '6', '7', '8', '19', '18']
+Starting worker => 100
+Input 11 returns Output: req sequence: 1; time: 618ms; OUPUT (starting from next line):
+sit, bring
+Input 17 returns Output: req sequence: 2; time: 517ms; OUPUT (starting from next line):
+
+Input 15 returns Output: req sequence: 3; time: 647ms; OUPUT (starting from next line):
+bear
+Input 9 returns Output: req sequence: 4; time: 948ms; OUPUT (starting from next line):
+bear, race
+Input 14 returns Output: req sequence: 5; time: 445ms; OUPUT (starting from next line):
+sit
+Input 0 returns Output: req sequence: 6; time: 592ms; OUPUT (starting from next line):
+sit, prove
+Input 16 returns Output: req sequence: 7; time: 682ms; OUPUT (starting from next line):
+sit
+Input 1 returns Output: req sequence: 8; time: 684ms; OUPUT (starting from next line):
+sit
+Input 4 returns Output: req sequence: 9; time: 654ms; OUPUT (starting from next line):
+sit
+Input 10 returns Output: req sequence: 10; time: 877ms; OUPUT (starting from next line):
+sit, ask
+Input 12 returns Output: req sequence: 11; time: 580ms; OUPUT (starting from next line):
+sit, ask, stay
+Input 13 returns Output: req sequence: 12; time: 768ms; OUPUT (starting from next line):
+sit, call, could, ring
+Input 5 returns Output: req sequence: 13; time: 559ms; OUPUT (starting from next line):
+sit, go, say
+Input 2 returns Output: req sequence: 14; time: 427ms; OUPUT (starting from next line):
+bear
+Input 3 returns Output: req sequence: 15; time: 613ms; OUPUT (starting from next line):
+bear, give
+Input 6 returns Output: req sequence: 16; time: 842ms; OUPUT (starting from next line):
+sit, think
+Input 7 returns Output: req sequence: 17; time: 485ms; OUPUT (starting from next line):
+sit, ask
+Input 8 returns Output: req sequence: 18; time: 684ms; OUPUT (starting from next line):
+
+Input 19 returns Output: req sequence: 19; time: 685ms; OUPUT (starting from next line):
+sit
+Input 18 returns Output: req sequence: 20; time: 535ms; OUPUT (starting from next line):
+
+Worker 100 exiting...
+Finished 20 requests with time:
+12.863520383834839
+Parent process exiting...

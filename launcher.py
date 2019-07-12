@@ -230,6 +230,7 @@ if __name__ == '__main__':
                                     system = app.get_mode(), 
                                     log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"],
+                                    num_containers=data["num_containers"],
                                     log_file_list = log_file_list)
         except:
             print("Fail to handle the log processing.")

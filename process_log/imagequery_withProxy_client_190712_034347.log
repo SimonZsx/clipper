@@ -1,0 +1,46 @@
+inputt_total:  ['7', '17', '19', '10', '15', '11', '6', '5', '14', '9', '13', '12', '16', '0', '8', '1', '2', '3', '18', '4']
+Starting worker => 98
+Input 7 returns Output: req sequence: 1; time: 2499ms; OUPUT (starting from next line):
+sit, ask
+Input 17 returns Output: req sequence: 2; time: 527ms; OUPUT (starting from next line):
+
+Input 19 returns Output: req sequence: 3; time: 626ms; OUPUT (starting from next line):
+sit
+Input 10 returns Output: req sequence: 4; time: 888ms; OUPUT (starting from next line):
+sit
+Input 15 returns Output: req sequence: 5; time: 696ms; OUPUT (starting from next line):
+bear
+Input 11 returns Output: req sequence: 6; time: 691ms; OUPUT (starting from next line):
+sit, bring
+Input 6 returns Output: req sequence: 7; time: 877ms; OUPUT (starting from next line):
+sit, think
+Input 5 returns Output: req sequence: 8; time: 454ms; OUPUT (starting from next line):
+sit, go, say
+Input 14 returns Output: req sequence: 9; time: 470ms; OUPUT (starting from next line):
+sit
+Input 9 returns Output: req sequence: 10; time: 995ms; OUPUT (starting from next line):
+bear, race
+Input 13 returns Output: req sequence: 11; time: 775ms; OUPUT (starting from next line):
+sit, call, could, win
+Input 12 returns Output: req sequence: 12; time: 573ms; OUPUT (starting from next line):
+sit, ask, stay
+Input 16 returns Output: req sequence: 13; time: 749ms; OUPUT (starting from next line):
+sit, ask
+Input 0 returns Output: req sequence: 14; time: 608ms; OUPUT (starting from next line):
+sit, prove
+Input 8 returns Output: req sequence: 15; time: 720ms; OUPUT (starting from next line):
+
+Input 1 returns Output: req sequence: 16; time: 631ms; OUPUT (starting from next line):
+sit
+Input 2 returns Output: req sequence: 17; time: 461ms; OUPUT (starting from next line):
+bear
+Input 3 returns Output: req sequence: 18; time: 614ms; OUPUT (starting from next line):
+bear, give
+Input 18 returns Output: req sequence: 19; time: 575ms; OUPUT (starting from next line):
+
+Input 4 returns Output: req sequence: 20; time: 689ms; OUPUT (starting from next line):
+sit
+Worker 98 exiting...
+Finished 20 requests with time:
+15.137226343154907
+Parent process exiting...

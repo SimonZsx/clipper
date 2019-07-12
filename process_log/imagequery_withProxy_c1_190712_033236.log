@@ -1,0 +1,102 @@
+c0 started!
+Model Server Started -- c0_entryContainer
+[Input]inputType: "string"
+inputStream: "5"
+
+
+[Output]5
+[Input]inputType: "string"
+inputStream: "17"
+
+
+[Output]17
+[Input]inputType: "string"
+inputStream: "3"
+
+
+[Output]3
+[Input]inputType: "string"
+inputStream: "11"
+
+
+[Output]11
+[Input]inputType: "string"
+inputStream: "0"
+
+
+[Output]0
+[Input]inputType: "string"
+inputStream: "1"
+
+
+[Output]1
+[Input]inputType: "string"
+inputStream: "8"
+
+
+[Output]8
+[Input]inputType: "string"
+inputStream: "2"
+
+
+[Output]2
+[Input]inputType: "string"
+inputStream: "16"
+
+
+[Output]16
+[Input]inputType: "string"
+inputStream: "13"
+
+
+[Output]13
+[Input]inputType: "string"
+inputStream: "18"
+
+
+[Output]18
+[Input]inputType: "string"
+inputStream: "4"
+
+
+[Output]4
+[Input]inputType: "string"
+inputStream: "15"
+
+
+[Output]15
+[Input]inputType: "string"
+inputStream: "14"
+
+
+[Output]14
+[Input]inputType: "string"
+inputStream: "6"
+
+
+[Output]6
+[Input]inputType: "string"
+inputStream: "19"
+
+
+[Output]19
+[Input]inputType: "string"
+inputStream: "10"
+
+
+[Output]10
+[Input]inputType: "string"
+inputStream: "9"
+
+
+[Output]9
+[Input]inputType: "string"
+inputStream: "7"
+
+
+[Output]7
+[Input]inputType: "string"
+inputStream: "12"
+
+
+[Output]12

@@ -1,0 +1,5 @@
+inputt_total:  ['2', '8', '1', '11', '18', '14', '19', '10', '13', '3', '16', '4', '6', '17', '0', '5', '12', '7', '15', '9']
+Starting worker => 100
+Finished 20 requests with time:
+20.008790493011475
+Parent process exiting...
