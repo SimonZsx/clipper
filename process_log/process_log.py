@@ -1,6 +1,15 @@
 import re
 import os 
 import argparse
+import csv
+from datetime import datetime
+
+testingTime = datetime.now().strftime("%y-%m-%d-%H%M%S") 
+
+def store_in_csv(row_data):
+    with open("./data.csv", 'a') as of:
+        of_csv = csv.DictWriter(of,fieldNames=row_da.keys())
+        of_csv.writeheader(row_data)
 
 def process_bigball_log(log_file, num_containers, is_imagequery=False):
     timebook = []
@@ -29,6 +38,12 @@ def process_bigball_log(log_file, num_containers, is_imagequery=False):
         avg_time_millisec = 1000 * sum(timebook[i]) / num_requests
         print("Container{} average latency: {:.3f} miliseconds.".format(i, 1000 * sum(timebook[i]) / num_requests))
         avg_timebook.append(avg_time_millisec)
+        store_in_csv({"TimeStamp":testingTime,
+                      "AppName":log_file.split('/')[-1].split('_')[0]+"Container{}".format(i),
+                      "Mode":log_file.split('/')[-1].split('_')[1],
+                      "Request":str(num_requests),
+                      "Throughput":"N/A",
+                      "Latency":str(avg_time_millisec)})
 
     
 
@@ -44,8 +59,15 @@ def process_w_proxy_log(log_file):
             avg_latency += time
     
     print("Throughput: {:.3f} request per second".format(num_requests * 1000 / avg_latency))
+    tp = num_requests * 1000 / avg_latency
     avg_latency /= num_requests
     print("Average latency: {:.3f} miliseonds".format(avg_latency))
+    store_in_csv({"TimeStamp":testingTime,
+                  "AppName":log_file.split('/')[-1].split('_')[0]+"-Entire",
+                  "Mode":log_file.split('/')[-1].split('_')[1],
+                  "Request":str(num_requests),
+                  "Throughput":str(tp),
+                  "Latency":str(avg_latency)})
 
 
 
@@ -61,6 +83,12 @@ def process_wo_proxy_log(log_file):
                 total_time = float(line)
                 print("Throughput: {:.3f} request per second".format(num_requests / total_time))
                 print("Average latency: {:.3f} miliseconds".format(total_time * 1000 / num_requests))
+                store_in_csv({"TimeStamp":testingTime,
+                            "AppName":log_file.split('/')[-1].split('_')[0]+"Entire",
+                            "Mode":log_file.split('/')[-1].split('_')[1],
+                            "Request":str(num_requests),
+                            "Throughput":"{:.3f}".format(num_requests / total_time),
+                            "Latency":"{:.3f}".format(total_time * 1000 / num_requests)})
             except Exception as e:
                 print(e)
 

@@ -15,7 +15,7 @@ def ip_setter():
 	ip = get_host_ip()
 	print("IP = ", ip)
 
-	hosts = open("./host_list", "r")
+	hosts = open("/clipper/clipper_admin/host_list", "r")
 	num_host = int(hosts.readline())
 	host_lst = []
 	for i in range(num_host):
@@ -23,7 +23,7 @@ def ip_setter():
 	hosts.close()
 
 	target = "clipper_conn.connect_host"
-	for file in glob.glob("cluster_*"):
+	for file in glob.glob("/clipper/clipper_admin/cluster_*"):
 		#read the file
 		file_cont = open(file, "r")
 		file_st = file_cont.read().split("\n")
