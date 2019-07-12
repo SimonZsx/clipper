@@ -76,7 +76,7 @@ def process_w_proxy_log(log_file, log_list=None):
     # Get breakdown
     if log_list and len(log_list) > 0: # process only if log_list is provided
         for file in log_list:
-            container_id = str(file).split('-')[2] # c0
+            container_id = str(file).split('/')[-1].split('-')[2] # c0
 
             f = open(file, "r")
             for line in f:
@@ -86,7 +86,7 @@ def process_w_proxy_log(log_file, log_list=None):
                     avg_latency += time
             avg_latency /= num_requests
             print("Average latency for {}: {:.3f} milliseconds".format(container_id, avg_latency))
-            
+
             store_in_csv({"TimeStamp":testingTime,
                   "AppName":log_file.split('/')[-1].split('_')[0]+"-"+container_id,
                   "Mode":log_file.split('/')[-1].split('_')[1],
