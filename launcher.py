@@ -137,7 +137,7 @@ class App:
             print("No valid input, no log would be saved.")
         else:
             for request in log_requests:              # f9842338fdc5-c0
-                docker_id = request.split("-")[0]     # id given by docker: f9842338fdc5
+                docker_id = request.split("_")[0]     # id given by docker: f9842338fdc5
                 container_id = request.split("-")[1]  # id defined by he app: c0
                 
                 logFlow = os.popen("docker logs " + docker_id)
