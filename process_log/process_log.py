@@ -7,7 +7,7 @@ from datetime import datetime
 testingTime = datetime.now().strftime("%y-%m-%d-%H%M%S") 
 
 def store_in_csv(row_data):
-    with open("./data.csv", 'a') as of:
+    with open("/clipper/process_log/data.csv", 'a') as of:
         of_csv = csv.DictWriter(of,fieldnames=row_data.keys())
         of_csv.writerow(row_data)
 
