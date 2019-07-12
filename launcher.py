@@ -124,27 +124,39 @@ class App:
             return PROC_ERR
 
     def write_container_logs(self, log_requests_str):
+        """
+        Args:
+            log_requests_str: "f9842338fdc5-c0 adf42338f434-c1"
+
+        Return:
+            A list containing stored log files names.
+        """
         log_requests = log_requests_str.split()
+        log_files = []
         if len(log_requests) == 0:
             print("No valid input, no log would be saved.")
         else:
             for request in log_requests:              # f9842338fdc5-c0
-                docker_id = request.split("-")[0]     # f9842338fdc5
-                container_id = request.split("-")[1]  # c0
-                print(docker_id)
-                print(container_id)
+                docker_id = request.split("-")[0]     # id given by docker: f9842338fdc5
+                container_id = request.split("-")[1]  # id defined by he app: c0
                 
                 logFlow = os.popen("docker logs " + docker_id)
-                buff = logFlow.read()
+                logs = logFlow.read()
                 logFlow.close()
 
                 log_file_name = self.appName + "_" + self.mode + "_" + container_id + "_" + log_timeStamp + ".log"
                 log_file_path = os.path.join(".", 'process_log', log_file_name)
 
-                print("{} saved as: {}".format(request, str(log_file_path)))
                 logFlow = open(log_file_path, 'w')
-                logFlow.write(buff)
+                logFlow.write(logs)
                 logFlow.close()
+                print("{} saved as: {}".format(request, str(log_file_path)))
+                log_files.append(log_file_path)
+
+        print("Lof files stored: {}".format(str(log_files)))
+        return log_files
+    
+    
 
         
     def get_appName(self):
@@ -210,14 +222,15 @@ if __name__ == '__main__':
         print("Or you can press Enter to skip.")
         log_requests_str = input()
         if len(log_requests_str) > 0:
-            app.write_container_logs(log_requests_str)
+            log_file_list = app.write_container_logs(log_requests_str)
 
         print("Log processing.")
         try:
             process_log.analyze_log(data["appName"] == "imagequery", 
                                     system = app.get_mode(), 
                                     log_file = app.get_client_log_file_path(),
-                                    num_containers=data["num_containers"])
+                                    num_containers=data["num_containers"],
+                                    log_file_list = log_file_list)
         except:
             print("Fail to handle the log processing.")
     
