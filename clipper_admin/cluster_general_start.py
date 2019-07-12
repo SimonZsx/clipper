@@ -33,8 +33,7 @@ def start(dag_graph, dag_name):
     dag_description = f.read()
     f.close()
     
-    clipper_conn.connect_host("3.18.199.88", "2377")
-    clipper_conn.connect_host("18.219.190.191", "2377")
+    clipper_conn.connect_host("172.31.27.216", "2375")
 
     clipper_conn.deploy_DAG(dag_name, "test", dag_description, runtime="nvidia")
 

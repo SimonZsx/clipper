@@ -206,8 +206,9 @@ if __name__ == '__main__':
                                     system = app.get_mode(), 
                                     log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"])
-        except:
+        except Exception as e:
             print("Fail to handle the log processing.")
+            print(e)
     
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
