@@ -1,25 +1,23 @@
 import argparse
+import re
+
+log_file = "imagequery_withProxy_c1.log"
 
 def main():
-    parser = argparse.ArgumentParser(description='concurrent client')
+    avg_latency = 0.0
+    num_requests = 0
 
-    parser.add_argument('--worker', type=int, help="Worker num")
-    parser.add_argument('--ip', type=str, help="Ip address of your query frontend")
-    parser.add_argument('--port', type=str, help="Port of your query frontend, for Clipper, put an arbitrary INT")
-    parser.add_argument('--system', type=str, help="System name: oursystem/withoutproxy/clipper")
-                       
-    args = parser.parse_args()
-
-    # Get configuration
-    work_num = args.worker
-    ip = args.ip
-    port = args.port
-    system = args.system
-
-    print(work_num, ip, port, system)
-# python test.py --worker 11 --ip 11 --port 11 --system 11
-
-
+    f = open(log_file, "r")
+    for line in f:
+        if "[INFO]" in line and "Time elapsed:" in line:
+            num_requests += 1
+            time = float(re.findall(r"[-+]?\d*\.\d+|\d+", line[line.index("elapsed: "):])[0])
+            avg_latency += time
+    
+    # print("Throughput: {:.3f} request per second".format(num_requests * 1000 / avg_latency))
+    # tp = num_requests * 1000 / avg_latency
+    avg_latency /= num_requests
+    print("Average latency: {:.3f} milliseconds".format(avg_latency))
 
 if __name__ == '__main__':
     main()

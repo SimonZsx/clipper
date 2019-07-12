@@ -4,6 +4,8 @@ import argparse
 import csv
 from datetime import datetime
 
+print(os.getcwd())
+
 testingTime = datetime.now().strftime("%y-%m-%d-%H%M%S") 
 
 def store_in_csv(row_data):
@@ -47,10 +49,11 @@ def process_bigball_log(log_file, num_containers, is_imagequery=False):
 
     
 
-def process_w_proxy_log(log_file):
+def process_w_proxy_log(log_file, log_file_list=None):
     avg_latency = 0.0
     num_requests = 0
 
+    # Get latency and throughput for the entire app
     f = open(log_file, "r")
     for line in f:
         if "; time:" in line:
@@ -62,6 +65,19 @@ def process_w_proxy_log(log_file):
     tp = num_requests * 1000 / avg_latency
     avg_latency /= num_requests
     print("Average latency: {:.3f} miliseonds".format(avg_latency))
+
+    # Get breakdown
+    if log_file_list and len(log_file_list) > 0: # process only if log_file_list is provided
+        for file in log_file_list:
+            f = open(file, "r")
+            for line in f:
+                if "[INFO]" in line and "Time elapsed:" in line:
+                    num_requests += 1
+                    time = float(re.findall(r"[-+]?\d*\.\d+|\d+", line[line.index("elapsed: "):])[0])
+                    avg_latency += time
+            avg_latency /= num_requests
+            print("Average latency from {}: {:.3f} milliseconds".format(file, avg_latency))
+
     store_in_csv({"TimeStamp":testingTime,
                   "AppName":log_file.split('/')[-1].split('_')[0]+"-Entire",
                   "Mode":log_file.split('/')[-1].split('_')[1],
@@ -93,7 +109,11 @@ def process_wo_proxy_log(log_file):
                 print(e)
 
 
-def analyze_log(is_imagequery, system, log_file, num_containers):
+def analyze_log(is_imagequery, system, log_file, num_containers, log_file_list=None):
+    """
+    Args:
+        log_file_list: only for withProxy, to process the log of each container for the breakdown.
+    """
     print(is_imagequery, system, log_file)
     print(os.getcwd())
 
@@ -106,27 +126,27 @@ def analyze_log(is_imagequery, system, log_file, num_containers):
     elif system == "withoutProxy":
         process_wo_proxy_log(log_file)
     elif system == "withProxy":
-        process_w_proxy_log(log_file)
+        process_w_proxy_log(log_file, log_file_list)
     else:
         print("Cannot handle this mode!")
 
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Log processor')
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser(description='Log processor')
 
-    parser.add_argument('--is_imagequery', type=bool, help="true/false")
-    parser.add_argument('--system', type=str, help="withoutProxy/withProxy/bigball")
-    parser.add_argument('--log_file', type=str, help="Path to log file")
-    parser.add_argument('--num_containers', type=int, help="number of containers")
+#     parser.add_argument('--is_imagequery', type=bool, help="true/false")
+#     parser.add_argument('--system', type=str, help="withoutProxy/withProxy/bigball")
+#     parser.add_argument('--log_file', type=str, help="Path to log file")
+#     parser.add_argument('--num_containers', type=int, help="number of containers")
                        
-    args = parser.parse_args()
-    is_imagequery = args.is_imagequery
-    system = args.system
-    log_file = args.log_file
-    num_containers = args.num_containers
+#     args = parser.parse_args()
+#     is_imagequery = args.is_imagequery
+#     system = args.system
+#     log_file = args.log_file
+#     num_containers = args.num_containers
 
-    analyze_log(is_imagequery, system, log_file, num_containers)
+#     analyze_log(is_imagequery, system, log_file, num_containers)
 
 
 
