@@ -9,7 +9,7 @@ testingTime = datetime.now().strftime("%y-%m-%d-%H%M%S")
 def store_in_csv(row_data):
     with open("./data.csv", 'a') as of:
         of_csv = csv.DictWriter(of,fieldNames=row_data.keys())
-        of_csv.writeheader(row_data)
+        of_csv.writerow(row_data)
 
 def process_bigball_log(log_file, num_containers, is_imagequery=False):
     timebook = []
