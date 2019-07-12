@@ -227,7 +227,7 @@ if __name__ == '__main__':
         print("Log processing.")
         try:
             process_log.analyze_log(data["appName"] == "imagequery", 
-                                    system = app.get_mode(), =
+                                    system = app.get_mode(),
                                     log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"],
                                     log_list = log_file_list)
