@@ -233,6 +233,7 @@ if __name__ == '__main__':
                                     log_list = log_file_list)
         except Exception as e:
             print("Fail to handle the log processing.")
+            print(e)
     
     if err_flag == 1:
         print("ERROR OCCURED, STOP DEPLOYMENT", end=': ')  
