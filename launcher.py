@@ -11,6 +11,16 @@ import start_withproxy_frontend, cluster_general_start
 import auto_set_ip
 
 """
+Commmand: 
+docker run -it --network=host \
+-v ~/code_yy/clipper:/clipper \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v /tmp:/tmp zsxhku/clipperpy35dev
+
+cd clipper/
+
+python3 launcher.py --appName imagequery --mode withProxy --network localhost
+
 MODE: clipper, bigball, withoutProxy, withProxy
 NETWORK: localhost, swarm, clipper
 """
@@ -121,10 +131,14 @@ class App:
             for request in log_requests:              # f9842338fdc5-c0
                 docker_id = request.split("-")[0]     # f9842338fdc5
                 container_id = request.split("-")[1]  # c0
+                print(docker_id)
+                print(container_id)
                 
                 logFlow = os.popen("docker logs " + container_id)
                 buff = logFlow.read()
                 logFlow.close()
+
+                os.system("docker logs " + container_id)
 
                 log_file_name = self.appName + "_" + self.mode + "_" + container_id + "_" + log_timeStamp + ".log"
                 log_file_path = os.path.join(".", 'process_log', log_file_name)
