@@ -49,7 +49,7 @@ def process_bigball_log(log_file, num_containers, is_imagequery=False):
 
     
 
-def process_w_proxy_log(log_file, log_file_list=None):
+def process_w_proxy_log(log_file, log_list=None):
     avg_latency = 0.0
     num_requests = 0
 
@@ -74,10 +74,10 @@ def process_w_proxy_log(log_file, log_file_list=None):
 
 
     # Get breakdown
-    breakdown = {}
-    if log_file_list and len(log_file_list) > 0: # process only if log_file_list is provided
-        for file in log_file_list:
+    if log_list and len(log_list) > 0: # process only if log_list is provided
+        for file in log_list:
             container_id = str(file).split('-')[2] # c0
+
             f = open(file, "r")
             for line in f:
                 if "[INFO]" in line and "Time elapsed:" in line:
@@ -85,15 +85,14 @@ def process_w_proxy_log(log_file, log_file_list=None):
                     time = float(re.findall(r"[-+]?\d*\.\d+|\d+", line[line.index("elapsed: "):])[0])
                     avg_latency += time
             avg_latency /= num_requests
-            breakdown[str(container_id)] = avg_latency
             print("Average latency for {}: {:.3f} milliseconds".format(container_id, avg_latency))
+            
             store_in_csv({"TimeStamp":testingTime,
                   "AppName":log_file.split('/')[-1].split('_')[0]+"-"+container_id,
                   "Mode":log_file.split('/')[-1].split('_')[1],
                   "Request":str(num_requests),
                   "Throughput":"N/A",
                   "Latency":str(avg_latency)})
-    print(breakdown)
 
 
 
@@ -119,10 +118,10 @@ def process_wo_proxy_log(log_file):
                 print(e)
 
 
-def analyze_log(is_imagequery, system, log_file, num_containers, log_file_list=None):
+def analyze_log(is_imagequery, system, log_file, num_containers, log_list=None):
     """
     Args:
-        log_file_list: only for withProxy, to process the log of each container for the breakdown.
+        log_list: only for withProxy, to process the log of each container for the breakdown.
     """
     print(is_imagequery, system, log_file)
     print(os.getcwd())
@@ -136,7 +135,7 @@ def analyze_log(is_imagequery, system, log_file, num_containers, log_file_list=N
     elif system == "withoutProxy":
         process_wo_proxy_log(log_file)
     elif system == "withProxy":
-        process_w_proxy_log(log_file, log_file_list)
+        process_w_proxy_log(log_file, log_list)
     else:
         print("Cannot handle this mode!")
 

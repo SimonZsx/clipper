@@ -153,7 +153,7 @@ class App:
                 print("{} saved as: {}".format(request, str(log_file_path)))
                 log_files.append(log_file_path)
 
-        print("Lof files stored: {}".format(str(log_files)))
+        print("Log files stored: {}".format(str(log_files)))
         return log_files
     
     
@@ -230,8 +230,7 @@ if __name__ == '__main__':
                                     system = app.get_mode(), 
                                     log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"],
-                                    num_containers=data["num_containers"],
-                                    log_file_list = log_file_list)
+                                    log_list = log_file_list)
         except:
             print("Fail to handle the log processing.")
     
