@@ -134,11 +134,9 @@ class App:
                 print(docker_id)
                 print(container_id)
                 
-                logFlow = os.popen("docker logs " + container_id)
+                logFlow = os.popen("docker logs " + docker_id)
                 buff = logFlow.read()
                 logFlow.close()
-
-                os.system("docker logs " + container_id)
 
                 log_file_name = self.appName + "_" + self.mode + "_" + container_id + "_" + log_timeStamp + ".log"
                 log_file_path = os.path.join(".", 'process_log', log_file_name)
