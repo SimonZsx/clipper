@@ -377,7 +377,7 @@ class DockerContainerManager(ContainerManager):
             labels=labels,
             runtime=runtime,
             remove= remove,
-            #tty=True,
+            tty=True,
             **self.extra_container_kwargs)
 
         #<Container: d15d870463>
