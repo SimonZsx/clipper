@@ -1,0 +1,46 @@
+inputt_total:  ['18', '1', '8', '14', '6', '13', '4', '0', '10', '16', '2', '11', '3', '9', '17', '5', '12', '7', '19', '15']
+Starting worker => 234
+Input 18 returns Output: req sequence: 1; time: 1839ms; OUPUT (starting from next line):
+
+Input 1 returns Output: req sequence: 2; time: 610ms; OUPUT (starting from next line):
+sit
+Input 8 returns Output: req sequence: 3; time: 644ms; OUPUT (starting from next line):
+
+Input 14 returns Output: req sequence: 4; time: 469ms; OUPUT (starting from next line):
+sit
+Input 6 returns Output: req sequence: 5; time: 823ms; OUPUT (starting from next line):
+sit, think
+Input 13 returns Output: req sequence: 6; time: 766ms; OUPUT (starting from next line):
+sit, call
+Input 4 returns Output: req sequence: 7; time: 675ms; OUPUT (starting from next line):
+sit
+Input 0 returns Output: req sequence: 8; time: 611ms; OUPUT (starting from next line):
+sit
+Input 10 returns Output: req sequence: 9; time: 922ms; OUPUT (starting from next line):
+sit
+Input 16 returns Output: req sequence: 10; time: 742ms; OUPUT (starting from next line):
+sit, ask
+Input 2 returns Output: req sequence: 11; time: 426ms; OUPUT (starting from next line):
+bear
+Input 11 returns Output: req sequence: 12; time: 667ms; OUPUT (starting from next line):
+sit, bring
+Input 3 returns Output: req sequence: 13; time: 697ms; OUPUT (starting from next line):
+bear
+Input 9 returns Output: req sequence: 14; time: 985ms; OUPUT (starting from next line):
+bear, race
+Input 17 returns Output: req sequence: 15; time: 534ms; OUPUT (starting from next line):
+
+Input 5 returns Output: req sequence: 16; time: 452ms; OUPUT (starting from next line):
+sit, go, say
+Input 12 returns Output: req sequence: 17; time: 575ms; OUPUT (starting from next line):
+sit, ask
+Input 7 returns Output: req sequence: 18; time: 473ms; OUPUT (starting from next line):
+sit, ask
+Input 19 returns Output: req sequence: 19; time: 647ms; OUPUT (starting from next line):
+sit
+Input 15 returns Output: req sequence: 20; time: 665ms; OUPUT (starting from next line):
+bear
+Worker 234 exiting...
+Finished 20 requests with time:
+14.243101596832275
+Parent process exiting...

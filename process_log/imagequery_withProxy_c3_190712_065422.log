@@ -1,0 +1,182 @@
+preprocess.py modules loaded successfully in 0.5320213770010014 seconds.
+Model Server Started -- c3_nlpMappingGenerator
+[Input]inputType: "String"
+inputStream: "a close up of a stuffed animal on a table|at a school and steve"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:52.986657
+[INFO]	 [c3]	 2019-07-12 06:54:53.013457
+[INFO]	 [c3]	 Time elapsed:  0.0268  seconds.
+[Output]close stuff animal tableat school steve-
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on the ground next to a tree .|the squalls that offer to ring the who"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:53.604668
+[INFO]	 [c3]	 2019-07-12 06:54:53.625719
+[INFO]	 [c3]	 Time elapsed:  0.021051  seconds.
+[Output]motorcyclist bear sit ground, squall offer ring-sit
+[Input]inputType: "String"
+inputStream: "a black and white photo of a motorcyclists bear .|he\'s close to that fair"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:54.250479
+[INFO]	 [c3]	 2019-07-12 06:54:54.269479
+[INFO]	 [c3]	 Time elapsed:  0.019  seconds.
+[Output]black white photo motorcyclist bear-
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|please cole\'s bella africa"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:54.719700
+[INFO]	 [c3]	 2019-07-12 06:54:54.740240
+[INFO]	 [c3]	 Time elapsed:  0.02054  seconds.
+[Output]motorcyclist bear sit tree branch .please cole 's bella africa-sit
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting in a grassy area .|he thought that the victim"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:55.543835
+[INFO]	 [c3]	 2019-07-12 06:54:55.563342
+[INFO]	 [c3]	 Time elapsed:  0.019507  seconds.
+[Output]motorcyclist bear, grassy area, victim-sit, think
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|we called l. o. have cuddling"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:56.308342
+[INFO]	 [c3]	 2019-07-12 06:54:56.329519
+[INFO]	 [c3]	 Time elapsed:  0.021177  seconds.
+[Output]motorcyclist bear, top rock-sit, call
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|the school so soft it bundy"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:56.985088
+[INFO]	 [c3]	 2019-07-12 06:54:57.004565
+[INFO]	 [c3]	 Time elapsed:  0.019477  seconds.
+[Output]motorcyclist bear, top rock, school soft bundy-sit
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|two schools anna escape it room of the skin"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:57.595901
+[INFO]	 [c3]	 2019-07-12 06:54:57.617362
+[INFO]	 [c3]	 Time elapsed:  0.021461  seconds.
+[Output]motorcyclist bear sit tree branch, school anna escape room skin-sit
+[Input]inputType: "String"
+inputStream: "a teddy bear sitting on top of a wooden table .|dude called the at hit been"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:58.518913
+[INFO]	 [c3]	 2019-07-12 06:54:58.539314
+[INFO]	 [c3]	 Time elapsed:  0.020401  seconds.
+[Output]teddy, top wooden table, .dude call, hit-sit
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting in a grassy area .|the news caught it on ask her"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:59.260902
+[INFO]	 [c3]	 2019-07-12 06:54:59.281306
+[INFO]	 [c3]	 Time elapsed:  0.020404  seconds.
+[Output]motorcyclist bear, grassy area, news catch-sit, ask
+[Input]inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|the schools then the oscar"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:54:59.690638
+[INFO]	 [c3]	 2019-07-12 06:54:59.709015
+[INFO]	 [c3]	 Time elapsed:  0.018377  seconds.
+[Output]black white photo teddy, school oscar-bear
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|he\'s called the oscar to bring this thing"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:00.356034
+[INFO]	 [c3]	 2019-07-12 06:55:00.375973
+[INFO]	 [c3]	 Time elapsed:  0.019939  seconds.
+[Output]motorcyclist bear, top rock, call oscar, thing-sit, bring
+[Input]inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|the whole fellow at third during the"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:01.053898
+[INFO]	 [c3]	 2019-07-12 06:55:01.072921
+[INFO]	 [c3]	 Time elapsed:  0.019023  seconds.
+[Output]black white photo teddy, whole fellow third-bear
+[Input]inputType: "String"
+inputStream: "a teddy bear with a racing on its head .|these calls the brass ring"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:02.038593
+[INFO]	 [c3]	 2019-07-12 06:55:02.058523
+[INFO]	 [c3]	 Time elapsed:  0.01993  seconds.
+[Output]teddy, racing head, .these call brass ring-bear, race
+[Input]inputType: "String"
+inputStream: "a black and white photo of a pair of scissors .|it is coliseum outskirts of brain"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:02.575115
+[INFO]	 [c3]	 2019-07-12 06:55:02.594133
+[INFO]	 [c3]	 Time elapsed:  0.019018  seconds.
+[Output]black white photo pair scissor, coliseum outskirt brain-
+[Input]inputType: "String"
+inputStream: "a teddy bear sitting on a tree branch .|he\'s going to have said"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:03.026594
+[INFO]	 [c3]	 2019-07-12 06:55:03.046653
+[INFO]	 [c3]	 Time elapsed:  0.020059  seconds.
+[Output]teddy, sit tree branch-sit, go, say
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on a tree branch .|these calls down and ask that the brain bee sting"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:03.603718
+[INFO]	 [c3]	 2019-07-12 06:55:03.623142
+[INFO]	 [c3]	 Time elapsed:  0.019424  seconds.
+[Output]motorcyclist bear sit tree branch, .these call, brain bee sting-sit, ask
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a rock .|please call the law ask her to"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:04.076774
+[INFO]	 [c3]	 2019-07-12 06:55:04.096070
+[INFO]	 [c3]	 Time elapsed:  0.019296  seconds.
+[Output]motorcyclist bear, top rock .please call law-sit, ask
+[Input]inputType: "String"
+inputStream: "a motorcyclists bear sitting on top of a tree .|please close the amount of kafka and"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:04.725582
+[INFO]	 [c3]	 2019-07-12 06:55:04.744891
+[INFO]	 [c3]	 Time elapsed:  0.019309  seconds.
+[Output]motorcyclist bear, top tree, .please close amount kafka-sit
+[Input]inputType: "String"
+inputStream: "a black and white photo of a teddy bear .|these goals valor and courage"
+
+
+
+[INFO]	 [c3]	 2019-07-12 06:55:05.390739
+[INFO]	 [c3]	 2019-07-12 06:55:05.410202
+[INFO]	 [c3]	 Time elapsed:  0.019463  seconds.
+[Output]black white photo teddy, .these goal valor courage-bear

@@ -1,0 +1,181 @@
+Model Server Started -- c4_questionAnswerer
+[Input]inputType: "string"
+inputStream: "teddy, sit tree branch-sit, go, say"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:46.619517
+[INFO]	 [c4]	 2019-07-12 07:05:46.619546
+[INFO]	 [c4]	 Time elapsed:  2.9e-05  seconds.
+[Output]sit, go, say
+[Input]inputType: "string"
+inputStream: "motorcyclist bear sit ground, next tree .people ring-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:47.280305
+[INFO]	 [c4]	 2019-07-12 07:05:47.280332
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "black white photo teddy, school oscar-bear"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:47.706584
+[INFO]	 [c4]	 2019-07-12 07:05:47.706610
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+[Output]bear
+[Input]inputType: "string"
+inputStream: "motorcyclist bear sit tree branch, .these call, brain bee sting-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:48.280301
+[INFO]	 [c4]	 2019-07-12 07:05:48.280336
+[INFO]	 [c4]	 Time elapsed:  3.5e-05  seconds.
+[Output]sit, ask
+[Input]inputType: "string"
+inputStream: "motorcyclist bear sit tree branch .peace goldstein osgood, skin-sit, prove"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:48.873169
+[INFO]	 [c4]	 2019-07-12 07:05:48.873206
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+[Output]sit, prove
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, top tree, close amount das-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:49.544958
+[INFO]	 [c4]	 2019-07-12 07:05:49.544983
+[INFO]	 [c4]	 Time elapsed:  2.5e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "black white photo teddy, .these goal valor courage-bear"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:50.208667
+[INFO]	 [c4]	 2019-07-12 07:05:50.208707
+[INFO]	 [c4]	 Time elapsed:  4e-05  seconds.
+[Output]bear
+[Input]inputType: "string"
+inputStream: "teddy, racing head, .these call brass ring-bear, race"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:51.179764
+[INFO]	 [c4]	 2019-07-12 07:05:51.179801
+[INFO]	 [c4]	 Time elapsed:  3.7e-05  seconds.
+[Output]bear, race
+[Input]inputType: "string"
+inputStream: "teddy, top wooden table, .dude call, hit-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:52.086117
+[INFO]	 [c4]	 2019-07-12 07:05:52.086151
+[INFO]	 [c4]	 Time elapsed:  3.4e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "black white photo pair scissor, coliseum outskirt brain-"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:52.637632
+[INFO]	 [c4]	 2019-07-12 07:05:52.637666
+[INFO]	 [c4]	 Time elapsed:  3.4e-05  seconds.
+[Output]
+[Input]inputType: "string"
+inputStream: "motorcyclist bear sit tree branch .please cole \'s bella africa-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:53.096800
+[INFO]	 [c4]	 2019-07-12 07:05:53.096827
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "black white photo teddy, whole battle-bear, give"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:53.717651
+[INFO]	 [c4]	 2019-07-12 07:05:53.717687
+[INFO]	 [c4]	 Time elapsed:  3.6e-05  seconds.
+[Output]bear, give
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, grassy area, catch victim-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:54.575228
+[INFO]	 [c4]	 2019-07-12 07:05:54.575254
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "black white photo motorcyclist bear-"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:55.281014
+[INFO]	 [c4]	 2019-07-12 07:05:55.281055
+[INFO]	 [c4]	 Time elapsed:  4.1e-05  seconds.
+[Output]
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, top rock, call oscar, thing-sit, bring"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:55.957274
+[INFO]	 [c4]	 2019-07-12 07:05:55.957312
+[INFO]	 [c4]	 Time elapsed:  3.8e-05  seconds.
+[Output]sit, bring
+[Input]inputType: "string"
+inputStream: "close stuff animal, tablethe nice clothe steve-"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:56.511036
+[INFO]	 [c4]	 2019-07-12 07:05:56.511059
+[INFO]	 [c4]	 Time elapsed:  2.3e-05  seconds.
+[Output]
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, grassy area, news catch-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:57.237845
+[INFO]	 [c4]	 2019-07-12 07:05:57.237878
+[INFO]	 [c4]	 Time elapsed:  3.3e-05  seconds.
+[Output]sit, ask
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, top rock, school soft bundy-sit"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:57.960853
+[INFO]	 [c4]	 2019-07-12 07:05:57.960880
+[INFO]	 [c4]	 Time elapsed:  2.7e-05  seconds.
+[Output]sit
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, top rock, el, one-sit, call, could, win"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:58.735024
+[INFO]	 [c4]	 2019-07-12 07:05:58.735050
+[INFO]	 [c4]	 Time elapsed:  2.6e-05  seconds.
+[Output]sit, call, could, win
+[Input]inputType: "string"
+inputStream: "motorcyclist bear, top rock .please call law-sit, ask"
+
+
+
+[INFO]	 [c4]	 2019-07-12 07:05:59.211461
+[INFO]	 [c4]	 2019-07-12 07:05:59.211499
+[INFO]	 [c4]	 Time elapsed:  3.8e-05  seconds.
+[Output]sit, ask

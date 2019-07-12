@@ -153,7 +153,7 @@ class App:
                 print("{} saved as: {}".format(request, str(log_file_path)))
                 log_files.append(log_file_path)
 
-        print("Lof files stored: {}".format(str(log_files)))
+        print("Log files stored: {}".format(str(log_files)))
         return log_files
     
     
@@ -227,11 +227,11 @@ if __name__ == '__main__':
         print("Log processing.")
         try:
             process_log.analyze_log(data["appName"] == "imagequery", 
-                                    system = app.get_mode(), 
-                                    log_file = app.get_client_log_file_path(), 
+                                    system = app.get_mode(), =
+                                    log_file = app.get_client_log_file_path(),
                                     num_containers=data["num_containers"],
-                                    log_file_list = log_file_list)
-        except:
+                                    log_list = log_file_list)
+        except Exception as e:
             print("Fail to handle the log processing.")
     
     if err_flag == 1:

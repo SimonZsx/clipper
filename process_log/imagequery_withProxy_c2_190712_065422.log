@@ -1,0 +1,209 @@
+INFO:tensorflow:Building model.
+WARNING:tensorflow:From /container/show_and_tell_model.py:55: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+WARNING:tensorflow:From /container/show_and_tell_model.py:248: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is deprecated, please use tf.nn.rnn_cell.LSTMCell, which supports all the feature this cell currently has. Please replace the existing code with tf.nn.rnn_cell.LSTMCell(name='basic_lstm_cell').
+INFO:tensorflow:Initializing vocabulary from file: /container/im2txt/data/word_counts.txt
+INFO:tensorflow:Created vocabulary with 11520 words
+2019-07-12 06:54:38.834074: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-12 06:54:38.934169: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-07-12 06:54:38.935096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.75GiB freeMemory: 15.44GiB
+2019-07-12 06:54:38.935133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-12 06:54:39.378268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-12 06:54:39.378316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-12 06:54:39.378338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-12 06:54:39.379139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14944 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+INFO:tensorflow:Loading model from checkpoint: /container/im2txt/model/newmodel.ckpt-2000000
+INFO:tensorflow:Restoring parameters from /container/im2txt/model/newmodel.ckpt-2000000
+INFO:tensorflow:Successfully loaded checkpoint: newmodel.ckpt-2000000
+
+[INFO]	 [c2]	 2019-07-12 06:54:39.757342
+[INFO]	 [c2]	 2019-07-12 06:54:48.534648
+[INFO]	 [c2]	Time elapsed:  8.777306  seconds.
+Fully initialized model (with 1 extra prediction).
+Model Server Started -- c2_imageCaptionGenerator
+[Input]inputType: "string"
+inputStream: "18"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:52.382892
+[INFO]	 [c2]	 2019-07-12 06:54:52.468316
+[INFO]	 [c2]	Time elapsed:  0.085424  seconds.
+[Output]a close up of a stuffed animal on a table
+[Input]inputType: "string"
+inputStream: "1"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:53.020234
+[INFO]	 [c2]	 2019-07-12 06:54:53.106974
+[INFO]	 [c2]	Time elapsed:  0.08674  seconds.
+[Output]a motorcyclists bear sitting on the ground next to a tree .
+[Input]inputType: "string"
+inputStream: "8"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:53.631215
+[INFO]	 [c2]	 2019-07-12 06:54:53.720092
+[INFO]	 [c2]	Time elapsed:  0.088877  seconds.
+[Output]a black and white photo of a motorcyclists bear .
+[Input]inputType: "string"
+inputStream: "14"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:54.275163
+[INFO]	 [c2]	 2019-07-12 06:54:54.371252
+[INFO]	 [c2]	Time elapsed:  0.096089  seconds.
+[Output]a motorcyclists bear sitting on a tree branch .
+[Input]inputType: "string"
+inputStream: "6"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:54.745934
+[INFO]	 [c2]	 2019-07-12 06:54:54.833195
+[INFO]	 [c2]	Time elapsed:  0.087261  seconds.
+[Output]a motorcyclists bear sitting in a grassy area .
+[Input]inputType: "string"
+inputStream: "13"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:55.568961
+[INFO]	 [c2]	 2019-07-12 06:54:55.654396
+[INFO]	 [c2]	Time elapsed:  0.085435  seconds.
+[Output]a motorcyclists bear sitting on top of a rock .
+[Input]inputType: "string"
+inputStream: "4"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:56.335215
+[INFO]	 [c2]	 2019-07-12 06:54:56.422607
+[INFO]	 [c2]	Time elapsed:  0.087392  seconds.
+[Output]a motorcyclists bear sitting on top of a rock .
+[Input]inputType: "string"
+inputStream: "0"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:57.010376
+[INFO]	 [c2]	 2019-07-12 06:54:57.095808
+[INFO]	 [c2]	Time elapsed:  0.085432  seconds.
+[Output]a motorcyclists bear sitting on a tree branch .
+[Input]inputType: "string"
+inputStream: "10"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:57.622974
+[INFO]	 [c2]	 2019-07-12 06:54:57.708386
+[INFO]	 [c2]	Time elapsed:  0.085412  seconds.
+[Output]a teddy bear sitting on top of a wooden table .
+[Input]inputType: "string"
+inputStream: "16"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:58.545101
+[INFO]	 [c2]	 2019-07-12 06:54:58.632684
+[INFO]	 [c2]	Time elapsed:  0.087583  seconds.
+[Output]a motorcyclists bear sitting in a grassy area .
+[Input]inputType: "string"
+inputStream: "2"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:59.286588
+[INFO]	 [c2]	 2019-07-12 06:54:59.373700
+[INFO]	 [c2]	Time elapsed:  0.087112  seconds.
+[Output]a black and white photo of a teddy bear .
+[Input]inputType: "string"
+inputStream: "11"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:54:59.714623
+[INFO]	 [c2]	 2019-07-12 06:54:59.806254
+[INFO]	 [c2]	Time elapsed:  0.091631  seconds.
+[Output]a motorcyclists bear sitting on top of a rock .
+[Input]inputType: "string"
+inputStream: "3"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:00.381501
+[INFO]	 [c2]	 2019-07-12 06:55:00.468528
+[INFO]	 [c2]	Time elapsed:  0.087027  seconds.
+[Output]a black and white photo of a teddy bear .
+[Input]inputType: "string"
+inputStream: "9"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:01.078749
+[INFO]	 [c2]	 2019-07-12 06:55:01.164304
+[INFO]	 [c2]	Time elapsed:  0.085555  seconds.
+[Output]a teddy bear with a racing on its head .
+[Input]inputType: "string"
+inputStream: "17"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:02.064427
+[INFO]	 [c2]	 2019-07-12 06:55:02.149863
+[INFO]	 [c2]	Time elapsed:  0.085436  seconds.
+[Output]a black and white photo of a pair of scissors .
+[Input]inputType: "string"
+inputStream: "5"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:02.599749
+[INFO]	 [c2]	 2019-07-12 06:55:02.686387
+[INFO]	 [c2]	Time elapsed:  0.086638  seconds.
+[Output]a teddy bear sitting on a tree branch .
+[Input]inputType: "string"
+inputStream: "12"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:03.052240
+[INFO]	 [c2]	 2019-07-12 06:55:03.139950
+[INFO]	 [c2]	Time elapsed:  0.08771  seconds.
+[Output]a motorcyclists bear sitting on a tree branch .
+[Input]inputType: "string"
+inputStream: "7"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:03.628697
+[INFO]	 [c2]	 2019-07-12 06:55:03.712980
+[INFO]	 [c2]	Time elapsed:  0.084283  seconds.
+[Output]a motorcyclists bear sitting on top of a rock .
+[Input]inputType: "string"
+inputStream: "19"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:04.101857
+[INFO]	 [c2]	 2019-07-12 06:55:04.186367
+[INFO]	 [c2]	Time elapsed:  0.08451  seconds.
+[Output]a motorcyclists bear sitting on top of a tree .
+[Input]inputType: "string"
+inputStream: "15"
+
+
+
+[INFO]	 [c2]	 2019-07-12 06:55:04.750290
+[INFO]	 [c2]	 2019-07-12 06:55:04.835778
+[INFO]	 [c2]	Time elapsed:  0.085488  seconds.
+[Output]a black and white photo of a teddy bear .
