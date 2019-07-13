@@ -1,3 +1,61 @@
+## Research on Model Update  
+
+### 1. Speech Recognition  
+Possible opensource resources:   
+1. Mozilla DeepSpeech  
+    https://github.com/mozilla/DeepSpeech  
+  
+    https://progur.com/2018/02/how-to-use-mozilla-deepspeech-tutorial.html
+  
+    https://www.google.com/search?q=how+to+use+mozila+deep+speech&oq=how+to+use+mozila+deep+speech&aqs=chrome..69i57.4589j0j9&sourceid=chrome&ie=UTF-8
+2. Kaldi  
+    https://github.com/kaldi-asr/kaldi  
+
+    http://www.kaldi-asr.org/doc/kaldi_for_dummies.html  
+
+    https://www.google.com/search?q=how+to+use+kaldi&oq=how+to+use+kaldi&aqs=chrome..69i57.2923j0j7&sourceid=chrome&ie=UTF-8
+3. Pytorch_kaldi  
+    https://www.reddit.com/r/MachineLearning/comments/ai82nr/r_pytorchkaldi_the_best_way_to_build_your_asr/  
+
+    https://github.com/mravanelli/pytorch-kaldi  
+
+    https://www.researchgate.net/publication/329056552_THE_PYTORCH-KALDI_SPEECH_RECOGNITION_TOOLKIT
+
+Comparisons:  
+https://linguistics.stackexchange.com/questions/26209/how-does-kaldi-compare-with-mozilla-deepspeech-in-terms-of-speech-recognition-ac    
+
+https://www.goodfirms.co/blog/best-free-open-source-speech-recognition-software
+
+### 2. NLP Preprocessing     
+https://www.kdnuggets.com/2019/04/text-preprocessing-nlp-machine-learning.html
+
+### 3. Question Answering with Given Context 
+Paper:  
+https://www.google.com/search?safe=active&ei=H98pXZuAEdiA-Qbnjp3QCQ&q=question+answering+with+given+context&oq=question+answering+with+given+context&gs_l=psy-ab.3..0i71l8.0.0..1833535...0.0..0.0.0.......0......gws-wiz.9SB0qcvtoE4      
+
+https://www.aclweb.org/anthology/P18-1160, mentions extracting from one/two sentences would be enough, matches with https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507  
+
+Code:  
+https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54. The demo produces the output we want.   
+
+https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507. The problem description also looks similar to what we want.   
+
+### 4. Entity extraction  
+Paper:  
+https://arxiv.org/abs/1805.10190
+
+Code:  
+https://github.com/snipsco/snips-nlu    
+
+https://medium.com/snips-ai/an-introduction-to-snips-nlu-the-open-source-library-behind-snips-embedded-voice-platform-b12b1a60a41a
+
+
+
+
+
+
+
+
 # Standalone Test
 
 ## Step 1: Run Development Docker 

@@ -3,11 +3,9 @@ import tensorflow as tf
 import cv2
 import time
 
-previous = []
-
 class yolo_tf:
-	w_img = 1280
-	h_img = 720
+	# w_img = 1280
+	# h_img = 720
 
 	weights_file = '/container/weights/YOLO_small.ckpt'
 	alpha = 0.1
@@ -22,7 +20,7 @@ class yolo_tf:
 
 	def build_networks(self):
 		print("Building YOLO_small graph...")
-		self.x = tf.placeholder('float32',[None,448,448,3])
+		self.x = tf.placeholder('float32', [None, 448, 448, 3])
 		# self.x = tf.placeholder('float32',[None,252, 1280, 3])
 		self.conv_1 = self.conv_layer(1,self.x,64,7,2)
 		self.pool_2 = self.pooling_layer(2,self.conv_1,2,2)
@@ -54,7 +52,7 @@ class yolo_tf:
 		self.conv_28 = self.conv_layer(28,self.conv_27,1024,3,1)
 		self.fc_29 = self.fc_layer(29,self.conv_28,512,flat=True,linear=False)
 		self.fc_30 = self.fc_layer(30,self.fc_29,4096,flat=False,linear=False)
-		#skip dropout_31
+		# skip dropout_31
 		self.fc_32 = self.fc_layer(32, self.fc_30, 1470, flat=False, linear=True)
 		self.sess = tf.Session()
 		self.sess.run(tf.global_variables_initializer())
@@ -64,17 +62,19 @@ class yolo_tf:
 
 	def conv_layer(self,idx,inputs,filters,size,stride):
 		channels = inputs.get_shape()[3]
-		weight = tf.Variable(tf.truncated_normal([size,size,int(channels),filters], stddev=0.1))
+		weight = tf.Variable(tf.truncated_normal([size, size, int(channels),filters], stddev=0.1))
 		biases = tf.Variable(tf.constant(0.1, shape=[filters]))
 
-		pad_size = size//2
+		pad_size = size // 2
 		pad_mat = np.array([[0,0],[pad_size,pad_size],[pad_size,pad_size],[0,0]])
-		inputs_pad = tf.pad(inputs,pad_mat)
+		inputs_pad = tf.pad(inputs, pad_mat)
 
 		conv = tf.nn.conv2d(inputs_pad, weight, strides=[1, stride, stride, 1], padding='VALID',name=str(idx)+'_conv')
-		conv_biased = tf.add(conv,biases,name=str(idx)+'_conv_biased')
+		conv_biased = tf.add(conv, biases, name=str(idx)+'_conv_biased')
 		print('Layer  %d : Type = Conv, Size = %d * %d, Stride = %d, Filters = %d, Input channels = %d' % (idx,size,size,stride,filters,int(channels)))
-		return tf.maximum(self.alpha*conv_biased,conv_biased,name=str(idx)+'_leaky_relu')
+
+		# leaky ReLU is applied. Leaky_ReLU(z) = max( alpha * z, z );
+		return tf.maximum(self.alpha*conv_biased, conv_biased, name=str(idx)+'_leaky_relu')
 
 	def pooling_layer(self,idx,inputs,size,stride):
 		print ('Layer  %d : Type = Pool, Size = %d * %d, Stride = %d' % (idx,size,size,stride))
@@ -97,13 +97,13 @@ class yolo_tf:
 		return tf.maximum(self.alpha*ip,ip,name=str(idx)+'_fc')
 
 def detect_from_cvmat(yolo,img):
-	yolo.h_img,yolo.w_img,_ = img.shape
+	yolo.h_img, yolo.w_img, _ = img.shape
 	img_resized = cv2.resize(img, (448, 448))
 	img_resized_np = np.asarray( img_resized )
-	inputs = np.zeros((1,448,448,3),dtype='float32')
-	inputs[0] = (img_resized_np/255.0)*2.0-1.0
+	inputs = np.zeros((1, 448, 448, 3),dtype='float32')
+	inputs[0] = (img_resized_np/255.0) * 2.0-1.0
 	in_dict = {yolo.x: inputs}
-	net_output = yolo.sess.run(yolo.fc_32,feed_dict=in_dict)
+	net_output = yolo.sess.run(yolo.fc_32, feed_dict=in_dict)
 	result = interpret_output(yolo, net_output[0])
 	yolo.result_list = result
 
@@ -151,7 +151,7 @@ def interpret_output(yolo,output):
 
 	return len(boxes_filtered)
 
-def iou(box1,box2):
+def iou(box1,box2): # IoU means intersection over union, a evaluating metric
 	tb = min(box1[0]+0.5*box1[2],box2[0]+0.5*box2[2])-max(box1[0]-0.5*box1[2],box2[0]-0.5*box2[2])
 	lr = min(box1[1]+0.5*box1[3],box2[1]+0.5*box2[3])-max(box1[1]-0.5*box1[3],box2[1]-0.5*box2[3])
 	if tb < 0 or lr < 0 : intersection = 0
@@ -164,7 +164,9 @@ def read_image(i):
 	print("original shape", image.shape)
 	return image
 
+
 yolo = yolo_tf()
+previous = []
 
 def predict(info):
 

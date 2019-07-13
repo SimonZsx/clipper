@@ -2,13 +2,13 @@ import numpy as np
 import cv2
 import time
 
-def keras_process_image(img):
-	image_x = 40
-	image_y = 40
-	img = cv2.resize(img, (image_x, image_y))
-	img = np.array(img, dtype=np.float32)
-	img = np.reshape(img, (-1, image_x, image_y, 1))
-	return img
+# def keras_process_image(img):
+# 	image_x = 40
+# 	image_y = 40
+# 	img = cv2.resize(img, (image_x, image_y))
+# 	img = np.array(img, dtype=np.float32)
+# 	img = np.reshape(img, (-1, image_x, image_y, 1))
+# 	return img
 
 def read_image(i):
 	image_path = "/container/dataset/" + i + ".jpg"
