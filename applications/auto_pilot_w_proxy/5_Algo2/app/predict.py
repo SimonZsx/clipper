@@ -37,6 +37,7 @@ if torch.cuda.is_available():
         	torch.set_default_tensor_type('torch.FloatTensor')
 else:
     torch.set_default_tensor_type('torch.FloatTensor')
+    CUDA_ACC = False
 
 if CUDA_ACC:
 	cnn = torch.load('/container/Autopilot_V2.pk1')

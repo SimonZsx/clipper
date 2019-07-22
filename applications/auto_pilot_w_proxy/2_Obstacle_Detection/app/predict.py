@@ -24,7 +24,7 @@ import cv2
 
 SAVE_FLODER = "./eval/"
 TRAINED_MODEL = "/container/weights/ssd300_mAP_77.43_v2.pth"
-CUDA_ACC = False
+CUDA_ACC = True
 VOC_CLASSES = (  # always index 0
     'aeroplane', 'bicycle', 'bird', 'boat',
     'bottle', 'bus', 'car', 'cat', 'chair',
@@ -60,6 +60,7 @@ if torch.cuda.is_available():
         	torch.set_default_tensor_type('torch.FloatTensor')
 else:
     torch.set_default_tensor_type('torch.FloatTensor')
+    CUDA_ACC = False
 # Load Net
 net = build_ssd('test', 300, len(VOC_CLASSES)+1)
 if CUDA_ACC:

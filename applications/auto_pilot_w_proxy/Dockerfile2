@@ -3,8 +3,11 @@ RUN apt-get update
 RUN apt-get install python3 python3-pip -y
 RUN apt-get install libsm6 libxrender1 libfontconfig1 libxext-dev -y
 RUN pip3 install numpy
-RUN pip3 install torch torchvision
+RUN pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
+RUN pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install opencv-python
+
+RUN cd ./2_Obstacle_Detection/app/weights/ && chmod 777 download_weights.sh && ./download_weights.sh
 
 RUN pip3 install grpcio
 RUN pip3 install protobuf
