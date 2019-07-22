@@ -24,7 +24,7 @@ import cv2
 
 SAVE_FLODER = "./eval/"
 TRAINED_MODEL = "/container/weights/ssd300_mAP_77.43_v2.pth"
-CUDA_ACC = True
+CUDA_ACC = False
 VOC_CLASSES = (  # always index 0
     'aeroplane', 'bicycle', 'bird', 'boat',
     'bottle', 'bus', 'car', 'cat', 'chair',
