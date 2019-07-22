@@ -23,7 +23,7 @@ import pickle
 import cv2
 
 SAVE_FLODER = "./eval/"
-TRAINED_MODEL = "./weights/ssd300_mAP_77.43_v2.pth"
+TRAINED_MODEL = "/container/weights/ssd300_mAP_77.43_v2.pth"
 CUDA_ACC = True
 VOC_CLASSES = (  # always index 0
     'aeroplane', 'bicycle', 'bird', 'boat',

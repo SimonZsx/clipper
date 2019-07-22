@@ -39,9 +39,9 @@ else:
     torch.set_default_tensor_type('torch.FloatTensor')
 
 if CUDA_ACC:
-	cnn = torch.load('Autopilot_V2.pk1')
+	cnn = torch.load('/container/Autopilot_V2.pk1')
 else:
-	cnn = torch.load('Autopilot_V2.pk1', map_location='cpu')
+	cnn = torch.load('/container/Autopilot_V2.pk1', map_location='cpu')
 if CUDA_ACC: 
 	cnn = cnn.cuda()
 
