@@ -20,5 +20,5 @@ ADD grpc/app/proxy_pb2.py /container/
 EXPOSE 22222
 
 CMD ["/container/container_entry.sh", "pytorch-container", "/container/server.py"]
-CMD ["chmod","777", "/container/weights/download_weights.sh"]
-CMD ["/container/weights/download_weights.sh"]
+CMD ["chmod","777", "/container/app/weights/download_weights.sh"]
+CMD ["/container/app/weights/download_weights.sh"]
