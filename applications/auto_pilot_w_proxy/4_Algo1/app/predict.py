@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import torch
 import time
-from CNN_Model import AutoPilotCNN
+from Model.CNN_Model import AutoPilotCNN
 
 IMG_PATH = "/container/dataset/"
 IMG_FORMAT = ".jpg"
