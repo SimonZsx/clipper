@@ -74,7 +74,7 @@ class App:
                 dag_description = self.frontend_server_args.split()[-1] # the path to the dag_description/dag_formatted
                 print(dag_description)
                 if self.in_swarm:
-                    cluster_general_start.start(self.frontend_server, self.appName)
+                    cluster_general_start.start(dag_description, self.appName)
                 else:
                     start_withproxy_frontend.start(self.appName, dag_description)
             else:
