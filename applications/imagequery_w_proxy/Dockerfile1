@@ -1,5 +1,5 @@
-# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1 .
-# docker run -p 8000:8000 --runtime=nvidia -it imagequery_w_proxy:c1
+# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1_new .
+# docker run -p 8000:8000 --runtime=nvidia -it imagequery_w_proxy:c1_new
 
 # From Mozilla github repo Dockerfile beginning
 # FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
@@ -34,13 +34,13 @@
 #         g++ \
 #         unzip
 
-FROM tensorflow/tensorflow:1.12.0-gpu-py3 
-RUN apt-get update 
+FROM tensorflow/tensorflow:1.12.0-gpu-py3
+RUN apt-get update
 RUN apt-get install build-essential curl wget git sox swig cmake pkg-config libsox-dev -y
 
 # By YY:
-RUN apt-get install -y git
-RUN apt-get update && apt-get install -y git-lfs 
+# RUN apt-get install -y git
+# RUN apt-get update && apt-get install -y git-lfs 
 RUN pip3 install --upgrade deepspeech-gpu
 
 # Download pre-trained model
