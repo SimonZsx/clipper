@@ -134,3 +134,8 @@ if __name__ == "__main__":
     for i in range(50):
         single_train(stock_codes,LSTMnet)
     torch.save(LSTMnet.state_dict(),STATE_DICT)
+
+    
+
+        
+        
