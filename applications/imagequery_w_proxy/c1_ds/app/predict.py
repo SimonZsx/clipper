@@ -41,7 +41,7 @@ def convert_samplerate(audio_path):
     return SAMPLE_RATE, np.frombuffer(output, np.int16)
 
 
-def load_model( model_dir="/containers/models/deepspeech-0.5.1-models/",
+def load_model( model_dir="/container/models/deepspeech-0.5.1-models/",
                 model="output_graph.pb", 
                 alphabet="alphabet.txt", 
                 lm="lm.binary", 
