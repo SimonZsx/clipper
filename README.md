@@ -50,10 +50,23 @@ https://github.com/snipsco/snips-nlu
 https://medium.com/snips-ai/an-introduction-to-snips-nlu-the-open-source-library-behind-snips-embedded-voice-platform-b12b1a60a41a
 
 
+### 5. Vehicle detection
 
+Three modules are considered and compared out of 3 aspects: speed, accuarcy and the range of recognation. 
 
+Here we mainly focus on the CNN framwork and its varients, since the CNN is currently widely used and tested in variouse scenarios.
+The traditional frameworks, R-CNN and the improvements based on it, despite its accuarcy, however cannot achieve the real-time detection due to its slower response. Since we are now considering a detecting application for the auto-pilot, we expect the model to be deployed can be as fast as approximately 30-40FPS, which can be reagared as the basic standards for the Real-Time Detection. 
 
+YOLO:
+https://arxiv.org/abs/1506.02640?source=post_page---------------------------
+YOLO V3
+https://arxiv.org/abs/1804.02767
+SSD
+https://arxiv.org/abs/1512.02325
 
+Each of the three models mentioned above can reach the the high speed we are looking for and an acceptable accuarcy. The range of the recognation for all the three are the same if we use the same COCO dataset which supports a 20-category detection to train them. 
+
+Finally we chose to implement the SSD model since it utilizes a simplier framework while achieves a similar performance. This feature may support an easier managing and upgrading, and space for further applications and developments. 
 
 
 # Standalone Test
