@@ -1,6 +1,12 @@
 ## Research on Model Update  
 
 ### 1. Speech Recognition  
+7.14  
+Update almost finished. Code available at: https://github.com/yinfredyue/ds_sync  
+All required code avaiable at AWS: `~/deepspeech/`.
+
+---
+7.13  
 Possible opensource resources:   
 1. Mozilla DeepSpeech  
     https://github.com/mozilla/DeepSpeech  
@@ -27,9 +33,16 @@ https://linguistics.stackexchange.com/questions/26209/how-does-kaldi-compare-wit
 https://www.goodfirms.co/blog/best-free-open-source-speech-recognition-software
 
 ### 2. NLP Preprocessing     
-https://www.kdnuggets.com/2019/04/text-preprocessing-nlp-machine-learning.html
+https://www.kdnuggets.com/2019/04/text-preprocessing-nlp-machine-learning.html  
+https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72
 
 ### 3. Question Answering with Given Context 
+7.14  
+https://github.com/hitvoice/DrQA  
+https://github.com/tangbinh/question-answering  
+https://towardsdatascience.com/implementing-question-answering-networks-with-cnns-5ae5f08e312b  
+
+7.13  
 Paper:  
 https://www.google.com/search?safe=active&ei=H98pXZuAEdiA-Qbnjp3QCQ&q=question+answering+with+given+context&oq=question+answering+with+given+context&gs_l=psy-ab.3..0i71l8.0.0..1833535...0.0..0.0.0.......0......gws-wiz.9SB0qcvtoE4      
 
@@ -37,8 +50,6 @@ https://www.aclweb.org/anthology/P18-1160, mentions extracting from one/two sent
 
 Code:  
 https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54. The demo produces the output we want.   
-
-https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507. The problem description also looks similar to what we want.   
 
 ### 4. Entity extraction  
 Paper:  

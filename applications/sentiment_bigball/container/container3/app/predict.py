@@ -3,6 +3,7 @@ import tensorflow as tf
 import re
 from datetime import datetime
 import time
+
 batchSize = 24
 lstmUnits = 64
 numClasses = 2
@@ -47,7 +48,7 @@ saver=tf.train.Saver()
 saver.restore(sess,tf.train.latest_checkpoint('/container/container3/app/models/'))
 
 
-#paragraph is a string
+# paragraph is a string
 def predict(paragraph):
     t1 = datetime.utcnow()
     print("\n[INFO]\t", "[c3]\t", str(t1))
@@ -102,9 +103,11 @@ def batch_predict(input_list):
             if indexCounter >= maxSeqLength:
                 break
         i = i + 1 
+
     Prediction=sess.run(correctPred, {input_data: ids, labels: lb})
     for res in Prediction:
         output_list.append(str(res))
+        
     print("\nPrediction is: "+str(Prediction))
     t2 = datetime.utcnow()
     print("[INFO]\t", "[c3]\t", str(t2))
