@@ -100,8 +100,8 @@ ds = None
 load_model()
 
 def main():
-    for i in range(3):
-        predict("../dataset3/recordings/" + str(i) + ".wav")
+    for i in range(1):
+        predict("container/data/" + str(i) + ".wav")
     
 
 if __name__ == '__main__':
