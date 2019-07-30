@@ -65,13 +65,13 @@
 			"worker": "1",
 			"system": "oursystem",
 			"port": "22223",
-			"ip": "172.18.0.31"
+			"ip": "172.18.0.23"
 		},
 		"withoutProxy":{
 			"worker": "1",
 			"system": "withoutproxy",
 			"port": "22222",
-			"ip": "172.18.0.31"
+			"ip": "172.18.0.23"
 		}
 	}
 }
