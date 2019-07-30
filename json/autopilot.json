@@ -1,0 +1,77 @@
+{
+	"appName": "autopilot",
+	"num_containers": 6,
+	"supportSwarm": true,
+	"images": {
+		"bigball": ["auto_pilot_main:raft"],
+		"clipper": ["auto_pilot_clipper:raft"],
+		"withoutProxy": [
+			"auto_pilot_wo_proxy:c0", 
+			"auto_pilot_wo_proxy:c1", 
+			"auto_pilot_wo_proxy:c2", 
+			"auto_pilot_wo_proxy:c3",
+			"auto_pilot_wo_proxy:c4",
+			"auto_pilot_wo_proxy:c5",
+			"auto_pilot_wo_proxy:c6"
+		],
+		"withProxy": [
+			"auto_pilot_w_proxy:c0", 
+			"auto_pilot_w_proxy:c1", 
+			"auto_pilot_w_proxy:c2", 
+			"auto_pilot_w_proxy:c3",
+			"auto_pilot_w_proxy:c4",
+			"auto_pilot_w_proxy:c5",
+			"auto_pilot_w_proxy:c6"
+		]
+	},
+	"buildFilePath": {
+		"bigball": "/clipper/applications/auto_pilot_bigball/build.sh",
+		"clipper": "/clipper/applications/auto_pilot_clipper/build.sh",
+		"withoutProxy": "/clipper/applications/build_auto_pilot_wo_proxy.sh",
+		"withProxy": "/clipper/applications/build_auto_pilot_w_proxy.sh"
+	},
+	"frontendServerPath": { 
+		"bigball": "/clipper/applications/auto_pilot_bigball/run.sh",
+		"clipper": "#",
+		"withoutProxy": "/clipper/applications/run_auto_pilot_wo_proxy.sh",
+		"withProxy": "/clipper/clipper_admin/start_withproxy_frontend.py"
+	},
+	"frontendServerArgs": { 
+		"bigball": "",
+		"clipper": "",
+		"withoutProxy": "",
+		"withProxy": "--dag /clipper/applications/auto_pilot_w_proxy/dag_formatted"
+	},
+	"frontendClientPath": {
+		"bigball":"",
+		"clipper":"",
+		"withProxy":"/clipper/clipper_admin/auto_pilot_frontend_client.py",
+		"withoutProxy":"/clipper/clipper_admin/auto_pilot_frontend_client.py"
+	},	
+	"frontendClientParams": {
+		"bigball":{
+			"worker": "",
+			"system": "",
+			"port": "",
+			"ip": ""
+		},
+		"clipper":{
+			"worker": "",
+			"system": "",
+			"port": "",
+			"ip": ""
+		},
+		"withProxy":{
+			"worker": "1",
+			"system": "oursystem",
+			"port": "22223",
+			"ip": "172.18.0.23"
+		},
+		"withoutProxy":{
+			"worker": "1",
+			"system": "withoutproxy",
+			"port": "22222",
+			"ip": "172.18.0.23"
+		}
+	}
+}
