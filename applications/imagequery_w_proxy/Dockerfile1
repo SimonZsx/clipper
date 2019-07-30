@@ -1,5 +1,5 @@
-# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1_new .
-# docker run -p 8000:8000 --runtime=nvidia -it imagequery_w_proxy:c1_new
+# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1_ds .
+# docker run -p 8000:8000 -it --runtime=nvidia  imagequery_w_proxy:c1_ds
 
 # From Mozilla github repo Dockerfile beginning
 # FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
@@ -49,54 +49,10 @@ RUN wget --progress=bar:force https://github.com/mozilla/DeepSpeech/releases/dow
 RUN tar xvfz deepspeech-0.5.1-models.tar.gz
 
 # Copy files
-WORKDIR /container/app
-ADD imagequery_w_proxy/c1_ds/app .
-
 WORKDIR /container/data
 ADD imagequery_w_proxy/c1_ds/data .
 
-
-# container/ will have predict.py, data/
-# ADD imagequery_w_proxy/c1_speechRecognition/app /container/
-# ADD imagequery_w_proxy/c1_speechRecognition/data /container/data
-
-# dataset1 
-# dataset source: http://festvox.org/cmu_arctic/
-# RUN wget --progress=bar:force http://festvox.org/cmu_arctic/cmu_arctic/packed/cmu_us_awb_arctic-0.95-release.zip
-# RUN mv $(find / -name cmu_us_awb_arctic-0.95-release.zip) /container/data/dataset1
-# RUN chmod 777 /container/data/dataset1/unzipRename.sh
-# RUN /container/data/dataset1/unzipRename.sh
-
-# dataset2
-# reference: https://groups.csail.mit.edu/sls/downloads/flickraudio/index.cgi
-# RUN wget --progress=bar:force https://groups.csail.mit.edu/sls/downloads/flickraudio/downloads/flickr_audio.tar.gz
-# RUN mv $(find / -name flickr_audio.tar.gz) /container/data/dataset2
-# RUN chmod 777 /container/data/dataset2/untarRename.sh 
-# RUN /container/data/dataset2/untarRename.sh
-
-# dataset3
-# download reference: https://www.kaggle.com/general/6604
-# dataset refernce: https://www.kaggle.com/rtatman/speech-accent-archive/
-# RUN chmod 777 /container/data/dataset3/downloadDataset.sh
-# RUN /container/data/dataset3/downloadDataset.sh
-# RUN mv $(find / -name speech-accent-archive.zip) /container/data/dataset3
-# RUN unzip /container/data/dataset3/speech-accent-archive.zip -d /container/data/dataset3
-# # /container/data/dataset3 now contains:reading-passage.txt, recordings.zip, speakers_all.csv
-# RUN unzip -qq /container/data/dataset3/recordings.zip -d /container/data/dataset3/
-# RUN chmod 777 /container/data/dataset3/rename.sh
-# RUN /container/data/dataset3/rename.sh
-# RUN python3 /container/data/dataset3/truncate.py
-
-# ADD grpc/app/container_entry.sh /container/
-# ADD grpc/app/server.py /container/
-# ADD grpc/app/model_pb2_grpc.py /container/
-# ADD grpc/app/model_pb2.py /container/
-# ADD grpc/app/proxy_pb2_grpc.py /container/
-# ADD grpc/app/proxy_pb2.py /container/
-
 WORKDIR /container/app
-# CMD ["python3", "predict.py"]
-
-# CMD ["/container/container_entry.sh", "c1", "/container/server.py"]
+ADD imagequery_w_proxy/c1_ds/app .
 
 EXPOSE 8000
