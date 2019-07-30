@@ -2,7 +2,7 @@
 # docker run -p 8000:8000 --runtime=nvidia -it imagequery_w_proxy:c1
 
 # From Mozilla github repo Dockerfile beginning
-FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
 RUN apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
         curl \
