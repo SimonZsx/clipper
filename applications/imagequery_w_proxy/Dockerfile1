@@ -39,7 +39,7 @@ RUN apt-get update
 RUN apt-get install build-essential curl wget git sox swig cmake pkg-config libsox-dev -y
 
 # By YY:
-RUN apt-get install -y git-lfs 
+RUN apt-get install -y git git-lfs 
 RUN pip3 install --upgrade deepspeech-gpu
 
 # Download pre-trained model
