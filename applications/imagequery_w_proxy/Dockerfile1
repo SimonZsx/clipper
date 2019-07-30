@@ -2,17 +2,46 @@
 # docker run -p 8000:8000 --runtime=nvidia -it imagequery_w_proxy:c1
 
 # From Mozilla github repo Dockerfile beginning
-FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
+# RUN apt-get update && apt-get install -y --no-install-recommends \
+#         build-essential \
+#         curl \
+#         wget \
+#         git \
+#         python3 \
+#         python3-dev \
+#         python3-pip \
+#         python3-wheel \
+#         python3-numpy \
+#         libcurl3-dev  \
+#         ca-certificates \
+#         gcc \
+#         sox \
+#         libsox-fmt-mp3 \
+#         htop \
+#         nano \
+#         swig \
+#         cmake \
+#         libboost-all-dev \
+#         zlib1g-dev \
+#         libbz2-dev \
+#         liblzma-dev \
+#         locales \
+#         pkg-config \
+#         libsox-dev \
+#         openjdk-8-jdk \
+#         bash-completion \
+#         g++ \
+#         unzip
+
+FROM tensorflow/tensorflow:1.12.0-gpu-py3 
+RUN apt-get update 
+RUN apt-get install -y --no-install-recommends \
+        numpy \
         build-essential \
         curl \
         wget \
         git \
-        python3 \
-        python3-dev \
-        python3-pip \
-        python3-wheel \
-        python3-numpy \
         libcurl3-dev  \
         ca-certificates \
         gcc \
@@ -29,7 +58,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         locales \
         pkg-config \
         libsox-dev \
-        openjdk-8-jdk \
         bash-completion \
         g++ \
         unzip
