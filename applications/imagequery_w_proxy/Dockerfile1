@@ -36,16 +36,7 @@
 
 FROM tensorflow/tensorflow:1.12.0-gpu-py3 
 RUN apt-get update 
-RUN apt-get install -y --no-install-recommends \
-        build-essential \
-        curl \
-        wget \
-        git \
-        sox \
-        swig \
-        cmake \
-        pkg-config \
-        libsox-dev \
+RUN apt-get install build-essential curl wget git sox swig cmake pkg-config libsox-dev -y
 
 # By YY:
 RUN apt-get install -y git-lfs 
