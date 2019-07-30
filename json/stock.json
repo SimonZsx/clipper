@@ -1,0 +1,87 @@
+{
+	"appName": "stock_prediction",
+	"num_containers": 11,
+	"supportSwarm": true,
+	"images": {
+		"bigball": ["prediction_main:raft"],
+		"clipper": ["prediction_clipper:raft"],
+		"withoutProxy": [
+			"stock:c0", 
+			"stock:c1", 
+			"stock:c2", 
+			"stock:c3",
+			"stock:c4",
+			"stock:c5",
+			"stock:c6",
+			"stock:c7",
+			"stock:c8",
+			"stock:c9",
+			"stock:c10",
+			"stock:c11"
+		],
+		"withProxy": [
+			"stock:c0", 
+			"stock:c1", 
+			"stock:c2", 
+			"stock:c3",
+			"stock:c4",
+			"stock:c5",
+			"stock:c6",
+			"stock:c7",
+			"stock:c8",
+			"stock:c9",
+			"stock:c10",
+			"stock:c11"
+		]
+	},
+	"buildFilePath": {
+		"bigball": "/clipper/applications/prediction_bigball/build.sh",
+		"clipper": "/clipper/applications/prediction_clipper/build.sh",
+		"withoutProxy": "/clipper/applications/build_prediction.sh",
+		"withProxy": "/clipper/applications/build_prediction.sh"
+	},
+	"frontendServerPath": { 
+		"bigball": "/clipper/applications/prediction_bigball/run.sh",
+		"clipper": "#",
+		"withoutProxy": "/clipper/applications/run_prediction_wo_proxy.sh",
+		"withProxy": "/clipper/clipper_admin/start_withproxy_frontend.py"
+	},
+	"frontendServerArgs": { 
+		"bigball": "",
+		"clipper": "",
+		"withoutProxy": "",
+		"withProxy": "--dag /clipper/applications/prediction_w_proxy/dag_formatted"
+	},
+	"frontendClientPath": {
+		"bigball":"",
+		"clipper":"",
+		"withProxy":"/clipper/clipper_admin/stock_frontend_client.py",
+		"withoutProxy":"/clipper/clipper_admin/stock_frontend_client.py"
+	},	
+	"frontendClientParams": {
+		"bigball":{
+			"worker": "",
+			"system": "",
+			"port": "",
+			"ip": ""
+		},
+		"clipper":{
+			"worker": "",
+			"system": "",
+			"port": "",
+			"ip": ""
+		},
+		"withProxy":{
+			"worker": "1",
+			"system": "oursystem",
+			"port": "22223",
+			"ip": "172.18.0.31"
+		},
+		"withoutProxy":{
+			"worker": "1",
+			"system": "withoutproxy",
+			"port": "22222",
+			"ip": "172.18.0.31"
+		}
+	}
+}

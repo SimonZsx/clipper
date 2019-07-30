@@ -30,7 +30,7 @@
 		"bigball": "/clipper/applications/imagequery_bigball/run.sh",
 		"clipper": "#",
 		"withoutProxy": "/clipper/applications/run_imagequery_wo_proxy.sh",
-		"withProxy": "/clipper/clipper_admin/imagequery.py"
+		"withProxy": "/clipper/clipper_admin/start_withproxy_frontend.py"
 	},
 	"frontendServerArgs": { 
 		"bigball": "",
