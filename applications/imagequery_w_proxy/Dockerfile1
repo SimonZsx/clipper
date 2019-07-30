@@ -40,7 +40,7 @@ RUN apt-get install build-essential curl wget git sox swig cmake pkg-config libs
 
 # By YY:
 RUN apt-get install -y git
-RUN apt-get install -y git-lfs 
+RUN apt-get update && apt-get install -y git-lfs 
 RUN pip3 install --upgrade deepspeech-gpu
 
 # Download pre-trained model
