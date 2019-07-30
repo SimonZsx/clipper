@@ -101,7 +101,7 @@ load_model()
 
 def main():
     for i in range(1):
-        predict("container/data/" + str(i) + ".wav")
+        predict("/container/data/" + str(i) + ".wav")
     
 
 if __name__ == '__main__':
