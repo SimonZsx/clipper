@@ -39,15 +39,15 @@ RUN pip3 install --upgrade deepspeech-gpu
 
 # Download pre-trained model
 WORKDIR /container/models
-RUN wget https://github.com/mozilla/DeepSpeech/releases/download/v0.5.1/deepspeech-0.5.1-models.tar.gz
+RUN wget --quiet https://github.com/mozilla/DeepSpeech/releases/download/v0.5.1/deepspeech-0.5.1-models.tar.gz
 RUN tar xvfz deepspeech-0.5.1-models.tar.gz
 
 # Copy files
 WORKDIR /container/app
-ADD c1_ds/app .
+ADD imagequery_w_proxy/c1_ds/app .
 
 WORKDIR /container/data
-ADD c1_ds/data .
+ADD imagequery_w_proxy/c1_ds/data .
 
 
 # container/ will have predict.py, data/
