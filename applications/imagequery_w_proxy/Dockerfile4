@@ -16,7 +16,7 @@ RUN pip3 install -r requirements.txt
 RUN download.sh
 RUN python3 prepro.py
 WORKDIR /container/models
-ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh 
+ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
 RUN chmod 777 downloadModels.sh && downloadModels.sh
 
 ADD grpc/app/container_entry.sh /container/
