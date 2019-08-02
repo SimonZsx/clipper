@@ -37,7 +37,7 @@ for ((i=0;i<${#URLS[@]};++i)); do
     if [ -f $file ]; then
         echo "$file already exists, skipping download."
     else
-        wget $url -O $file
+        wget $url -O $file > /tmp/downdload_sh.log
         if [ -f $file ]; then
             echo "$url successfully downloaded."
         else
