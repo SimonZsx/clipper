@@ -7,6 +7,7 @@ REQUIRED=(
     "python3"
     "pip"
 )
+
 for ((i=0;i<${#REQUIRED[@]};++i)); do
     if ! [ -x "$(command -v ${REQUIRED[i]})" ]; then
         echo 'Error: ${REQUIRED[i]} is not installed.' >&2
