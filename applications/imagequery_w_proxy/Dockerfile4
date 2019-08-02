@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install python3 python3-pip git wget unzip -y
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
 WORKDIR /container
 RUN pip3 install -r requirements.txt
-RUN /container/download.sh
+RUN ./download.sh
 RUN python3 prepro.py
 WORKDIR /container/models
 ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
