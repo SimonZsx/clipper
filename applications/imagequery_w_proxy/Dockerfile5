@@ -1,10 +1,11 @@
 # docker build -f ./imagequery_w_proxy/Dockerfile4 -t imagequery_w_proxy:c4 .
-# docker run -p 11000:11000 -it imagequery_w_proxy:c4
+# docker run -p 12000:12000 -it imagequery_w_proxy:c4
 
 FROM ubuntu:bionic
-RUN apt-get update && apt-get install python3 python3-pip git wget unzip curl -y
+RUN apt-get update && apt-get install python3 python3-pip -y
 
-
+RUN pip3 install -U spacy
+RUN python3 -m spacy download en_core_web_md
 
 RUN pip3 install grpcio
 RUN pip3 install protobuf

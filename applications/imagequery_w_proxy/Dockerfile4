@@ -8,12 +8,12 @@ ADD imagequery_w_proxy/c4_questionAnswering/app /container
 WORKDIR /container
 RUN pip3 install -r requirements.txt
 RUN chmod 777 ./download.sh
-RUN ./download.sh
-RUN python3 prepro.py
-WORKDIR /container/models
-ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
-RUN chmod 777 ./downloadModels.sh
-RUN ./downloadModels.sh
+# RUN ./download.sh
+# RUN python3 prepro.py
+# WORKDIR /container/models
+# ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
+# RUN chmod 777 ./downloadModels.sh
+# RUN ./downloadModels.sh
 
 RUN pip3 install grpcio
 RUN pip3 install protobuf
