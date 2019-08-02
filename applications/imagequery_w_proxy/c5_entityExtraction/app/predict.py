@@ -2,11 +2,11 @@
 # https://medium.com/explore-artificial-intelligence/introduction-to-named-entity-recognition-eda8c97c2db1
 
 import spacy
-import en_core_web_md
+import en_core_web_sm
 from timeit import default_timer as timer
 
 load_start = timer()
-nlp = en_core_web_md.load()
+nlp = en_core_web_sm.load()
 load_end = timer()
 print("---Loading takes " + str(load_end - load_start) + "---")
 
@@ -38,7 +38,8 @@ def predict(input_str):
     result = extract(input_str)
     predict_end = timer()
     print("---Prediction takes " + str(predict_end - predict_start) + "---")
-    return result
+    result_str = ', '.join(map(str, result))
+    return result_str
 
 
 def main():

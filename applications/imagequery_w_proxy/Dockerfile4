@@ -2,13 +2,13 @@
 # docker run -p 11000:11000 -it imagequery_w_proxy:c4
 
 FROM ubuntu:bionic
-RUN apt-get update && apt-get install python3 python3-pip python-pip git wget unzip curl -y
+RUN apt-get update && apt-get install python3 python3-pip python python-pip git wget unzip curl -y
 
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
 WORKDIR /container
 RUN pip3 install -r requirements.txt
 RUN chmod 777 ./download.sh && ./download.sh
-RUN python3 prepro.py
+RUN python prepro.py
 WORKDIR /container/models
 ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
 RUN chmod 777 ./downloadModels.sh && ./downloadModels.sh
