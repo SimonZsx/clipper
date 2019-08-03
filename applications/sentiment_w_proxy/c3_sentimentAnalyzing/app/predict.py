@@ -2,7 +2,7 @@ from textblob import TextBlob
 
 def predict(input_str):
     tb_str = TextBlob(input_str)
-    return (tb_str.sentiment, tb_str.subjectivity)
+    return (tb_str.sentiment.polarity, tb_str.subjectivity)
 
 
 def main():
