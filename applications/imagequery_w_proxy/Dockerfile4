@@ -11,19 +11,19 @@ RUN apt-get update && apt-get install python3 python3-pip -y
 RUN pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
 RUN pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl
 ADD imagequery_w_proxy/c4_questionAnswering/check_pytorch.py /container/ 
-RUN python3 /container/check_pytorch.py
+# RUN python3 /container/check_pytorch.py
 
-# Equivalent to: pip3 install -r requirements.txt
-RUN pip3 install numpy msgpack-python spacy==1.9.0 
+# # Equivalent to: pip3 install -r requirements.txt
+# RUN pip3 install numpy msgpack-python spacy==1.9.0 
 
-ADD imagequery_w_proxy/c4_questionAnswering/app /container
-# RUN pip3 install -r requirements.txt # Listed above for quicker building
-WORKDIR /container
-RUN chmod 777 ./download_python3.sh && ./download_python3.sh
-RUN python3 prepro.py
-WORKDIR /container/models
-ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
-RUN chmod 777 ./downloadModels.sh && ./downloadModels.sh
+# ADD imagequery_w_proxy/c4_questionAnswering/app /container
+# # RUN pip3 install -r requirements.txt # Listed above for quicker building
+# WORKDIR /container
+# RUN chmod 777 ./download_python3.sh && ./download_python3.sh
+# RUN python3 prepro.py
+# WORKDIR /container/models
+# ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
+# RUN chmod 777 ./downloadModels.sh && ./downloadModels.sh
 
 # RUN pip3 install grpcio
 # RUN pip3 install protobuf
