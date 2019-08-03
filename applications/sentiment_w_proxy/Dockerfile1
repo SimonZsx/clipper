@@ -1,5 +1,5 @@
-# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1_ds .
-# docker run -p 8000:8000 -it --runtime=nvidia imagequery_w_proxy:c1_ds
+# docker build -f ./sentiment_w_proxy/Dockerfile1 -t sentiment_w_proxy:c1_ds .
+# docker run -p 8000:8000 -it --runtime=nvidia sentiment_w_proxy:c1_ds
 
 # - slow initialization:
 # 1.14.0-gpu-py3

@@ -1,5 +1,5 @@
-# docker build -f ./imagequery_w_proxy/Dockerfile3 -t imagequery_w_proxy:c3 .
-# docker run -p 10000:10000 -it imagequery_w_proxy:c3
+# docker build -f ./sentiment_w_proxy/Dockerfile3 -t sentiment_w_proxy:c3 .
+# docker run -p 9000:9000 -it sentiment_w_proxy:c3
 
 FROM ubuntu:18.04
 RUN apt-get update && apt-get install python3 python3-pip -y
