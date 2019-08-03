@@ -20,9 +20,9 @@ RUN tar xvfz deepspeech-0.5.1-models.tar.gz
 
 # Copy files
 WORKDIR /container/data
-ADD imagequery_w_proxy/c1_ds/data .
+ADD imagequery_w_proxy/c1_speechRecognition/data .
 
 WORKDIR /container/app
-ADD imagequery_w_proxy/c1_ds/app .
+ADD imagequery_w_proxy/c1_speechRecognition/app .
 
 EXPOSE 8000
