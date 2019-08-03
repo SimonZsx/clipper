@@ -1,5 +1,5 @@
 # docker build -f ./imagequery_w_proxy/Dockerfile4 -t imagequery_w_proxy:c4 .
-# docker run -p 11000:11000 -it imagequery_w_proxy:c4
+# docker run -p 11000:11000 --runtime=nvidia -it imagequery_w_proxy:c4
 
 FROM ubuntu:bionic
 RUN apt-get update && apt-get install git wget unzip curl -y
@@ -7,10 +7,11 @@ RUN apt-get update && apt-get install git wget unzip curl -y
 # python3 version 3
 RUN apt-get update && apt-get install python3.6 python3-pip -y
 
+RUN pip3 install torch==0.4.0 -f https://download.pytorch.org/whl/cu100/stable # CUDA 10.0 build
+RUN python3 check_pytorch.py
+
 # Equivalent to: pip3 install -r requirements.txt
 RUN pip3 install numpy msgpack-python spacy==1.9.0 
-
-RUN pip3 install torch torchvision
 
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
 # RUN pip3 install -r requirements.txt
