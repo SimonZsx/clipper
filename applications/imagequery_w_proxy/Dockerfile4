@@ -3,13 +3,12 @@
 
 FROM ubuntu:bionic
 RUN apt-get update && apt-get install git wget unzip curl -y
-
-# python3 version 3
 RUN apt-get update && apt-get install python3.6 python3-pip -y
 
-RUN pip3 install torch==0.4.0 -f https://download.pytorch.org/whl/cu100/stable # CUDA 10.0 build
-ADD imagequery_w_proxy/c4_questionAnswering/check_pytorch.py /container
-# RUN python3 /container/check_pytorch.py
+ # PyTorch CUDA 10.0 build
+RUN pip3 install torch==0.4.0 -f https://download.pytorch.org/whl/cu100/stable
+# The '/' is needed to indicate a directory
+ADD imagequery_w_proxy/c4_questionAnswering/check_pytorch.py /container/ 
 
 # # Equivalent to: pip3 install -r requirements.txt
 # RUN pip3 install numpy msgpack-python spacy==1.9.0 
