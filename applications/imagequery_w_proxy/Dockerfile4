@@ -10,7 +10,10 @@ RUN apt-get update && apt-get install python3.6 python3-pip -y
 # Equivalent to: pip3 install -r requirements.txt
 RUN pip3 install numpy msgpack-python spacy==1.9.0 
 
+RUN pip3 install torch torchvision
+
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
+# RUN pip3 install -r requirements.txt
 WORKDIR /container
 RUN chmod 777 ./download_python3.sh && ./download_python3.sh
 RUN python3 prepro.py

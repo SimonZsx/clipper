@@ -34,7 +34,7 @@ def main():
 
     # load vocabulary from word vector files
     wv_vocab = set()
-    with open(args.wv_file, encoding='utf-8') as f:
+    with open(args.wv_file, encoding='utf-8') as f:  # encoding='utf-8' Added by YY
         for line in f:
             token = normalize_text(line.rstrip().split(' ')[0])
             wv_vocab.add(token)
@@ -67,7 +67,7 @@ def main():
     embeddings = np.zeros((vocab_size, args.wv_dim))
     embed_counts = np.zeros(vocab_size)
     embed_counts[:2] = 1  # PADDING & UNK
-    with open(args.wv_file, encoding='utf-8') as f:
+    with open(args.wv_file, encoding='utf-8') as f:  # encoding='utf-8' Added by YY
         for line in f:
             elems = line.rstrip().split(' ')
             token = normalize_text(elems[0])
@@ -142,7 +142,7 @@ def setup():
 
 def flatten_json(data_file, mode):
     """Flatten each article in training data."""
-    with open(data_file, encoding='utf-8') as f:
+    with open(data_file, encoding='utf-8') as f:  # encoding='utf-8' Added by YY
         data = json.load(f)['data']
     rows = []
     for article in data:
