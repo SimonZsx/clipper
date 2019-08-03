@@ -4,24 +4,13 @@
 FROM ubuntu:bionic
 RUN apt-get update && apt-get install git wget unzip curl -y
 
-# python version
-# RUN apt-get update && apt-get install python python-pip -y
-
-# ADD imagequery_w_proxy/c4_questionAnswering/app /container
-# WORKDIR /container
-# RUN pip install -r requirements.txt
-# RUN chmod 777 ./download_python.sh && ./download_python.sh
-# RUN python prepro.py
-# WORKDIR /container/models
-# ADD imagequery_w_proxy/c4_questionAnswering/downloadModels.sh .
-# RUN chmod 777 ./downloadModels.sh && ./downloadModels.sh
-
 # python3 version 3
 RUN apt-get update && apt-get install python3.6 python3-pip -y
+RUN pip3 install numpy msgpack-python spacy<=1.9
 
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
 WORKDIR /container
-RUN pip3 install -r requirements.txt
+# RUN pip3 install -r requirements.txt # Lifted upwards to make building faster
 RUN chmod 777 ./download_python3.sh && ./download_python3.sh
 RUN python3 prepro.py
 WORKDIR /container/models
