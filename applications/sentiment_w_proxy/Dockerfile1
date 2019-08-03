@@ -1,53 +1,28 @@
-FROM ubuntu:bionic
-RUN apt-get update
-RUN apt-get install wget zip unzip python3 python3-pip -y
+# docker build -f ./imagequery_w_proxy/Dockerfile1 -t imagequery_w_proxy:c1_ds .
+# docker run -p 8000:8000 -it --runtime=nvidia imagequery_w_proxy:c1_ds
 
-RUN pip3 install SpeechRecognition
-RUN apt-get install -y swig libpulse-dev libasound2-dev
-RUN pip3 install pocketsphinx
+# - slow initialization:
+# 1.14.0-gpu-py3
+# 2.0.0b1-gpu-py3 
+# tensorflow/tensorflow:1.12.0-gpu-py3
+# - cuda error: 
+# ubuntu:18.04
+FROM nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
+RUN apt-get update && apt-get install curl wget sox swig -y
+RUN apt-get update && apt-get install python3 python3-pip -y
 
-RUN pip3 install grpcio
-RUN pip3 install protobuf
+RUN pip3 install --upgrade deepspeech-gpu
 
-# for downloading and renameing dataset3
-RUN apt-get install curl -y
-RUN apt-get install ffmpeg -y
+# Download pre-trained model
+WORKDIR /container/models
+RUN wget --progress=bar:force https://github.com/mozilla/DeepSpeech/releases/download/v0.5.1/deepspeech-0.5.1-models.tar.gz
+RUN tar xvfz deepspeech-0.5.1-models.tar.gz
 
-# for pydub in truncate.py
-RUN pip3 install pydub
-RUN apt-get install ffmpeg libavcodec-extra -y
+# Copy files
+WORKDIR /container/data
+ADD imagequery_w_proxy/c1_ds/data .
 
-# for listing files in truncate.py
-RUN pip3 install glob3
+WORKDIR /container/app
+ADD imagequery_w_proxy/c1_ds/app .
 
-
-# container/ will have predict.py, data/
-ADD translation/container1/app /container/
-ADD translation/container1/data /container/data
-
-# dataset3
-# download reference: https://www.kaggle.com/general/6604
-# dataset refernce: https://www.kaggle.com/rtatman/speech-accent-archive/
-# RUN chmod 777 /container/data/dataset3/downloadDataset.sh
-# RUN /container/data/dataset3/downloadDataset.sh
-# RUN mv $(find / -name speech-accent-archive.zip) /container/data/dataset3
-# RUN unzip /container/data/dataset3/speech-accent-archive.zip -d /container/data/dataset3
-# # /container/data/dataset3 now contains:reading-passage.txt, recordings.zip, speakers_all.csv
-# RUN unzip -qq /container/data/dataset3/recordings.zip -d /container/data/dataset3/
-# RUN chmod 777 /container/data/dataset3/rename.sh
-# RUN /container/data/dataset3/rename.sh
-# RUN python3 /container/data/dataset3/truncate.py
-
-ADD grpc/app/container_entry.sh /container/
-ADD grpc/app/server.py /container/
-ADD grpc/app/model_pb2_grpc.py /container/
-ADD grpc/app/model_pb2.py /container/
-ADD grpc/app/proxy_pb2_grpc.py /container/
-ADD grpc/app/proxy_pb2.py /container/
-
-WORKDIR /container
-
-# CMD ["python3", "/container/predict.py"]
-CMD ["/container/container_entry.sh", "c1", "/container/server.py"]
-
-EXPOSE 22222
+EXPOSE 8000
