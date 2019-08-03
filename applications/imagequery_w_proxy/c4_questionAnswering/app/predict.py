@@ -12,10 +12,13 @@ if not cuda:
 
 model_file = "models/best_model.pt"
 checkpoint = torch.load(model_file)
+print("---best_model.py loaded---")
 
 state_dict = checkpoint['state_dict']
+
 with open('SQuAD/meta.msgpack', 'rb') as f:
     meta = msgpack.load(f, encoding='utf8')
+print("---meta.msgpack loaded---")
     
 embedding = torch.Tensor(meta['embedding'])
 
@@ -30,10 +33,13 @@ opt['cuda'] = cuda
 BatchGen.pos_size = opt['pos_size']
 BatchGen.ner_size = opt['ner_size']
 model = DocReaderModel(opt, embedding, state_dict)
+print("---DocReaderModel initialized---")
+
 w2id = {w: i for i, w in enumerate(meta['vocab'])}
 tag2id = {w: i for i, w in enumerate(meta['vocab_tag'])}
 ent2id = {w: i for i, w in enumerate(meta['vocab_ent'])}
 init()
+print("---spacy nlp loaded---")
 
 
 def predict(evidence, question):
