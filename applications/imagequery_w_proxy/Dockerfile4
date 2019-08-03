@@ -1,13 +1,14 @@
 # docker build -f ./imagequery_w_proxy/Dockerfile4 -t imagequery_w_proxy:c4 .
 # docker run -p 11000:11000 --runtime=nvidia -it imagequery_w_proxy:c4
 
-FROM ubuntu:bionic
+FROM nvidia/cuda:10.0-base-ubuntu16.04
 RUN apt-get update && apt-get install git wget unzip curl -y
 RUN apt-get update && apt-get install python3.6 python3-pip -y
 
  # PyTorch CUDA 10.0 build
 RUN pip3 install torch==0.4.0 -f https://download.pytorch.org/whl/cu100/stable
 # The '/' is needed to indicate a directory
+RUN pip3 install numpy 
 ADD imagequery_w_proxy/c4_questionAnswering/check_pytorch.py /container/ 
 
 # # Equivalent to: pip3 install -r requirements.txt
