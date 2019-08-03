@@ -4,6 +4,7 @@ import msgpack
 from drqa.model import DocReaderModel
 from prepro import annotate, to_id, init
 from train import BatchGen
+from timeit import default_timer as timer
 
 cuda = torch.cuda.is_available()
 
@@ -46,6 +47,7 @@ print("---spacy nlp loaded---")
 
 
 def predict(evidence, question):
+    t1 = timer()
     dummy_placeholder = 0
 
     annotated = annotate((dummy_placeholder, evidence, question), meta['wv_cased'])
@@ -53,6 +55,8 @@ def predict(evidence, question):
     model_in = next(iter(BatchGen([model_in], batch_size=1, gpu=cuda, evaluation=True)))
     prediction = model.predict(model_in)[0]
 
+    t2 = timer()
+    print("[INFO]\t[c4]\tTime elapsed: {:.10f} seconds.".format(t2 - t1))
     return prediction
 
 

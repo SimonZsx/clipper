@@ -1,13 +1,12 @@
 from preprocess import preprocess, timing
-from datetime import datetime
+from timeit import default_timer as timer
 
 def predict(input_str):
-    t1 = datetime.utcnow()
-    print("[INFO]\t[c3]\t{}".format(str(t1)))
+    t1 = timer()
     result = preprocess(input_str)
-    t2 = datetime.utcnow()
-    print("[INFO]\t[c3]\t{}".format(str(t2)))
-    print("[INFO]\t[c3]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
+    t2 = timer()
+
+    print("[INFO]\t[c3]\tTime elapsed: {:.10f} seconds.".format(t2 - t1) )
     return result
 
 

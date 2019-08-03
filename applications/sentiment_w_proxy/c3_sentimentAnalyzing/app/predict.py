@@ -1,7 +1,17 @@
 from textblob import TextBlob
+from datetime import datetime
+
 
 def predict(input_str):
+    t1 = datetime.utcnow()
+    # print("[INFO]\t[c3]\t{}".format(str(t1)))
+
     tb_str = TextBlob(input_str)
+
+    t2 = datetime.utcnow()
+    # print("[INFO]\t[c3]\t{}".format(str(t2)))
+    print("[INFO]\t[c3]\tTime elapsed: {:.10f} seconds.".format((t2 - t1).total_seconds()))
+
     return (tb_str.sentiment.polarity, tb_str.subjectivity)
 
 

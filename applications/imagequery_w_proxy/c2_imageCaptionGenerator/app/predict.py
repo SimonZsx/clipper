@@ -1,25 +1,22 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
-
 import math
 import os
 import json
 import tensorflow as tf
-
-from datetime import datetime
-
 import configuration
 import inference_wrapper
 import caption_generator
 import vocabulary
+from timeit import default_timer as timer
 
 
 def find(name, path):
     for root, dirs, files in os.walk(path):
         if name in files or name in dirs:
             return os.path.join(root, name)
+
 
 checkpoint_path = "/container/im2txt/model/newmodel.ckpt-2000000"
 vocabulary_path = "/container/im2txt/data/word_counts.txt"
@@ -31,7 +28,8 @@ g = tf.Graph()
 with g.as_default():
     model = inference_wrapper.InferenceWrapper()
     restore_fn = model.build_graph_from_config(
-        configuration.ModelConfig(), checkpoint_path)
+        configuration.ModelConfig(), checkpoint_path
+    )
 g.finalize()
 
 # Create the vocabulary.
@@ -44,7 +42,7 @@ vocab = vocabulary.Vocabulary(vocabulary_path)
 # 最多占gpu资源的30%
 # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.3)
 
-#开始不会给tensorflow全部gpu资源 而是按需增加
+# 开始不会给tensorflow全部gpu资源 而是按需增加
 # config.gpu_options.allow_growth = True
 # sess = tf.Session(config=config, graph=g)
 
@@ -56,7 +54,7 @@ vocab = vocabulary.Vocabulary(vocabulary_path)
 #######################################################################
 
 # create session (Original)
-sess = tf.Session(graph=g) 
+sess = tf.Session(graph=g)
 
 # Load the model from checkpoint.
 restore_fn(sess)
@@ -66,14 +64,18 @@ generator = caption_generator.CaptionGenerator(model, vocab)
 
 
 def predict(image_file_index):
-    t1 = datetime.utcnow()
-    print("[INFO]\t[c2]\t{}".format(str(t1)))
+    t1 = timer()
+    # print("[INFO]\t[c2]\t{}".format(str(t1)))
 
     image_file_index = int(image_file_index)
     if image_file_index > 1000:
         return "Invalid image file index! Only index between 1 to 1000 is allowed!"
 
-    image_file_path = "/container/im2txt/data/imageDataset/101_ObjectCategories/" + str(image_file_index) + ".jpg"
+    image_file_path = (
+        "/container/im2txt/data/imageDataset/101_ObjectCategories/"
+        + str(image_file_index)
+        + ".jpg"
+    )
 
     captionList = ["", "", ""]
     with tf.gfile.GFile(image_file_path, "rb") as f:
@@ -90,15 +92,14 @@ def predict(image_file_index):
     # return only the one with the highest probability
     generated_caption = captionList[0]
 
-    t2 = datetime.utcnow()
-    print("[INFO]\t[c2]\t{}".format(str(t2)))
-    print("[INFO]\t[c2]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
-        
+    t2 = timer()
+    # print("[INFO]\t[c2]\t{}".format(str(t2)))
+    print("[INFO]\t[c2]\tTime elapsed: {:.10f} seconds.".format(t2 - t1))
+
     return generated_caption
 
 
 predict(1000)
 print("Fully initialized model (with 1 extra prediction).")
 print("c2 started!")
-
 

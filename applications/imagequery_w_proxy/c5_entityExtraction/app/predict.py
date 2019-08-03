@@ -34,11 +34,13 @@ def extract(s):
 
 
 def predict(input_str):
-    predict_start = timer()
+    t1 = timer()
+
     result = extract(input_str)
-    predict_end = timer()
-    print("---Prediction takes " + str(predict_end - predict_start) + "---")
-    result_str = ', '.join(map(str, result))
+    result_str = ", ".join(map(str, result))
+
+    t2 = timer()
+    print("[INFO]\t[c5]\tTime elapsed: {:.10f} seconds.".format(t2 - t1))
     return result_str
 
 
@@ -57,6 +59,7 @@ def main():
     )
 
     predict(text)
+
 
 if __name__ == "__main__":
     main()

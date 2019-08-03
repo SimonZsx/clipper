@@ -1,78 +1,110 @@
-import speech_recognition as sr
-from pocketsphinx import pocketsphinx, Jsgf, FsgModel
+from __future__ import absolute_import, division, print_function
+
+import numpy as np
+import shlex
+import subprocess
+import sys
+import wave
 import os
 
-from datetime import datetime
-
-language_directory = "/container/models/wsj1"
-acoustic_parameters_directory = os.path.join(language_directory, "acoustic-model")
-language_model_file = os.path.join(language_directory, "language-model.lm.bin")
-phoneme_dictionary_file = os.path.join(language_directory, "pronounciation-dictionary.dict")
-
-config = pocketsphinx.Decoder.default_config()
-# set the path of the hidden Markov model (HMM) parameter files
-config.set_string("-hmm", acoustic_parameters_directory)
-config.set_string("-lm", language_model_file)
-config.set_string("-dict", phoneme_dictionary_file)
-# disable logging (logging causes unwanted output in terminal)
-
-# config.set_string("-logfn", os.devnull)
-# config.set_int("-topn", 1)
-# config.set_int("-ds", 4)
-# config.set_int("-pl_window", 10)
-# config.set_int("-maxhmmpf", 1000)
-# config.set_int("-maxwpf", 5)
-
-decoder = pocketsphinx.Decoder(config)
+from deepspeech import Model, printVersions
+from timeit import default_timer as timer
 
 
-def recognize(audio_file_index):
-    audio_file_index = int(audio_file_index)
-    if audio_file_index < 0 or audio_file_index > 1000:
-        return "Invalid image index! Only index between 1 to 1000 is allowed! Exiting..."
+try:
+    from shhlex import quote
+except ImportError:
+    from pipes import quote
 
-    dataset_index = 3
+# Define the sample rate for audio
+SAMPLE_RATE = 16000
+BEAM_WIDTH = 500
+LM_ALPHA = 0.75
+LM_BETA = 1.85
 
-    if dataset_index == 1:
-        # dataset1: CMU arctic
-        audio_file_path = "/container/data/dataset1/cmu_us_awb_arctic/wav/" + str(audio_file_index) + ".wav"
-    elif dataset_index == 2:
-        # dataset2: Flicker: different scripts but with overlapping
-        audio_file_path = "/container/data/dataset2/flickr_audio/wavs/" + str(audio_file_index) + ".wav"
-    elif dataset_index == 3:
-        # dataset3: speech-accent-archive: different people reading the same script
-        audio_file_path = "/container/data/dataset3/recordings/" + str(audio_file_index) + ".wav"
+# Model related constants
+# Number of MFCC features to use
+N_FEATURES = 26
+# Size of the context window used for producing timesteps in the input vector
+N_CONTEXT = 9
+
+
+def convert_samplerate(audio_path):
+    sox_cmd = "sox {} --type raw --bits 16 --channels 1 --rate {} --encoding signed-integer --endian little --compression 0.0 --no-dither - ".format(quote(audio_path), SAMPLE_RATE)
+    try:
+        output = subprocess.check_output(shlex.split(sox_cmd), stderr=subprocess.PIPE)
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError('SoX returned non-zero status: {}'.format(e.stderr))
+    except OSError as e:
+        raise OSError(e.errno, 'SoX not found, use {}hz files or install it: {}'.format(SAMPLE_RATE, e.strerror))
+        # sudo apt-get install sox
+
+    return SAMPLE_RATE, np.frombuffer(output, np.int16)
+
+
+def load_model( model_dir="/container/models/deepspeech-0.5.1-models/",
+                model="output_graph.pb", 
+                alphabet="alphabet.txt", 
+                lm="lm.binary", 
+                trie="trie"):
+    model = model_dir + model
+    alphabet = model_dir + alphabet
+    lm = model_dir + lm
+    trie = model_dir + trie
+
+    global ds
+
+    print('Loading model from file {}'.format(model), file=sys.stderr)
+    model_load_start = timer()
+    ds = Model(model, N_FEATURES, N_CONTEXT, alphabet, BEAM_WIDTH)
+    model_load_end = timer() - model_load_start
+    print('Loaded model in {:.3}s.'.format(model_load_end), file=sys.stderr)
+
+    if lm and trie:
+        print('Loading language model from files {} {}'.format(lm, trie), file=sys.stderr)
+        lm_load_start = timer()
+        ds.enableDecoderWithLM(alphabet, lm, trie, LM_ALPHA, LM_BETA)
+        lm_load_end = timer() - lm_load_start
+        print('Loaded language model in {:.3}s.'.format(lm_load_end), file=sys.stderr)
+
+
+def infer(audio):
+    # read audio
+    fin = wave.open(audio, 'rb')
+    fs = fin.getframerate()
+    if fs != SAMPLE_RATE:
+        print('Warning: original sample rate ({}) is different than {}hz. Resampling might cause bad recognition.'.format(fs, SAMPLE_RATE), file=sys.stderr)
+        fs, audio = convert_samplerate(audio)
     else:
-        return "Invalid dataset index!"
+        audio = np.frombuffer(fin.readframes(fin.getnframes()), np.int16)
 
-    recognizer = sr.Recognizer()
-    audio_file = sr.AudioFile(audio_file_path)
+    # audio_length = fin.getnframes() * (1/SAMPLE_RATE)
+    fin.close()
 
-    with audio_file as source:
-        audio = recognizer.record(source)
-
-    raw_data = audio.get_raw_data(convert_rate=16000, convert_width=2)
-    decoder.start_utt()  # begin utterance processing
-    decoder.process_raw(raw_data, False, True)
-    decoder.end_utt()  # stop utterance processing
-    hypothesis = decoder.hyp()
-    return hypothesis.hypstr
+    # run infer
+    result = ds.stt(audio, fs)
+    return result
 
 
-def predict(audio_file_path):
-    t1 = datetime.utcnow()
-    print("[INFO]\t[c1]\t{}".format(str(t1)))
+def predict(audio):
+    inference_start = timer()
 
-    recognized_string = recognize(audio_file_path)
+    res = infer(audio)
 
-    t2 = datetime.utcnow()
-    print("[INFO]\t[c1]\t{}".format(str(t2)))
-    print("[INFO]\t[c1]\tTime elapsed: {:.10f} seconds.".format((t2-t1).total_seconds()) )
+    inference_end = timer() - inference_start
+    print("[INFO]\t[c1]\tTime elapsed: {:.10f} seconds.".format(inference_end - inference_start))
         
-    return recognized_string
+    return res
 
 
-if __name__ == "__main__":
-    predict(1)
+# the DeepSpeech Model
+ds = None
+load_model()
 
-print("c1 started!")
+def main():
+    for i in range(1):
+        predict("/container/data/" + str(i) + ".wav")
+    
+
+if __name__ == '__main__':
+    main()
