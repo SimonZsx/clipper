@@ -7,11 +7,14 @@ from train import BatchGen
 
 cuda = torch.cuda.is_available()
 
-if not cuda:
-    raise Exception("CUDA not available!")
-
 model_file = "models/best_model.pt"
-checkpoint = torch.load(model_file)
+
+checkpoint = None
+if cuda:
+    checkpoint = torch.load(model_file)
+else:
+    print("CUDA not available!")
+    checkpoint = torch.load(model_file, map_location=lambda storage, loc: storage)
 print("---best_model.py loaded---")
 
 state_dict = checkpoint['state_dict']
