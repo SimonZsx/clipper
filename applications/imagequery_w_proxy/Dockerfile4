@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install git wget unzip curl -y
 RUN apt-get update && apt-get install python3.6 python3-pip -y
 
 # Equivalent to: pip3 install -r requirements.txt
-RUN pip3 install numpy msgpack-python spacy<=1.9 
+RUN pip3 install numpy msgpack-python spacy==1.9.0 
 
 ADD imagequery_w_proxy/c4_questionAnswering/app /container
 WORKDIR /container
