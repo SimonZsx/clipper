@@ -3,7 +3,8 @@
 
 # 1.14.0-gpu-py3
 # 2.0.0b1-gpu-py3 
-FROM tensorflow/tensorflow:1.12.0-gpu-py3
+# FROM tensorflow/tensorflow:1.12.0-gpu-py3
+FROM ubuntu:18.04
 RUN apt-get update
 RUN apt-get install curl wget sox swig -y
 
