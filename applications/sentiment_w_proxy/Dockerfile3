@@ -7,4 +7,9 @@ RUN apt-get update && apt-get install python3 python3-pip -y
 RUN pip3 install -U textblob  
 RUN python3 -m textblob.download_corpora
 
+ADD sentiment_w_proxy/app /container/app
+
+WORKDIR /container/app
+RUN python3 predict.py
+
 WORKDIR /container
