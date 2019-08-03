@@ -5,7 +5,7 @@ REQUIRED=(
     "wget"
     "unzip"
     "python3"
-    "pip"
+    "pip3"
 )
 
 for ((i=0;i<${#REQUIRED[@]};++i)); do
@@ -52,4 +52,3 @@ done
 
 # Download SpaCy English language models
 python3 -m spacy download en
-

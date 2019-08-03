@@ -34,7 +34,7 @@ def main():
 
     # load vocabulary from word vector files
     wv_vocab = set()
-    with open(args.wv_file, encoding="utf-8") as f:
+    with open(args.wv_file) as f:
         for line in f:
             token = normalize_text(line.rstrip().split(' ')[0])
             wv_vocab.add(token)
