@@ -85,6 +85,13 @@ host* ~/$ docker -H [[ANOTHER_HOST_NAME]] ps
 # The running containers on the specified machine will be listed out
 ```
 
+### Enable communication between crossing-host containers
+
+On **each** host
+```sh
+sudo iptables -P FORWARD ACCEPT
+```
+
 # How to start the testing
 
 ## Host configuration
@@ -105,5 +112,4 @@ docker run -it --net clipper_network #TODO#35dev
 ## Deploy the applications. 
 
 Either by the intergrated `launcher.py` or by the python / shell scripts in `clipper/clipper_admin` or `clipper/applications`
-
 
