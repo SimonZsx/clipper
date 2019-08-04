@@ -85,6 +85,13 @@ host* ~/$ docker -H [[ANOTHER_HOST_NAME]] ps
 # The running containers on the specified machine will be listed out
 ```
 
+### Enable communication between crossing-host containers
+
+On **each** host
+```sh
+sudo iptables -P FORWARD ACCEPT
+```
+
 # How to start the testing
 
 ## Host configuration
