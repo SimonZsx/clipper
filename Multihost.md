@@ -58,9 +58,12 @@ sudo systemctl restart docker
 ### Build a swarm cluster and an overlay network
 
 ```sh
-host1 ~/$ docker swarm init #TODO
+host1 ~/$ docker swarm init --listen-addr 0.0.0.0:2377 --advertise-addr [[HOST_IP]]:2377
 host1 ~/$ docker network create -d overlay --attachable clipper_network
 ```
+**Here we make the swarm use port 2377 for its service other than the 2375 to avoid the port confliction**
+
+**If they share the same port, the one for our applications will be occupied by the encrypted communication inside the Swarm _(see the section: Before you start)_**
 
 ### Add other host into the swarm
 
@@ -83,6 +86,14 @@ host* ~/$ docker -H [[ANOTHER_HOST_NAME]] ps
 ```
 
 # How to start the testing
+
+## Host configuration
+
+Open the `/clipper/clipper_admin/host_list` in an editor. 
+Then run the `auto_set_ip.py` to set the host IPs for every application launchers. 
+
+(If you are using the intergrated testing launcher `luancher.py`, you can skip running the `auto_set_ip.py` manually, since the 
+`luancher.py` will do it for you. )
 
 ## Enter the testing environment with `--net clipper_network`
 
